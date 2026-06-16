@@ -1,0 +1,114 @@
+.header {
+  @include fluid-text(17, 14);
+
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  font-family: var(--font-family-Instrument-Sans);
+  background-color: var(--color-black-10);
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: fluid(32, 16);
+    height: 64px;
+  }
+
+  &__nav {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__actions {
+    display: flex;
+    align-items: center;
+    gap: fluid(24, 12);
+  }
+
+  &__search-btn,
+  &__user-btn,
+  &__create {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: transparent;
+    border: none;
+    transition-duration: var(--transition-duration);
+
+    @include hover {
+      color: var(--color-purple-30);
+    }
+  }
+
+  &__user {
+    position: relative;
+  }
+
+  &__user-avatar {
+    width: fluid(50, 32);
+  }
+
+  &__user-arrow {
+    rotate: 90deg;
+  }
+
+  &__auth {
+    display: flex;
+    align-items: center;
+    gap: fluid(24, 16);
+  }
+
+  &__auth-btn {
+    background: none;
+    border: none;
+    color: var(--color-white);
+    transition-duration: var(--transition-duration);
+
+    @include hover {
+      color: var(--color-purple-30);
+    }
+
+    &.sign-up {
+      background: linear-gradient(180deg, rgba(148, 140, 228, 0.90) 0%, rgba(109, 171, 247, 0.90) 23%, rgba(41, 210, 241, 0.90) 94%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+
+  &__create {
+    font-size: fluid(16, 14);
+    color: var(--color-white);
+    text-decoration: none;
+    transition-duration: var(--transition-duration);
+
+    @include hover {
+      color: var(--color-purple-30);
+    }
+  }
+
+  &__mobile-menu {
+    position: fixed;
+    top: 64px; // высота хэдера
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 24px 16px;
+    background-color: var(--color-black-10);
+    border-top: var(--border);
+    overflow-y: auto;
+    z-index: 99;
+  }
+
+  &__mobile-auth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+}

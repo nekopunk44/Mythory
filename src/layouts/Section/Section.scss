@@ -1,0 +1,45 @@
+.section {
+  display: grid;
+  gap: fluid(52, 16);
+  padding-block: var(--section-padding-y);
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: fluid(16, 8);
+  }
+
+  &__subtitle {
+    font-size: fluid(16, 12);
+    color: var(--color-white-50);
+  }
+
+  &__heading {
+    display: flex;
+    align-items: center;
+    gap: fluid(20, 10);
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: fluid(6, 3);
+  }
+
+  &__icon {
+    @include flex-center;
+
+    color: var(--color-purple-20);
+    background-color: var(--color-purple-70);
+    width: fluid(76, 48);
+    height: fluid(76, 48);
+    border-radius: 50%;
+    padding: 2px;
+    flex-shrink: 0;
+  }
+
+  &__actions {
+    flex-shrink: 0;
+  }
+}

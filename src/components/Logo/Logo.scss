@@ -1,0 +1,21 @@
+.logo {
+  display: inline-flex;
+  align-items: center;
+  gap: fluid(12, 8);
+  text-decoration: none;
+  user-select: none;
+
+  &__image {
+    width: fluid(32, 24);
+    height: auto;
+    flex-shrink: 0;
+  }
+
+  &__text {
+    font-family: var(--font-family-Instrument-Sans);
+    font-size: fluid(24, 18);
+    font-weight: 500;
+    color: var(--color-white);
+    white-space: nowrap;
+  }
+}

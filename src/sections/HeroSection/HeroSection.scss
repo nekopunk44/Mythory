@@ -1,0 +1,69 @@
+.hero {
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-block: fluid(80,40) fluid(200,15);
+    padding-inline: fluid(80, 40);
+    row-gap: fluid(45, 16);
+    background: url("src/assets/images/hero-bg.png") center / cover no-repeat;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    row-gap: 8px;
+  }
+
+  &__title {
+
+    span {
+      font-size: fluid(96, 24);
+      background: linear-gradient(90deg, #948ce4 0%, #6dabf7 32.69%, #29d2f1 94.23%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+  }
+
+  &__subtitle {
+    font-family: var(--font-family-K2D);
+    font-size: fluid(32, 14);
+
+    @include tablet-above {
+      max-width: 60%;
+    }
+  }
+
+  &__actions {
+    display: flex;
+    gap: fluid(38, 24);
+  }
+
+  &__statistics {
+    display: flex;
+    gap: fluid-to-laptop(54, 48);
+
+    &-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      row-gap: 6px;
+    }
+
+    &-value {
+      font-size: fluid-to-laptop(36,24);
+    }
+
+    &-label {
+      color: var(--color-white-50);
+    }
+  }
+}

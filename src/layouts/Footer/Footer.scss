@@ -1,0 +1,59 @@
+.footer {
+  background: linear-gradient(180deg, #050510 0%, #231338 50%, #231338 100%);
+  font-family: var(--font-family-Instrument-Sans);
+
+  &__inner,
+  &__markup {
+    display: flex;
+    flex-direction: column;
+    gap: fluid(48, 16);
+  }
+
+  &__inner {
+    padding-block: fluid(96, 32);
+  }
+
+  &__markup {
+
+    @include mobile {
+      display: grid;
+      grid-template-columns: 1fr auto;
+    }
+
+    @include mobile-s {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  &__info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: fluid(64, 32);
+    row-gap: 22px;
+
+    @include mobile {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  &__nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: fluid(56, 42);
+
+    @include mobile {
+      display: grid;
+      grid-template-columns: 1fr;
+      justify-items: start;
+      gap: 16px;
+    }
+  }
+
+  &__copy {
+    text-align: center;
+  }
+}

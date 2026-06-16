@@ -1,0 +1,42 @@
+.genre-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: fluid(12, 8);
+  padding: fluid(24, 12) fluid(30, 12) fluid(32, 12);
+  background-color: var(--color-black-60);
+  border: var(--border-dark);
+  border-radius: var(--border-radius-10);
+  transition-duration: var(--transition-duration);
+  min-height: fluid(126, 55);
+
+  &::after {
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    bottom: 10px;
+    right: 12px;
+  }
+
+  @include hover {
+    background-color: var(--color-purple-70);
+
+    &::after {
+      background-color: var(--color-white-70);
+    }
+  }
+
+  &__icon {
+    align-self: start;
+  }
+
+  &__label {
+    font-size: fluid(14, 12);
+    color: var(--color-gray-20);
+    text-align: center;
+  }
+}

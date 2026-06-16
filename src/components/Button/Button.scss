@@ -1,0 +1,29 @@
+.button {
+  @include flex-center(true);
+
+  column-gap: 8px;
+  padding: fluid-to-laptop(12, 8) fluid-to-laptop(30, 26);
+  font-family: var(--font-family-Instrument-Sans);
+  text-align: center;
+  color: var(--color-white);
+  background-color: transparent;
+  border: var(--border);
+  border-radius: 40px;
+  transition-duration: var(--transition-duration);
+  white-space: nowrap;
+  user-select: none;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--color-gray-40);
+  }
+
+  &--filled {
+    background-color: var(--color-purple-40);
+    border: none;
+
+    @include hover {
+      background-color: var(--color-purple-10);
+    }
+  }
+}

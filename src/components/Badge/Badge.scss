@@ -1,0 +1,12 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 18px;
+  font-family: var(--font-family-Jua);
+  font-size: fluid(16, 12);
+  color: var(--color-white);
+  background-color: var(--color-purple-30);
+  border-radius: 5px;
+  white-space: nowrap;
+  user-select: none;
+}
