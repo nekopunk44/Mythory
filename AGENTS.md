@@ -29,6 +29,21 @@ Role prompts live in `.github/agents/` and are shared by every tool:
 | `ux-reviewer`  | `.github/agents/ux-reviewer.agent.md`  | no         |
 | `qa`           | `.github/agents/qa.agent.md`           | no         |
 
+## Where tasks come from
+
+Work comes only from GitHub issues labeled `agent-ready`, written with the "Agent task" template.
+
+```bash
+gh issue list --label agent-ready   # available tasks
+gh issue view <number>              # full task, acceptance criteria, design notes
+```
+
+- One issue = one worktree = one pull request. Name the worktree `<number>-<slug>`,
+  for example `npm run agent:new -- 12-story-card`.
+- Treat the acceptance criteria as the definition of done. If they are ambiguous or the
+  design reference is missing, comment on the issue and stop instead of guessing.
+- Do not start work that has no issue. Put `Closes #<number>` in the pull request.
+
 ## Workspace: one agent, one worktree, one branch
 
 Agents working in parallel must never share a working directory.
