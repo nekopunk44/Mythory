@@ -14,7 +14,8 @@
     "preview": "vite preview",
     "agent:new": "node scripts/agent-worktree.mjs new",
     "agent:list": "git worktree list",
-    "agent:remove": "node scripts/agent-worktree.mjs remove"
+    "agent:remove": "node scripts/agent-worktree.mjs remove",
+    "design:export": "node --env-file-if-exists=.env.local scripts/figma-export.mjs WPZ1G2Kgkg0DT5PM3JR19V"
   },
   "dependencies": {
     "clsx": "^2.1.1",
