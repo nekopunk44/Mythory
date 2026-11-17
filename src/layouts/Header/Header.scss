@@ -71,7 +71,12 @@
     }
 
     &.sign-up {
-      background: linear-gradient(180deg, rgba(148, 140, 228, 0.90) 0%, rgba(109, 171, 247, 0.90) 23%, rgba(41, 210, 241, 0.90) 94%);
+      background: linear-gradient(
+        180deg,
+        rgba(148, 140, 228, 0.9) 0%,
+        rgba(109, 171, 247, 0.9) 23%,
+        rgba(41, 210, 241, 0.9) 94%
+      );
       background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;

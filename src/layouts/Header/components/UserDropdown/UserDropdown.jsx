@@ -2,11 +2,7 @@ import { useEffect, useRef } from 'react'
 import './UserDropdown.scss'
 
 const UserDropdown = (props) => {
-  const {
-    triggerRef,
-    onClose,
-    onLogout,
-  } = props
+  const { triggerRef, onClose, onLogout } = props
 
   const ref = useRef(null)
 

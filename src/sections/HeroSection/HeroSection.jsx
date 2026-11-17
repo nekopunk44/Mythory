@@ -3,13 +3,11 @@ import Button from '@/components/Button'
 import Icon from '@/components/Icon'
 
 const HeroSection = () => {
-
   const HERO_STATISTICS = [
     { label: 'Stories', value: '50K+', iconName: 'logo' },
     { label: 'Readers', value: '1M+', iconName: 'social' },
     { label: 'Rating', value: '4.8', iconName: 'star' },
   ]
-
 
   return (
     <section className="hero">
@@ -17,24 +15,18 @@ const HeroSection = () => {
         <div className="hero__info">
           <h1 className="hero__title">
             Unlimited Stories,
-            <br/>
+            <br />
             <span>One Universe</span>
           </h1>
-          <p className="hero__subtitle">Dive into millions of web novels across fantasy, sci-fi, romance and more. Read for free or white your own story.</p>
+          <p className="hero__subtitle">
+            Dive into millions of web novels across fantasy, sci-fi, romance and
+            more. Read for free or white your own story.
+          </p>
         </div>
 
         <div className="hero__actions">
-          <Button
-            label="Start Reading"
-            as="a"
-            mode="filled"
-            href="/genres"
-          />
-          <Button
-            label="Start Writing"
-            as="a"
-            href="/signup"
-          />
+          <Button label="Start Reading" as="a" mode="filled" href="/genres" />
+          <Button label="Start Writing" as="a" href="/signup" />
         </div>
 
         <ul className="hero__statistics hidden-mobile">

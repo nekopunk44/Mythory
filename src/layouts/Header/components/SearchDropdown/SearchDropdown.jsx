@@ -7,10 +7,7 @@ const TABS = [
 ]
 
 const SearchDropdown = (props) => {
-  const {
-    triggerRef,
-    onClose,
-  } = props
+  const { triggerRef, onClose } = props
 
   const [activeTab, setActiveTab] = useState('genres')
   const [query, setQuery] = useState('')

@@ -1,14 +1,13 @@
 .hero {
-
   &__inner {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-block: fluid(80,40) fluid(200,15);
+    padding-block: fluid(80, 40) fluid(200, 15);
     padding-inline: fluid(80, 40);
     row-gap: fluid(45, 16);
-    background: url("src/assets/images/hero-bg.png") center / cover no-repeat;
+    background: url('src/assets/images/hero-bg.png') center / cover no-repeat;
   }
 
   &__info {
@@ -21,10 +20,14 @@
   }
 
   &__title {
-
     span {
       font-size: fluid(96, 24);
-      background: linear-gradient(90deg, #948ce4 0%, #6dabf7 32.69%, #29d2f1 94.23%);
+      background: linear-gradient(
+        90deg,
+        #948ce4 0%,
+        #6dabf7 32.69%,
+        #29d2f1 94.23%
+      );
       background-clip: text;
       -webkit-background-clip: text;
       background-clip: text;
@@ -59,7 +62,7 @@
     }
 
     &-value {
-      font-size: fluid-to-laptop(36,24);
+      font-size: fluid-to-laptop(36, 24);
     }
 
     &-label {

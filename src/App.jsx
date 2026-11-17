@@ -6,7 +6,6 @@ import HeroSection from '@/sections/HeroSection'
 import GenresSection from '@/sections/GenresSection'
 
 function App() {
-
   return (
     <>
       <Header />
@@ -15,7 +14,11 @@ function App() {
         iconName="increase"
         title="Trending Now"
         subtitle="Most popular stories this week"
-        actions={<a className="link" href="/">View All →</a>}
+        actions={
+          <a className="link" href="/">
+            View All →
+          </a>
+        }
       >
         ...Слайдер в тренде...
       </Section>

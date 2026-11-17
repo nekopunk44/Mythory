@@ -8,12 +8,12 @@ export default defineConfig({
     preprocessorOptions: {
       scss: {
         additionalData: `@use "${path.resolve(__dirname, 'src/styles/helpers').replace(/\\/g, '/')}" as *;`,
-      }
-    }
+      },
+    },
   },
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src'),
-    }
-  }
+    },
+  },
 })

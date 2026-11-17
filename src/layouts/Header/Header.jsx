@@ -9,10 +9,7 @@ import BurgerButton from './components/BurgerButton'
 import './Header.scss'
 
 const Header = (props) => {
-  const {
-    className,
-    ...rest
-  } = props
+  const { className, ...rest } = props
 
   const [isAuth, setIsAuth] = useState(false)
   const [isSearchOpen, setIsSearchOpen] = useState(false)
@@ -37,7 +34,10 @@ const Header = (props) => {
             <Icon name="search" size={26} />
           </button>
 
-          <a className="header__create hidden-tablet" href={isAuth ? '/create' : '/login'}>
+          <a
+            className="header__create hidden-tablet"
+            href={isAuth ? '/create' : '/login'}
+          >
             Create
           </a>
 
@@ -110,15 +110,24 @@ const Header = (props) => {
               Create
             </a>
             {isAuth ? (
-              <button className="header__auth-btn" onClick={() => setIsAuth(false)}>
+              <button
+                className="header__auth-btn"
+                onClick={() => setIsAuth(false)}
+              >
                 Log out
               </button>
             ) : (
               <>
-                <button className="header__auth-btn" onClick={() => setIsAuth(true)}>
+                <button
+                  className="header__auth-btn"
+                  onClick={() => setIsAuth(true)}
+                >
                   Log in
                 </button>
-                <button className="header__auth-btn" onClick={() => setIsAuth(true)}>
+                <button
+                  className="header__auth-btn"
+                  onClick={() => setIsAuth(true)}
+                >
                   Sign up
                 </button>
               </>

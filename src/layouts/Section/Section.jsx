@@ -31,10 +31,11 @@ const Section = (props) => {
           <div className="section__heading">
             {(iconName || iconLabel) && (
               <div className="section__icon">
-                {iconLabel
-                  ? <span>{iconLabel}</span>
-                  : <Icon name={iconName} size={58} />
-                }
+                {iconLabel ? (
+                  <span>{iconLabel}</span>
+                ) : (
+                  <Icon name={iconName} size={58} />
+                )}
               </div>
             )}
             <div className="section__info">
@@ -43,19 +44,13 @@ const Section = (props) => {
                   {title}
                 </Title>
               )}
-              {subtitle && (
-                <p className="section__subtitle">{subtitle}</p>
-              )}
+              {subtitle && <p className="section__subtitle">{subtitle}</p>}
             </div>
           </div>
-          {actions && (
-            <div className="section__actions">{actions}</div>
-          )}
+          {actions && <div className="section__actions">{actions}</div>}
         </header>
       )}
-      <div className="section__body">
-        {children}
-      </div>
+      <div className="section__body">{children}</div>
     </section>
   )
 }
