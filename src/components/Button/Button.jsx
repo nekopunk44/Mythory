@@ -21,9 +21,7 @@ const Button = (props) => {
     ...rest
   } = props
 
-  const iconComponent = iconName && (
-    <Icon className="icon" name={iconName} />
-  )
+  const iconComponent = iconName && <Icon className="icon" name={iconName} />
 
   return (
     <Tag
@@ -31,16 +29,14 @@ const Button = (props) => {
         'button',
         mode && `button--${mode}`,
         isLabelHidden && 'button--icon-only',
-        className
+        className,
       )}
       type={Tag === 'button' ? type : undefined}
       aria-label={isLabelHidden ? label : undefined}
       {...rest}
     >
       {iconPosition === 'before' && iconComponent}
-      {!isLabelHidden && (
-        <span className="button__label">{label}</span>
-      )}
+      {!isLabelHidden && <span className="button__label">{label}</span>}
       {iconPosition === 'after' && iconComponent}
     </Tag>
   )

@@ -1,0 +1,7 @@
+# Keep LF everywhere so every agent, editor and CI runner sees identical files.
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.webp binary
+*.woff binary
+*.woff2 binary

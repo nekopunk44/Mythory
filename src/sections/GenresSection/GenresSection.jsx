@@ -9,7 +9,9 @@ const INITIAL_COUNT = 10
 const GenresSection = ({ activeGenre }) => {
   const [isExpanded, setIsExpanded] = useState(false)
 
-  const visibleItems = isExpanded ? genreItems : genreItems.slice(0, INITIAL_COUNT)
+  const visibleItems = isExpanded
+    ? genreItems
+    : genreItems.slice(0, INITIAL_COUNT)
 
   return (
     <Section title="Explore Genres" titleClassName="h3">

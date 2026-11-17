@@ -1,0 +1,11 @@
+# Mythory Cline instructions
+
+Follow the repository-wide contract in `AGENTS.md`.
+
+Additional Cline behavior:
+
+- Inspect the relevant files before editing.
+- Keep changes surgical and use the existing component conventions.
+- Run `npm run format` after editing and `npm run check` before finishing.
+- Never discard or overwrite unrelated changes.
+- Before finishing, summarize files changed and validation results.

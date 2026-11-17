@@ -1,9 +1,7 @@
 import './Logo.scss'
 
 const Logo = (props) => {
-  const {
-    loading = 'lazy',
-  } = props
+  const { loading = 'lazy' } = props
 
   return (
     <a className="logo" href="/">

@@ -3,18 +3,15 @@ import Icon from '@/components/Icon'
 import './GenreCard.scss'
 
 const GenreCard = (props) => {
-  const {
-    className,
-    label,
-    iconName,
-    slug,
-    isActive = false,
-    ...rest
-  } = props
+  const { className, label, iconName, slug, isActive = false, ...rest } = props
 
   return (
     <a
-      className={clsx('genre-card', isActive && 'genre-card--active', className)}
+      className={clsx(
+        'genre-card',
+        isActive && 'genre-card--active',
+        className,
+      )}
       href={`/genres?genre=${slug}`}
       {...rest}
     >

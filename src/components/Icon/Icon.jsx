@@ -2,13 +2,7 @@ import clsx from 'clsx'
 import './Icon.scss'
 
 const Icon = (props) => {
-  const {
-    className,
-    name,
-    size = 24,
-    alt = '',
-    ...rest
-  } = props
+  const { className, name, size = 24, alt = '', ...rest } = props
 
   return (
     <img

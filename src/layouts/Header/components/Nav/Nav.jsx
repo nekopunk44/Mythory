@@ -8,10 +8,7 @@ const NAV_ITEMS = [
 ]
 
 const Nav = (props) => {
-  const {
-    className,
-    ...rest
-  } = props
+  const { className, ...rest } = props
 
   const currentPath = window.location.pathname
 
@@ -23,14 +20,14 @@ const Nav = (props) => {
             <a
               className={clsx(
                 'nav__link',
-                currentPath === item.href && 'nav__link--active'
+                currentPath === item.href && 'nav__link--active',
               )}
               href={item.href}
             >
               {item.label}
             </a>
           </li>
-          ))}
+        ))}
       </ul>
     </nav>
   )
