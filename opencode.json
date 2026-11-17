@@ -1,0 +1,32 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "agent": {
+    "orchestrator": {
+      "mode": "primary",
+      "description": "Plans the task, delegates to frontend, ux-reviewer and qa subagents, and assembles the result",
+      "prompt": "{file:./.github/agents/orchestrator.agent.md}"
+    },
+    "frontend": {
+      "mode": "subagent",
+      "description": "Implements React, JSX, routing, interactions, and Sass changes",
+      "prompt": "{file:./.github/agents/frontend.agent.md}"
+    },
+    "ux-reviewer": {
+      "mode": "subagent",
+      "description": "Read-only review of visual consistency, accessibility, and responsive behavior",
+      "prompt": "{file:./.github/agents/ux-reviewer.agent.md}",
+      "permission": {
+        "edit": "deny",
+        "bash": "deny"
+      }
+    },
+    "qa": {
+      "mode": "subagent",
+      "description": "Reviews the diff and runs format, lint, and production build checks",
+      "prompt": "{file:./.github/agents/qa.agent.md}",
+      "permission": {
+        "edit": "deny"
+      }
+    }
+  }
+}
