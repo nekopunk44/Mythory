@@ -1,0 +1,578 @@
+{
+  "name": "verification mobile 3",
+  "type": "frame",
+  "x": 0,
+  "y": 0,
+  "width": 440,
+  "height": 552,
+  "fills": [
+    {
+      "color": "#0d0b1c"
+    }
+  ],
+  "children": [
+    {
+      "name": "Rectangle 696",
+      "type": "rectangle",
+      "x": 43,
+      "y": 68,
+      "width": 353,
+      "height": 419,
+      "fills": [
+        {
+          "color": "#0d0b1c"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 20
+    },
+    {
+      "name": "Verify your email",
+      "type": "text",
+      "x": 131,
+      "y": 84,
+      "width": 178,
+      "height": 42,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Verify your email",
+      "font": {
+        "family": "Kadwa",
+        "size": 21,
+        "weight": 400,
+        "lineHeight": 42.16,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Enter the 6-digit code we sent to your email",
+      "type": "text",
+      "x": 91,
+      "y": 134,
+      "width": 257,
+      "height": 17,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.5)",
+          "variable": "var(--color-white-50)"
+        }
+      ],
+      "text": "Enter the 6-digit code we sent to your email",
+      "font": {
+        "family": "K2D",
+        "size": 13,
+        "weight": 400,
+        "lineHeight": 16.9,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 697",
+      "type": "rectangle",
+      "x": 93,
+      "y": 173,
+      "width": 254,
+      "height": 57,
+      "fills": [
+        {
+          "color": "#151323"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 15
+    },
+    {
+      "name": "Rectangle 701",
+      "type": "rectangle",
+      "x": 93,
+      "y": 279,
+      "width": 254,
+      "height": 42,
+      "fills": [
+        {
+          "color": "#7255f5"
+        }
+      ],
+      "radius": 15
+    },
+    {
+      "name": "Did`n receive the code?",
+      "type": "text",
+      "x": 135,
+      "y": 347,
+      "width": 105,
+      "height": 13,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.5)",
+          "variable": "var(--color-white-50)"
+        }
+      ],
+      "text": "Did`n receive the code?",
+      "font": {
+        "family": "K2D",
+        "size": 10,
+        "weight": 400,
+        "lineHeight": 13,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Resend code",
+      "type": "text",
+      "x": 248,
+      "y": 347,
+      "width": 57,
+      "height": 13,
+      "fills": [
+        {
+          "color": "#7255f5"
+        }
+      ],
+      "text": "Resend code",
+      "font": {
+        "family": "K2D",
+        "size": 10,
+        "weight": 400,
+        "lineHeight": 13,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Wrong email?",
+      "type": "text",
+      "x": 167,
+      "y": 370,
+      "width": 61,
+      "height": 13,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.5)",
+          "variable": "var(--color-white-50)"
+        }
+      ],
+      "text": "Wrong email?",
+      "font": {
+        "family": "K2D",
+        "size": 10,
+        "weight": 400,
+        "lineHeight": 13,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Go back",
+      "type": "text",
+      "x": 236,
+      "y": 370,
+      "width": 36,
+      "height": 13,
+      "fills": [
+        {
+          "color": "#7255f5"
+        }
+      ],
+      "text": "Go back",
+      "font": {
+        "family": "K2D",
+        "size": 10,
+        "weight": 400,
+        "lineHeight": 13,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Send reset code",
+      "type": "text",
+      "x": 166,
+      "y": 290,
+      "width": 108,
+      "height": 20,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Send reset code",
+      "font": {
+        "family": "K2D",
+        "size": 15,
+        "weight": 400,
+        "lineHeight": 19.5,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Incorrect code",
+      "type": "text",
+      "x": 172,
+      "y": 240,
+      "width": 95,
+      "height": 20,
+      "fills": [
+        {
+          "color": "#8a0a12"
+        }
+      ],
+      "text": "Incorrect code",
+      "font": {
+        "family": "K2D",
+        "size": 15,
+        "weight": 400,
+        "lineHeight": 19.5,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 733",
+      "type": "rectangle",
+      "x": 447,
+      "y": 719,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 734",
+      "type": "rectangle",
+      "x": 482,
+      "y": 725,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 735",
+      "type": "rectangle",
+      "x": 501,
+      "y": 802,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 716",
+      "type": "rectangle",
+      "x": -144,
+      "y": 25,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 717",
+      "type": "rectangle",
+      "x": -116,
+      "y": 31,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Mythory",
+      "type": "text",
+      "x": 165.29,
+      "y": 397,
+      "width": 109.75,
+      "height": 64.78,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Mythory",
+      "font": {
+        "family": "Just Me Again Down Here",
+        "size": 40,
+        "weight": 400,
+        "lineHeight": 59.92,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Line 47",
+      "type": "line",
+      "x": 136,
+      "y": 173,
+      "width": 0,
+      "height": 56,
+      "strokes": [
+        {
+          "color": "rgba(255, 255, 255, 0.5)",
+          "variable": "var(--color-white-50)"
+        }
+      ],
+      "strokeWeight": 0.800000011920929
+    },
+    {
+      "name": "Line 48",
+      "type": "line",
+      "x": 178,
+      "y": 174,
+      "width": 0,
+      "height": 56,
+      "strokes": [
+        {
+          "color": "rgba(255, 255, 255, 0.5)",
+          "variable": "var(--color-white-50)"
+        }
+      ],
+      "strokeWeight": 0.800000011920929
+    },
+    {
+      "name": "Line 49",
+      "type": "line",
+      "x": 220,
+      "y": 173,
+      "width": 0,
+      "height": 56,
+      "strokes": [
+        {
+          "color": "rgba(255, 255, 255, 0.5)",
+          "variable": "var(--color-white-50)"
+        }
+      ],
+      "strokeWeight": 0.800000011920929
+    },
+    {
+      "name": "Line 50",
+      "type": "line",
+      "x": 261,
+      "y": 174,
+      "width": 0,
+      "height": 56,
+      "strokes": [
+        {
+          "color": "rgba(255, 255, 255, 0.5)",
+          "variable": "var(--color-white-50)"
+        }
+      ],
+      "strokeWeight": 0.800000011920929
+    },
+    {
+      "name": "Line 51",
+      "type": "line",
+      "x": 302,
+      "y": 174,
+      "width": 0,
+      "height": 56,
+      "strokes": [
+        {
+          "color": "rgba(255, 255, 255, 0.5)",
+          "variable": "var(--color-white-50)"
+        }
+      ],
+      "strokeWeight": 0.800000011920929
+    },
+    {
+      "name": "6",
+      "type": "text",
+      "x": 105,
+      "y": 176,
+      "width": 18,
+      "height": 61,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.8)"
+        }
+      ],
+      "text": "6",
+      "font": {
+        "family": "Kadwa",
+        "size": 27,
+        "weight": 400,
+        "lineHeight": 54.21,
+        "align": "center"
+      }
+    },
+    {
+      "name": "6",
+      "type": "text",
+      "x": 148,
+      "y": 176,
+      "width": 18,
+      "height": 61,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.8)"
+        }
+      ],
+      "text": "6",
+      "font": {
+        "family": "Kadwa",
+        "size": 27,
+        "weight": 400,
+        "lineHeight": 54.21,
+        "align": "center"
+      }
+    },
+    {
+      "name": "8",
+      "type": "text",
+      "x": 190,
+      "y": 176,
+      "width": 18,
+      "height": 61,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.8)"
+        }
+      ],
+      "text": "8",
+      "font": {
+        "family": "Kadwa",
+        "size": 27,
+        "weight": 400,
+        "lineHeight": 54.21,
+        "align": "center"
+      }
+    },
+    {
+      "name": "1",
+      "type": "text",
+      "x": 233,
+      "y": 176,
+      "width": 16,
+      "height": 61,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.8)"
+        }
+      ],
+      "text": "1",
+      "font": {
+        "family": "Kadwa",
+        "size": 27,
+        "weight": 400,
+        "lineHeight": 54.21,
+        "align": "center"
+      }
+    },
+    {
+      "name": "8",
+      "type": "text",
+      "x": 274,
+      "y": 176,
+      "width": 18,
+      "height": 61,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.8)"
+        }
+      ],
+      "text": "8",
+      "font": {
+        "family": "Kadwa",
+        "size": 27,
+        "weight": 400,
+        "lineHeight": 54.21,
+        "align": "center"
+      }
+    },
+    {
+      "name": "1",
+      "type": "text",
+      "x": 315,
+      "y": 176,
+      "width": 16,
+      "height": 61,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.8)"
+        }
+      ],
+      "text": "1",
+      "font": {
+        "family": "Kadwa",
+        "size": 27,
+        "weight": 400,
+        "lineHeight": 54.21,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 151,
+      "y": 244,
+      "width": 12,
+      "height": 12,
+      "radius": 20,
+      "children": [
+        {
+          "name": "Rectangle 652",
+          "type": "rectangle",
+          "x": 151,
+          "y": 244,
+          "width": 12,
+          "height": 12,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/5c0a326bfbd3ca27e73d36d8ea3fdfd8f8c53b1b.png"
+            }
+          ],
+          "radius": 20
+        },
+        {
+          "name": "Rectangle 695",
+          "type": "rectangle",
+          "x": 151,
+          "y": 244,
+          "width": 12,
+          "height": 12,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/5c0a326bfbd3ca27e73d36d8ea3fdfd8f8c53b1b.png"
+            },
+            {
+              "color": "#8a0a12"
+            }
+          ],
+          "radius": 20
+        }
+      ]
+    }
+  ]
+}

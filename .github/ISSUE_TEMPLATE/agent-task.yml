@@ -25,7 +25,7 @@ body:
       label: Design reference
       description: >
         Agents cannot open Figma. Name the frames from design/README.md, for example
-        design/frames/home--desktop.png, and the layer names that belong to this task.
+        design/frames/page-1--home.jpg, and the layer names that belong to this task.
   - type: textarea
     id: scope
     attributes:

@@ -1,0 +1,2098 @@
+{
+  "name": "иконки весь список",
+  "type": "frame",
+  "x": 0,
+  "y": 0,
+  "width": 1744,
+  "height": 788,
+  "fills": [
+    {
+      "color": "#000000",
+      "variable": "var(--color-black)"
+    }
+  ],
+  "children": [
+    {
+      "name": "Поиск иконка",
+      "type": "group",
+      "x": 89,
+      "y": 33,
+      "width": 30,
+      "height": 30,
+      "children": [
+        {
+          "name": "magnifying-glass 1",
+          "type": "rectangle",
+          "x": 89,
+          "y": 33,
+          "width": 30,
+          "height": 30,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/0b4394fe6ee9ef7d64aaa6d4dce1a74e56f46035.png"
+            }
+          ]
+        },
+        {
+          "name": "magnifying-glass 2",
+          "type": "rectangle",
+          "x": 89,
+          "y": 33,
+          "width": 30,
+          "height": 30,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/0b4394fe6ee9ef7d64aaa6d4dce1a74e56f46035.png"
+            },
+            {
+              "color": "#655a9e",
+              "variable": "var(--color-purple-50)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Книга иконка",
+      "type": "group",
+      "x": 173,
+      "y": 37,
+      "width": 32,
+      "height": 32,
+      "children": [
+        {
+          "name": "open-book 1",
+          "type": "rectangle",
+          "x": 173,
+          "y": 37,
+          "width": 32,
+          "height": 32,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/108bac6ecb2eb69992687bf745c35820db16287e.png"
+            }
+          ]
+        },
+        {
+          "name": "open-book 2",
+          "type": "rectangle",
+          "x": -15.8,
+          "y": -151.8,
+          "width": 409.6,
+          "height": 409.6,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/108bac6ecb2eb69992687bf745c35820db16287e.png"
+            },
+            {
+              "color": "#655a9e",
+              "variable": "var(--color-purple-50)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 263,
+      "y": 33,
+      "width": 34.42,
+      "height": 34.42,
+      "children": [
+        {
+          "name": "customer 1",
+          "type": "rectangle",
+          "x": 263,
+          "y": 33,
+          "width": 34.42,
+          "height": 34.42,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/6febc9f382b8199a9fd6e0dee02931e6748bf5d9.png"
+            }
+          ]
+        },
+        {
+          "name": "customer 2",
+          "type": "rectangle",
+          "x": 263,
+          "y": 33,
+          "width": 34.42,
+          "height": 34.42,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/6febc9f382b8199a9fd6e0dee02931e6748bf5d9.png"
+            },
+            {
+              "color": "#655a9e",
+              "variable": "var(--color-purple-50)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 349,
+      "y": 29,
+      "width": 32.99,
+      "height": 32.99,
+      "children": [
+        {
+          "name": "star 1",
+          "type": "rectangle",
+          "x": 349,
+          "y": 29,
+          "width": 32.99,
+          "height": 32.99,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/7a3ef37f6ffa0f76b4b85d5a7dc1dd3f36988545.png"
+            }
+          ]
+        },
+        {
+          "name": "star 2",
+          "type": "rectangle",
+          "x": 349,
+          "y": 29,
+          "width": 32.99,
+          "height": 32.99,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/7a3ef37f6ffa0f76b4b85d5a7dc1dd3f36988545.png"
+            },
+            {
+              "color": "#655a9e",
+              "variable": "var(--color-purple-50)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 440,
+      "y": 29,
+      "width": 33,
+      "height": 33,
+      "children": [
+        {
+          "name": "increase 1",
+          "type": "rectangle",
+          "x": 440,
+          "y": 29,
+          "width": 33,
+          "height": 33,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/bb3931ea84f19c658824090da3a0692afaada237.png"
+            }
+          ]
+        },
+        {
+          "name": "increase 2",
+          "type": "rectangle",
+          "x": 440,
+          "y": 29,
+          "width": 33,
+          "height": 33,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/bb3931ea84f19c658824090da3a0692afaada237.png"
+            },
+            {
+              "color": "#655a9e",
+              "variable": "var(--color-purple-50)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "star(1) 46",
+      "type": "rectangle",
+      "x": 602,
+      "y": 35,
+      "width": 26,
+      "height": 26,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL",
+          "image": "images/1374530e4b9bd61ddb1f4c2b7931ee05e8e62d29.png"
+        }
+      ]
+    },
+    {
+      "name": "Глазик",
+      "type": "group",
+      "x": 677.02,
+      "y": 30,
+      "width": 35.68,
+      "height": 35.68,
+      "children": [
+        {
+          "name": "free-icon-eye-158746 1",
+          "type": "rectangle",
+          "x": 677.02,
+          "y": 30,
+          "width": 35.68,
+          "height": 35.68,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/acec803b13e0f61e518ff1beb61fd71fff66884e.png"
+            }
+          ]
+        },
+        {
+          "name": "free-icon-eye-158746 2",
+          "type": "rectangle",
+          "x": 677.02,
+          "y": 30,
+          "width": 35.68,
+          "height": 35.68,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/acec803b13e0f61e518ff1beb61fd71fff66884e.png"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Стрелка блок новые истории",
+      "type": "group",
+      "x": 517,
+      "y": 29,
+      "width": 33,
+      "height": 33,
+      "children": [
+        {
+          "name": "free-icon-right-arrow-angle-54833 1",
+          "type": "rectangle",
+          "x": 517,
+          "y": 29,
+          "width": 33,
+          "height": 33,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/93c218c6509e40677cddf04f74d1b7f477898b99.png"
+            }
+          ]
+        },
+        {
+          "name": "free-icon-right-arrow-angle-54833 2",
+          "type": "rectangle",
+          "x": 517,
+          "y": 29,
+          "width": 33,
+          "height": 33,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/93c218c6509e40677cddf04f74d1b7f477898b99.png"
+            },
+            {
+              "color": "#655a9e",
+              "variable": "var(--color-purple-50)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "icon woman",
+      "type": "group",
+      "x": 88,
+      "y": 125,
+      "width": 39,
+      "height": 39,
+      "children": [
+        {
+          "name": "woman 1",
+          "type": "rectangle",
+          "x": 88,
+          "y": 125,
+          "width": 39,
+          "height": 39,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/3df31fa8962fc2b0021acc3f4b34691ca3000575.png"
+            }
+          ]
+        },
+        {
+          "name": "woman 2",
+          "type": "rectangle",
+          "x": 88,
+          "y": 125,
+          "width": 39,
+          "height": 39,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/3df31fa8962fc2b0021acc3f4b34691ca3000575.png"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 173,
+      "y": 125,
+      "width": 39,
+      "height": 39,
+      "children": [
+        {
+          "name": "spell-book 1",
+          "type": "rectangle",
+          "x": 173,
+          "y": 125,
+          "width": 39,
+          "height": 39,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/c7f37538446bf3698ccc7000ceec98bcb70c7ff6.png"
+            }
+          ]
+        },
+        {
+          "name": "spell-book 2",
+          "type": "rectangle",
+          "x": 173,
+          "y": 125,
+          "width": 39,
+          "height": 39,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/c7f37538446bf3698ccc7000ceec98bcb70c7ff6.png"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 263,
+      "y": 125,
+      "width": 35,
+      "height": 35,
+      "children": [
+        {
+          "name": "science-fiction 1",
+          "type": "rectangle",
+          "x": 263,
+          "y": 125,
+          "width": 35,
+          "height": 35,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/72268c65b5ec6395ba94ef072dff98b62c752af8.png"
+            }
+          ]
+        },
+        {
+          "name": "science-fiction 2",
+          "type": "rectangle",
+          "x": 263,
+          "y": 125,
+          "width": 35,
+          "height": 35,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/72268c65b5ec6395ba94ef072dff98b62c752af8.png"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 349,
+      "y": 129,
+      "width": 40,
+      "height": 40,
+      "children": [
+        {
+          "name": "detective 1",
+          "type": "rectangle",
+          "x": 349,
+          "y": 129,
+          "width": 40,
+          "height": 40,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/f7268326f745609dfb9549aa75c5ed79c9c05c0b.png"
+            }
+          ]
+        },
+        {
+          "name": "detective 2",
+          "type": "rectangle",
+          "x": 349,
+          "y": 129,
+          "width": 40,
+          "height": 40,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/f7268326f745609dfb9549aa75c5ed79c9c05c0b.png"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": -210,
+      "y": 269,
+      "width": 40,
+      "height": 40,
+      "children": [
+        {
+          "name": "magic-trick 1",
+          "type": "rectangle",
+          "x": -210,
+          "y": 269,
+          "width": 40,
+          "height": 40,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/83223e3054eace7516b52067532bcdb503e5b46a.png"
+            }
+          ]
+        },
+        {
+          "name": "magic-trick 2",
+          "type": "rectangle",
+          "x": -210,
+          "y": 269,
+          "width": 40,
+          "height": 40,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/83223e3054eace7516b52067532bcdb503e5b46a.png"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 88,
+      "y": 230,
+      "width": 41,
+      "height": 41,
+      "children": [
+        {
+          "name": "ghost 1",
+          "type": "rectangle",
+          "x": 88,
+          "y": 230,
+          "width": 41,
+          "height": 41,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/755b501821d01d573146b93021d842fa7034579c.png"
+            }
+          ]
+        },
+        {
+          "name": "ghost 2",
+          "type": "rectangle",
+          "x": 88,
+          "y": 230,
+          "width": 41,
+          "height": 41,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/755b501821d01d573146b93021d842fa7034579c.png"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 173,
+      "y": 229,
+      "width": 39,
+      "height": 39,
+      "children": [
+        {
+          "name": "masks 1",
+          "type": "rectangle",
+          "x": 173,
+          "y": 229,
+          "width": 39,
+          "height": 39,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/a0f07823a507ef373948e8e0adca6c0165f24922.png"
+            }
+          ]
+        },
+        {
+          "name": "masks 2",
+          "type": "rectangle",
+          "x": 173,
+          "y": 229,
+          "width": 39,
+          "height": 39,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/a0f07823a507ef373948e8e0adca6c0165f24922.png"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 263,
+      "y": 226,
+      "width": 49,
+      "height": 49,
+      "children": [
+        {
+          "name": "action 1",
+          "type": "rectangle",
+          "x": 263,
+          "y": 226,
+          "width": 49,
+          "height": 49,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/8e7c726181eb94633016f702c4cf09fc61e2fab4.png"
+            }
+          ]
+        },
+        {
+          "name": "action 2",
+          "type": "rectangle",
+          "x": 263,
+          "y": 226,
+          "width": 49,
+          "height": 49,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/8e7c726181eb94633016f702c4cf09fc61e2fab4.png"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 349,
+      "y": 232,
+      "width": 38,
+      "height": 38,
+      "children": [
+        {
+          "name": "location (1) 1",
+          "type": "rectangle",
+          "x": 349,
+          "y": 232,
+          "width": 38,
+          "height": 38,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/d407f4fc61c2031771db2f888596f4b28afe3f02.png"
+            }
+          ]
+        },
+        {
+          "name": "location (1) 2",
+          "type": "rectangle",
+          "x": 349,
+          "y": 232,
+          "width": 38,
+          "height": 38,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/d407f4fc61c2031771db2f888596f4b28afe3f02.png"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": -211,
+      "y": 125,
+      "width": 41,
+      "height": 41,
+      "children": [
+        {
+          "name": "surprise-box 1",
+          "type": "rectangle",
+          "x": -211,
+          "y": 125,
+          "width": 41,
+          "height": 41,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/cb1b43074b54cecd19dc44856828f50af0e37577.png"
+            }
+          ]
+        },
+        {
+          "name": "surprise-box 2",
+          "type": "rectangle",
+          "x": -211,
+          "y": 125,
+          "width": 41,
+          "height": 41,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/cb1b43074b54cecd19dc44856828f50af0e37577.png"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 82,
+      "y": 333,
+      "width": 40,
+      "height": 40,
+      "children": [
+        {
+          "name": "helmet 1",
+          "type": "rectangle",
+          "x": 82,
+          "y": 333,
+          "width": 40,
+          "height": 40,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/0fe380f39328cacb52ff3210979a669de12cb4a0.png"
+            }
+          ]
+        },
+        {
+          "name": "helmet 2",
+          "type": "rectangle",
+          "x": 82,
+          "y": 333,
+          "width": 40,
+          "height": 40,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/0fe380f39328cacb52ff3210979a669de12cb4a0.png"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 173,
+      "y": 333,
+      "width": 41,
+      "height": 41,
+      "children": [
+        {
+          "name": "poetry 1",
+          "type": "rectangle",
+          "x": 173,
+          "y": 333,
+          "width": 41,
+          "height": 41,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/e21e2d6a96933e2995142421c582eb9288c93e3e.png"
+            }
+          ]
+        },
+        {
+          "name": "poetry 2",
+          "type": "rectangle",
+          "x": 173,
+          "y": 333,
+          "width": 41,
+          "height": 41,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/e21e2d6a96933e2995142421c582eb9288c93e3e.png"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 443,
+      "y": 129,
+      "width": 41,
+      "height": 41,
+      "children": [
+        {
+          "name": "story 1",
+          "type": "rectangle",
+          "x": 443,
+          "y": 129,
+          "width": 41,
+          "height": 41,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/acbe585735d7db70b92a274e05c8862b3851f209.png"
+            }
+          ]
+        },
+        {
+          "name": "story 2",
+          "type": "rectangle",
+          "x": 443,
+          "y": 129,
+          "width": 41,
+          "height": 41,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/acbe585735d7db70b92a274e05c8862b3851f209.png"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 268,
+      "y": 337,
+      "width": 41,
+      "height": 41,
+      "children": [
+        {
+          "name": "resume 1",
+          "type": "rectangle",
+          "x": 268,
+          "y": 337,
+          "width": 41,
+          "height": 41,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/5d90c53ada7c1c9fbe71f57f076671c6380db2ef.png"
+            }
+          ]
+        },
+        {
+          "name": "resume 2",
+          "type": "rectangle",
+          "x": 268,
+          "y": 337,
+          "width": 41,
+          "height": 41,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/5d90c53ada7c1c9fbe71f57f076671c6380db2ef.png"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 349,
+      "y": 335,
+      "width": 40,
+      "height": 40,
+      "children": [
+        {
+          "name": "classic 1",
+          "type": "rectangle",
+          "x": 349,
+          "y": 335,
+          "width": 40,
+          "height": 40,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/44a1bbff915401756ed3937b485c0d7f20f207df.png"
+            }
+          ]
+        },
+        {
+          "name": "classic 2",
+          "type": "rectangle",
+          "x": 349,
+          "y": 335,
+          "width": 40,
+          "height": 40,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/44a1bbff915401756ed3937b485c0d7f20f207df.png"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 82,
+      "y": 477,
+      "width": 43,
+      "height": 43,
+      "children": [
+        {
+          "name": "fang 1",
+          "type": "rectangle",
+          "x": 82,
+          "y": 477,
+          "width": 43,
+          "height": 43,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/fad0a6fa8fe3c771bc3e41cc9f2c04d0b3eb2df7.png"
+            }
+          ]
+        },
+        {
+          "name": "fang 2",
+          "type": "rectangle",
+          "x": 82,
+          "y": 477,
+          "width": 43,
+          "height": 43,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/fad0a6fa8fe3c771bc3e41cc9f2c04d0b3eb2df7.png"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 173,
+      "y": 474,
+      "width": 42,
+      "height": 42,
+      "children": [
+        {
+          "name": "moon 1",
+          "type": "rectangle",
+          "x": 173,
+          "y": 474,
+          "width": 42,
+          "height": 42,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/9d506ed9ceb8d06178b5ae42e1218611d3b3aafc.png"
+            }
+          ]
+        },
+        {
+          "name": "moon 2",
+          "type": "rectangle",
+          "x": 173,
+          "y": 474,
+          "width": 42,
+          "height": 42,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/9d506ed9ceb8d06178b5ae42e1218611d3b3aafc.png"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 268,
+      "y": 485,
+      "width": 41,
+      "height": 41,
+      "children": [
+        {
+          "name": "teenage 1",
+          "type": "rectangle",
+          "x": 268,
+          "y": 485,
+          "width": 41,
+          "height": 41,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/dd6a2f4766a452ca6d4e6c2de94fec985b502580.png"
+            }
+          ]
+        },
+        {
+          "name": "teenage 2",
+          "type": "rectangle",
+          "x": 268,
+          "y": 485,
+          "width": 41,
+          "height": 41,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/dd6a2f4766a452ca6d4e6c2de94fec985b502580.png"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 349,
+      "y": 480,
+      "width": 41,
+      "height": 41,
+      "children": [
+        {
+          "name": "separation 1",
+          "type": "rectangle",
+          "x": 349,
+          "y": 480,
+          "width": 41,
+          "height": 41,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/d874a2046ce042801b830271d1e6605241c73c21.png"
+            }
+          ]
+        },
+        {
+          "name": "separation 2",
+          "type": "rectangle",
+          "x": 349,
+          "y": 480,
+          "width": 41,
+          "height": 41,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/d874a2046ce042801b830271d1e6605241c73c21.png"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 443,
+      "y": 226,
+      "width": 41,
+      "height": 41,
+      "children": [
+        {
+          "name": "graduation-cap 1",
+          "type": "rectangle",
+          "x": 443,
+          "y": 226,
+          "width": 41,
+          "height": 41,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/0c9c136f726cb5680eaed4db0c04763af5ee66ec.png"
+            }
+          ]
+        },
+        {
+          "name": "graduation-cap 2",
+          "type": "rectangle",
+          "x": 443,
+          "y": 226,
+          "width": 41,
+          "height": 41,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/0c9c136f726cb5680eaed4db0c04763af5ee66ec.png"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 82,
+      "y": 619,
+      "width": 41,
+      "height": 41,
+      "children": [
+        {
+          "name": "crown 1",
+          "type": "rectangle",
+          "x": 82,
+          "y": 619,
+          "width": 41,
+          "height": 41,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/d64a88469618846f2addb157bcc51b9e64012f7d.png"
+            }
+          ]
+        },
+        {
+          "name": "crown 2",
+          "type": "rectangle",
+          "x": 82,
+          "y": 619,
+          "width": 41,
+          "height": 41,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/d64a88469618846f2addb157bcc51b9e64012f7d.png"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 173,
+      "y": 620,
+      "width": 44,
+      "height": 44,
+      "children": [
+        {
+          "name": "people (1) 1",
+          "type": "rectangle",
+          "x": 173,
+          "y": 620,
+          "width": 44,
+          "height": 44,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/fe8668299fab2f60e2b2e59f39e0e8f2819ecb9e.png"
+            }
+          ]
+        },
+        {
+          "name": "people (1) 2",
+          "type": "rectangle",
+          "x": 173,
+          "y": 620,
+          "width": 44,
+          "height": 44,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/fe8668299fab2f60e2b2e59f39e0e8f2819ecb9e.png"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 263,
+      "y": 623,
+      "width": 41,
+      "height": 41,
+      "children": [
+        {
+          "name": "police-handcuffs 1",
+          "type": "rectangle",
+          "x": 263,
+          "y": 623,
+          "width": 41,
+          "height": 41,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/2ec2b0ff0613be64cb8923fea02dcb51fee0ea14.png"
+            }
+          ]
+        },
+        {
+          "name": "police-handcuffs 2",
+          "type": "rectangle",
+          "x": 263,
+          "y": 623,
+          "width": 41,
+          "height": 41,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/2ec2b0ff0613be64cb8923fea02dcb51fee0ea14.png"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 354,
+      "y": 626,
+      "width": 40,
+      "height": 40,
+      "children": [
+        {
+          "name": "rainbow-flag 1",
+          "type": "rectangle",
+          "x": 354,
+          "y": 626,
+          "width": 40,
+          "height": 40,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/e6cfe0b126cf7d5d64fc79052967c3601db5e740.png"
+            }
+          ]
+        },
+        {
+          "name": "rainbow-flag 2",
+          "type": "rectangle",
+          "x": 354,
+          "y": 626,
+          "width": 40,
+          "height": 40,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/e6cfe0b126cf7d5d64fc79052967c3601db5e740.png"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 443,
+      "y": 334,
+      "width": 36,
+      "height": 36,
+      "children": [
+        {
+          "name": "ooooooooooooooooooooooooooooooooooo 1",
+          "type": "rectangle",
+          "x": 443,
+          "y": 334,
+          "width": 36,
+          "height": 36,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/0391f820f7ffc25b150273c0e6240f75f0301182.png"
+            }
+          ]
+        },
+        {
+          "name": "ooooooooooooooooooooooooooooooooooo 2",
+          "type": "rectangle",
+          "x": 443,
+          "y": 334,
+          "width": 36,
+          "height": 36,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/0391f820f7ffc25b150273c0e6240f75f0301182.png"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 517,
+      "y": 216,
+      "width": 51.22,
+      "height": 51.22,
+      "children": [
+        {
+          "name": "history 1",
+          "type": "rectangle",
+          "x": 517,
+          "y": 216,
+          "width": 51.22,
+          "height": 51.22,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/e089150e7233904ff098a8c35aee80b33ee82e6e.png"
+            }
+          ]
+        },
+        {
+          "name": "history 2",
+          "type": "rectangle",
+          "x": 517.59,
+          "y": 216,
+          "width": 51.22,
+          "height": 51.22,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/e089150e7233904ff098a8c35aee80b33ee82e6e.png"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 602,
+      "y": 226,
+      "width": 31.42,
+      "height": 31.42,
+      "children": [
+        {
+          "name": "bookmark-white 1",
+          "type": "rectangle",
+          "x": 602,
+          "y": 226,
+          "width": 31.42,
+          "height": 31.42,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/906d5501f259c81814a5cf2a935af6fce7e0dc47.png"
+            }
+          ]
+        },
+        {
+          "name": "bookmark-white 2",
+          "type": "rectangle",
+          "x": 602.09,
+          "y": 225.91,
+          "width": 31.59,
+          "height": 31.59,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/906d5501f259c81814a5cf2a935af6fce7e0dc47.png"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 517,
+      "y": 338,
+      "width": 37.4,
+      "height": 37.4,
+      "children": [
+        {
+          "name": "activity 1",
+          "type": "rectangle",
+          "x": 517,
+          "y": 338,
+          "width": 37.4,
+          "height": 37.4,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/62a56b3eefa2c3a5d458a1ea0a8d2d9d0610162c.png"
+            }
+          ]
+        },
+        {
+          "name": "activity 2",
+          "type": "rectangle",
+          "x": 517.11,
+          "y": 337.89,
+          "width": 37.61,
+          "height": 37.61,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/62a56b3eefa2c3a5d458a1ea0a8d2d9d0610162c.png"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 517,
+      "y": 477,
+      "width": 32.91,
+      "height": 32.91,
+      "children": [
+        {
+          "name": "list 1",
+          "type": "rectangle",
+          "x": 517,
+          "y": 477,
+          "width": 32.91,
+          "height": 32.91,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/dc77aed490e41cf885bb8e1ec654aa320948efcc.png"
+            }
+          ]
+        },
+        {
+          "name": "list 2",
+          "type": "rectangle",
+          "x": 517.38,
+          "y": 477,
+          "width": 32.91,
+          "height": 32.91,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/dc77aed490e41cf885bb8e1ec654aa320948efcc.png"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 445,
+      "y": 480,
+      "width": 36.11,
+      "height": 36.11,
+      "children": [
+        {
+          "name": "add 1",
+          "type": "rectangle",
+          "x": 445,
+          "y": 480,
+          "width": 36.11,
+          "height": 36.11,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/f88d89f95d466597d4739d1e7ceba1e11ea43b54.png"
+            }
+          ]
+        },
+        {
+          "name": "add 2",
+          "type": "rectangle",
+          "x": 445,
+          "y": 478.61,
+          "width": 36.11,
+          "height": 36.11,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/f88d89f95d466597d4739d1e7ceba1e11ea43b54.png"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 602,
+      "y": 333,
+      "width": 37.4,
+      "height": 37.4,
+      "children": [
+        {
+          "name": "edit 1",
+          "type": "rectangle",
+          "x": 602,
+          "y": 333,
+          "width": 37.4,
+          "height": 37.4,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/896384934af354fc0896096bfe80cdd9db6b0107.png"
+            }
+          ]
+        },
+        {
+          "name": "edit 2",
+          "type": "rectangle",
+          "x": 602.43,
+          "y": 333,
+          "width": 37.4,
+          "height": 37.4,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/896384934af354fc0896096bfe80cdd9db6b0107.png"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 452.66,
+      "y": 625.87,
+      "width": 37.4,
+      "height": 37.4,
+      "children": [
+        {
+          "name": "setting 1",
+          "type": "rectangle",
+          "x": 452.66,
+          "y": 625.87,
+          "width": 37.4,
+          "height": 37.4,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/736367861a1654c18fef10c26c2584c60f559e25.png"
+            }
+          ]
+        },
+        {
+          "name": "setting 2",
+          "type": "rectangle",
+          "x": 453.09,
+          "y": 625.87,
+          "width": 37.4,
+          "height": 37.4,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/736367861a1654c18fef10c26c2584c60f559e25.png"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 602,
+      "y": 125,
+      "width": 44,
+      "height": 44,
+      "children": [
+        {
+          "name": "home 1",
+          "type": "rectangle",
+          "x": 602,
+          "y": 125,
+          "width": 44,
+          "height": 44,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/578f23d36a5243a4a135cd2b1f8e49a9d9e9cc7f.png"
+            }
+          ]
+        },
+        {
+          "name": "home 2",
+          "type": "rectangle",
+          "x": 602.13,
+          "y": 124.87,
+          "width": 44.25,
+          "height": 44.25,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/578f23d36a5243a4a135cd2b1f8e49a9d9e9cc7f.png"
+            },
+            {
+              "color": "#75589a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 517,
+      "y": 124,
+      "width": 49.86,
+      "height": 49.86,
+      "children": [
+        {
+          "name": "book 1",
+          "type": "rectangle",
+          "x": 517,
+          "y": 124,
+          "width": 49.86,
+          "height": 49.86,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/f0008c7ecddcd0679bb9f8162549fa098174c4c5.png"
+            }
+          ]
+        },
+        {
+          "name": "book 2",
+          "type": "rectangle",
+          "x": 517.57,
+          "y": 124,
+          "width": 49.86,
+          "height": 49.86,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/f0008c7ecddcd0679bb9f8162549fa098174c4c5.png"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 602,
+      "y": 473,
+      "width": 37,
+      "height": 37,
+      "children": [
+        {
+          "name": "message 1",
+          "type": "rectangle",
+          "x": 602,
+          "y": 473,
+          "width": 37,
+          "height": 37,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/6af179f38b144233be84c852e935b5db2d9cd6a0.png"
+            }
+          ]
+        },
+        {
+          "name": "message 2",
+          "type": "rectangle",
+          "x": 602,
+          "y": 473,
+          "width": 37,
+          "height": 37,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/6af179f38b144233be84c852e935b5db2d9cd6a0.png"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 602,
+      "y": 628,
+      "width": 38,
+      "height": 38,
+      "children": [
+        {
+          "name": "delete 1",
+          "type": "rectangle",
+          "x": 602,
+          "y": 628,
+          "width": 38,
+          "height": 38,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/43c2cbd159a0f3edb60cf7bec3390ddf79e83ad1.png"
+            }
+          ]
+        },
+        {
+          "name": "delete 2",
+          "type": "rectangle",
+          "x": 602,
+          "y": 628,
+          "width": 38,
+          "height": 38,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/43c2cbd159a0f3edb60cf7bec3390ddf79e83ad1.png"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 677,
+      "y": 126,
+      "width": 43,
+      "height": 43,
+      "children": [
+        {
+          "name": "like 1",
+          "type": "rectangle",
+          "x": 677,
+          "y": 126,
+          "width": 43,
+          "height": 43,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/091b3ab0fe6ed83458d5130c7e2e35be4f245a76.png"
+            }
+          ]
+        },
+        {
+          "name": "like 2",
+          "type": "rectangle",
+          "x": 677,
+          "y": 126,
+          "width": 43,
+          "height": 43,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/091b3ab0fe6ed83458d5130c7e2e35be4f245a76.png"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 677,
+      "y": 217,
+      "width": 40,
+      "height": 40,
+      "children": [
+        {
+          "name": "clock (2) 1",
+          "type": "rectangle",
+          "x": 677,
+          "y": 217,
+          "width": 40,
+          "height": 40,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/1523b62389caf7a31cc1835cc6e678076e069b68.png"
+            }
+          ]
+        },
+        {
+          "name": "clock (2) 2",
+          "type": "rectangle",
+          "x": 677,
+          "y": 217,
+          "width": 40,
+          "height": 40,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/1523b62389caf7a31cc1835cc6e678076e069b68.png"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 677,
+      "y": 333,
+      "width": 40,
+      "height": 40,
+      "children": [
+        {
+          "name": "send 1",
+          "type": "rectangle",
+          "x": 677,
+          "y": 333,
+          "width": 40,
+          "height": 40,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/f02adad144df760843bd837bfba35fcd53fcfb40.png"
+            }
+          ]
+        },
+        {
+          "name": "send 2",
+          "type": "rectangle",
+          "x": 677,
+          "y": 333,
+          "width": 40,
+          "height": 40,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/f02adad144df760843bd837bfba35fcd53fcfb40.png"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 672,
+      "y": 460,
+      "width": 45,
+      "height": 45,
+      "children": [
+        {
+          "name": "share 1",
+          "type": "rectangle",
+          "x": 672,
+          "y": 460,
+          "width": 45,
+          "height": 45,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/c6e3f7ea2b8373e5cf84ff93ea28842328830723.png"
+            }
+          ]
+        },
+        {
+          "name": "share 2",
+          "type": "rectangle",
+          "x": 672,
+          "y": 460,
+          "width": 45,
+          "height": 45,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/c6e3f7ea2b8373e5cf84ff93ea28842328830723.png"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

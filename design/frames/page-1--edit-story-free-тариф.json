@@ -1,0 +1,2993 @@
+{
+  "name": "edit story free тариф",
+  "type": "frame",
+  "x": 0,
+  "y": 0,
+  "width": 1920,
+  "height": 1840,
+  "fills": [
+    {
+      "color": "#050510",
+      "variable": "var(--color-black-20)"
+    }
+  ],
+  "children": [
+    {
+      "name": "Rectangle 167",
+      "type": "rectangle",
+      "x": 0,
+      "y": 0,
+      "width": 256,
+      "height": 80,
+      "fills": [
+        {
+          "color": "#121212"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#282828",
+          "variable": "var(--color-gray-50)"
+        }
+      ],
+      "strokeWeight": 2
+    },
+    {
+      "name": "Rectangle 168",
+      "type": "rectangle",
+      "x": 0,
+      "y": 80,
+      "width": 256,
+      "height": 1760,
+      "fills": [
+        {
+          "color": "#121212"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#282828",
+          "variable": "var(--color-gray-50)"
+        }
+      ],
+      "strokeWeight": 2
+    },
+    {
+      "name": "Rectangle 1225",
+      "type": "rectangle",
+      "x": 12,
+      "y": 1681,
+      "width": 232,
+      "height": 120,
+      "fills": [
+        {
+          "color": "#251b34",
+          "variable": "var(--color-purple-60)"
+        }
+      ],
+      "radius": 15
+    },
+    {
+      "name": "Start Writting",
+      "type": "text",
+      "x": 31,
+      "y": 1690,
+      "width": 117,
+      "height": 34,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.75)"
+        }
+      ],
+      "text": "Start Writting",
+      "font": {
+        "family": "Kadwa",
+        "size": 17,
+        "weight": 400,
+        "lineHeight": 34.13,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Create your next masterpiece",
+      "type": "text",
+      "x": 31,
+      "y": 1721,
+      "width": 190,
+      "height": 17,
+      "fills": [
+        {
+          "color": "#96959b",
+          "variable": "var(--color-gray-10)"
+        }
+      ],
+      "text": "Create your next masterpiece",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 14,
+        "weight": 400,
+        "lineHeight": 17.08,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Rectangle 1226",
+      "type": "rectangle",
+      "x": 31,
+      "y": 1757,
+      "width": 190,
+      "height": 27,
+      "fills": [
+        {
+          "color": "#793bf2",
+          "variable": "var(--color-purple-40)"
+        }
+      ],
+      "radius": 10,
+      "effects": [
+        {
+          "type": "drop_shadow",
+          "radius": 4,
+          "offset": {
+            "x": 0,
+            "y": 4
+          },
+          "color": "rgba(0, 0, 0, 0.25)"
+        }
+      ]
+    },
+    {
+      "name": "New Story",
+      "type": "text",
+      "x": 97,
+      "y": 1762,
+      "width": 61,
+      "height": 17,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "New Story",
+      "font": {
+        "family": "K2D",
+        "size": 13,
+        "weight": 400,
+        "lineHeight": 16.9,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 76,
+      "y": 1766,
+      "width": 10,
+      "height": 10,
+      "children": [
+        {
+          "name": "pen-tool 1",
+          "type": "rectangle",
+          "x": 76,
+          "y": 1766,
+          "width": 10,
+          "height": 10,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/92994cca14391e76a61c542cd0c7f167db4f5f99.png"
+            }
+          ]
+        },
+        {
+          "name": "pen-tool 2",
+          "type": "rectangle",
+          "x": 76,
+          "y": 1766,
+          "width": 10,
+          "height": 10,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/92994cca14391e76a61c542cd0c7f167db4f5f99.png"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Книга иконка",
+      "type": "group",
+      "x": 63,
+      "y": 24,
+      "width": 32,
+      "height": 32,
+      "children": [
+        {
+          "name": "open-book 1",
+          "type": "rectangle",
+          "x": 63,
+          "y": 24,
+          "width": 32,
+          "height": 32,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/108bac6ecb2eb69992687bf745c35820db16287e.png"
+            }
+          ]
+        },
+        {
+          "name": "open-book 2",
+          "type": "rectangle",
+          "x": -125.8,
+          "y": -164.8,
+          "width": 409.6,
+          "height": 409.6,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/108bac6ecb2eb69992687bf745c35820db16287e.png"
+            },
+            {
+              "color": "#655a9e",
+              "variable": "var(--color-purple-50)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mythory",
+      "type": "text",
+      "x": 112,
+      "y": 24,
+      "width": 95,
+      "height": 29,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Mythory",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 24,
+        "weight": 500,
+        "lineHeight": 29.28,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Rectangle 190",
+      "type": "rectangle",
+      "x": 16,
+      "y": 356,
+      "width": 223,
+      "height": 57,
+      "fills": [
+        {
+          "color": "#251b34",
+          "variable": "var(--color-purple-60)"
+        }
+      ],
+      "radius": 10
+    },
+    {
+      "name": "Continue reading",
+      "type": "text",
+      "x": 79,
+      "y": 116,
+      "width": 136,
+      "height": 21,
+      "fills": [
+        {
+          "color": "#96959b",
+          "variable": "var(--color-gray-10)"
+        }
+      ],
+      "text": "Continue reading",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 17,
+        "weight": 400,
+        "lineHeight": 20.74,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Bookmarks",
+      "type": "text",
+      "x": 79,
+      "y": 178,
+      "width": 88,
+      "height": 21,
+      "fills": [
+        {
+          "color": "#96959b",
+          "variable": "var(--color-gray-10)"
+        }
+      ],
+      "text": "Bookmarks",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 17,
+        "weight": 400,
+        "lineHeight": 20.74,
+        "align": "left"
+      }
+    },
+    {
+      "name": "My Stories",
+      "type": "text",
+      "x": 79,
+      "y": 300,
+      "width": 83,
+      "height": 21,
+      "fills": [
+        {
+          "color": "#a3a3a3",
+          "variable": "var(--color-gray-20)"
+        }
+      ],
+      "text": "My Stories",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 17,
+        "weight": 400,
+        "lineHeight": 20.74,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Settings",
+      "type": "text",
+      "x": 77,
+      "y": 446,
+      "width": 66,
+      "height": 21,
+      "fills": [
+        {
+          "color": "#96959b",
+          "variable": "var(--color-gray-10)"
+        }
+      ],
+      "text": "Settings",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 17,
+        "weight": 400,
+        "lineHeight": 20.74,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Edit story or add chapter",
+      "type": "text",
+      "x": 79,
+      "y": 364,
+      "width": 127,
+      "height": 42,
+      "fills": [
+        {
+          "color": "#75589a"
+        }
+      ],
+      "text": "Edit story or add\nchapter",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 17,
+        "weight": 400,
+        "lineHeight": 20.74,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Dashboard",
+      "type": "text",
+      "x": 79,
+      "y": 239,
+      "width": 86,
+      "height": 21,
+      "fills": [
+        {
+          "color": "#96959b",
+          "variable": "var(--color-gray-10)"
+        }
+      ],
+      "text": "Dashboard",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 17,
+        "weight": 400,
+        "lineHeight": 20.74,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Rectangle 170",
+      "type": "rectangle",
+      "x": 256,
+      "y": 0,
+      "width": 1664,
+      "height": 80,
+      "fills": [
+        {
+          "color": "#050510",
+          "variable": "var(--color-black-20)"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#282828",
+          "variable": "var(--color-gray-50)"
+        }
+      ],
+      "strokeWeight": 1
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 32,
+      "y": 116,
+      "width": 22,
+      "height": 22,
+      "children": [
+        {
+          "name": "history 1",
+          "type": "rectangle",
+          "x": 32,
+          "y": 116,
+          "width": 22,
+          "height": 22,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/e089150e7233904ff098a8c35aee80b33ee82e6e.png"
+            }
+          ]
+        },
+        {
+          "name": "history 2",
+          "type": "rectangle",
+          "x": 32,
+          "y": 116,
+          "width": 22,
+          "height": 22,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/e089150e7233904ff098a8c35aee80b33ee82e6e.png"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 32,
+      "y": 178,
+      "width": 21,
+      "height": 21,
+      "children": [
+        {
+          "name": "bookmark-white 1",
+          "type": "rectangle",
+          "x": 32,
+          "y": 178,
+          "width": 21,
+          "height": 21,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/906d5501f259c81814a5cf2a935af6fce7e0dc47.png"
+            }
+          ]
+        },
+        {
+          "name": "bookmark-white 2",
+          "type": "rectangle",
+          "x": 32,
+          "y": 178,
+          "width": 21,
+          "height": 21,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/906d5501f259c81814a5cf2a935af6fce7e0dc47.png"
+            },
+            {
+              "color": "#96959b",
+              "variable": "var(--color-gray-10)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 32,
+      "y": 235,
+      "width": 25,
+      "height": 25,
+      "children": [
+        {
+          "name": "activity 1",
+          "type": "rectangle",
+          "x": 32,
+          "y": 235,
+          "width": 25,
+          "height": 25,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/62a56b3eefa2c3a5d458a1ea0a8d2d9d0610162c.png"
+            }
+          ]
+        },
+        {
+          "name": "activity 2",
+          "type": "rectangle",
+          "x": 32,
+          "y": 235,
+          "width": 25,
+          "height": 25,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/62a56b3eefa2c3a5d458a1ea0a8d2d9d0610162c.png"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 35,
+      "y": 300,
+      "width": 22,
+      "height": 22,
+      "children": [
+        {
+          "name": "list 1",
+          "type": "rectangle",
+          "x": 35,
+          "y": 300,
+          "width": 22,
+          "height": 22,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/dc77aed490e41cf885bb8e1ec654aa320948efcc.png"
+            }
+          ]
+        },
+        {
+          "name": "list 2",
+          "type": "rectangle",
+          "x": 35,
+          "y": 300,
+          "width": 22,
+          "height": 22,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/dc77aed490e41cf885bb8e1ec654aa320948efcc.png"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 35,
+      "y": 368,
+      "width": 25,
+      "height": 25,
+      "children": [
+        {
+          "name": "edit 1",
+          "type": "rectangle",
+          "x": 35,
+          "y": 368,
+          "width": 25,
+          "height": 25,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/896384934af354fc0896096bfe80cdd9db6b0107.png"
+            }
+          ]
+        },
+        {
+          "name": "edit 2",
+          "type": "rectangle",
+          "x": 35,
+          "y": 368,
+          "width": 25,
+          "height": 25,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/896384934af354fc0896096bfe80cdd9db6b0107.png"
+            },
+            {
+              "color": "#75589a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 35,
+      "y": 442,
+      "width": 25,
+      "height": 25,
+      "children": [
+        {
+          "name": "setting 1",
+          "type": "rectangle",
+          "x": 35,
+          "y": 442,
+          "width": 25,
+          "height": 25,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/736367861a1654c18fef10c26c2584c60f559e25.png"
+            }
+          ]
+        },
+        {
+          "name": "setting 2",
+          "type": "rectangle",
+          "x": 35,
+          "y": 442,
+          "width": 25,
+          "height": 25,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/736367861a1654c18fef10c26c2584c60f559e25.png"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Arrow 1",
+      "type": "vector",
+      "x": 21,
+      "y": 40,
+      "width": 18,
+      "height": 0,
+      "strokes": [
+        {
+          "color": "#655a9e",
+          "variable": "var(--color-purple-50)"
+        }
+      ],
+      "strokeWeight": 2
+    },
+    {
+      "name": "Ellipse 69",
+      "type": "ellipse",
+      "x": 1790,
+      "y": 17,
+      "width": 45,
+      "height": 45,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL",
+          "image": "images/dbc0ba44a22b9ce64945c4131998eb47bf9093d7.png"
+        }
+      ]
+    },
+    {
+      "name": "Стрелка блок новые истории",
+      "type": "group",
+      "x": 1851,
+      "y": 33,
+      "width": 14,
+      "height": 14,
+      "children": [
+        {
+          "name": "free-icon-right-arrow-angle-54833 1",
+          "type": "rectangle",
+          "x": 1851,
+          "y": 33,
+          "width": 14,
+          "height": 14,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/93c218c6509e40677cddf04f74d1b7f477898b99.png"
+            }
+          ]
+        },
+        {
+          "name": "free-icon-right-arrow-angle-54833 2",
+          "type": "rectangle",
+          "x": 1851,
+          "y": 33,
+          "width": 14,
+          "height": 14,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/93c218c6509e40677cddf04f74d1b7f477898b99.png"
+            },
+            {
+              "color": "#7338da"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "колокольчик уведомление",
+      "type": "group",
+      "x": 1615,
+      "y": 25,
+      "width": 33,
+      "height": 33,
+      "children": [
+        {
+          "name": "notification-bell 1",
+          "type": "rectangle",
+          "x": 1615,
+          "y": 25,
+          "width": 33,
+          "height": 33,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/fbfb8e3a155a3dbd792b8683f62e5f3789f71368.png"
+            }
+          ]
+        },
+        {
+          "name": "notification-bell 2",
+          "type": "rectangle",
+          "x": 1615,
+          "y": 25,
+          "width": 33,
+          "height": 33,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/fbfb8e3a155a3dbd792b8683f62e5f3789f71368.png"
+            },
+            {
+              "color": "#b8b8b8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "free",
+      "type": "text",
+      "x": 1703,
+      "y": 28,
+      "width": 41,
+      "height": 26,
+      "fills": [
+        {
+          "color": "#b8b8b8"
+        }
+      ],
+      "text": "free",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 21,
+        "weight": 700,
+        "lineHeight": 25.62,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 1572",
+      "type": "rectangle",
+      "x": 1669,
+      "y": 25,
+      "width": 108,
+      "height": 33,
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 10
+    },
+    {
+      "name": "Глазик",
+      "type": "group",
+      "x": 1313,
+      "y": 183.92,
+      "width": 24.83,
+      "height": 24.83,
+      "children": [
+        {
+          "name": "free-icon-eye-158746 1",
+          "type": "rectangle",
+          "x": 1313,
+          "y": 183.92,
+          "width": 24.83,
+          "height": 24.83,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/acec803b13e0f61e518ff1beb61fd71fff66884e.png"
+            }
+          ]
+        },
+        {
+          "name": "free-icon-eye-158746 2",
+          "type": "rectangle",
+          "x": 1311.66,
+          "y": 185.39,
+          "width": 27.5,
+          "height": 27.5,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/acec803b13e0f61e518ff1beb61fd71fff66884e.png"
+            },
+            {
+              "color": "rgba(252, 252, 252, 0.5)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 1588",
+      "type": "rectangle",
+      "x": 1295,
+      "y": 175,
+      "width": 148,
+      "height": 44,
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 5
+    },
+    {
+      "name": "Preview",
+      "type": "text",
+      "x": 1355,
+      "y": 185,
+      "width": 62,
+      "height": 21,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.75)"
+        }
+      ],
+      "text": "Preview",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 17,
+        "weight": 400,
+        "lineHeight": 20.74,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Rectangle 1542",
+      "type": "rectangle",
+      "x": 1458,
+      "y": 174,
+      "width": 190,
+      "height": 45,
+      "fills": [
+        {
+          "color": "#7d3bec"
+        }
+      ],
+      "radius": 10
+    },
+    {
+      "name": "Save Changes",
+      "type": "text",
+      "x": 1519,
+      "y": 186,
+      "width": 111,
+      "height": 21,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Save Changes",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 17,
+        "weight": 400,
+        "lineHeight": 20.74,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 1481,
+      "y": 185,
+      "width": 25,
+      "height": 25,
+      "children": [
+        {
+          "name": "poetry 1",
+          "type": "rectangle",
+          "x": 1481,
+          "y": 185,
+          "width": 25,
+          "height": 25,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/e21e2d6a96933e2995142421c582eb9288c93e3e.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Edit Story",
+      "type": "text",
+      "x": 529,
+      "y": 116,
+      "width": 312,
+      "height": 131,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Edit Story",
+      "font": {
+        "family": "Kadwa",
+        "size": 65,
+        "weight": 400,
+        "lineHeight": 130.51,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Название истории, книги",
+      "type": "text",
+      "x": 533,
+      "y": 213,
+      "width": 238,
+      "height": 38,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.5)",
+          "variable": "var(--color-white-50)"
+        }
+      ],
+      "text": "Название истории, книги",
+      "font": {
+        "family": "Kadwa",
+        "size": 19,
+        "weight": 400,
+        "lineHeight": 38.15,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 1483,
+      "y": 187,
+      "width": 21,
+      "height": 21,
+      "children": [
+        {
+          "name": "save 1",
+          "type": "rectangle",
+          "x": 1483,
+          "y": 187,
+          "width": 21,
+          "height": 21,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/49f87ed416bb50355115e3d42cab0cf9057c4e20.png"
+            }
+          ]
+        },
+        {
+          "name": "save 2",
+          "type": "rectangle",
+          "x": 1483,
+          "y": 187,
+          "width": 21,
+          "height": 21,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/49f87ed416bb50355115e3d42cab0cf9057c4e20.png"
+            },
+            {
+              "color": "#fff9f9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 1597",
+      "type": "rectangle",
+      "x": 529,
+      "y": 280,
+      "width": 1119,
+      "height": 741,
+      "fills": [
+        {
+          "color": "#141316"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 15
+    },
+    {
+      "name": "Story Information",
+      "type": "text",
+      "x": 603,
+      "y": 306,
+      "width": 168,
+      "height": 38,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Story Information",
+      "font": {
+        "family": "Kadwa",
+        "size": 19,
+        "weight": 400,
+        "lineHeight": 38.15,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Cover Image",
+      "type": "text",
+      "x": 562,
+      "y": 372,
+      "width": 116,
+      "height": 38,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.75)"
+        }
+      ],
+      "text": "Cover Image",
+      "font": {
+        "family": "Kadwa",
+        "size": 19,
+        "weight": 400,
+        "lineHeight": 38.15,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Title",
+      "type": "text",
+      "x": 929,
+      "y": 410,
+      "width": 41,
+      "height": 38,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.75)"
+        },
+        {
+          "color": "rgba(255, 255, 255, 0.75)"
+        }
+      ],
+      "text": "Title",
+      "font": {
+        "family": "Kadwa",
+        "size": 19,
+        "weight": 400,
+        "lineHeight": 38.15,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 562,
+      "y": 312,
+      "width": 27,
+      "height": 27,
+      "children": [
+        {
+          "name": "checklist 1",
+          "type": "rectangle",
+          "x": 562,
+          "y": 312,
+          "width": 27,
+          "height": 27,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/13aeaa148efa0d227bf5fea4cee9d0dc27f5b114.png"
+            }
+          ]
+        },
+        {
+          "name": "checklist 2",
+          "type": "rectangle",
+          "x": 562,
+          "y": 312,
+          "width": 27,
+          "height": 27,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/13aeaa148efa0d227bf5fea4cee9d0dc27f5b114.png"
+            },
+            {
+              "color": "#7d3bec"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 1598",
+      "type": "rectangle",
+      "x": 929,
+      "y": 448,
+      "width": 701,
+      "height": 55,
+      "fills": [
+        {
+          "color": "#1f1f21"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 10
+    },
+    {
+      "name": "Description",
+      "type": "text",
+      "x": 929,
+      "y": 519,
+      "width": 107,
+      "height": 38,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.75)"
+        },
+        {
+          "color": "rgba(255, 255, 255, 0.75)"
+        }
+      ],
+      "text": "Description",
+      "font": {
+        "family": "Kadwa",
+        "size": 19,
+        "weight": 400,
+        "lineHeight": 38.15,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Tags",
+      "type": "text",
+      "x": 929,
+      "y": 694,
+      "width": 42,
+      "height": 38,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.5)",
+          "variable": "var(--color-white-50)"
+        }
+      ],
+      "text": "Tags",
+      "font": {
+        "family": "Kadwa",
+        "size": 19,
+        "weight": 400,
+        "lineHeight": 38.15,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Rectangle 1599",
+      "type": "rectangle",
+      "x": 929,
+      "y": 554,
+      "width": 701,
+      "height": 125,
+      "fills": [
+        {
+          "color": "#1f1f21"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 10
+    },
+    {
+      "name": "Rectangle 1600",
+      "type": "rectangle",
+      "x": 929,
+      "y": 735,
+      "width": 83,
+      "height": 27,
+      "fills": [
+        {
+          "color": "#2a292d"
+        }
+      ],
+      "radius": 20
+    },
+    {
+      "name": "Fantasy",
+      "type": "text",
+      "x": 942,
+      "y": 734,
+      "width": 58,
+      "height": 30,
+      "fills": [
+        {
+          "color": "#a1a1aa"
+        }
+      ],
+      "text": "Fantasy",
+      "font": {
+        "family": "Kadwa",
+        "size": 15,
+        "weight": 400,
+        "lineHeight": 30.12,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Rectangle 1607",
+      "type": "rectangle",
+      "x": 929,
+      "y": 775,
+      "width": 74,
+      "height": 27,
+      "fills": [
+        {
+          "color": "#2a292d"
+        }
+      ],
+      "radius": 20
+    },
+    {
+      "name": "Drama",
+      "type": "text",
+      "x": 941,
+      "y": 774,
+      "width": 51,
+      "height": 30,
+      "fills": [
+        {
+          "color": "#a1a1aa"
+        }
+      ],
+      "text": "Drama",
+      "font": {
+        "family": "Kadwa",
+        "size": 15,
+        "weight": 400,
+        "lineHeight": 30.12,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Rectangle 1608",
+      "type": "rectangle",
+      "x": 1013,
+      "y": 775,
+      "width": 87,
+      "height": 27,
+      "fills": [
+        {
+          "color": "#2a292d"
+        }
+      ],
+      "radius": 20
+    },
+    {
+      "name": "Comedy",
+      "type": "text",
+      "x": 1027,
+      "y": 774,
+      "width": 60,
+      "height": 30,
+      "fills": [
+        {
+          "color": "#a1a1aa"
+        }
+      ],
+      "text": "Comedy",
+      "font": {
+        "family": "Kadwa",
+        "size": 15,
+        "weight": 400,
+        "lineHeight": 30.12,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Rectangle 1609",
+      "type": "rectangle",
+      "x": 1108,
+      "y": 775,
+      "width": 98,
+      "height": 27,
+      "fills": [
+        {
+          "color": "#2a292d"
+        }
+      ],
+      "radius": 20
+    },
+    {
+      "name": "Historical",
+      "type": "text",
+      "x": 1121,
+      "y": 774,
+      "width": 72,
+      "height": 30,
+      "fills": [
+        {
+          "color": "#a1a1aa"
+        }
+      ],
+      "text": "Historical",
+      "font": {
+        "family": "Kadwa",
+        "size": 15,
+        "weight": 400,
+        "lineHeight": 30.12,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Rectangle 1610",
+      "type": "rectangle",
+      "x": 1214,
+      "y": 776,
+      "width": 60,
+      "height": 27,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "radius": 20
+    },
+    {
+      "name": "All",
+      "type": "text",
+      "x": 1234,
+      "y": 774,
+      "width": 21,
+      "height": 30,
+      "fills": [
+        {
+          "color": "#000000",
+          "variable": "var(--color-black)"
+        }
+      ],
+      "text": "All",
+      "font": {
+        "family": "Kadwa",
+        "size": 15,
+        "weight": 400,
+        "lineHeight": 30.12,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Rectangle 1602",
+      "type": "rectangle",
+      "x": 1098,
+      "y": 735,
+      "width": 94,
+      "height": 27,
+      "fills": [
+        {
+          "color": "#2a292d"
+        }
+      ],
+      "radius": 20
+    },
+    {
+      "name": "Romance",
+      "type": "text",
+      "x": 1111,
+      "y": 734,
+      "width": 68,
+      "height": 30,
+      "fills": [
+        {
+          "color": "#a1a1aa"
+        }
+      ],
+      "text": "Romance",
+      "font": {
+        "family": "Kadwa",
+        "size": 15,
+        "weight": 400,
+        "lineHeight": 30.12,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Rectangle 1604",
+      "type": "rectangle",
+      "x": 1292,
+      "y": 737,
+      "width": 88,
+      "height": 27,
+      "fills": [
+        {
+          "color": "#2a292d"
+        }
+      ],
+      "radius": 20
+    },
+    {
+      "name": "Mystery",
+      "type": "text",
+      "x": 1307,
+      "y": 734,
+      "width": 59,
+      "height": 30,
+      "fills": [
+        {
+          "color": "#a1a1aa"
+        }
+      ],
+      "text": "Mystery",
+      "font": {
+        "family": "Kadwa",
+        "size": 15,
+        "weight": 400,
+        "lineHeight": 30.12,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Rectangle 1605",
+      "type": "rectangle",
+      "x": 1387,
+      "y": 735,
+      "width": 73,
+      "height": 27,
+      "fills": [
+        {
+          "color": "#2a292d"
+        }
+      ],
+      "radius": 20
+    },
+    {
+      "name": "Horror",
+      "type": "text",
+      "x": 1399,
+      "y": 734,
+      "width": 50,
+      "height": 30,
+      "fills": [
+        {
+          "color": "#a1a1aa"
+        }
+      ],
+      "text": "Horror",
+      "font": {
+        "family": "Kadwa",
+        "size": 15,
+        "weight": 400,
+        "lineHeight": 30.12,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Rectangle 1606",
+      "type": "rectangle",
+      "x": 1467,
+      "y": 735,
+      "width": 104,
+      "height": 27,
+      "fills": [
+        {
+          "color": "#2a292d"
+        }
+      ],
+      "radius": 20
+    },
+    {
+      "name": "Adventure",
+      "type": "text",
+      "x": 1480,
+      "y": 734,
+      "width": 78,
+      "height": 30,
+      "fills": [
+        {
+          "color": "#a1a1aa"
+        }
+      ],
+      "text": "Adventure",
+      "font": {
+        "family": "Kadwa",
+        "size": 15,
+        "weight": 400,
+        "lineHeight": 30.12,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Rectangle 1601",
+      "type": "rectangle",
+      "x": 1022,
+      "y": 735,
+      "width": 67,
+      "height": 27,
+      "fills": [
+        {
+          "color": "#7d3cec"
+        }
+      ],
+      "radius": 20
+    },
+    {
+      "name": "Sci-fi",
+      "type": "text",
+      "x": 1037,
+      "y": 734,
+      "width": 38,
+      "height": 30,
+      "fills": [
+        {
+          "color": "#fef2f9"
+        }
+      ],
+      "text": "Sci-fi",
+      "font": {
+        "family": "Kadwa",
+        "size": 15,
+        "weight": 400,
+        "lineHeight": 30.12,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Rectangle 1603",
+      "type": "rectangle",
+      "x": 1203,
+      "y": 736,
+      "width": 78,
+      "height": 27,
+      "fills": [
+        {
+          "color": "#7d3cec"
+        }
+      ],
+      "radius": 20
+    },
+    {
+      "name": "Thriller",
+      "type": "text",
+      "x": 1215,
+      "y": 735,
+      "width": 55,
+      "height": 30,
+      "fills": [
+        {
+          "color": "#fef2f9"
+        }
+      ],
+      "text": "Thriller",
+      "font": {
+        "family": "Kadwa",
+        "size": 15,
+        "weight": 400,
+        "lineHeight": 30.12,
+        "align": "left"
+      }
+    },
+    {
+      "name": "изображение 6",
+      "type": "rectangle",
+      "x": 558,
+      "y": 420,
+      "width": 347,
+      "height": 565,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "STRETCH",
+          "image": "images/3c24dac8652abbbf0d845c04266824b5911812ca.jpg"
+        }
+      ],
+      "radius": 10
+    },
+    {
+      "name": "Line 59",
+      "type": "line",
+      "x": 529,
+      "y": 365,
+      "width": 1119,
+      "height": 0,
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1
+    },
+    {
+      "name": "Chapters",
+      "type": "text",
+      "x": 529,
+      "y": 1068,
+      "width": 153,
+      "height": 70,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Chapters",
+      "font": {
+        "family": "Kadwa",
+        "size": 35,
+        "weight": 400,
+        "lineHeight": 70.27,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Drag and drop to reorder chapters",
+      "type": "text",
+      "x": 534,
+      "y": 1138,
+      "width": 280,
+      "height": 34,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.5)",
+          "variable": "var(--color-white-50)"
+        }
+      ],
+      "text": "Drag and drop to reorder chapters ",
+      "font": {
+        "family": "Kadwa",
+        "size": 17,
+        "weight": 400,
+        "lineHeight": 34.13,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Rectangle 1611",
+      "type": "rectangle",
+      "x": 534,
+      "y": 1188,
+      "width": 1114,
+      "height": 93,
+      "fills": [
+        {
+          "color": "#121215"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 10
+    },
+    {
+      "name": "Chapter 1: The Discovery",
+      "type": "text",
+      "x": 660,
+      "y": 1203,
+      "width": 238,
+      "height": 40,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Chapter 1: The Discovery",
+      "font": {
+        "family": "Kadwa",
+        "size": 20,
+        "weight": 400,
+        "lineHeight": 40.16,
+        "align": "left"
+      }
+    },
+    {
+      "name": "3120 words",
+      "type": "text",
+      "x": 660,
+      "y": 1237,
+      "width": 82,
+      "height": 30,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.5)",
+          "variable": "var(--color-white-50)"
+        }
+      ],
+      "text": "3120 words",
+      "font": {
+        "family": "Kadwa",
+        "size": 15,
+        "weight": 400,
+        "lineHeight": 30.12,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Last edited: Dec 18, 2025",
+      "type": "text",
+      "x": 758,
+      "y": 1237,
+      "width": 176,
+      "height": 30,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.5)",
+          "variable": "var(--color-white-50)"
+        }
+      ],
+      "text": "Last edited: Dec 18, 2025",
+      "font": {
+        "family": "Kadwa",
+        "size": 15,
+        "weight": 400,
+        "lineHeight": 30.12,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Rectangle 1613",
+      "type": "rectangle",
+      "x": 597,
+      "y": 1212,
+      "width": 47,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#29292c"
+        }
+      ],
+      "radius": 15
+    },
+    {
+      "name": "1",
+      "type": "text",
+      "x": 615,
+      "y": 1215,
+      "width": 11,
+      "height": 42,
+      "fills": [
+        {
+          "color": "#a2a2aa"
+        }
+      ],
+      "text": "1",
+      "font": {
+        "family": "Kadwa",
+        "size": 21,
+        "weight": 400,
+        "lineHeight": 42.16,
+        "align": "left"
+      }
+    },
+    {
+      "name": ".. .. ..",
+      "type": "text",
+      "x": 563,
+      "y": 1218,
+      "width": 24,
+      "height": 31,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.5)",
+          "variable": "var(--color-white-50)"
+        }
+      ],
+      "text": "..\n..\n..",
+      "font": {
+        "family": "Kadwa",
+        "size": 25,
+        "weight": 400,
+        "lineHeight": 8,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Rectangle 1587",
+      "type": "rectangle",
+      "x": 1420,
+      "y": 1223,
+      "width": 99,
+      "height": 26,
+      "fills": [
+        {
+          "color": "#14352c"
+        }
+      ],
+      "radius": 30
+    },
+    {
+      "name": "published",
+      "type": "text",
+      "x": 1436,
+      "y": 1227,
+      "width": 68,
+      "height": 18,
+      "fills": [
+        {
+          "color": "#32c58e"
+        }
+      ],
+      "text": "published",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 15,
+        "weight": 400,
+        "lineHeight": 18.3,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 1544,
+      "y": 1222,
+      "width": 27,
+      "height": 27,
+      "children": [
+        {
+          "name": "edit 3",
+          "type": "rectangle",
+          "x": 1544,
+          "y": 1222,
+          "width": 27,
+          "height": 27,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/896384934af354fc0896096bfe80cdd9db6b0107.png"
+            }
+          ]
+        },
+        {
+          "name": "edit 4",
+          "type": "rectangle",
+          "x": 1544,
+          "y": 1222,
+          "width": 27,
+          "height": 27,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/896384934af354fc0896096bfe80cdd9db6b0107.png"
+            },
+            {
+              "color": "#a3a2ab"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": ". . .",
+      "type": "text",
+      "x": 1609,
+      "y": 1220,
+      "width": 8,
+      "height": 19,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": ".\n.\n.",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 15,
+        "weight": 400,
+        "lineHeight": 7,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Rectangle 1614",
+      "type": "rectangle",
+      "x": 534,
+      "y": 1297,
+      "width": 1114,
+      "height": 93,
+      "fills": [
+        {
+          "color": "#121215"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 10
+    },
+    {
+      "name": "Chapter 2: The Adventure",
+      "type": "text",
+      "x": 660,
+      "y": 1312,
+      "width": 247,
+      "height": 40,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Chapter 2: The Adventure",
+      "font": {
+        "family": "Kadwa",
+        "size": 20,
+        "weight": 400,
+        "lineHeight": 40.16,
+        "align": "left"
+      }
+    },
+    {
+      "name": "3720 words",
+      "type": "text",
+      "x": 660,
+      "y": 1346,
+      "width": 82,
+      "height": 30,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.5)",
+          "variable": "var(--color-white-50)"
+        }
+      ],
+      "text": "3720 words",
+      "font": {
+        "family": "Kadwa",
+        "size": 15,
+        "weight": 400,
+        "lineHeight": 30.12,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Last edited: Dec 25, 2025",
+      "type": "text",
+      "x": 758,
+      "y": 1346,
+      "width": 176,
+      "height": 30,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.5)",
+          "variable": "var(--color-white-50)"
+        }
+      ],
+      "text": "Last edited: Dec 25, 2025",
+      "font": {
+        "family": "Kadwa",
+        "size": 15,
+        "weight": 400,
+        "lineHeight": 30.12,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Rectangle 1615",
+      "type": "rectangle",
+      "x": 597,
+      "y": 1321,
+      "width": 47,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#29292c"
+        }
+      ],
+      "radius": 15
+    },
+    {
+      "name": "2",
+      "type": "text",
+      "x": 615,
+      "y": 1324,
+      "width": 12,
+      "height": 42,
+      "fills": [
+        {
+          "color": "#a2a2aa"
+        }
+      ],
+      "text": "2",
+      "font": {
+        "family": "Kadwa",
+        "size": 21,
+        "weight": 400,
+        "lineHeight": 42.16,
+        "align": "left"
+      }
+    },
+    {
+      "name": ".. .. ..",
+      "type": "text",
+      "x": 563,
+      "y": 1327,
+      "width": 24,
+      "height": 31,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.5)",
+          "variable": "var(--color-white-50)"
+        }
+      ],
+      "text": "..\n..\n..",
+      "font": {
+        "family": "Kadwa",
+        "size": 25,
+        "weight": 400,
+        "lineHeight": 8,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Rectangle 1616",
+      "type": "rectangle",
+      "x": 1420,
+      "y": 1332,
+      "width": 99,
+      "height": 26,
+      "fills": [
+        {
+          "color": "#14352c"
+        }
+      ],
+      "radius": 30
+    },
+    {
+      "name": "published",
+      "type": "text",
+      "x": 1436,
+      "y": 1336,
+      "width": 68,
+      "height": 18,
+      "fills": [
+        {
+          "color": "#32c58e"
+        }
+      ],
+      "text": "published",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 15,
+        "weight": 400,
+        "lineHeight": 18.3,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 1544,
+      "y": 1331,
+      "width": 27,
+      "height": 27,
+      "children": [
+        {
+          "name": "edit 3",
+          "type": "rectangle",
+          "x": 1544,
+          "y": 1331,
+          "width": 27,
+          "height": 27,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/896384934af354fc0896096bfe80cdd9db6b0107.png"
+            }
+          ]
+        },
+        {
+          "name": "edit 4",
+          "type": "rectangle",
+          "x": 1544,
+          "y": 1331,
+          "width": 27,
+          "height": 27,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/896384934af354fc0896096bfe80cdd9db6b0107.png"
+            },
+            {
+              "color": "#a3a2ab"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": ". . .",
+      "type": "text",
+      "x": 1609,
+      "y": 1329,
+      "width": 8,
+      "height": 19,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": ".\n.\n.",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 15,
+        "weight": 400,
+        "lineHeight": 7,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Rectangle 1617",
+      "type": "rectangle",
+      "x": 534,
+      "y": 1406,
+      "width": 1114,
+      "height": 93,
+      "fills": [
+        {
+          "color": "#121215"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 10
+    },
+    {
+      "name": "Chapter 3: The Animal",
+      "type": "text",
+      "x": 660,
+      "y": 1421,
+      "width": 215,
+      "height": 40,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Chapter 3: The Animal",
+      "font": {
+        "family": "Kadwa",
+        "size": 20,
+        "weight": 400,
+        "lineHeight": 40.16,
+        "align": "left"
+      }
+    },
+    {
+      "name": "3120 words",
+      "type": "text",
+      "x": 660,
+      "y": 1455,
+      "width": 82,
+      "height": 30,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.5)",
+          "variable": "var(--color-white-50)"
+        }
+      ],
+      "text": "3120 words",
+      "font": {
+        "family": "Kadwa",
+        "size": 15,
+        "weight": 400,
+        "lineHeight": 30.12,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Last edited: Dec 31, 2025",
+      "type": "text",
+      "x": 758,
+      "y": 1455,
+      "width": 175,
+      "height": 30,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.5)",
+          "variable": "var(--color-white-50)"
+        }
+      ],
+      "text": "Last edited: Dec 31, 2025",
+      "font": {
+        "family": "Kadwa",
+        "size": 15,
+        "weight": 400,
+        "lineHeight": 30.12,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Rectangle 1618",
+      "type": "rectangle",
+      "x": 597,
+      "y": 1430,
+      "width": 47,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#29292c"
+        }
+      ],
+      "radius": 15
+    },
+    {
+      "name": "3",
+      "type": "text",
+      "x": 615,
+      "y": 1433,
+      "width": 12,
+      "height": 42,
+      "fills": [
+        {
+          "color": "#a2a2aa"
+        }
+      ],
+      "text": "3",
+      "font": {
+        "family": "Kadwa",
+        "size": 21,
+        "weight": 400,
+        "lineHeight": 42.16,
+        "align": "left"
+      }
+    },
+    {
+      "name": ".. .. ..",
+      "type": "text",
+      "x": 563,
+      "y": 1436,
+      "width": 24,
+      "height": 31,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.5)",
+          "variable": "var(--color-white-50)"
+        }
+      ],
+      "text": "..\n..\n..",
+      "font": {
+        "family": "Kadwa",
+        "size": 25,
+        "weight": 400,
+        "lineHeight": 8,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Rectangle 1619",
+      "type": "rectangle",
+      "x": 1420,
+      "y": 1441,
+      "width": 99,
+      "height": 26,
+      "fills": [
+        {
+          "color": "#14352c"
+        }
+      ],
+      "radius": 30
+    },
+    {
+      "name": "published",
+      "type": "text",
+      "x": 1436,
+      "y": 1445,
+      "width": 68,
+      "height": 18,
+      "fills": [
+        {
+          "color": "#32c58e"
+        }
+      ],
+      "text": "published",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 15,
+        "weight": 400,
+        "lineHeight": 18.3,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 1544,
+      "y": 1440,
+      "width": 27,
+      "height": 27,
+      "children": [
+        {
+          "name": "edit 3",
+          "type": "rectangle",
+          "x": 1544,
+          "y": 1440,
+          "width": 27,
+          "height": 27,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/896384934af354fc0896096bfe80cdd9db6b0107.png"
+            }
+          ]
+        },
+        {
+          "name": "edit 4",
+          "type": "rectangle",
+          "x": 1544,
+          "y": 1440,
+          "width": 27,
+          "height": 27,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/896384934af354fc0896096bfe80cdd9db6b0107.png"
+            },
+            {
+              "color": "#a3a2ab"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": ". . .",
+      "type": "text",
+      "x": 1609,
+      "y": 1438,
+      "width": 8,
+      "height": 19,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": ".\n.\n.",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 15,
+        "weight": 400,
+        "lineHeight": 7,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Rectangle 1620",
+      "type": "rectangle",
+      "x": 534,
+      "y": 1515,
+      "width": 1114,
+      "height": 93,
+      "fills": [
+        {
+          "color": "#121215"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 10
+    },
+    {
+      "name": "Chapter 4: The Door",
+      "type": "text",
+      "x": 660,
+      "y": 1530,
+      "width": 192,
+      "height": 40,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Chapter 4: The Door",
+      "font": {
+        "family": "Kadwa",
+        "size": 20,
+        "weight": 400,
+        "lineHeight": 40.16,
+        "align": "left"
+      }
+    },
+    {
+      "name": "7120 words",
+      "type": "text",
+      "x": 660,
+      "y": 1564,
+      "width": 82,
+      "height": 30,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.5)",
+          "variable": "var(--color-white-50)"
+        }
+      ],
+      "text": "7120 words",
+      "font": {
+        "family": "Kadwa",
+        "size": 15,
+        "weight": 400,
+        "lineHeight": 30.12,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Last edited: Feb 21, 2025",
+      "type": "text",
+      "x": 758,
+      "y": 1564,
+      "width": 174,
+      "height": 30,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.5)",
+          "variable": "var(--color-white-50)"
+        }
+      ],
+      "text": "Last edited: Feb 21, 2025",
+      "font": {
+        "family": "Kadwa",
+        "size": 15,
+        "weight": 400,
+        "lineHeight": 30.12,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Rectangle 1621",
+      "type": "rectangle",
+      "x": 597,
+      "y": 1539,
+      "width": 47,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#29292c"
+        }
+      ],
+      "radius": 15
+    },
+    {
+      "name": "4",
+      "type": "text",
+      "x": 615,
+      "y": 1542,
+      "width": 13,
+      "height": 42,
+      "fills": [
+        {
+          "color": "#a2a2aa"
+        }
+      ],
+      "text": "4",
+      "font": {
+        "family": "Kadwa",
+        "size": 21,
+        "weight": 400,
+        "lineHeight": 42.16,
+        "align": "left"
+      }
+    },
+    {
+      "name": ".. .. ..",
+      "type": "text",
+      "x": 563,
+      "y": 1545,
+      "width": 24,
+      "height": 31,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.5)",
+          "variable": "var(--color-white-50)"
+        }
+      ],
+      "text": "..\n..\n..",
+      "font": {
+        "family": "Kadwa",
+        "size": 25,
+        "weight": 400,
+        "lineHeight": 8,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Rectangle 1622",
+      "type": "rectangle",
+      "x": 1456,
+      "y": 1549,
+      "width": 63,
+      "height": 26,
+      "fills": [
+        {
+          "color": "#434248"
+        }
+      ],
+      "radius": 30
+    },
+    {
+      "name": "draft",
+      "type": "text",
+      "x": 1471,
+      "y": 1553,
+      "width": 34,
+      "height": 18,
+      "fills": [
+        {
+          "color": "#a2a2aa"
+        }
+      ],
+      "text": "draft",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 15,
+        "weight": 400,
+        "lineHeight": 18.3,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 1544,
+      "y": 1549,
+      "width": 27,
+      "height": 27,
+      "children": [
+        {
+          "name": "edit 3",
+          "type": "rectangle",
+          "x": 1544,
+          "y": 1549,
+          "width": 27,
+          "height": 27,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/896384934af354fc0896096bfe80cdd9db6b0107.png"
+            }
+          ]
+        },
+        {
+          "name": "edit 4",
+          "type": "rectangle",
+          "x": 1544,
+          "y": 1549,
+          "width": 27,
+          "height": 27,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/896384934af354fc0896096bfe80cdd9db6b0107.png"
+            },
+            {
+              "color": "#a3a2ab"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": ". . .",
+      "type": "text",
+      "x": 1609,
+      "y": 1547,
+      "width": 8,
+      "height": 19,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": ".\n.\n.",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 15,
+        "weight": 400,
+        "lineHeight": 7,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Rectangle 1623",
+      "type": "rectangle",
+      "x": 1456,
+      "y": 1085,
+      "width": 190,
+      "height": 45,
+      "fills": [
+        {
+          "color": "#7d3bec"
+        }
+      ],
+      "radius": 10
+    },
+    {
+      "name": "Add Chapter",
+      "type": "text",
+      "x": 1513,
+      "y": 1097,
+      "width": 101,
+      "height": 21,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Add Chapter",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 17,
+        "weight": 400,
+        "lineHeight": 20.74,
+        "align": "left"
+      }
+    },
+    {
+      "name": "+",
+      "type": "text",
+      "x": 1489,
+      "y": 1092,
+      "width": 14,
+      "height": 31,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "+",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 25,
+        "weight": 400,
+        "lineHeight": 30.5,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Rectangle 1624",
+      "type": "rectangle",
+      "x": 529,
+      "y": 1665,
+      "width": 1112,
+      "height": 124,
+      "fills": [
+        {
+          "color": "#121215"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 15
+    },
+    {
+      "name": "4",
+      "type": "text",
+      "x": 707,
+      "y": 1684,
+      "width": 22,
+      "height": 70,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "4",
+      "font": {
+        "family": "Kadwa",
+        "size": 35,
+        "weight": 400,
+        "lineHeight": 70.27,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Chapteers",
+      "type": "text",
+      "x": 676,
+      "y": 1730,
+      "width": 99,
+      "height": 40,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.5)",
+          "variable": "var(--color-white-50)"
+        }
+      ],
+      "text": "Chapteers",
+      "font": {
+        "family": "Kadwa",
+        "size": 20,
+        "weight": 400,
+        "lineHeight": 40.16,
+        "align": "left"
+      }
+    },
+    {
+      "name": "11910",
+      "type": "text",
+      "x": 1034,
+      "y": 1684,
+      "width": 98,
+      "height": 70,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "11910",
+      "font": {
+        "family": "Kadwa",
+        "size": 35,
+        "weight": 400,
+        "lineHeight": 70.27,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Total Words",
+      "type": "text",
+      "x": 1018,
+      "y": 1730,
+      "width": 116,
+      "height": 40,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.5)",
+          "variable": "var(--color-white-50)"
+        }
+      ],
+      "text": "Total Words",
+      "font": {
+        "family": "Kadwa",
+        "size": 20,
+        "weight": 400,
+        "lineHeight": 40.16,
+        "align": "left"
+      }
+    },
+    {
+      "name": "3",
+      "type": "text",
+      "x": 1433,
+      "y": 1684,
+      "width": 20,
+      "height": 70,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "3",
+      "font": {
+        "family": "Kadwa",
+        "size": 35,
+        "weight": 400,
+        "lineHeight": 70.27,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Published",
+      "type": "text",
+      "x": 1397,
+      "y": 1730,
+      "width": 96,
+      "height": 40,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.5)",
+          "variable": "var(--color-white-50)"
+        }
+      ],
+      "text": "Published",
+      "font": {
+        "family": "Kadwa",
+        "size": 20,
+        "weight": 400,
+        "lineHeight": 40.16,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Названия книги, истории",
+      "type": "text",
+      "x": 954,
+      "y": 461,
+      "width": 188,
+      "height": 30,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.75)"
+        }
+      ],
+      "text": "Названия книги, истории",
+      "font": {
+        "family": "Kadwa",
+        "size": 15,
+        "weight": 400,
+        "lineHeight": 30.12,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Далеко-далеко в горах, на самом высоком холме...",
+      "type": "text",
+      "x": 954,
+      "y": 570,
+      "width": 370,
+      "height": 30,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.75)"
+        }
+      ],
+      "text": "Далеко-далеко в горах, на самом высоком холме...",
+      "font": {
+        "family": "Kadwa",
+        "size": 15,
+        "weight": 400,
+        "lineHeight": 30.12,
+        "align": "left"
+      }
+    }
+  ]
+}

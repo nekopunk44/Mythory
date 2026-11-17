@@ -1,0 +1,104 @@
+{
+  "name": "логотип",
+  "type": "frame",
+  "x": 0,
+  "y": 0,
+  "width": 1498,
+  "height": 703,
+  "fills": [
+    {
+      "color": "#000000",
+      "variable": "var(--color-black)"
+    }
+  ],
+  "children": [
+    {
+      "name": "логотип",
+      "type": "group",
+      "x": 263,
+      "y": 166,
+      "width": 353,
+      "height": 353,
+      "children": [
+        {
+          "name": "open-book 1",
+          "type": "rectangle",
+          "x": 263,
+          "y": 166,
+          "width": 353,
+          "height": 353,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/108bac6ecb2eb69992687bf745c35820db16287e.png"
+            }
+          ]
+        },
+        {
+          "name": "open-book 2",
+          "type": "rectangle",
+          "x": -1819.7,
+          "y": -1916.7,
+          "width": 4518.4,
+          "height": 4518.4,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/108bac6ecb2eb69992687bf745c35820db16287e.png"
+            },
+            {
+              "color": "#655a9e",
+              "variable": "var(--color-purple-50)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "логотип",
+      "type": "group",
+      "x": 860,
+      "y": 166,
+      "width": 353,
+      "height": 353,
+      "children": [
+        {
+          "name": "open-book 1",
+          "type": "rectangle",
+          "x": 860,
+          "y": 166,
+          "width": 353,
+          "height": 353,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/108bac6ecb2eb69992687bf745c35820db16287e.png"
+            }
+          ]
+        },
+        {
+          "name": "open-book 2",
+          "type": "rectangle",
+          "x": -1222.7,
+          "y": -1916.7,
+          "width": 4518.4,
+          "height": 4518.4,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/108bac6ecb2eb69992687bf745c35820db16287e.png"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

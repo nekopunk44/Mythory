@@ -36,9 +36,12 @@ free Figma plans allow only a few API calls a month. The owner exports it once w
 `npm run design:export`, and agents work from the copy in `design/`.
 
 - `design/README.md` lists every frame. Start there.
-- `design/frames/<frame>.png` shows how the frame looks; open it if your model can read images.
+- `design/frames/<frame>.jpg` shows how the frame looks; open it if your model can read images.
 - `design/frames/<frame>.json` gives exact sizes, gaps, paddings, colors, radii and text styles.
   When a color has a `variable`, use that CSS variable instead of the raw value.
+- `design/images/` holds the original pictures (covers, avatars, backgrounds). A layer whose
+  fill has `"image": "images/<ref>.jpg"` uses that file; copy it into `src/assets/images/`
+  instead of cropping frame screenshots.
 - `design/tokens.json` lists all colors and text styles. A value that is used in the design
   but missing from `src/styles/_variables.scss` should be added there, not hard-coded.
 - Match the existing implemented sections (`Header`, `HeroSection`, `GenresSection`) for how
@@ -58,6 +61,10 @@ gh issue view <number>              # full task, acceptance criteria, design not
   for example `npm run agent:new -- 12-story-card`.
 - Treat the acceptance criteria as the definition of done. If they are ambiguous or the
   design reference is missing, comment on the issue and stop instead of guessing.
+- An issue that starts with `Depends on #N` is not ready while issue `#N` is open
+  (`gh issue view N`). Pick another one.
+- Before starting, check that no open pull request already references the issue
+  (`gh pr list --search "<number>"`), so two agents never take the same task.
 - Do not start work that has no issue. Put `Closes #<number>` in the pull request.
 
 ## Workspace: one agent, one worktree, one branch

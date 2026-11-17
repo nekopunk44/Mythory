@@ -1,0 +1,1742 @@
+{
+  "name": "Frame 3",
+  "type": "frame",
+  "x": 0,
+  "y": 0,
+  "width": 440,
+  "height": 534,
+  "fills": [
+    {
+      "color": "#050510",
+      "variable": "var(--color-black-20)"
+    }
+  ],
+  "children": [
+    {
+      "name": "изображение 37",
+      "type": "rectangle",
+      "x": -117,
+      "y": 60,
+      "width": 373,
+      "height": 228,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "STRETCH",
+          "image": "images/b94a7c81c51c70323ae7709d4889e6208c7663bf.jpg"
+        }
+      ],
+      "effects": [
+        {
+          "type": "layer_blur",
+          "radius": 80
+        }
+      ]
+    },
+    {
+      "name": "изображение 29",
+      "type": "rectangle",
+      "x": 202,
+      "y": 45,
+      "width": 352.37,
+      "height": 316.91,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "STRETCH",
+          "image": "images/a1a25fa3575d095ac3cbb2e1e075e6b39dc8a8d8.jpg"
+        }
+      ],
+      "effects": [
+        {
+          "type": "layer_blur",
+          "radius": 100
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 2",
+      "type": "rectangle",
+      "x": 0,
+      "y": 0,
+      "width": 440,
+      "height": 83,
+      "fills": [
+        {
+          "color": "#1b1e2d",
+          "variable": "var(--color-black-10)"
+        }
+      ]
+    },
+    {
+      "name": "логотип",
+      "type": "group",
+      "x": 36,
+      "y": 17,
+      "width": 36.44,
+      "height": 36.44,
+      "children": [
+        {
+          "name": "open-book 1",
+          "type": "rectangle",
+          "x": 36,
+          "y": 17,
+          "width": 36.44,
+          "height": 36.44,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/108bac6ecb2eb69992687bf745c35820db16287e.png"
+            }
+          ]
+        },
+        {
+          "name": "open-book 2",
+          "type": "rectangle",
+          "x": -179.01,
+          "y": -198.01,
+          "width": 466.45,
+          "height": 466.45,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/108bac6ecb2eb69992687bf745c35820db16287e.png"
+            },
+            {
+              "color": "#655a9e",
+              "variable": "var(--color-purple-50)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Home",
+      "type": "text",
+      "x": 118,
+      "y": 19.13,
+      "width": 48,
+      "height": 27,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Home",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 12,
+        "weight": 400,
+        "lineHeight": 14.64,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Genres",
+      "type": "text",
+      "x": 195,
+      "y": 19.13,
+      "width": 57,
+      "height": 27,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Genres",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 12,
+        "weight": 400,
+        "lineHeight": 14.64,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Community",
+      "type": "text",
+      "x": 281,
+      "y": 18.13,
+      "width": 67,
+      "height": 15,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Community",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 12,
+        "weight": 400,
+        "lineHeight": 14.64,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Line 2",
+      "type": "line",
+      "x": 118,
+      "y": 39.13,
+      "width": 33,
+      "height": 0,
+      "strokes": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "strokeWeight": 1
+    },
+    {
+      "name": "Log in",
+      "type": "text",
+      "x": 128,
+      "y": 53.13,
+      "width": 48,
+      "height": 27,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Log in",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 9,
+        "weight": 400,
+        "lineHeight": 10.98,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Create",
+      "type": "text",
+      "x": 291,
+      "y": 53.13,
+      "width": 28,
+      "height": 11,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Create",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 9,
+        "weight": 400,
+        "lineHeight": 10.98,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Sign up",
+      "type": "text",
+      "x": 205,
+      "y": 53.13,
+      "width": 59,
+      "height": 27,
+      "fills": [
+        {
+          "gradient": "linear",
+          "stops": [
+            {
+              "color": "rgba(148, 140, 228, 0.9)",
+              "position": 0
+            },
+            {
+              "color": "rgba(109, 171, 247, 0.9)",
+              "position": 0.23
+            },
+            {
+              "color": "rgba(41, 210, 241, 0.9)",
+              "position": 0.94
+            }
+          ]
+        }
+      ],
+      "text": "Sign up",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 9,
+        "weight": 400,
+        "lineHeight": 10.98,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Поиск иконка",
+      "type": "group",
+      "x": 384,
+      "y": 19.13,
+      "width": 15,
+      "height": 15,
+      "children": [
+        {
+          "name": "magnifying-glass 1",
+          "type": "rectangle",
+          "x": 384,
+          "y": 19.13,
+          "width": 15,
+          "height": 15,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/0b4394fe6ee9ef7d64aaa6d4dce1a74e56f46035.png"
+            }
+          ]
+        },
+        {
+          "name": "magnifying-glass 2",
+          "type": "rectangle",
+          "x": 384,
+          "y": 19.13,
+          "width": 15,
+          "height": 15,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/0b4394fe6ee9ef7d64aaa6d4dce1a74e56f46035.png"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unlimited Stories,",
+      "type": "text",
+      "x": 107,
+      "y": 121,
+      "width": 230,
+      "height": 38,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Unlimited Stories, ",
+      "font": {
+        "family": "Jua",
+        "size": 30,
+        "weight": 400,
+        "lineHeight": 37.5,
+        "align": "left"
+      }
+    },
+    {
+      "name": "One Universe text",
+      "type": "group",
+      "x": 167,
+      "y": 159,
+      "width": 114,
+      "height": 25,
+      "radius": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "children": [
+        {
+          "name": "One Universe",
+          "type": "text",
+          "x": 167,
+          "y": 159,
+          "width": 114,
+          "height": 25,
+          "fills": [
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ],
+          "text": "One Universe",
+          "font": {
+            "family": "Jua",
+            "size": 20,
+            "weight": 400,
+            "lineHeight": 25,
+            "align": "left"
+          }
+        },
+        {
+          "name": "One Universe",
+          "type": "text",
+          "x": 167,
+          "y": 159,
+          "width": 114,
+          "height": 25,
+          "fills": [
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            },
+            {
+              "gradient": "linear",
+              "stops": [
+                {
+                  "color": "#948ce4",
+                  "position": 0
+                },
+                {
+                  "color": "#6dabf7",
+                  "position": 0.33
+                },
+                {
+                  "color": "#29d2f1",
+                  "position": 0.94
+                }
+              ]
+            }
+          ],
+          "text": "One Universe",
+          "font": {
+            "family": "Jua",
+            "size": 20,
+            "weight": 400,
+            "lineHeight": 25,
+            "align": "left"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Dive into millions of web novels across fantasy, sci-fi, romance and more. Read for free or white your own story.",
+      "type": "text",
+      "x": 71,
+      "y": 200,
+      "width": 302,
+      "height": 59,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Dive into millions of web novels across fantasy, sci-fi, romance and more. Read for free or white your own story.",
+      "font": {
+        "family": "K2D",
+        "size": 12,
+        "weight": 400,
+        "lineHeight": 15.6,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 141",
+      "type": "rectangle",
+      "x": 100,
+      "y": 259,
+      "width": 117,
+      "height": 29,
+      "fills": [
+        {
+          "color": "#793bf2",
+          "variable": "var(--color-purple-40)"
+        }
+      ],
+      "radius": 40,
+      "effects": [
+        {
+          "type": "drop_shadow",
+          "radius": 4,
+          "offset": {
+            "x": 0,
+            "y": 4
+          },
+          "color": "rgba(0, 0, 0, 0.25)"
+        }
+      ]
+    },
+    {
+      "name": "Start Reading",
+      "type": "text",
+      "x": 125,
+      "y": 266,
+      "width": 69,
+      "height": 14,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Start Reading",
+      "font": {
+        "family": "K2D",
+        "size": 11,
+        "weight": 400,
+        "lineHeight": 14.3,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 142",
+      "type": "rectangle",
+      "x": 238,
+      "y": 259,
+      "width": 117,
+      "height": 29,
+      "strokes": [
+        {
+          "color": "#8f99a0",
+          "variable": "var(--color-gray-30)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 40,
+      "effects": [
+        {
+          "type": "drop_shadow",
+          "radius": 4,
+          "offset": {
+            "x": 0,
+            "y": 4
+          },
+          "color": "rgba(0, 0, 0, 0.25)"
+        }
+      ]
+    },
+    {
+      "name": "Start Writing",
+      "type": "text",
+      "x": 264,
+      "y": 266,
+      "width": 65,
+      "height": 14,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Start Writing",
+      "font": {
+        "family": "K2D",
+        "size": 11,
+        "weight": 400,
+        "lineHeight": 14.3,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Most popular stories this week",
+      "type": "text",
+      "x": 52,
+      "y": 332,
+      "width": 109,
+      "height": 3,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.5)",
+          "variable": "var(--color-white-50)"
+        }
+      ],
+      "text": "Most  popular stories this week",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 3,
+        "align": "center"
+      }
+    },
+    {
+      "name": "стрелка иконка",
+      "type": "group",
+      "x": 403,
+      "y": 328,
+      "width": 10.84,
+      "height": 8.09,
+      "children": [
+        {
+          "name": "Rectangle 5",
+          "type": "rectangle",
+          "x": 403,
+          "y": 328,
+          "width": 10.84,
+          "height": 8.09,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/b2a52e833a6be2f57fabf3fed8138d297838cd8a.png"
+            }
+          ]
+        },
+        {
+          "name": "Rectangle 6",
+          "type": "rectangle",
+          "x": 403,
+          "y": 328,
+          "width": 10.84,
+          "height": 8.09,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/b2a52e833a6be2f57fabf3fed8138d297838cd8a.png"
+            },
+            {
+              "color": "#828287"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "стрелка иконка",
+      "type": "group",
+      "x": 379,
+      "y": 328,
+      "width": 10.84,
+      "height": 8.09,
+      "children": [
+        {
+          "name": "Rectangle 5",
+          "type": "rectangle",
+          "x": 379,
+          "y": 328,
+          "width": 10.84,
+          "height": 8.09,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/b2a52e833a6be2f57fabf3fed8138d297838cd8a.png"
+            }
+          ]
+        },
+        {
+          "name": "Rectangle 6",
+          "type": "rectangle",
+          "x": 379,
+          "y": 328,
+          "width": 10.84,
+          "height": 8.09,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/b2a52e833a6be2f57fabf3fed8138d297838cd8a.png"
+            },
+            {
+              "color": "#828287"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Trending Now",
+      "type": "text",
+      "x": 51,
+      "y": 321,
+      "width": 53,
+      "height": 3,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Trending Now",
+      "font": {
+        "family": "Jua",
+        "size": 9,
+        "weight": 400,
+        "lineHeight": 3,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Ellipse 34",
+      "type": "ellipse",
+      "x": 21,
+      "y": 318,
+      "width": 22,
+      "height": 22,
+      "fills": [
+        {
+          "color": "#241237",
+          "variable": "var(--color-purple-70)"
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 24,
+      "y": 321,
+      "width": 16.16,
+      "height": 16.16,
+      "children": [
+        {
+          "name": "increase 1",
+          "type": "rectangle",
+          "x": 24,
+          "y": 321,
+          "width": 16.16,
+          "height": 16.16,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/bb3931ea84f19c658824090da3a0692afaada237.png"
+            }
+          ]
+        },
+        {
+          "name": "increase 2",
+          "type": "rectangle",
+          "x": 24.21,
+          "y": 320.79,
+          "width": 16.58,
+          "height": 16.58,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/bb3931ea84f19c658824090da3a0692afaada237.png"
+            },
+            {
+              "color": "#7e69ac",
+              "variable": "var(--color-purple-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 149",
+      "type": "rectangle",
+      "x": 24,
+      "y": 347,
+      "width": 95,
+      "height": 170,
+      "fills": [
+        {
+          "color": "rgba(47, 45, 45, 0.6)"
+        }
+      ],
+      "radius": 10
+    },
+    {
+      "name": "изображение 33",
+      "type": "rectangle",
+      "x": 25,
+      "y": 347,
+      "width": 93,
+      "height": 146,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "STRETCH",
+          "image": "images/3c24dac8652abbbf0d845c04266824b5911812ca.jpg"
+        }
+      ],
+      "radius": [
+        10,
+        10,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Rectangle 150",
+      "type": "rectangle",
+      "x": 32,
+      "y": 354,
+      "width": 31,
+      "height": 8,
+      "fills": [
+        {
+          "color": "rgba(123, 58, 238, 0.9)"
+        }
+      ],
+      "radius": 5
+    },
+    {
+      "name": "Fantasy",
+      "type": "text",
+      "x": 36,
+      "y": 357,
+      "width": 22,
+      "height": 3,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Fantasy",
+      "font": {
+        "family": "Jua",
+        "size": 6,
+        "weight": 400,
+        "lineHeight": 3,
+        "align": "center"
+      }
+    },
+    {
+      "name": "The Dragon`s Covenant",
+      "type": "text",
+      "x": 33,
+      "y": 432,
+      "width": 70,
+      "height": 7,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "The Dragon`s Covenant",
+      "font": {
+        "family": "Kadwa",
+        "size": 6,
+        "weight": 700,
+        "lineHeight": 7,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Helena Grande",
+      "type": "text",
+      "x": 49,
+      "y": 504,
+      "width": 53,
+      "height": 3,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.85)"
+        }
+      ],
+      "text": "Helena Grande",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 3,
+        "align": "center"
+      }
+    },
+    {
+      "name": "127.1К",
+      "type": "text",
+      "x": 80,
+      "y": 481,
+      "width": 23,
+      "height": 3,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "127.1К",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 3,
+        "align": "center"
+      }
+    },
+    {
+      "name": "4.7",
+      "type": "text",
+      "x": 44,
+      "y": 481,
+      "width": 11,
+      "height": 3,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "4.7",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 3,
+        "align": "center"
+      }
+    },
+    {
+      "name": "star(1) 67",
+      "type": "rectangle",
+      "x": 33,
+      "y": 479,
+      "width": 7,
+      "height": 7,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL",
+          "image": "images/1374530e4b9bd61ddb1f4c2b7931ee05e8e62d29.png"
+        }
+      ]
+    },
+    {
+      "name": "Глазик",
+      "type": "group",
+      "x": 67.24,
+      "y": 479,
+      "width": 8,
+      "height": 8,
+      "children": [
+        {
+          "name": "free-icon-eye-158746 1",
+          "type": "rectangle",
+          "x": 67.24,
+          "y": 479,
+          "width": 8,
+          "height": 8,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/acec803b13e0f61e518ff1beb61fd71fff66884e.png"
+            }
+          ]
+        },
+        {
+          "name": "free-icon-eye-158746 2",
+          "type": "rectangle",
+          "x": 67.34,
+          "y": 478.9,
+          "width": 8.21,
+          "height": 8.21,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/acec803b13e0f61e518ff1beb61fd71fff66884e.png"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ellipse 36",
+      "type": "ellipse",
+      "x": 33,
+      "y": 499,
+      "width": 11,
+      "height": 11,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL",
+          "image": "images/dbc0ba44a22b9ce64945c4131998eb47bf9093d7.png"
+        }
+      ]
+    },
+    {
+      "name": "Вот вам яркий пример современных тенденций — существующая теория позволяет оценить значение инновационных методов ...",
+      "type": "text",
+      "x": 33,
+      "y": 441,
+      "width": 70,
+      "height": 36,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Вот вам яркий пример современных тенденций — существующая теория позволяет оценить значение \nинновационных методов ...",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 5,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Rectangle 151",
+      "type": "rectangle",
+      "x": 124,
+      "y": 347,
+      "width": 95,
+      "height": 170,
+      "fills": [
+        {
+          "color": "rgba(47, 45, 45, 0.6)"
+        }
+      ],
+      "radius": 10
+    },
+    {
+      "name": "изображение 34",
+      "type": "rectangle",
+      "x": 125,
+      "y": 347,
+      "width": 93,
+      "height": 146,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "STRETCH",
+          "image": "images/3c24dac8652abbbf0d845c04266824b5911812ca.jpg"
+        }
+      ],
+      "radius": [
+        10,
+        10,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Rectangle 152",
+      "type": "rectangle",
+      "x": 132,
+      "y": 354,
+      "width": 31,
+      "height": 8,
+      "fills": [
+        {
+          "color": "rgba(123, 58, 238, 0.9)"
+        }
+      ],
+      "radius": 5
+    },
+    {
+      "name": "Fantasy",
+      "type": "text",
+      "x": 136,
+      "y": 357,
+      "width": 22,
+      "height": 3,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Fantasy",
+      "font": {
+        "family": "Jua",
+        "size": 6,
+        "weight": 400,
+        "lineHeight": 3,
+        "align": "center"
+      }
+    },
+    {
+      "name": "The Dragon`s Covenant",
+      "type": "text",
+      "x": 133,
+      "y": 432,
+      "width": 70,
+      "height": 7,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "The Dragon`s Covenant",
+      "font": {
+        "family": "Kadwa",
+        "size": 6,
+        "weight": 700,
+        "lineHeight": 7,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Helena Grande",
+      "type": "text",
+      "x": 149,
+      "y": 504,
+      "width": 53,
+      "height": 3,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.85)"
+        }
+      ],
+      "text": "Helena Grande",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 3,
+        "align": "center"
+      }
+    },
+    {
+      "name": "127.1К",
+      "type": "text",
+      "x": 180,
+      "y": 481,
+      "width": 23,
+      "height": 3,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "127.1К",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 3,
+        "align": "center"
+      }
+    },
+    {
+      "name": "4.7",
+      "type": "text",
+      "x": 144,
+      "y": 481,
+      "width": 11,
+      "height": 3,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "4.7",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 3,
+        "align": "center"
+      }
+    },
+    {
+      "name": "star(1) 68",
+      "type": "rectangle",
+      "x": 133,
+      "y": 479,
+      "width": 7,
+      "height": 7,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL",
+          "image": "images/1374530e4b9bd61ddb1f4c2b7931ee05e8e62d29.png"
+        }
+      ]
+    },
+    {
+      "name": "Глазик",
+      "type": "group",
+      "x": 167.24,
+      "y": 479,
+      "width": 8,
+      "height": 8,
+      "children": [
+        {
+          "name": "free-icon-eye-158746 1",
+          "type": "rectangle",
+          "x": 167.24,
+          "y": 479,
+          "width": 8,
+          "height": 8,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/acec803b13e0f61e518ff1beb61fd71fff66884e.png"
+            }
+          ]
+        },
+        {
+          "name": "free-icon-eye-158746 2",
+          "type": "rectangle",
+          "x": 167.34,
+          "y": 478.9,
+          "width": 8.21,
+          "height": 8.21,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/acec803b13e0f61e518ff1beb61fd71fff66884e.png"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ellipse 37",
+      "type": "ellipse",
+      "x": 133,
+      "y": 499,
+      "width": 11,
+      "height": 11,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL",
+          "image": "images/dbc0ba44a22b9ce64945c4131998eb47bf9093d7.png"
+        }
+      ]
+    },
+    {
+      "name": "Вот вам яркий пример современных тенденций — существующая теория позволяет оценить значение инновационных методов ...",
+      "type": "text",
+      "x": 133,
+      "y": 441,
+      "width": 70,
+      "height": 36,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Вот вам яркий пример современных тенденций — существующая теория позволяет оценить значение \nинновационных методов ...",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 5,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Rectangle 153",
+      "type": "rectangle",
+      "x": 224,
+      "y": 347,
+      "width": 95,
+      "height": 170,
+      "fills": [
+        {
+          "color": "rgba(47, 45, 45, 0.6)"
+        }
+      ],
+      "radius": 10
+    },
+    {
+      "name": "изображение 35",
+      "type": "rectangle",
+      "x": 225,
+      "y": 347,
+      "width": 93,
+      "height": 146,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "STRETCH",
+          "image": "images/3c24dac8652abbbf0d845c04266824b5911812ca.jpg"
+        }
+      ],
+      "radius": [
+        10,
+        10,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Rectangle 154",
+      "type": "rectangle",
+      "x": 232,
+      "y": 354,
+      "width": 31,
+      "height": 8,
+      "fills": [
+        {
+          "color": "rgba(123, 58, 238, 0.9)"
+        }
+      ],
+      "radius": 5
+    },
+    {
+      "name": "Fantasy",
+      "type": "text",
+      "x": 236,
+      "y": 357,
+      "width": 22,
+      "height": 3,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Fantasy",
+      "font": {
+        "family": "Jua",
+        "size": 6,
+        "weight": 400,
+        "lineHeight": 3,
+        "align": "center"
+      }
+    },
+    {
+      "name": "The Dragon`s Covenant",
+      "type": "text",
+      "x": 233,
+      "y": 432,
+      "width": 70,
+      "height": 7,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "The Dragon`s Covenant",
+      "font": {
+        "family": "Kadwa",
+        "size": 6,
+        "weight": 700,
+        "lineHeight": 7,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Helena Grande",
+      "type": "text",
+      "x": 249,
+      "y": 504,
+      "width": 53,
+      "height": 3,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.85)"
+        }
+      ],
+      "text": "Helena Grande",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 3,
+        "align": "center"
+      }
+    },
+    {
+      "name": "127.1К",
+      "type": "text",
+      "x": 280,
+      "y": 481,
+      "width": 23,
+      "height": 3,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "127.1К",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 3,
+        "align": "center"
+      }
+    },
+    {
+      "name": "4.7",
+      "type": "text",
+      "x": 244,
+      "y": 481,
+      "width": 11,
+      "height": 3,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "4.7",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 3,
+        "align": "center"
+      }
+    },
+    {
+      "name": "star(1) 69",
+      "type": "rectangle",
+      "x": 233,
+      "y": 479,
+      "width": 7,
+      "height": 7,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL",
+          "image": "images/1374530e4b9bd61ddb1f4c2b7931ee05e8e62d29.png"
+        }
+      ]
+    },
+    {
+      "name": "Глазик",
+      "type": "group",
+      "x": 267.24,
+      "y": 479,
+      "width": 8,
+      "height": 8,
+      "children": [
+        {
+          "name": "free-icon-eye-158746 1",
+          "type": "rectangle",
+          "x": 267.24,
+          "y": 479,
+          "width": 8,
+          "height": 8,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/acec803b13e0f61e518ff1beb61fd71fff66884e.png"
+            }
+          ]
+        },
+        {
+          "name": "free-icon-eye-158746 2",
+          "type": "rectangle",
+          "x": 267.34,
+          "y": 478.9,
+          "width": 8.21,
+          "height": 8.21,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/acec803b13e0f61e518ff1beb61fd71fff66884e.png"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ellipse 38",
+      "type": "ellipse",
+      "x": 233,
+      "y": 499,
+      "width": 11,
+      "height": 11,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL",
+          "image": "images/dbc0ba44a22b9ce64945c4131998eb47bf9093d7.png"
+        }
+      ]
+    },
+    {
+      "name": "Вот вам яркий пример современных тенденций — существующая теория позволяет оценить значение инновационных методов ...",
+      "type": "text",
+      "x": 233,
+      "y": 441,
+      "width": 70,
+      "height": 36,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Вот вам яркий пример современных тенденций — существующая теория позволяет оценить значение \nинновационных методов ...",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 5,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Rectangle 155",
+      "type": "rectangle",
+      "x": 324,
+      "y": 347,
+      "width": 95,
+      "height": 170,
+      "fills": [
+        {
+          "color": "rgba(47, 45, 45, 0.6)"
+        }
+      ],
+      "radius": 10
+    },
+    {
+      "name": "изображение 36",
+      "type": "rectangle",
+      "x": 325,
+      "y": 347,
+      "width": 93,
+      "height": 146,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "STRETCH",
+          "image": "images/3c24dac8652abbbf0d845c04266824b5911812ca.jpg"
+        }
+      ],
+      "radius": [
+        10,
+        10,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Rectangle 156",
+      "type": "rectangle",
+      "x": 332,
+      "y": 354,
+      "width": 31,
+      "height": 8,
+      "fills": [
+        {
+          "color": "rgba(123, 58, 238, 0.9)"
+        }
+      ],
+      "radius": 5
+    },
+    {
+      "name": "Fantasy",
+      "type": "text",
+      "x": 336,
+      "y": 357,
+      "width": 22,
+      "height": 3,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Fantasy",
+      "font": {
+        "family": "Jua",
+        "size": 6,
+        "weight": 400,
+        "lineHeight": 3,
+        "align": "center"
+      }
+    },
+    {
+      "name": "The Dragon`s Covenant",
+      "type": "text",
+      "x": 333,
+      "y": 432,
+      "width": 70,
+      "height": 7,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "The Dragon`s Covenant",
+      "font": {
+        "family": "Kadwa",
+        "size": 6,
+        "weight": 700,
+        "lineHeight": 7,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Helena Grande",
+      "type": "text",
+      "x": 349,
+      "y": 504,
+      "width": 53,
+      "height": 3,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.85)"
+        }
+      ],
+      "text": "Helena Grande",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 3,
+        "align": "center"
+      }
+    },
+    {
+      "name": "127.1К",
+      "type": "text",
+      "x": 380,
+      "y": 481,
+      "width": 23,
+      "height": 3,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "127.1К",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 3,
+        "align": "center"
+      }
+    },
+    {
+      "name": "4.7",
+      "type": "text",
+      "x": 344,
+      "y": 481,
+      "width": 11,
+      "height": 3,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "4.7",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 3,
+        "align": "center"
+      }
+    },
+    {
+      "name": "star(1) 70",
+      "type": "rectangle",
+      "x": 333,
+      "y": 479,
+      "width": 7,
+      "height": 7,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL",
+          "image": "images/1374530e4b9bd61ddb1f4c2b7931ee05e8e62d29.png"
+        }
+      ]
+    },
+    {
+      "name": "Глазик",
+      "type": "group",
+      "x": 367.24,
+      "y": 479,
+      "width": 8,
+      "height": 8,
+      "children": [
+        {
+          "name": "free-icon-eye-158746 1",
+          "type": "rectangle",
+          "x": 367.24,
+          "y": 479,
+          "width": 8,
+          "height": 8,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/acec803b13e0f61e518ff1beb61fd71fff66884e.png"
+            }
+          ]
+        },
+        {
+          "name": "free-icon-eye-158746 2",
+          "type": "rectangle",
+          "x": 367.34,
+          "y": 478.9,
+          "width": 8.21,
+          "height": 8.21,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/acec803b13e0f61e518ff1beb61fd71fff66884e.png"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ellipse 39",
+      "type": "ellipse",
+      "x": 333,
+      "y": 499,
+      "width": 11,
+      "height": 11,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL",
+          "image": "images/dbc0ba44a22b9ce64945c4131998eb47bf9093d7.png"
+        }
+      ]
+    },
+    {
+      "name": "Вот вам яркий пример современных тенденций — существующая теория позволяет оценить значение инновационных методов ...",
+      "type": "text",
+      "x": 333,
+      "y": 441,
+      "width": 70,
+      "height": 36,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Вот вам яркий пример современных тенденций — существующая теория позволяет оценить значение \nинновационных методов ...",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 5,
+        "align": "left"
+      }
+    }
+  ]
+}

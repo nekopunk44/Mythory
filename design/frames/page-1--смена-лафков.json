@@ -1,0 +1,100 @@
+{
+  "name": "смена лафков",
+  "type": "frame",
+  "x": 0,
+  "y": 0,
+  "width": 237,
+  "height": 137,
+  "fills": [
+    {
+      "color": "#030202"
+    }
+  ],
+  "children": [
+    {
+      "name": "Ellipse 116",
+      "type": "ellipse",
+      "x": 33,
+      "y": 36,
+      "width": 65,
+      "height": 65,
+      "fills": [
+        {
+          "color": "#2f1b4e"
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 49,
+      "y": 52,
+      "width": 33,
+      "height": 33,
+      "children": [
+        {
+          "name": "heart 1",
+          "type": "rectangle",
+          "x": 49,
+          "y": 52,
+          "width": 33,
+          "height": 33,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/00136cefee7967af8f53f922fd548f5354096aa6.png"
+            }
+          ]
+        },
+        {
+          "name": "heart 2",
+          "type": "rectangle",
+          "x": 49,
+          "y": 52,
+          "width": 33,
+          "height": 33,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL",
+              "image": "images/00136cefee7967af8f53f922fd548f5354096aa6.png"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ellipse 117",
+      "type": "ellipse",
+      "x": 130,
+      "y": 36,
+      "width": 65,
+      "height": 65,
+      "fills": [
+        {
+          "color": "#2f1b4e"
+        }
+      ]
+    },
+    {
+      "name": "heart (2) 1",
+      "type": "rectangle",
+      "x": 145,
+      "y": 50,
+      "width": 36,
+      "height": 36,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL",
+          "image": "images/f976c47ea361033c75ecd20f92688c1ef0e59863.png"
+        }
+      ]
+    }
+  ]
+}
