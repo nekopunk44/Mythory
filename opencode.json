@@ -7,12 +7,12 @@
       "prompt": "{file:./.github/agents/orchestrator.agent.md}"
     },
     "frontend": {
-      "mode": "subagent",
+      "mode": "all",
       "description": "Implements React, JSX, routing, interactions, and Sass changes",
       "prompt": "{file:./.github/agents/frontend.agent.md}"
     },
     "ux-reviewer": {
-      "mode": "subagent",
+      "mode": "all",
       "description": "Read-only review of visual consistency, accessibility, and responsive behavior",
       "prompt": "{file:./.github/agents/ux-reviewer.agent.md}",
       "permission": {
@@ -21,7 +21,7 @@
       }
     },
     "qa": {
-      "mode": "subagent",
+      "mode": "all",
       "description": "Reviews the diff and runs format, lint, and production build checks",
       "prompt": "{file:./.github/agents/qa.agent.md}",
       "permission": {
