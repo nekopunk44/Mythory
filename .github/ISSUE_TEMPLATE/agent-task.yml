@@ -24,8 +24,8 @@ body:
     attributes:
       label: Design reference
       description: >
-        Agents cannot open Figma. Paste a screenshot of the frame and write down sizes,
-        colors and breakpoints that matter.
+        Agents cannot open Figma. Name the frames from design/README.md, for example
+        design/frames/home--desktop.png, and the layer names that belong to this task.
   - type: textarea
     id: scope
     attributes:
