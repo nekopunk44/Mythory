@@ -42,7 +42,8 @@
           "fills": [
             {
               "type": "image",
-              "scaleMode": "FILL"
+              "scaleMode": "FILL",
+              "image": "images/00136cefee7967af8f53f922fd548f5354096aa6.png"
             }
           ]
         },
@@ -56,7 +57,8 @@
           "fills": [
             {
               "type": "image",
-              "scaleMode": "FILL"
+              "scaleMode": "FILL",
+              "image": "images/00136cefee7967af8f53f922fd548f5354096aa6.png"
             },
             {
               "color": "#ffffff",
@@ -89,7 +91,8 @@
       "fills": [
         {
           "type": "image",
-          "scaleMode": "FILL"
+          "scaleMode": "FILL",
+          "image": "images/f976c47ea361033c75ecd20f92688c1ef0e59863.png"
         }
       ]
     }

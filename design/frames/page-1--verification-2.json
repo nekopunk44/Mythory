@@ -5991,7 +5991,8 @@
           "fills": [
             {
               "type": "image",
-              "scaleMode": "FILL"
+              "scaleMode": "FILL",
+              "image": "images/108bac6ecb2eb69992687bf745c35820db16287e.png"
             }
           ]
         },
@@ -6005,7 +6006,8 @@
           "fills": [
             {
               "type": "image",
-              "scaleMode": "FILL"
+              "scaleMode": "FILL",
+              "image": "images/108bac6ecb2eb69992687bf745c35820db16287e.png"
             },
             {
               "color": "#655a9e",
@@ -6503,7 +6505,8 @@
           "fills": [
             {
               "type": "image",
-              "scaleMode": "FILL"
+              "scaleMode": "FILL",
+              "image": "images/93c218c6509e40677cddf04f74d1b7f477898b99.png"
             }
           ]
         },
@@ -6517,7 +6520,8 @@
           "fills": [
             {
               "type": "image",
-              "scaleMode": "FILL"
+              "scaleMode": "FILL",
+              "image": "images/93c218c6509e40677cddf04f74d1b7f477898b99.png"
             },
             {
               "color": "rgba(255, 255, 255, 0.5)",
@@ -6742,7 +6746,8 @@
           "fills": [
             {
               "type": "image",
-              "scaleMode": "FILL"
+              "scaleMode": "FILL",
+              "image": "images/5c0a326bfbd3ca27e73d36d8ea3fdfd8f8c53b1b.png"
             }
           ],
           "radius": 20
@@ -6757,7 +6762,8 @@
           "fills": [
             {
               "type": "image",
-              "scaleMode": "FILL"
+              "scaleMode": "FILL",
+              "image": "images/5c0a326bfbd3ca27e73d36d8ea3fdfd8f8c53b1b.png"
             },
             {
               "color": "#8a0a12"

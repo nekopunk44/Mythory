@@ -86,7 +86,8 @@
           "fills": [
             {
               "type": "image",
-              "scaleMode": "FILL"
+              "scaleMode": "FILL",
+              "image": "images/108bac6ecb2eb69992687bf745c35820db16287e.png"
             }
           ]
         },
@@ -100,7 +101,8 @@
           "fills": [
             {
               "type": "image",
-              "scaleMode": "FILL"
+              "scaleMode": "FILL",
+              "image": "images/108bac6ecb2eb69992687bf745c35820db16287e.png"
             },
             {
               "color": "#655a9e",
@@ -206,7 +208,8 @@
           "fills": [
             {
               "type": "image",
-              "scaleMode": "FILL"
+              "scaleMode": "FILL",
+              "image": "images/108bac6ecb2eb69992687bf745c35820db16287e.png"
             }
           ]
         },
@@ -220,7 +223,8 @@
           "fills": [
             {
               "type": "image",
-              "scaleMode": "FILL"
+              "scaleMode": "FILL",
+              "image": "images/108bac6ecb2eb69992687bf745c35820db16287e.png"
             },
             {
               "color": "#655a9e",
@@ -326,7 +330,8 @@
           "fills": [
             {
               "type": "image",
-              "scaleMode": "FILL"
+              "scaleMode": "FILL",
+              "image": "images/108bac6ecb2eb69992687bf745c35820db16287e.png"
             }
           ]
         },
@@ -340,7 +345,8 @@
           "fills": [
             {
               "type": "image",
-              "scaleMode": "FILL"
+              "scaleMode": "FILL",
+              "image": "images/108bac6ecb2eb69992687bf745c35820db16287e.png"
             },
             {
               "color": "#655a9e",
@@ -446,7 +452,8 @@
           "fills": [
             {
               "type": "image",
-              "scaleMode": "FILL"
+              "scaleMode": "FILL",
+              "image": "images/108bac6ecb2eb69992687bf745c35820db16287e.png"
             }
           ]
         },
@@ -460,7 +467,8 @@
           "fills": [
             {
               "type": "image",
-              "scaleMode": "FILL"
+              "scaleMode": "FILL",
+              "image": "images/108bac6ecb2eb69992687bf745c35820db16287e.png"
             },
             {
               "color": "#655a9e",
@@ -510,7 +518,8 @@
           "fills": [
             {
               "type": "image",
-              "scaleMode": "FILL"
+              "scaleMode": "FILL",
+              "image": "images/93c218c6509e40677cddf04f74d1b7f477898b99.png"
             }
           ]
         },
@@ -524,7 +533,8 @@
           "fills": [
             {
               "type": "image",
-              "scaleMode": "FILL"
+              "scaleMode": "FILL",
+              "image": "images/93c218c6509e40677cddf04f74d1b7f477898b99.png"
             },
             {
               "color": "#7338da"

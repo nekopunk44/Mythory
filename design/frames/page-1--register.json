@@ -11984,7 +11984,8 @@
           "fills": [
             {
               "type": "image",
-              "scaleMode": "FILL"
+              "scaleMode": "FILL",
+              "image": "images/108bac6ecb2eb69992687bf745c35820db16287e.png"
             }
           ]
         },
@@ -11998,7 +11999,8 @@
           "fills": [
             {
               "type": "image",
-              "scaleMode": "FILL"
+              "scaleMode": "FILL",
+              "image": "images/108bac6ecb2eb69992687bf745c35820db16287e.png"
             },
             {
               "color": "#655a9e",
@@ -12951,7 +12953,8 @@
       "fills": [
         {
           "type": "image",
-          "scaleMode": "FILL"
+          "scaleMode": "FILL",
+          "image": "images/8e4241399baefbe8f8feffab0fe67682e140e1b1.png"
         }
       ]
     },
@@ -12973,7 +12976,8 @@
           "fills": [
             {
               "type": "image",
-              "scaleMode": "FILL"
+              "scaleMode": "FILL",
+              "image": "images/aeeceee702d4e293654b0f2f745c15a79d1c2aff.png"
             }
           ]
         },
@@ -12987,7 +12991,8 @@
           "fills": [
             {
               "type": "image",
-              "scaleMode": "FILL"
+              "scaleMode": "FILL",
+              "image": "images/aeeceee702d4e293654b0f2f745c15a79d1c2aff.png"
             },
             {
               "color": "#ffffff",
@@ -13035,7 +13040,8 @@
           "fills": [
             {
               "type": "image",
-              "scaleMode": "FILL"
+              "scaleMode": "FILL",
+              "image": "images/0b1a355778ec7c9600a88df6752582dcd8f47af3.png"
             }
           ]
         },
@@ -13049,7 +13055,8 @@
           "fills": [
             {
               "type": "image",
-              "scaleMode": "FILL"
+              "scaleMode": "FILL",
+              "image": "images/0b1a355778ec7c9600a88df6752582dcd8f47af3.png"
             },
             {
               "color": "rgba(255, 255, 255, 0.6)"
@@ -13076,7 +13083,8 @@
           "fills": [
             {
               "type": "image",
-              "scaleMode": "FILL"
+              "scaleMode": "FILL",
+              "image": "images/0b1a355778ec7c9600a88df6752582dcd8f47af3.png"
             }
           ]
         },
@@ -13090,7 +13098,8 @@
           "fills": [
             {
               "type": "image",
-              "scaleMode": "FILL"
+              "scaleMode": "FILL",
+              "image": "images/0b1a355778ec7c9600a88df6752582dcd8f47af3.png"
             },
             {
               "color": "rgba(255, 255, 255, 0.6)"

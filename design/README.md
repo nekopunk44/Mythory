@@ -7,6 +7,8 @@ Do not edit by hand: re-run the export instead.
 - `frames/<name>.jpg` — how the frame looks, 1×.
 - `frames/<name>.json` — layers with positions relative to the frame, sizes, auto layout,
   colors, radii, effects and text styles. `variable` points at an existing CSS variable.
+- `images/` — original pictures used in the design: covers, avatars, backgrounds.
+  A layer's `fills[].image` gives the path, for example `images/<ref>.jpg`.
 - `tokens.json` — every color and text style used in the design, most used first.
 
 | Page | Frame | Size | Image | Spec |
