@@ -1,0 +1,2258 @@
+{
+  "name": "Frame 4",
+  "type": "frame",
+  "x": 0,
+  "y": 0,
+  "width": 1440,
+  "height": 1409,
+  "fills": [
+    {
+      "color": "#050510",
+      "variable": "var(--color-black-20)"
+    }
+  ],
+  "children": [
+    {
+      "name": "Rectangle 142",
+      "type": "rectangle",
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 59,
+      "fills": [
+        {
+          "color": "#1b1e2d",
+          "variable": "var(--color-black-10)"
+        }
+      ]
+    },
+    {
+      "name": "логотип",
+      "type": "group",
+      "x": 269.89,
+      "y": 17.56,
+      "width": 25.72,
+      "height": 27.5,
+      "children": [
+        {
+          "name": "open-book 1",
+          "type": "rectangle",
+          "x": 269.89,
+          "y": 17.56,
+          "width": 25.72,
+          "height": 27.5,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "open-book 2",
+          "type": "rectangle",
+          "x": 118.15,
+          "y": -144.71,
+          "width": 329.2,
+          "height": 352.06,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#655a9e",
+              "variable": "var(--color-purple-50)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mythory",
+      "type": "text",
+      "x": 310,
+      "y": 20,
+      "width": 60,
+      "height": 18,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Mythory",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 15,
+        "weight": 500,
+        "lineHeight": 18.3,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Home",
+      "type": "text",
+      "x": 569,
+      "y": 20,
+      "width": 43,
+      "height": 18,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Home",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 15,
+        "weight": 400,
+        "lineHeight": 18.3,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Genres",
+      "type": "text",
+      "x": 647,
+      "y": 20,
+      "width": 50,
+      "height": 18,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Genres",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 15,
+        "weight": 400,
+        "lineHeight": 18.3,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Community",
+      "type": "text",
+      "x": 722,
+      "y": 20,
+      "width": 83,
+      "height": 18,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Community",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 15,
+        "weight": 400,
+        "lineHeight": 18.3,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Log in",
+      "type": "text",
+      "x": 1054,
+      "y": 20,
+      "width": 42,
+      "height": 18,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Log in",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 15,
+        "weight": 400,
+        "lineHeight": 18.3,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Create",
+      "type": "text",
+      "x": 1203,
+      "y": 20,
+      "width": 47,
+      "height": 18,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Create",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 15,
+        "weight": 400,
+        "lineHeight": 18.3,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Line 2",
+      "type": "line",
+      "x": 569,
+      "y": 43,
+      "width": 36,
+      "height": 0,
+      "strokes": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "strokeWeight": 1
+    },
+    {
+      "name": "Поиск иконка",
+      "type": "group",
+      "x": 1012.89,
+      "y": 19.86,
+      "width": 18.71,
+      "height": 20.01,
+      "children": [
+        {
+          "name": "magnifying-glass 1",
+          "type": "rectangle",
+          "x": 1012.89,
+          "y": 19.86,
+          "width": 18.71,
+          "height": 20.01,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "magnifying-glass 2",
+          "type": "rectangle",
+          "x": 1011.8,
+          "y": 21.16,
+          "width": 20.9,
+          "height": 22.35,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sign up",
+      "type": "text",
+      "x": 1126,
+      "y": 20,
+      "width": 52,
+      "height": 18,
+      "fills": [
+        {
+          "gradient": "linear",
+          "stops": [
+            {
+              "color": "rgba(148, 140, 228, 0.9)",
+              "position": 0
+            },
+            {
+              "color": "rgba(109, 171, 247, 0.9)",
+              "position": 0.23
+            },
+            {
+              "color": "rgba(41, 210, 241, 0.9)",
+              "position": 0.94
+            }
+          ]
+        }
+      ],
+      "text": "Sign up",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 15,
+        "weight": 400,
+        "lineHeight": 18.3,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Rectangle 141",
+      "type": "rectangle",
+      "x": 230,
+      "y": 75,
+      "width": 1452,
+      "height": 901,
+      "fills": [
+        {
+          "color": "#050510",
+          "variable": "var(--color-black-20)"
+        }
+      ]
+    },
+    {
+      "name": "изображение 29",
+      "type": "rectangle",
+      "x": -82,
+      "y": 80,
+      "width": 1216,
+      "height": 644,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "STRETCH"
+        }
+      ],
+      "effects": [
+        {
+          "type": "layer_blur",
+          "radius": 80
+        }
+      ]
+    },
+    {
+      "name": "изображение 30",
+      "type": "rectangle",
+      "x": 776.34,
+      "y": 67.9,
+      "width": 714.66,
+      "height": 746.31,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "STRETCH"
+        }
+      ],
+      "effects": [
+        {
+          "type": "layer_blur",
+          "radius": 100
+        }
+      ]
+    },
+    {
+      "name": "Unlimited Stories,",
+      "type": "text",
+      "x": 457,
+      "y": 134,
+      "width": 613,
+      "height": 100,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Unlimited Stories, ",
+      "font": {
+        "family": "Jua",
+        "size": 80,
+        "weight": 400,
+        "lineHeight": 100,
+        "align": "left"
+      }
+    },
+    {
+      "name": "One Universe text",
+      "type": "group",
+      "x": 605,
+      "y": 234.39,
+      "width": 370,
+      "height": 81,
+      "radius": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "children": [
+        {
+          "name": "One Universe",
+          "type": "text",
+          "x": 605,
+          "y": 234.39,
+          "width": 370,
+          "height": 81,
+          "fills": [
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ],
+          "text": "One Universe",
+          "font": {
+            "family": "Jua",
+            "size": 65,
+            "weight": 400,
+            "lineHeight": 81.25,
+            "align": "left"
+          }
+        },
+        {
+          "name": "One Universe",
+          "type": "text",
+          "x": 605,
+          "y": 234.39,
+          "width": 370,
+          "height": 81,
+          "fills": [
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            },
+            {
+              "gradient": "linear",
+              "stops": [
+                {
+                  "color": "#948ce4",
+                  "position": 0
+                },
+                {
+                  "color": "#6dabf7",
+                  "position": 0.33
+                },
+                {
+                  "color": "#29d2f1",
+                  "position": 0.94
+                }
+              ]
+            }
+          ],
+          "text": "One Universe",
+          "font": {
+            "family": "Jua",
+            "size": 65,
+            "weight": 400,
+            "lineHeight": 81.25,
+            "align": "left"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Dive into millions of web novels across fantasy, sci-fi, romance and more. Read for free or white your own story.",
+      "type": "text",
+      "x": 360,
+      "y": 347,
+      "width": 730,
+      "height": 110,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Dive into millions of web novels across fantasy, sci-fi, romance and more. Read for free or white your own story.",
+      "font": {
+        "family": "K2D",
+        "size": 25,
+        "weight": 400,
+        "lineHeight": 32.5,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Книга иконка",
+      "type": "group",
+      "x": 608.45,
+      "y": 544.22,
+      "width": 36.3,
+      "height": 42.74,
+      "children": [
+        {
+          "name": "open-book 1",
+          "type": "rectangle",
+          "x": 608.45,
+          "y": 544.22,
+          "width": 36.3,
+          "height": 42.74,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "open-book 2",
+          "type": "rectangle",
+          "x": 394.28,
+          "y": 292.08,
+          "width": 464.64,
+          "height": 547.01,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#655a9e",
+              "variable": "var(--color-purple-50)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 711.3,
+      "y": 544.22,
+      "width": 36.3,
+      "height": 42.74,
+      "children": [
+        {
+          "name": "customer 1",
+          "type": "rectangle",
+          "x": 711.3,
+          "y": 544.22,
+          "width": 36.3,
+          "height": 42.74,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "customer 2",
+          "type": "rectangle",
+          "x": 711.3,
+          "y": 544.22,
+          "width": 36.3,
+          "height": 42.74,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#655a9e",
+              "variable": "var(--color-purple-50)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 814.15,
+      "y": 546,
+      "width": 34.79,
+      "height": 40.95,
+      "children": [
+        {
+          "name": "star 1",
+          "type": "rectangle",
+          "x": 814.15,
+          "y": 546,
+          "width": 34.79,
+          "height": 40.95,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "star 2",
+          "type": "rectangle",
+          "x": 814.15,
+          "y": 546,
+          "width": 34.79,
+          "height": 40.95,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#655a9e",
+              "variable": "var(--color-purple-50)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "50K+",
+      "type": "text",
+      "x": 599,
+      "y": 587,
+      "width": 64,
+      "height": 50,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "50K+",
+      "font": {
+        "family": "Kadwa",
+        "size": 25,
+        "weight": 700,
+        "lineHeight": 50.2,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Stories",
+      "type": "text",
+      "x": 605,
+      "y": 628,
+      "width": 50,
+      "height": 28,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.5)",
+          "variable": "var(--color-white-50)"
+        }
+      ],
+      "text": "Stories",
+      "font": {
+        "family": "Kadwa",
+        "size": 14,
+        "weight": 700,
+        "lineHeight": 28.11,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Readers",
+      "type": "text",
+      "x": 707,
+      "y": 628,
+      "width": 57,
+      "height": 28,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.5)",
+          "variable": "var(--color-white-50)"
+        }
+      ],
+      "text": "Readers",
+      "font": {
+        "family": "Kadwa",
+        "size": 14,
+        "weight": 700,
+        "lineHeight": 28.11,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rating",
+      "type": "text",
+      "x": 808,
+      "y": 628,
+      "width": 48,
+      "height": 28,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.5)",
+          "variable": "var(--color-white-50)"
+        }
+      ],
+      "text": "Rating",
+      "font": {
+        "family": "Kadwa",
+        "size": 14,
+        "weight": 700,
+        "lineHeight": 28.11,
+        "align": "center"
+      }
+    },
+    {
+      "name": "1M+",
+      "type": "text",
+      "x": 711,
+      "y": 587,
+      "width": 51,
+      "height": 50,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "1M+",
+      "font": {
+        "family": "Kadwa",
+        "size": 25,
+        "weight": 700,
+        "lineHeight": 50.2,
+        "align": "center"
+      }
+    },
+    {
+      "name": "4.8",
+      "type": "text",
+      "x": 812,
+      "y": 587,
+      "width": 39,
+      "height": 50,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "4.8",
+      "font": {
+        "family": "Kadwa",
+        "size": 25,
+        "weight": 700,
+        "lineHeight": 50.2,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 4",
+      "type": "rectangle",
+      "x": 497,
+      "y": 459,
+      "width": 213,
+      "height": 51,
+      "fills": [
+        {
+          "color": "#793bf2",
+          "variable": "var(--color-purple-40)"
+        }
+      ],
+      "radius": 40,
+      "effects": [
+        {
+          "type": "drop_shadow",
+          "radius": 4,
+          "offset": {
+            "x": 0,
+            "y": 4
+          },
+          "color": "rgba(0, 0, 0, 0.25)"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 5",
+      "type": "rectangle",
+      "x": 748,
+      "y": 459,
+      "width": 213,
+      "height": 51,
+      "fills": [
+        {
+          "color": "rgba(121, 59, 242, 0)"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#8f99a0",
+          "variable": "var(--color-gray-30)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 40,
+      "effects": [
+        {
+          "type": "drop_shadow",
+          "radius": 4,
+          "offset": {
+            "x": 0,
+            "y": 4
+          },
+          "color": "rgba(0, 0, 0, 0.25)"
+        }
+      ]
+    },
+    {
+      "name": "Start Reading",
+      "type": "text",
+      "x": 541,
+      "y": 472,
+      "width": 125,
+      "height": 26,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Start Reading",
+      "font": {
+        "family": "K2D",
+        "size": 20,
+        "weight": 400,
+        "lineHeight": 26,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Start Writing",
+      "type": "text",
+      "x": 795,
+      "y": 472,
+      "width": 119,
+      "height": 26,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Start Writing",
+      "font": {
+        "family": "K2D",
+        "size": 20,
+        "weight": 400,
+        "lineHeight": 26,
+        "align": "center"
+      }
+    },
+    {
+      "name": "стрелка иконка",
+      "type": "group",
+      "x": 1386.03,
+      "y": 757,
+      "width": 23.31,
+      "height": 21.81,
+      "children": [
+        {
+          "name": "Rectangle 5",
+          "type": "rectangle",
+          "x": 1386.03,
+          "y": 757,
+          "width": 23.31,
+          "height": 21.81,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "Rectangle 6",
+          "type": "rectangle",
+          "x": 1386.03,
+          "y": 757,
+          "width": 23.31,
+          "height": 21.81,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#828287"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "стрелка иконка",
+      "type": "group",
+      "x": 1320,
+      "y": 757,
+      "width": 23.31,
+      "height": 21.81,
+      "children": [
+        {
+          "name": "Rectangle 5",
+          "type": "rectangle",
+          "x": 1320,
+          "y": 757,
+          "width": 23.31,
+          "height": 21.81,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "Rectangle 6",
+          "type": "rectangle",
+          "x": 1320,
+          "y": 757,
+          "width": 23.31,
+          "height": 21.81,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#828287"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Most popular stories this week",
+      "type": "text",
+      "x": 134,
+      "y": 785,
+      "width": 249,
+      "height": 32,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.5)",
+          "variable": "var(--color-white-50)"
+        }
+      ],
+      "text": "Most  popular stories this week",
+      "font": {
+        "family": "Kadwa",
+        "size": 16,
+        "weight": 700,
+        "lineHeight": 32.13,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Trending Now",
+      "type": "text",
+      "x": 135,
+      "y": 739,
+      "width": 188,
+      "height": 40,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Trending Now",
+      "font": {
+        "family": "Jua",
+        "size": 32,
+        "weight": 400,
+        "lineHeight": 40,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Ellipse 4",
+      "type": "ellipse",
+      "x": 39,
+      "y": 739,
+      "width": 71,
+      "height": 76,
+      "fills": [
+        {
+          "color": "#241237",
+          "variable": "var(--color-purple-70)"
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 47.45,
+      "y": 748,
+      "width": 54.44,
+      "height": 58,
+      "children": [
+        {
+          "name": "increase 1",
+          "type": "rectangle",
+          "x": 47.45,
+          "y": 748,
+          "width": 54.44,
+          "height": 58,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "increase 2",
+          "type": "rectangle",
+          "x": 47.45,
+          "y": 748,
+          "width": 54.44,
+          "height": 58,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#7e69ac",
+              "variable": "var(--color-purple-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 11",
+      "type": "rectangle",
+      "x": 313,
+      "y": 869,
+      "width": 256,
+      "height": 491,
+      "fills": [
+        {
+          "color": "rgba(47, 45, 45, 0.6)"
+        }
+      ],
+      "radius": 10
+    },
+    {
+      "name": "изображение 4",
+      "type": "rectangle",
+      "x": 313,
+      "y": 869,
+      "width": 256,
+      "height": 433,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "STRETCH"
+        }
+      ],
+      "radius": [
+        10,
+        10,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Rectangle 12",
+      "type": "rectangle",
+      "x": 592,
+      "y": 869,
+      "width": 256,
+      "height": 491,
+      "fills": [
+        {
+          "color": "rgba(47, 45, 45, 0.6)"
+        }
+      ],
+      "radius": 10
+    },
+    {
+      "name": "изображение 5",
+      "type": "rectangle",
+      "x": 592,
+      "y": 869,
+      "width": 256,
+      "height": 433,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ],
+      "radius": [
+        10,
+        10,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Rectangle 13",
+      "type": "rectangle",
+      "x": 872,
+      "y": 869,
+      "width": 256,
+      "height": 491,
+      "fills": [
+        {
+          "color": "rgba(47, 45, 45, 0.6)"
+        }
+      ],
+      "radius": 10
+    },
+    {
+      "name": "изображение 6",
+      "type": "rectangle",
+      "x": 872,
+      "y": 869,
+      "width": 256,
+      "height": 433,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ],
+      "radius": [
+        10,
+        10,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Rectangle 14",
+      "type": "rectangle",
+      "x": 1153,
+      "y": 869,
+      "width": 256,
+      "height": 491,
+      "fills": [
+        {
+          "color": "rgba(47, 45, 45, 0.6)"
+        }
+      ],
+      "radius": 10
+    },
+    {
+      "name": "изображение 7",
+      "type": "rectangle",
+      "x": 1153,
+      "y": 869,
+      "width": 256,
+      "height": 433,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ],
+      "radius": [
+        10,
+        10,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Rectangle 7",
+      "type": "rectangle",
+      "x": 343,
+      "y": 896,
+      "width": 89,
+      "height": 26,
+      "fills": [
+        {
+          "color": "rgba(123, 58, 238, 0.9)"
+        }
+      ],
+      "radius": 5
+    },
+    {
+      "name": "Fantasy",
+      "type": "text",
+      "x": 359,
+      "y": 899,
+      "width": 58,
+      "height": 20,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Fantasy",
+      "font": {
+        "family": "Jua",
+        "size": 16,
+        "weight": 400,
+        "lineHeight": 20,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 8",
+      "type": "rectangle",
+      "x": 623,
+      "y": 896,
+      "width": 87,
+      "height": 26,
+      "fills": [
+        {
+          "color": "rgba(123, 58, 238, 0.9)"
+        }
+      ],
+      "radius": 5
+    },
+    {
+      "name": "Sci-fi",
+      "type": "text",
+      "x": 647,
+      "y": 899,
+      "width": 39,
+      "height": 20,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Sci-fi",
+      "font": {
+        "family": "Jua",
+        "size": 16,
+        "weight": 400,
+        "lineHeight": 20,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 9",
+      "type": "rectangle",
+      "x": 903,
+      "y": 896,
+      "width": 88,
+      "height": 26,
+      "fills": [
+        {
+          "color": "rgba(123, 58, 238, 0.9)"
+        }
+      ],
+      "radius": 5
+    },
+    {
+      "name": "Romance",
+      "type": "text",
+      "x": 917,
+      "y": 899,
+      "width": 61,
+      "height": 20,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Romance",
+      "font": {
+        "family": "Jua",
+        "size": 16,
+        "weight": 400,
+        "lineHeight": 20,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 10",
+      "type": "rectangle",
+      "x": 1184,
+      "y": 896,
+      "width": 87,
+      "height": 26,
+      "fills": [
+        {
+          "color": "rgba(123, 58, 238, 0.9)"
+        }
+      ],
+      "radius": 5
+    },
+    {
+      "name": "Adventure",
+      "type": "text",
+      "x": 1191,
+      "y": 899,
+      "width": 73,
+      "height": 20,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Adventure",
+      "font": {
+        "family": "Jua",
+        "size": 16,
+        "weight": 400,
+        "lineHeight": 20,
+        "align": "center"
+      }
+    },
+    {
+      "name": "The Dragon`s Covenant",
+      "type": "text",
+      "x": 325,
+      "y": 1128,
+      "width": 210,
+      "height": 36,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "The Dragon`s Covenant",
+      "font": {
+        "family": "Kadwa",
+        "size": 18,
+        "weight": 700,
+        "lineHeight": 36.14,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Helena Grande",
+      "type": "text",
+      "x": 373,
+      "y": 1318,
+      "width": 106,
+      "height": 28,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.85)"
+        }
+      ],
+      "text": "Helena Grande",
+      "font": {
+        "family": "Kadwa",
+        "size": 14,
+        "weight": 700,
+        "lineHeight": 28.11,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Stellar Exodus",
+      "type": "text",
+      "x": 599,
+      "y": 1128,
+      "width": 130,
+      "height": 36,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Stellar Exodus",
+      "font": {
+        "family": "Kadwa",
+        "size": 18,
+        "weight": 700,
+        "lineHeight": 36.14,
+        "align": "center"
+      }
+    },
+    {
+      "name": "The Dragon`s Covenant",
+      "type": "text",
+      "x": 882,
+      "y": 1128,
+      "width": 210,
+      "height": 36,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "The Dragon`s Covenant",
+      "font": {
+        "family": "Kadwa",
+        "size": 18,
+        "weight": 700,
+        "lineHeight": 36.14,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Stellar Exodus",
+      "type": "text",
+      "x": 1159,
+      "y": 1128,
+      "width": 130,
+      "height": 36,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Stellar Exodus",
+      "font": {
+        "family": "Kadwa",
+        "size": 18,
+        "weight": 700,
+        "lineHeight": 36.14,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Ellipse 5",
+      "type": "ellipse",
+      "x": 328,
+      "y": 1313,
+      "width": 31,
+      "height": 32,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 64",
+      "type": "rectangle",
+      "x": 30,
+      "y": 869,
+      "width": 256,
+      "height": 491,
+      "fills": [
+        {
+          "color": "rgba(47, 45, 45, 0.6)"
+        }
+      ],
+      "radius": 10
+    },
+    {
+      "name": "изображение 23",
+      "type": "rectangle",
+      "x": 30,
+      "y": 869,
+      "width": 256,
+      "height": 433,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "STRETCH"
+        }
+      ],
+      "radius": [
+        10,
+        10,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Rectangle 65",
+      "type": "rectangle",
+      "x": 61,
+      "y": 896,
+      "width": 88,
+      "height": 26,
+      "fills": [
+        {
+          "color": "rgba(123, 58, 238, 0.9)"
+        }
+      ],
+      "radius": 5
+    },
+    {
+      "name": "Fantasy",
+      "type": "text",
+      "x": 76,
+      "y": 899,
+      "width": 58,
+      "height": 20,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Fantasy",
+      "font": {
+        "family": "Jua",
+        "size": 16,
+        "weight": 400,
+        "lineHeight": 20,
+        "align": "center"
+      }
+    },
+    {
+      "name": "The Dragon`s Covenant",
+      "type": "text",
+      "x": 40,
+      "y": 1128,
+      "width": 210,
+      "height": 36,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "The Dragon`s Covenant",
+      "font": {
+        "family": "Kadwa",
+        "size": 18,
+        "weight": 700,
+        "lineHeight": 36.14,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Helena Grande",
+      "type": "text",
+      "x": 90,
+      "y": 1318,
+      "width": 106,
+      "height": 28,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.85)"
+        }
+      ],
+      "text": "Helena Grande",
+      "font": {
+        "family": "Kadwa",
+        "size": 14,
+        "weight": 700,
+        "lineHeight": 28.11,
+        "align": "center"
+      }
+    },
+    {
+      "name": "127.1К",
+      "type": "text",
+      "x": 134,
+      "y": 1268,
+      "width": 55,
+      "height": 34,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "127.1К",
+      "font": {
+        "family": "Kadwa",
+        "size": 17,
+        "weight": 700,
+        "lineHeight": 34.13,
+        "align": "center"
+      }
+    },
+    {
+      "name": "4.7",
+      "type": "text",
+      "x": 64,
+      "y": 1268,
+      "width": 25,
+      "height": 34,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "4.7",
+      "font": {
+        "family": "Kadwa",
+        "size": 17,
+        "weight": 700,
+        "lineHeight": 34.13,
+        "align": "center"
+      }
+    },
+    {
+      "name": "star(1) 25",
+      "type": "rectangle",
+      "x": 42,
+      "y": 1274,
+      "width": 17,
+      "height": 18,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "name": "Глазик",
+      "type": "group",
+      "x": 106.66,
+      "y": 1271,
+      "width": 23.44,
+      "height": 24.98,
+      "children": [
+        {
+          "name": "free-icon-eye-158746 1",
+          "type": "rectangle",
+          "x": 106.66,
+          "y": 1271,
+          "width": 23.44,
+          "height": 24.98,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "free-icon-eye-158746 2",
+          "type": "rectangle",
+          "x": 106.66,
+          "y": 1271,
+          "width": 23.44,
+          "height": 24.98,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "127.1К",
+      "type": "text",
+      "x": 418,
+      "y": 1268,
+      "width": 55,
+      "height": 34,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "127.1К",
+      "font": {
+        "family": "Kadwa",
+        "size": 17,
+        "weight": 700,
+        "lineHeight": 34.13,
+        "align": "center"
+      }
+    },
+    {
+      "name": "4.7",
+      "type": "text",
+      "x": 347,
+      "y": 1268,
+      "width": 25,
+      "height": 34,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "4.7",
+      "font": {
+        "family": "Kadwa",
+        "size": 17,
+        "weight": 700,
+        "lineHeight": 34.13,
+        "align": "center"
+      }
+    },
+    {
+      "name": "star(1) 46",
+      "type": "rectangle",
+      "x": 325,
+      "y": 1274,
+      "width": 17,
+      "height": 18,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "name": "Глазик",
+      "type": "group",
+      "x": 390.25,
+      "y": 1271,
+      "width": 23.44,
+      "height": 24.98,
+      "children": [
+        {
+          "name": "free-icon-eye-158746 1",
+          "type": "rectangle",
+          "x": 390.25,
+          "y": 1271,
+          "width": 23.44,
+          "height": 24.98,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "free-icon-eye-158746 2",
+          "type": "rectangle",
+          "x": 390.25,
+          "y": 1271,
+          "width": 23.44,
+          "height": 24.98,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "127.1К",
+      "type": "text",
+      "x": 692,
+      "y": 1268,
+      "width": 55,
+      "height": 34,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "127.1К",
+      "font": {
+        "family": "Kadwa",
+        "size": 17,
+        "weight": 700,
+        "lineHeight": 34.13,
+        "align": "center"
+      }
+    },
+    {
+      "name": "4.7",
+      "type": "text",
+      "x": 621,
+      "y": 1268,
+      "width": 25,
+      "height": 34,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "4.7",
+      "font": {
+        "family": "Kadwa",
+        "size": 17,
+        "weight": 700,
+        "lineHeight": 34.13,
+        "align": "center"
+      }
+    },
+    {
+      "name": "star(1) 47",
+      "type": "rectangle",
+      "x": 599,
+      "y": 1274,
+      "width": 17,
+      "height": 18,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "name": "Глазик",
+      "type": "group",
+      "x": 663.89,
+      "y": 1271,
+      "width": 23.44,
+      "height": 24.98,
+      "children": [
+        {
+          "name": "free-icon-eye-158746 1",
+          "type": "rectangle",
+          "x": 663.89,
+          "y": 1271,
+          "width": 23.44,
+          "height": 24.98,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "free-icon-eye-158746 2",
+          "type": "rectangle",
+          "x": 663.89,
+          "y": 1271,
+          "width": 23.44,
+          "height": 24.98,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "127.1К",
+      "type": "text",
+      "x": 974,
+      "y": 1268,
+      "width": 55,
+      "height": 34,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "127.1К",
+      "font": {
+        "family": "Kadwa",
+        "size": 17,
+        "weight": 700,
+        "lineHeight": 34.13,
+        "align": "center"
+      }
+    },
+    {
+      "name": "4.7",
+      "type": "text",
+      "x": 904,
+      "y": 1268,
+      "width": 25,
+      "height": 34,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "4.7",
+      "font": {
+        "family": "Kadwa",
+        "size": 17,
+        "weight": 700,
+        "lineHeight": 34.13,
+        "align": "center"
+      }
+    },
+    {
+      "name": "star(1) 48",
+      "type": "rectangle",
+      "x": 882,
+      "y": 1274,
+      "width": 17,
+      "height": 18,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "name": "Глазик",
+      "type": "group",
+      "x": 946.42,
+      "y": 1271,
+      "width": 23.44,
+      "height": 24.98,
+      "children": [
+        {
+          "name": "free-icon-eye-158746 1",
+          "type": "rectangle",
+          "x": 946.42,
+          "y": 1271,
+          "width": 23.44,
+          "height": 24.98,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "free-icon-eye-158746 2",
+          "type": "rectangle",
+          "x": 946.42,
+          "y": 1271,
+          "width": 23.44,
+          "height": 24.98,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "127.1К",
+      "type": "text",
+      "x": 1252,
+      "y": 1268,
+      "width": 55,
+      "height": 34,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "127.1К",
+      "font": {
+        "family": "Kadwa",
+        "size": 17,
+        "weight": 700,
+        "lineHeight": 34.13,
+        "align": "center"
+      }
+    },
+    {
+      "name": "4.7",
+      "type": "text",
+      "x": 1181,
+      "y": 1268,
+      "width": 25,
+      "height": 34,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "4.7",
+      "font": {
+        "family": "Kadwa",
+        "size": 17,
+        "weight": 700,
+        "lineHeight": 34.13,
+        "align": "center"
+      }
+    },
+    {
+      "name": "star(1) 49",
+      "type": "rectangle",
+      "x": 1159,
+      "y": 1274,
+      "width": 17,
+      "height": 18,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "name": "Глазик",
+      "type": "group",
+      "x": 1224.25,
+      "y": 1271,
+      "width": 23.44,
+      "height": 24.98,
+      "children": [
+        {
+          "name": "free-icon-eye-158746 1",
+          "type": "rectangle",
+          "x": 1224.25,
+          "y": 1271,
+          "width": 23.44,
+          "height": 24.98,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "free-icon-eye-158746 2",
+          "type": "rectangle",
+          "x": 1224.25,
+          "y": 1271,
+          "width": 23.44,
+          "height": 24.98,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ellipse 28",
+      "type": "ellipse",
+      "x": 47,
+      "y": 1313,
+      "width": 30,
+      "height": 32,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "name": "Helena Grande",
+      "type": "text",
+      "x": 653,
+      "y": 1318,
+      "width": 106,
+      "height": 28,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.85)"
+        }
+      ],
+      "text": "Helena Grande",
+      "font": {
+        "family": "Kadwa",
+        "size": 14,
+        "weight": 700,
+        "lineHeight": 28.11,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Ellipse 6",
+      "type": "ellipse",
+      "x": 609,
+      "y": 1313,
+      "width": 30,
+      "height": 32,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "name": "Helena Grande",
+      "type": "text",
+      "x": 939,
+      "y": 1318,
+      "width": 106,
+      "height": 28,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.85)"
+        }
+      ],
+      "text": "Helena Grande",
+      "font": {
+        "family": "Kadwa",
+        "size": 14,
+        "weight": 700,
+        "lineHeight": 28.11,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Ellipse 7",
+      "type": "ellipse",
+      "x": 892,
+      "y": 1313,
+      "width": 31,
+      "height": 32,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "name": "Helena Grande",
+      "type": "text",
+      "x": 1218,
+      "y": 1318,
+      "width": 106,
+      "height": 28,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.85)"
+        }
+      ],
+      "text": "Helena Grande",
+      "font": {
+        "family": "Kadwa",
+        "size": 14,
+        "weight": 700,
+        "lineHeight": 28.11,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Ellipse 8",
+      "type": "ellipse",
+      "x": 1169,
+      "y": 1313,
+      "width": 31,
+      "height": 32,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "name": "Вот вам яркий пример современных тенденций — существующая теория позволяет оценить значение инновационных методов ...",
+      "type": "text",
+      "x": 40,
+      "y": 1166,
+      "width": 227,
+      "height": 100,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Вот вам яркий пример современных тенденций — существующая теория позволяет оценить значение \nинновационных методов ...",
+      "font": {
+        "family": "Kadwa",
+        "size": 14,
+        "weight": 700,
+        "lineHeight": 20,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Вот вам яркий пример современных тенденций — существующая теория позволяет оценить значение инновационных методов ...",
+      "type": "text",
+      "x": 325,
+      "y": 1166,
+      "width": 228,
+      "height": 100,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Вот вам яркий пример современных тенденций — существующая теория позволяет оценить значение \nинновационных методов ...",
+      "font": {
+        "family": "Kadwa",
+        "size": 14,
+        "weight": 700,
+        "lineHeight": 20,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Вот вам яркий пример современных тенденций — существующая теория позволяет оценить значение инновационных методов ...",
+      "type": "text",
+      "x": 599,
+      "y": 1166,
+      "width": 227,
+      "height": 100,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Вот вам яркий пример современных тенденций — существующая теория позволяет оценить значение \nинновационных методов ...",
+      "font": {
+        "family": "Kadwa",
+        "size": 14,
+        "weight": 700,
+        "lineHeight": 20,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Вот вам яркий пример современных тенденций — существующая теория позволяет оценить значение инновационных методов ...",
+      "type": "text",
+      "x": 882,
+      "y": 1166,
+      "width": 227,
+      "height": 100,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Вот вам яркий пример современных тенденций — существующая теория позволяет оценить значение \nинновационных методов ...",
+      "font": {
+        "family": "Kadwa",
+        "size": 14,
+        "weight": 700,
+        "lineHeight": 20,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Вот вам яркий пример современных тенденций — существующая теория позволяет оценить значение инновационных методов ...",
+      "type": "text",
+      "x": 1159,
+      "y": 1166,
+      "width": 228,
+      "height": 100,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Вот вам яркий пример современных тенденций — существующая теория позволяет оценить значение \nинновационных методов ...",
+      "font": {
+        "family": "Kadwa",
+        "size": 14,
+        "weight": 700,
+        "lineHeight": 20,
+        "align": "left"
+      }
+    }
+  ]
+}

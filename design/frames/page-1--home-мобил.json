@@ -1,0 +1,8948 @@
+{
+  "name": "home мобил",
+  "type": "frame",
+  "x": 0,
+  "y": 0,
+  "width": 440,
+  "height": 1781,
+  "fills": [
+    {
+      "color": "#050510",
+      "variable": "var(--color-black-20)"
+    }
+  ],
+  "children": [
+    {
+      "name": "Rectangle 181",
+      "type": "rectangle",
+      "x": -230,
+      "y": 1515,
+      "width": 874,
+      "height": 377,
+      "fills": [
+        {
+          "gradient": "linear",
+          "stops": [
+            {
+              "color": "#050510",
+              "variable": "var(--color-black-20)",
+              "position": 0
+            },
+            {
+              "color": "#231338",
+              "position": 0.5
+            },
+            {
+              "color": "#231338",
+              "position": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Книга иконка",
+      "type": "group",
+      "x": 38,
+      "y": 1598,
+      "width": 15.3,
+      "height": 12.39,
+      "children": [
+        {
+          "name": "open-book 1",
+          "type": "rectangle",
+          "x": 38,
+          "y": 1598,
+          "width": 15.3,
+          "height": 12.39,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "open-book 2",
+          "type": "rectangle",
+          "x": -52.29,
+          "y": 1524.88,
+          "width": 195.88,
+          "height": 158.63,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#655a9e",
+              "variable": "var(--color-purple-50)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mythory",
+      "type": "text",
+      "x": 61.31,
+      "y": 1598.28,
+      "width": 40,
+      "height": 12,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Mythory",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 10,
+        "weight": 500,
+        "lineHeight": 12.2,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Our Mission",
+      "type": "text",
+      "x": 38.31,
+      "y": 1632,
+      "width": 39,
+      "height": 9,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Our Mission",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 7,
+        "weight": 500,
+        "lineHeight": 8.54,
+        "align": "left"
+      }
+    },
+    {
+      "name": "FAQ",
+      "type": "text",
+      "x": 134,
+      "y": 1663,
+      "width": 15,
+      "height": 9,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "FAQ",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 7,
+        "weight": 500,
+        "lineHeight": 8.54,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Publish a book",
+      "type": "text",
+      "x": 134.31,
+      "y": 1633,
+      "width": 48,
+      "height": 9,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Publish a book",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 7,
+        "weight": 500,
+        "lineHeight": 8.54,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Recommendations",
+      "type": "text",
+      "x": 134,
+      "y": 1695,
+      "width": 62,
+      "height": 9,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Recommendations",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 7,
+        "weight": 500,
+        "lineHeight": 8.54,
+        "align": "left"
+      }
+    },
+    {
+      "name": "© 2026 MomentumX",
+      "type": "text",
+      "x": 183,
+      "y": 1741,
+      "width": 69,
+      "height": 9,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "© 2026 MomentumX",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 7,
+        "weight": 500,
+        "lineHeight": 8.54,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Rules for authors",
+      "type": "text",
+      "x": 239,
+      "y": 1633,
+      "width": 55,
+      "height": 9,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Rules for authors",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 7,
+        "weight": 500,
+        "lineHeight": 8.54,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Privacy Policy",
+      "type": "text",
+      "x": 239,
+      "y": 1663,
+      "width": 45,
+      "height": 9,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Privacy Policy",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 7,
+        "weight": 500,
+        "lineHeight": 8.54,
+        "align": "left"
+      }
+    },
+    {
+      "name": "User agreement",
+      "type": "text",
+      "x": 38,
+      "y": 1663,
+      "width": 53,
+      "height": 9,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "User agreement",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 7,
+        "weight": 500,
+        "lineHeight": 8.54,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Copyright",
+      "type": "text",
+      "x": 38,
+      "y": 1695,
+      "width": 33,
+      "height": 9,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Copyright",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 7,
+        "weight": 500,
+        "lineHeight": 8.54,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Home",
+      "type": "text",
+      "x": 346,
+      "y": 1633,
+      "width": 20,
+      "height": 9,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Home",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 7,
+        "weight": 400,
+        "lineHeight": 8.54,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Genres",
+      "type": "text",
+      "x": 346,
+      "y": 1649,
+      "width": 24,
+      "height": 9,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Genres",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 7,
+        "weight": 400,
+        "lineHeight": 8.54,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Community",
+      "type": "text",
+      "x": 346,
+      "y": 1665,
+      "width": 39,
+      "height": 9,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Community",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 7,
+        "weight": 400,
+        "lineHeight": 8.54,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Log in",
+      "type": "text",
+      "x": 346,
+      "y": 1681,
+      "width": 20,
+      "height": 9,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Log in",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 7,
+        "weight": 400,
+        "lineHeight": 8.54,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Sign up",
+      "type": "text",
+      "x": 346,
+      "y": 1697,
+      "width": 25,
+      "height": 9,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Sign up",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 7,
+        "weight": 400,
+        "lineHeight": 8.54,
+        "align": "left"
+      }
+    },
+    {
+      "name": "изображение 29",
+      "type": "rectangle",
+      "x": -117,
+      "y": 60,
+      "width": 373,
+      "height": 228,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "STRETCH"
+        }
+      ],
+      "effects": [
+        {
+          "type": "layer_blur",
+          "radius": 80
+        }
+      ]
+    },
+    {
+      "name": "изображение 29",
+      "type": "rectangle",
+      "x": 202,
+      "y": 45,
+      "width": 352.37,
+      "height": 316.91,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "STRETCH"
+        }
+      ],
+      "effects": [
+        {
+          "type": "layer_blur",
+          "radius": 100
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 2",
+      "type": "rectangle",
+      "x": 0,
+      "y": 0,
+      "width": 440,
+      "height": 83,
+      "fills": [
+        {
+          "color": "#1b1e2d",
+          "variable": "var(--color-black-10)"
+        }
+      ]
+    },
+    {
+      "name": "логотип",
+      "type": "group",
+      "x": 36,
+      "y": 17,
+      "width": 36.44,
+      "height": 36.44,
+      "children": [
+        {
+          "name": "open-book 1",
+          "type": "rectangle",
+          "x": 36,
+          "y": 17,
+          "width": 36.44,
+          "height": 36.44,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "open-book 2",
+          "type": "rectangle",
+          "x": -179.01,
+          "y": -198.01,
+          "width": 466.45,
+          "height": 466.45,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#655a9e",
+              "variable": "var(--color-purple-50)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Home",
+      "type": "text",
+      "x": 118,
+      "y": 19.13,
+      "width": 48,
+      "height": 27,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Home",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 12,
+        "weight": 400,
+        "lineHeight": 14.64,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Genres",
+      "type": "text",
+      "x": 195,
+      "y": 19.13,
+      "width": 57,
+      "height": 27,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Genres",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 12,
+        "weight": 400,
+        "lineHeight": 14.64,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Community",
+      "type": "text",
+      "x": 281,
+      "y": 18.13,
+      "width": 67,
+      "height": 15,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Community",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 12,
+        "weight": 400,
+        "lineHeight": 14.64,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Line 2",
+      "type": "line",
+      "x": 118,
+      "y": 39.13,
+      "width": 33,
+      "height": 0,
+      "strokes": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "strokeWeight": 1
+    },
+    {
+      "name": "Log in",
+      "type": "text",
+      "x": 128,
+      "y": 53.13,
+      "width": 48,
+      "height": 27,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Log in",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 9,
+        "weight": 400,
+        "lineHeight": 10.98,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Create",
+      "type": "text",
+      "x": 291,
+      "y": 53.13,
+      "width": 28,
+      "height": 11,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Create",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 9,
+        "weight": 400,
+        "lineHeight": 10.98,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Sign up",
+      "type": "text",
+      "x": 205,
+      "y": 53.13,
+      "width": 59,
+      "height": 27,
+      "fills": [
+        {
+          "gradient": "linear",
+          "stops": [
+            {
+              "color": "rgba(148, 140, 228, 0.9)",
+              "position": 0
+            },
+            {
+              "color": "rgba(109, 171, 247, 0.9)",
+              "position": 0.23
+            },
+            {
+              "color": "rgba(41, 210, 241, 0.9)",
+              "position": 0.94
+            }
+          ]
+        }
+      ],
+      "text": "Sign up",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 9,
+        "weight": 400,
+        "lineHeight": 10.98,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Поиск иконка",
+      "type": "group",
+      "x": 384,
+      "y": 19.13,
+      "width": 15,
+      "height": 15,
+      "children": [
+        {
+          "name": "magnifying-glass 1",
+          "type": "rectangle",
+          "x": 384,
+          "y": 19.13,
+          "width": 15,
+          "height": 15,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "magnifying-glass 2",
+          "type": "rectangle",
+          "x": 384,
+          "y": 19.13,
+          "width": 15,
+          "height": 15,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unlimited Stories,",
+      "type": "text",
+      "x": 107,
+      "y": 121,
+      "width": 230,
+      "height": 38,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Unlimited Stories, ",
+      "font": {
+        "family": "Jua",
+        "size": 30,
+        "weight": 400,
+        "lineHeight": 37.5,
+        "align": "left"
+      }
+    },
+    {
+      "name": "One Universe text",
+      "type": "group",
+      "x": 167,
+      "y": 159,
+      "width": 114,
+      "height": 25,
+      "radius": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "children": [
+        {
+          "name": "One Universe",
+          "type": "text",
+          "x": 167,
+          "y": 159,
+          "width": 114,
+          "height": 25,
+          "fills": [
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ],
+          "text": "One Universe",
+          "font": {
+            "family": "Jua",
+            "size": 20,
+            "weight": 400,
+            "lineHeight": 25,
+            "align": "left"
+          }
+        },
+        {
+          "name": "One Universe",
+          "type": "text",
+          "x": 167,
+          "y": 159,
+          "width": 114,
+          "height": 25,
+          "fills": [
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            },
+            {
+              "gradient": "linear",
+              "stops": [
+                {
+                  "color": "#948ce4",
+                  "position": 0
+                },
+                {
+                  "color": "#6dabf7",
+                  "position": 0.33
+                },
+                {
+                  "color": "#29d2f1",
+                  "position": 0.94
+                }
+              ]
+            }
+          ],
+          "text": "One Universe",
+          "font": {
+            "family": "Jua",
+            "size": 20,
+            "weight": 400,
+            "lineHeight": 25,
+            "align": "left"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Dive into millions of web novels across fantasy, sci-fi, romance and more. Read for free or white your own story.",
+      "type": "text",
+      "x": 71,
+      "y": 200,
+      "width": 302,
+      "height": 59,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Dive into millions of web novels across fantasy, sci-fi, romance and more. Read for free or white your own story.",
+      "font": {
+        "family": "K2D",
+        "size": 12,
+        "weight": 400,
+        "lineHeight": 15.6,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 141",
+      "type": "rectangle",
+      "x": 100,
+      "y": 259,
+      "width": 117,
+      "height": 29,
+      "fills": [
+        {
+          "color": "#793bf2",
+          "variable": "var(--color-purple-40)"
+        }
+      ],
+      "radius": 40,
+      "effects": [
+        {
+          "type": "drop_shadow",
+          "radius": 4,
+          "offset": {
+            "x": 0,
+            "y": 4
+          },
+          "color": "rgba(0, 0, 0, 0.25)"
+        }
+      ]
+    },
+    {
+      "name": "Start Reading",
+      "type": "text",
+      "x": 125,
+      "y": 266,
+      "width": 69,
+      "height": 14,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Start Reading",
+      "font": {
+        "family": "K2D",
+        "size": 11,
+        "weight": 400,
+        "lineHeight": 14.3,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 142",
+      "type": "rectangle",
+      "x": 238,
+      "y": 259,
+      "width": 117,
+      "height": 29,
+      "strokes": [
+        {
+          "color": "#8f99a0",
+          "variable": "var(--color-gray-30)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 40,
+      "effects": [
+        {
+          "type": "drop_shadow",
+          "radius": 4,
+          "offset": {
+            "x": 0,
+            "y": 4
+          },
+          "color": "rgba(0, 0, 0, 0.25)"
+        }
+      ]
+    },
+    {
+      "name": "Start Writing",
+      "type": "text",
+      "x": 264,
+      "y": 266,
+      "width": 65,
+      "height": 14,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Start Writing",
+      "font": {
+        "family": "K2D",
+        "size": 11,
+        "weight": 400,
+        "lineHeight": 14.3,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Most popular stories this week",
+      "type": "text",
+      "x": 52,
+      "y": 332,
+      "width": 109,
+      "height": 3,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.5)",
+          "variable": "var(--color-white-50)"
+        }
+      ],
+      "text": "Most  popular stories this week",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 3,
+        "align": "center"
+      }
+    },
+    {
+      "name": "стрелка иконка",
+      "type": "group",
+      "x": 407,
+      "y": 328,
+      "width": 10.84,
+      "height": 8.09,
+      "children": [
+        {
+          "name": "Rectangle 5",
+          "type": "rectangle",
+          "x": 407,
+          "y": 328,
+          "width": 10.84,
+          "height": 8.09,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "Rectangle 6",
+          "type": "rectangle",
+          "x": 407,
+          "y": 328,
+          "width": 10.84,
+          "height": 8.09,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#828287"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "стрелка иконка",
+      "type": "group",
+      "x": 383,
+      "y": 328,
+      "width": 10.84,
+      "height": 8.09,
+      "children": [
+        {
+          "name": "Rectangle 5",
+          "type": "rectangle",
+          "x": 383,
+          "y": 328,
+          "width": 10.84,
+          "height": 8.09,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "Rectangle 6",
+          "type": "rectangle",
+          "x": 383,
+          "y": 328,
+          "width": 10.84,
+          "height": 8.09,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#828287"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Trending Now",
+      "type": "text",
+      "x": 51,
+      "y": 321,
+      "width": 53,
+      "height": 3,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Trending Now",
+      "font": {
+        "family": "Jua",
+        "size": 9,
+        "weight": 400,
+        "lineHeight": 3,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Ellipse 34",
+      "type": "ellipse",
+      "x": 21,
+      "y": 318,
+      "width": 22,
+      "height": 22,
+      "fills": [
+        {
+          "color": "#241237",
+          "variable": "var(--color-purple-70)"
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 24,
+      "y": 321,
+      "width": 16.16,
+      "height": 16.16,
+      "children": [
+        {
+          "name": "increase 1",
+          "type": "rectangle",
+          "x": 24,
+          "y": 321,
+          "width": 16.16,
+          "height": 16.16,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "increase 2",
+          "type": "rectangle",
+          "x": 24.21,
+          "y": 320.79,
+          "width": 16.58,
+          "height": 16.58,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#7e69ac",
+              "variable": "var(--color-purple-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Most news stories this week",
+      "type": "text",
+      "x": 56,
+      "y": 546,
+      "width": 98,
+      "height": 3,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.5)",
+          "variable": "var(--color-white-50)"
+        }
+      ],
+      "text": "Most news stories this week",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 3,
+        "align": "center"
+      }
+    },
+    {
+      "name": "New Stories",
+      "type": "text",
+      "x": 56,
+      "y": 535,
+      "width": 48,
+      "height": 3,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "New Stories",
+      "font": {
+        "family": "Jua",
+        "size": 9,
+        "weight": 400,
+        "lineHeight": 3,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Ellipse 40",
+      "type": "ellipse",
+      "x": 24,
+      "y": 532,
+      "width": 22,
+      "height": 22,
+      "fills": [
+        {
+          "color": "#241237",
+          "variable": "var(--color-purple-70)"
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 24,
+      "y": 535,
+      "width": 16.16,
+      "height": 16.16,
+      "children": [
+        {
+          "name": "increase 1",
+          "type": "rectangle",
+          "x": 24,
+          "y": 535,
+          "width": 16.16,
+          "height": 16.16,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 149",
+      "type": "rectangle",
+      "x": 24,
+      "y": 347,
+      "width": 95,
+      "height": 170,
+      "fills": [
+        {
+          "color": "rgba(47, 45, 45, 0.6)"
+        }
+      ],
+      "radius": 10
+    },
+    {
+      "name": "изображение 33",
+      "type": "rectangle",
+      "x": 25,
+      "y": 347,
+      "width": 93,
+      "height": 146,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "STRETCH"
+        }
+      ],
+      "radius": [
+        10,
+        10,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Rectangle 150",
+      "type": "rectangle",
+      "x": 32,
+      "y": 354,
+      "width": 31,
+      "height": 8,
+      "fills": [
+        {
+          "color": "rgba(123, 58, 238, 0.9)"
+        }
+      ],
+      "radius": 5
+    },
+    {
+      "name": "Fantasy",
+      "type": "text",
+      "x": 36,
+      "y": 357,
+      "width": 22,
+      "height": 3,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Fantasy",
+      "font": {
+        "family": "Jua",
+        "size": 6,
+        "weight": 400,
+        "lineHeight": 3,
+        "align": "center"
+      }
+    },
+    {
+      "name": "The Dragon`s Covenant",
+      "type": "text",
+      "x": 33,
+      "y": 432,
+      "width": 70,
+      "height": 7,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "The Dragon`s Covenant",
+      "font": {
+        "family": "Kadwa",
+        "size": 6,
+        "weight": 700,
+        "lineHeight": 7,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Helena Grande",
+      "type": "text",
+      "x": 49,
+      "y": 504,
+      "width": 53,
+      "height": 3,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.85)"
+        }
+      ],
+      "text": "Helena Grande",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 3,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Ellipse 36",
+      "type": "ellipse",
+      "x": 33,
+      "y": 499,
+      "width": 11,
+      "height": 11,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "name": "Вот вам яркий пример современных тенденций — существующая теория позволяет оценить значение инновационных методов ...",
+      "type": "text",
+      "x": 33,
+      "y": 441,
+      "width": 70,
+      "height": 36,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Вот вам яркий пример современных тенденций — существующая теория позволяет оценить значение \nинновационных методов ...",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 5,
+        "align": "left"
+      }
+    },
+    {
+      "name": "стрелка иконка",
+      "type": "group",
+      "x": 408,
+      "y": 546,
+      "width": 10.84,
+      "height": 8.09,
+      "children": [
+        {
+          "name": "Rectangle 5",
+          "type": "rectangle",
+          "x": 408,
+          "y": 546,
+          "width": 10.84,
+          "height": 8.09,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "Rectangle 6",
+          "type": "rectangle",
+          "x": 408,
+          "y": 546,
+          "width": 10.84,
+          "height": 8.09,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#828287"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "стрелка иконка",
+      "type": "group",
+      "x": 384,
+      "y": 546,
+      "width": 10.84,
+      "height": 8.09,
+      "children": [
+        {
+          "name": "Rectangle 5",
+          "type": "rectangle",
+          "x": 384,
+          "y": 546,
+          "width": 10.84,
+          "height": 8.09,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "Rectangle 6",
+          "type": "rectangle",
+          "x": 384,
+          "y": 546,
+          "width": 10.84,
+          "height": 8.09,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#828287"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "new",
+      "type": "text",
+      "x": 28,
+      "y": 537,
+      "width": 13,
+      "height": 12,
+      "fills": [
+        {
+          "color": "#7e69ac",
+          "variable": "var(--color-purple-20)"
+        }
+      ],
+      "text": "new",
+      "font": {
+        "family": "Kadwa",
+        "size": 6,
+        "weight": 700,
+        "lineHeight": 12.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Top - 5 Stories this month",
+      "type": "text",
+      "x": 56,
+      "y": 755,
+      "width": 90,
+      "height": 14,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.5)",
+          "variable": "var(--color-white-50)"
+        }
+      ],
+      "text": "Top - 5 Stories this month",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 14.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Top-5",
+      "type": "text",
+      "x": 56,
+      "y": 750,
+      "width": 24,
+      "height": 3,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Top-5",
+      "font": {
+        "family": "Jua",
+        "size": 9,
+        "weight": 400,
+        "lineHeight": 3,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Ellipse 45",
+      "type": "ellipse",
+      "x": 24,
+      "y": 747,
+      "width": 22,
+      "height": 22,
+      "fills": [
+        {
+          "color": "#241237",
+          "variable": "var(--color-purple-70)"
+        }
+      ]
+    },
+    {
+      "name": "top",
+      "type": "text",
+      "x": 30,
+      "y": 752,
+      "width": 10,
+      "height": 12,
+      "fills": [
+        {
+          "color": "#7e69ac",
+          "variable": "var(--color-purple-20)"
+        }
+      ],
+      "text": "top",
+      "font": {
+        "family": "Kadwa",
+        "size": 6,
+        "weight": 700,
+        "lineHeight": 12.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 141",
+      "type": "rectangle",
+      "x": 20,
+      "y": 780,
+      "width": 400,
+      "height": 29,
+      "fills": [
+        {
+          "color": "rgba(47, 45, 45, 0.6)"
+        }
+      ],
+      "radius": 10
+    },
+    {
+      "name": "star(1) 67",
+      "type": "rectangle",
+      "x": 335,
+      "y": 791,
+      "width": 7,
+      "height": 7,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "name": "4.7",
+      "type": "text",
+      "x": 346,
+      "y": 790,
+      "width": 9,
+      "height": 12,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "4.7",
+      "font": {
+        "family": "Kadwa",
+        "size": 6,
+        "weight": 700,
+        "lineHeight": 12.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "127.1К",
+      "type": "text",
+      "x": 372,
+      "y": 790,
+      "width": 20,
+      "height": 12,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "127.1К",
+      "font": {
+        "family": "Kadwa",
+        "size": 6,
+        "weight": 700,
+        "lineHeight": 12.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Название книги",
+      "type": "text",
+      "x": 73,
+      "y": 787,
+      "width": 52,
+      "height": 5,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Название книги",
+      "font": {
+        "family": "Kadwa",
+        "size": 6,
+        "weight": 700,
+        "lineHeight": 5,
+        "align": "center"
+      }
+    },
+    {
+      "name": "автор",
+      "type": "text",
+      "x": 73,
+      "y": 796,
+      "width": 19,
+      "height": 12,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.85)"
+        }
+      ],
+      "text": "автор",
+      "font": {
+        "family": "Kadwa",
+        "size": 6,
+        "weight": 700,
+        "lineHeight": 12.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Стрелка блок новые истории",
+      "type": "group",
+      "x": 396.93,
+      "y": 788.08,
+      "width": 12.42,
+      "height": 12.42,
+      "children": [
+        {
+          "name": "free-icon-right-arrow-angle-54833 1",
+          "type": "rectangle",
+          "x": 396.93,
+          "y": 788.08,
+          "width": 12.42,
+          "height": 12.42,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "free-icon-right-arrow-angle-54833 2",
+          "type": "rectangle",
+          "x": 396.93,
+          "y": 788.08,
+          "width": 12.42,
+          "height": 12.42,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#7338da"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1.",
+      "type": "text",
+      "x": 30,
+      "y": 787,
+      "width": 6,
+      "height": 12,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "1.",
+      "font": {
+        "family": "Kadwa",
+        "size": 6,
+        "weight": 700,
+        "lineHeight": 12.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 142",
+      "type": "rectangle",
+      "x": 45,
+      "y": 784,
+      "width": 18,
+      "height": 21,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "name": "Глазик",
+      "type": "group",
+      "x": 360.02,
+      "y": 791,
+      "width": 9.33,
+      "height": 9.33,
+      "children": [
+        {
+          "name": "free-icon-eye-158746 1",
+          "type": "rectangle",
+          "x": 360.02,
+          "y": 791,
+          "width": 9.33,
+          "height": 9.33,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "free-icon-eye-158746 2",
+          "type": "rectangle",
+          "x": 360.23,
+          "y": 791,
+          "width": 9.33,
+          "height": 9.33,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Вот вам яркий пример современных тенденций — существующая теория позволяет оценить значение инновационных методов ...",
+      "type": "text",
+      "x": 143,
+      "y": 788,
+      "width": 177,
+      "height": 13,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Вот вам яркий пример современных тенденций — существующая теория позволяет оценить значение инновационных методов ...",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 7,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Rectangle 165",
+      "type": "rectangle",
+      "x": 20,
+      "y": 813,
+      "width": 400,
+      "height": 29,
+      "fills": [
+        {
+          "color": "rgba(47, 45, 45, 0.6)"
+        }
+      ],
+      "radius": 10
+    },
+    {
+      "name": "star(1) 75",
+      "type": "rectangle",
+      "x": 335,
+      "y": 824,
+      "width": 7,
+      "height": 7,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "name": "4.7",
+      "type": "text",
+      "x": 346,
+      "y": 823,
+      "width": 9,
+      "height": 12,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "4.7",
+      "font": {
+        "family": "Kadwa",
+        "size": 6,
+        "weight": 700,
+        "lineHeight": 12.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "127.1К",
+      "type": "text",
+      "x": 372,
+      "y": 823,
+      "width": 20,
+      "height": 12,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "127.1К",
+      "font": {
+        "family": "Kadwa",
+        "size": 6,
+        "weight": 700,
+        "lineHeight": 12.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Название книги",
+      "type": "text",
+      "x": 73,
+      "y": 820,
+      "width": 52,
+      "height": 5,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Название книги",
+      "font": {
+        "family": "Kadwa",
+        "size": 6,
+        "weight": 700,
+        "lineHeight": 5,
+        "align": "center"
+      }
+    },
+    {
+      "name": "автор",
+      "type": "text",
+      "x": 73,
+      "y": 829,
+      "width": 19,
+      "height": 12,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.85)"
+        }
+      ],
+      "text": "автор",
+      "font": {
+        "family": "Kadwa",
+        "size": 6,
+        "weight": 700,
+        "lineHeight": 12.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Стрелка блок новые истории",
+      "type": "group",
+      "x": 396.93,
+      "y": 821.08,
+      "width": 12.42,
+      "height": 12.42,
+      "children": [
+        {
+          "name": "free-icon-right-arrow-angle-54833 1",
+          "type": "rectangle",
+          "x": 396.93,
+          "y": 821.08,
+          "width": 12.42,
+          "height": 12.42,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "free-icon-right-arrow-angle-54833 2",
+          "type": "rectangle",
+          "x": 396.93,
+          "y": 821.08,
+          "width": 12.42,
+          "height": 12.42,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#7338da"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "2.",
+      "type": "text",
+      "x": 30,
+      "y": 820,
+      "width": 6,
+      "height": 12,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "2.",
+      "font": {
+        "family": "Kadwa",
+        "size": 6,
+        "weight": 700,
+        "lineHeight": 12.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 166",
+      "type": "rectangle",
+      "x": 45,
+      "y": 817,
+      "width": 18,
+      "height": 21,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "name": "Глазик",
+      "type": "group",
+      "x": 360.02,
+      "y": 824,
+      "width": 9.33,
+      "height": 9.33,
+      "children": [
+        {
+          "name": "free-icon-eye-158746 1",
+          "type": "rectangle",
+          "x": 360.02,
+          "y": 824,
+          "width": 9.33,
+          "height": 9.33,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "free-icon-eye-158746 2",
+          "type": "rectangle",
+          "x": 360.23,
+          "y": 824,
+          "width": 9.33,
+          "height": 9.33,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Вот вам яркий пример современных тенденций — существующая теория позволяет оценить значение инновационных методов ...",
+      "type": "text",
+      "x": 143,
+      "y": 821,
+      "width": 177,
+      "height": 13,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Вот вам яркий пример современных тенденций — существующая теория позволяет оценить значение инновационных методов ...",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 7,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Rectangle 167",
+      "type": "rectangle",
+      "x": 20,
+      "y": 846,
+      "width": 400,
+      "height": 29,
+      "fills": [
+        {
+          "color": "rgba(47, 45, 45, 0.6)"
+        }
+      ],
+      "radius": 10
+    },
+    {
+      "name": "star(1) 76",
+      "type": "rectangle",
+      "x": 335,
+      "y": 857,
+      "width": 7,
+      "height": 7,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "name": "4.7",
+      "type": "text",
+      "x": 346,
+      "y": 856,
+      "width": 9,
+      "height": 12,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "4.7",
+      "font": {
+        "family": "Kadwa",
+        "size": 6,
+        "weight": 700,
+        "lineHeight": 12.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "127.1К",
+      "type": "text",
+      "x": 372,
+      "y": 856,
+      "width": 20,
+      "height": 12,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "127.1К",
+      "font": {
+        "family": "Kadwa",
+        "size": 6,
+        "weight": 700,
+        "lineHeight": 12.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Название книги",
+      "type": "text",
+      "x": 73,
+      "y": 853,
+      "width": 52,
+      "height": 5,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Название книги",
+      "font": {
+        "family": "Kadwa",
+        "size": 6,
+        "weight": 700,
+        "lineHeight": 5,
+        "align": "center"
+      }
+    },
+    {
+      "name": "автор",
+      "type": "text",
+      "x": 73,
+      "y": 862,
+      "width": 19,
+      "height": 12,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.85)"
+        }
+      ],
+      "text": "автор",
+      "font": {
+        "family": "Kadwa",
+        "size": 6,
+        "weight": 700,
+        "lineHeight": 12.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Стрелка блок новые истории",
+      "type": "group",
+      "x": 396.93,
+      "y": 854.08,
+      "width": 12.42,
+      "height": 12.42,
+      "children": [
+        {
+          "name": "free-icon-right-arrow-angle-54833 1",
+          "type": "rectangle",
+          "x": 396.93,
+          "y": 854.08,
+          "width": 12.42,
+          "height": 12.42,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "free-icon-right-arrow-angle-54833 2",
+          "type": "rectangle",
+          "x": 396.93,
+          "y": 854.08,
+          "width": 12.42,
+          "height": 12.42,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#7338da"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "3.",
+      "type": "text",
+      "x": 30,
+      "y": 853,
+      "width": 6,
+      "height": 12,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "3.",
+      "font": {
+        "family": "Kadwa",
+        "size": 6,
+        "weight": 700,
+        "lineHeight": 12.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 168",
+      "type": "rectangle",
+      "x": 45,
+      "y": 850,
+      "width": 18,
+      "height": 21,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "name": "Глазик",
+      "type": "group",
+      "x": 360,
+      "y": 857,
+      "width": 9.33,
+      "height": 9.33,
+      "children": [
+        {
+          "name": "free-icon-eye-158746 1",
+          "type": "rectangle",
+          "x": 360,
+          "y": 857,
+          "width": 9.33,
+          "height": 9.33,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "free-icon-eye-158746 2",
+          "type": "rectangle",
+          "x": 360.21,
+          "y": 857,
+          "width": 9.33,
+          "height": 9.33,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Вот вам яркий пример современных тенденций — существующая теория позволяет оценить значение инновационных методов ...",
+      "type": "text",
+      "x": 143,
+      "y": 854,
+      "width": 177,
+      "height": 13,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Вот вам яркий пример современных тенденций — существующая теория позволяет оценить значение инновационных методов ...",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 7,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Rectangle 169",
+      "type": "rectangle",
+      "x": 20,
+      "y": 879,
+      "width": 400,
+      "height": 29,
+      "fills": [
+        {
+          "color": "rgba(47, 45, 45, 0.6)"
+        }
+      ],
+      "radius": 10
+    },
+    {
+      "name": "star(1) 77",
+      "type": "rectangle",
+      "x": 335,
+      "y": 890,
+      "width": 7,
+      "height": 7,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "name": "4.7",
+      "type": "text",
+      "x": 346,
+      "y": 889,
+      "width": 9,
+      "height": 12,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "4.7",
+      "font": {
+        "family": "Kadwa",
+        "size": 6,
+        "weight": 700,
+        "lineHeight": 12.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "127.1К",
+      "type": "text",
+      "x": 372,
+      "y": 889,
+      "width": 20,
+      "height": 12,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "127.1К",
+      "font": {
+        "family": "Kadwa",
+        "size": 6,
+        "weight": 700,
+        "lineHeight": 12.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Название книги",
+      "type": "text",
+      "x": 73,
+      "y": 886,
+      "width": 52,
+      "height": 5,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Название книги",
+      "font": {
+        "family": "Kadwa",
+        "size": 6,
+        "weight": 700,
+        "lineHeight": 5,
+        "align": "center"
+      }
+    },
+    {
+      "name": "автор",
+      "type": "text",
+      "x": 73,
+      "y": 895,
+      "width": 19,
+      "height": 12,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.85)"
+        }
+      ],
+      "text": "автор",
+      "font": {
+        "family": "Kadwa",
+        "size": 6,
+        "weight": 700,
+        "lineHeight": 12.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Стрелка блок новые истории",
+      "type": "group",
+      "x": 396.93,
+      "y": 887.08,
+      "width": 12.42,
+      "height": 12.42,
+      "children": [
+        {
+          "name": "free-icon-right-arrow-angle-54833 1",
+          "type": "rectangle",
+          "x": 396.93,
+          "y": 887.08,
+          "width": 12.42,
+          "height": 12.42,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "free-icon-right-arrow-angle-54833 2",
+          "type": "rectangle",
+          "x": 396.93,
+          "y": 887.08,
+          "width": 12.42,
+          "height": 12.42,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#7338da"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "4.",
+      "type": "text",
+      "x": 30,
+      "y": 886,
+      "width": 6,
+      "height": 12,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "4.",
+      "font": {
+        "family": "Kadwa",
+        "size": 6,
+        "weight": 700,
+        "lineHeight": 12.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 170",
+      "type": "rectangle",
+      "x": 45,
+      "y": 883,
+      "width": 18,
+      "height": 21,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "name": "Глазик",
+      "type": "group",
+      "x": 360,
+      "y": 890,
+      "width": 9.33,
+      "height": 9.33,
+      "children": [
+        {
+          "name": "free-icon-eye-158746 1",
+          "type": "rectangle",
+          "x": 360,
+          "y": 890,
+          "width": 9.33,
+          "height": 9.33,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "free-icon-eye-158746 2",
+          "type": "rectangle",
+          "x": 360.21,
+          "y": 890,
+          "width": 9.33,
+          "height": 9.33,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Вот вам яркий пример современных тенденций — существующая теория позволяет оценить значение инновационных методов ...",
+      "type": "text",
+      "x": 143,
+      "y": 887,
+      "width": 177,
+      "height": 13,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Вот вам яркий пример современных тенденций — существующая теория позволяет оценить значение инновационных методов ...",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 7,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Rectangle 171",
+      "type": "rectangle",
+      "x": 20,
+      "y": 912,
+      "width": 400,
+      "height": 29,
+      "fills": [
+        {
+          "color": "rgba(47, 45, 45, 0.6)"
+        }
+      ],
+      "radius": 10
+    },
+    {
+      "name": "star(1) 78",
+      "type": "rectangle",
+      "x": 335,
+      "y": 923,
+      "width": 7,
+      "height": 7,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "name": "4.7",
+      "type": "text",
+      "x": 346,
+      "y": 922,
+      "width": 9,
+      "height": 12,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "4.7",
+      "font": {
+        "family": "Kadwa",
+        "size": 6,
+        "weight": 700,
+        "lineHeight": 12.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "127.1К",
+      "type": "text",
+      "x": 372,
+      "y": 922,
+      "width": 20,
+      "height": 12,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "127.1К",
+      "font": {
+        "family": "Kadwa",
+        "size": 6,
+        "weight": 700,
+        "lineHeight": 12.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Название книги",
+      "type": "text",
+      "x": 73,
+      "y": 919,
+      "width": 52,
+      "height": 5,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Название книги",
+      "font": {
+        "family": "Kadwa",
+        "size": 6,
+        "weight": 700,
+        "lineHeight": 5,
+        "align": "center"
+      }
+    },
+    {
+      "name": "автор",
+      "type": "text",
+      "x": 73,
+      "y": 928,
+      "width": 19,
+      "height": 12,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.85)"
+        }
+      ],
+      "text": "автор",
+      "font": {
+        "family": "Kadwa",
+        "size": 6,
+        "weight": 700,
+        "lineHeight": 12.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Стрелка блок новые истории",
+      "type": "group",
+      "x": 396.93,
+      "y": 920.08,
+      "width": 12.42,
+      "height": 12.42,
+      "children": [
+        {
+          "name": "free-icon-right-arrow-angle-54833 1",
+          "type": "rectangle",
+          "x": 396.93,
+          "y": 920.08,
+          "width": 12.42,
+          "height": 12.42,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "free-icon-right-arrow-angle-54833 2",
+          "type": "rectangle",
+          "x": 396.93,
+          "y": 920.08,
+          "width": 12.42,
+          "height": 12.42,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#7338da"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "5.",
+      "type": "text",
+      "x": 30,
+      "y": 919,
+      "width": 6,
+      "height": 12,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "5.",
+      "font": {
+        "family": "Kadwa",
+        "size": 6,
+        "weight": 700,
+        "lineHeight": 12.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 172",
+      "type": "rectangle",
+      "x": 45,
+      "y": 916,
+      "width": 18,
+      "height": 21,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "name": "Глазик",
+      "type": "group",
+      "x": 360.02,
+      "y": 923,
+      "width": 9.33,
+      "height": 9.33,
+      "children": [
+        {
+          "name": "free-icon-eye-158746 1",
+          "type": "rectangle",
+          "x": 360.02,
+          "y": 923,
+          "width": 9.33,
+          "height": 9.33,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "free-icon-eye-158746 2",
+          "type": "rectangle",
+          "x": 360.23,
+          "y": 923,
+          "width": 9.33,
+          "height": 9.33,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Вот вам яркий пример современных тенденций — существующая теория позволяет оценить значение инновационных методов ...",
+      "type": "text",
+      "x": 143,
+      "y": 920,
+      "width": 177,
+      "height": 13,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Вот вам яркий пример современных тенденций — существующая теория позволяет оценить значение инновационных методов ...",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 7,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Explore Genres",
+      "type": "text",
+      "x": 20,
+      "y": 954,
+      "width": 60,
+      "height": 11,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Explore Genres",
+      "font": {
+        "family": "Jua",
+        "size": 9,
+        "weight": 400,
+        "lineHeight": 11.25,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Rectangle 141",
+      "type": "rectangle",
+      "x": 20,
+      "y": 977,
+      "width": 82,
+      "height": 51,
+      "fills": [
+        {
+          "color": "#0d0d0d",
+          "variable": "var(--color-gray-60)"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 10
+    },
+    {
+      "name": "Mystery",
+      "type": "text",
+      "x": 44,
+      "y": 1005,
+      "width": 38,
+      "height": 14,
+      "fills": [
+        {
+          "color": "#b8b8b8"
+        }
+      ],
+      "text": "Mystery",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 14.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Поиск иконка",
+      "type": "group",
+      "x": 29.99,
+      "y": 986.35,
+      "width": 10.46,
+      "height": 10.46,
+      "children": [
+        {
+          "name": "magnifying-glass 1",
+          "type": "rectangle",
+          "x": 29.99,
+          "y": 986.35,
+          "width": 10.46,
+          "height": 10.46,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "magnifying-glass 2",
+          "type": "rectangle",
+          "x": 29.99,
+          "y": 993.34,
+          "width": 10.46,
+          "height": 10.46,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 142",
+      "type": "rectangle",
+      "x": 20,
+      "y": 977,
+      "width": 94,
+      "height": 55,
+      "fills": [
+        {
+          "color": "#231338"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 10
+    },
+    {
+      "name": "Mystery",
+      "type": "text",
+      "x": 48,
+      "y": 1005,
+      "width": 37,
+      "height": 14,
+      "fills": [
+        {
+          "color": "#b8b8b8"
+        }
+      ],
+      "text": "Mystery",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 14.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 143",
+      "type": "rectangle",
+      "x": 122,
+      "y": 977,
+      "width": 94,
+      "height": 55,
+      "fills": [
+        {
+          "color": "#0d0d0d",
+          "variable": "var(--color-gray-60)"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 10
+    },
+    {
+      "name": "Teen fiction",
+      "type": "text",
+      "x": 142,
+      "y": 1005,
+      "width": 57,
+      "height": 14,
+      "fills": [
+        {
+          "color": "#b8b8b8"
+        }
+      ],
+      "text": "Teen fiction",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 14.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 144",
+      "type": "rectangle",
+      "x": 225,
+      "y": 977,
+      "width": 92,
+      "height": 55,
+      "fills": [
+        {
+          "color": "#0d0d0d",
+          "variable": "var(--color-gray-60)"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 10
+    },
+    {
+      "name": "Fantasy",
+      "type": "text",
+      "x": 254,
+      "y": 1005,
+      "width": 35,
+      "height": 14,
+      "fills": [
+        {
+          "color": "#b8b8b8"
+        }
+      ],
+      "text": "Fantasy",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 14.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 145",
+      "type": "rectangle",
+      "x": 326,
+      "y": 977,
+      "width": 94,
+      "height": 55,
+      "fills": [
+        {
+          "color": "#0d0d0d",
+          "variable": "var(--color-gray-60)"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 10
+    },
+    {
+      "name": "Science fiction",
+      "type": "text",
+      "x": 338,
+      "y": 1005,
+      "width": 68,
+      "height": 14,
+      "fills": [
+        {
+          "color": "#b8b8b8"
+        }
+      ],
+      "text": "Science fiction",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 14.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Ellipse 34",
+      "type": "ellipse",
+      "x": 104,
+      "y": 1021,
+      "width": 4,
+      "height": 3,
+      "fills": [
+        {
+          "color": "#d9d9d9",
+          "variable": "var(--color-white-10)"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 147",
+      "type": "rectangle",
+      "x": 20,
+      "y": 1040,
+      "width": 82,
+      "height": 51,
+      "fills": [
+        {
+          "color": "#0d0d0d",
+          "variable": "var(--color-gray-60)"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 10
+    },
+    {
+      "name": "Mystery",
+      "type": "text",
+      "x": 44,
+      "y": 1068,
+      "width": 38,
+      "height": 14,
+      "fills": [
+        {
+          "color": "#b8b8b8"
+        }
+      ],
+      "text": "Mystery",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 14.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Поиск иконка",
+      "type": "group",
+      "x": 29.99,
+      "y": 1049.49,
+      "width": 10.46,
+      "height": 10.46,
+      "children": [
+        {
+          "name": "magnifying-glass 1",
+          "type": "rectangle",
+          "x": 29.99,
+          "y": 1049.49,
+          "width": 10.46,
+          "height": 10.46,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "magnifying-glass 2",
+          "type": "rectangle",
+          "x": 29.99,
+          "y": 1056.48,
+          "width": 10.46,
+          "height": 10.46,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 148",
+      "type": "rectangle",
+      "x": 20,
+      "y": 1040,
+      "width": 94,
+      "height": 55,
+      "fills": [
+        {
+          "color": "#0d0d0d",
+          "variable": "var(--color-gray-60)"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 10
+    },
+    {
+      "name": "Mysticism",
+      "type": "text",
+      "x": 43,
+      "y": 1068,
+      "width": 46,
+      "height": 14,
+      "fills": [
+        {
+          "color": "#b8b8b8"
+        }
+      ],
+      "text": "Mysticism",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 14.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 149",
+      "type": "rectangle",
+      "x": 122,
+      "y": 1040,
+      "width": 94,
+      "height": 55,
+      "fills": [
+        {
+          "color": "#0d0d0d",
+          "variable": "var(--color-gray-60)"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 10
+    },
+    {
+      "name": "Horrors",
+      "type": "text",
+      "x": 150,
+      "y": 1068,
+      "width": 37,
+      "height": 14,
+      "fills": [
+        {
+          "color": "#b8b8b8"
+        }
+      ],
+      "text": "Horrors",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 14.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 150",
+      "type": "rectangle",
+      "x": 225,
+      "y": 1040,
+      "width": 92,
+      "height": 55,
+      "fills": [
+        {
+          "color": "#0d0d0d",
+          "variable": "var(--color-gray-60)"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 10
+    },
+    {
+      "name": "Comedy",
+      "type": "text",
+      "x": 254,
+      "y": 1068,
+      "width": 36,
+      "height": 14,
+      "fills": [
+        {
+          "color": "#b8b8b8"
+        }
+      ],
+      "text": "Comedy",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 14.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 151",
+      "type": "rectangle",
+      "x": 326,
+      "y": 1040,
+      "width": 94,
+      "height": 55,
+      "fills": [
+        {
+          "color": "#0d0d0d",
+          "variable": "var(--color-gray-60)"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 10
+    },
+    {
+      "name": "Action",
+      "type": "text",
+      "x": 356,
+      "y": 1068,
+      "width": 31,
+      "height": 14,
+      "fills": [
+        {
+          "color": "#b8b8b8"
+        }
+      ],
+      "text": "Action",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 14.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 33,
+      "y": 989,
+      "width": 12,
+      "height": 12,
+      "children": [
+        {
+          "name": "surprise-box 1",
+          "type": "rectangle",
+          "x": 33,
+          "y": 989,
+          "width": 12,
+          "height": 12,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "surprise-box 2",
+          "type": "rectangle",
+          "x": 33,
+          "y": 989,
+          "width": 12,
+          "height": 12,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 33,
+      "y": 1052,
+      "width": 12,
+      "height": 12,
+      "children": [
+        {
+          "name": "magic-trick 1",
+          "type": "rectangle",
+          "x": 33,
+          "y": 1052,
+          "width": 12,
+          "height": 12,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "magic-trick 2",
+          "type": "rectangle",
+          "x": 33,
+          "y": 1052,
+          "width": 12,
+          "height": 12,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "icon woman",
+      "type": "group",
+      "x": 135,
+      "y": 989,
+      "width": 12,
+      "height": 12,
+      "children": [
+        {
+          "name": "woman 1",
+          "type": "rectangle",
+          "x": 135,
+          "y": 989,
+          "width": 12,
+          "height": 12,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "woman 2",
+          "type": "rectangle",
+          "x": 135,
+          "y": 989,
+          "width": 12,
+          "height": 12,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 135,
+      "y": 1052,
+      "width": 13,
+      "height": 13,
+      "children": [
+        {
+          "name": "ghost 1",
+          "type": "rectangle",
+          "x": 135,
+          "y": 1052,
+          "width": 13,
+          "height": 13,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "ghost 2",
+          "type": "rectangle",
+          "x": 135,
+          "y": 1052,
+          "width": 13,
+          "height": 13,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 237,
+      "y": 989,
+      "width": 12,
+      "height": 12,
+      "children": [
+        {
+          "name": "spell-book 1",
+          "type": "rectangle",
+          "x": 237,
+          "y": 989,
+          "width": 12,
+          "height": 12,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "spell-book 2",
+          "type": "rectangle",
+          "x": 237,
+          "y": 989,
+          "width": 12,
+          "height": 12,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 237,
+      "y": 1052,
+      "width": 12,
+      "height": 12,
+      "children": [
+        {
+          "name": "masks 1",
+          "type": "rectangle",
+          "x": 237,
+          "y": 1052,
+          "width": 12,
+          "height": 12,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "masks 2",
+          "type": "rectangle",
+          "x": 237,
+          "y": 1052,
+          "width": 12,
+          "height": 12,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 339,
+      "y": 989,
+      "width": 12,
+      "height": 12,
+      "children": [
+        {
+          "name": "science-fiction 1",
+          "type": "rectangle",
+          "x": 339,
+          "y": 989,
+          "width": 12,
+          "height": 12,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "science-fiction 2",
+          "type": "rectangle",
+          "x": 339,
+          "y": 989,
+          "width": 12,
+          "height": 12,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 339,
+      "y": 1052,
+      "width": 12,
+      "height": 12,
+      "children": [
+        {
+          "name": "action 1",
+          "type": "rectangle",
+          "x": 339,
+          "y": 1052,
+          "width": 12,
+          "height": 12,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "action 2",
+          "type": "rectangle",
+          "x": 339,
+          "y": 1052,
+          "width": 12,
+          "height": 12,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "стрелка иконка",
+      "type": "group",
+      "x": 244,
+      "y": 1108,
+      "width": 10,
+      "height": 11.38,
+      "children": [
+        {
+          "name": "Rectangle 5",
+          "type": "rectangle",
+          "x": 244,
+          "y": 1108,
+          "width": 10,
+          "height": 11.38,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "Rectangle 6",
+          "type": "rectangle",
+          "x": 244,
+          "y": 1108,
+          "width": 10,
+          "height": 11.38,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#828287"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "View All",
+      "type": "text",
+      "x": 199,
+      "y": 1106,
+      "width": 34,
+      "height": 16,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.5)",
+          "variable": "var(--color-white-50)"
+        }
+      ],
+      "text": "View All",
+      "font": {
+        "family": "Kadwa",
+        "size": 8,
+        "weight": 700,
+        "lineHeight": 16.06,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 141",
+      "type": "rectangle",
+      "x": 22,
+      "y": 1162,
+      "width": 191,
+      "height": 55,
+      "fills": [
+        {
+          "color": "rgba(47, 45, 45, 0.6)"
+        }
+      ],
+      "radius": 10
+    },
+    {
+      "name": "Название книги",
+      "type": "text",
+      "x": 76,
+      "y": 1171,
+      "width": 60,
+      "height": 14,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Название книги",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 14.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "автор",
+      "type": "text",
+      "x": 76,
+      "y": 1182,
+      "width": 22,
+      "height": 14,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.85)"
+        }
+      ],
+      "text": "автор",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 14.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 142",
+      "type": "rectangle",
+      "x": 32,
+      "y": 1169,
+      "width": 32,
+      "height": 43,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "name": "Books with new chapters published",
+      "type": "text",
+      "x": 50,
+      "y": 1141,
+      "width": 125,
+      "height": 14,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.5)",
+          "variable": "var(--color-white-50)"
+        }
+      ],
+      "text": "Books with new chapters published",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 14.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Latest Updates",
+      "type": "text",
+      "x": 50,
+      "y": 1129,
+      "width": 60,
+      "height": 11,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Latest Updates",
+      "font": {
+        "family": "Jua",
+        "size": 9,
+        "weight": 400,
+        "lineHeight": 11.25,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Ellipse 34",
+      "type": "ellipse",
+      "x": 20,
+      "y": 1129,
+      "width": 22,
+      "height": 22,
+      "fills": [
+        {
+          "color": "#241237",
+          "variable": "var(--color-purple-70)"
+        }
+      ]
+    },
+    {
+      "name": "update",
+      "type": "text",
+      "x": 22,
+      "y": 1135,
+      "width": 18,
+      "height": 10,
+      "fills": [
+        {
+          "color": "#7e69ac",
+          "variable": "var(--color-purple-20)"
+        }
+      ],
+      "text": "update",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 10.04,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Глазик",
+      "type": "group",
+      "x": 194.11,
+      "y": 1194,
+      "width": 6.54,
+      "height": 6.54,
+      "children": [
+        {
+          "name": "free-icon-eye-158746 1",
+          "type": "rectangle",
+          "x": 194.11,
+          "y": 1194,
+          "width": 6.54,
+          "height": 6.54,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "free-icon-eye-158746 2",
+          "type": "rectangle",
+          "x": 194.13,
+          "y": 1193.98,
+          "width": 6.58,
+          "height": 6.58,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "127.1К",
+      "type": "text",
+      "x": 187,
+      "y": 1199.76,
+      "width": 20,
+      "height": 12,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "127.1К",
+      "font": {
+        "family": "Kadwa",
+        "size": 6,
+        "weight": 700,
+        "lineHeight": 12.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Вот вам яркий пример современных тенденций - история о том, что...",
+      "type": "text",
+      "x": 76,
+      "y": 1196,
+      "width": 105,
+      "height": 12,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Вот вам яркий пример современных тенденций - история о том, что...",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 400,
+        "lineHeight": 6,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Ellipse 88",
+      "type": "ellipse",
+      "x": 178,
+      "y": 1539,
+      "width": 22,
+      "height": 22,
+      "fills": [
+        {
+          "color": "#844aec"
+        }
+      ]
+    },
+    {
+      "name": "Ellipse 89",
+      "type": "ellipse",
+      "x": 207,
+      "y": 1541,
+      "width": 18,
+      "height": 18,
+      "fills": [
+        {
+          "color": "#d9d9d9",
+          "variable": "var(--color-white-10)"
+        }
+      ]
+    },
+    {
+      "name": "Ellipse 90",
+      "type": "ellipse",
+      "x": 233,
+      "y": 1541,
+      "width": 18,
+      "height": 18,
+      "fills": [
+        {
+          "color": "#d9d9d9",
+          "variable": "var(--color-white-10)"
+        }
+      ]
+    },
+    {
+      "name": "1",
+      "type": "text",
+      "x": 187,
+      "y": 1546,
+      "width": 3,
+      "height": 8,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.9)"
+        }
+      ],
+      "text": "1",
+      "font": {
+        "family": "Jua",
+        "size": 9,
+        "weight": 400,
+        "lineHeight": 11.25,
+        "align": "center"
+      }
+    },
+    {
+      "name": "2",
+      "type": "text",
+      "x": 214,
+      "y": 1546,
+      "width": 4,
+      "height": 8,
+      "fills": [
+        {
+          "color": "rgba(123, 58, 238, 0.9)"
+        }
+      ],
+      "text": "2",
+      "font": {
+        "family": "Jua",
+        "size": 7,
+        "weight": 400,
+        "lineHeight": 8.75,
+        "align": "center"
+      }
+    },
+    {
+      "name": "3",
+      "type": "text",
+      "x": 240,
+      "y": 1546,
+      "width": 4,
+      "height": 8,
+      "fills": [
+        {
+          "color": "rgba(123, 58, 238, 0.9)"
+        }
+      ],
+      "text": "3",
+      "font": {
+        "family": "Jua",
+        "size": 7,
+        "weight": 400,
+        "lineHeight": 8.75,
+        "align": "center"
+      }
+    },
+    {
+      "name": "star(1) 79",
+      "type": "rectangle",
+      "x": 33,
+      "y": 481,
+      "width": 7,
+      "height": 7,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "name": "4.7",
+      "type": "text",
+      "x": 42,
+      "y": 480,
+      "width": 8,
+      "height": 10,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "4.7",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 10.04,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Глазик",
+      "type": "group",
+      "x": 54,
+      "y": 480,
+      "width": 9,
+      "height": 9,
+      "children": [
+        {
+          "name": "free-icon-eye-158746 1",
+          "type": "rectangle",
+          "x": 54,
+          "y": 480,
+          "width": 9,
+          "height": 9,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "free-icon-eye-158746 2",
+          "type": "rectangle",
+          "x": 54,
+          "y": 480,
+          "width": 9,
+          "height": 9,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "127.1К",
+      "type": "text",
+      "x": 65,
+      "y": 480,
+      "width": 16,
+      "height": 10,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "127.1К",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 10.04,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 85,
+      "y": 481,
+      "width": 8,
+      "height": 8,
+      "children": [
+        {
+          "name": "heart 1",
+          "type": "rectangle",
+          "x": 85,
+          "y": 481,
+          "width": 8,
+          "height": 8,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "heart 2",
+          "type": "rectangle",
+          "x": 85,
+          "y": 481,
+          "width": 8,
+          "height": 8,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "90.2",
+      "type": "text",
+      "x": 95,
+      "y": 480,
+      "width": 11,
+      "height": 10,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "90.2",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 10.04,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 197",
+      "type": "rectangle",
+      "x": 124,
+      "y": 347,
+      "width": 95,
+      "height": 170,
+      "fills": [
+        {
+          "color": "rgba(47, 45, 45, 0.6)"
+        }
+      ],
+      "radius": 10
+    },
+    {
+      "name": "изображение 42",
+      "type": "rectangle",
+      "x": 125,
+      "y": 347,
+      "width": 93,
+      "height": 146,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "STRETCH"
+        }
+      ],
+      "radius": [
+        10,
+        10,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Rectangle 198",
+      "type": "rectangle",
+      "x": 132,
+      "y": 354,
+      "width": 31,
+      "height": 8,
+      "fills": [
+        {
+          "color": "rgba(123, 58, 238, 0.9)"
+        }
+      ],
+      "radius": 5
+    },
+    {
+      "name": "Fantasy",
+      "type": "text",
+      "x": 136,
+      "y": 357,
+      "width": 22,
+      "height": 3,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Fantasy",
+      "font": {
+        "family": "Jua",
+        "size": 6,
+        "weight": 400,
+        "lineHeight": 3,
+        "align": "center"
+      }
+    },
+    {
+      "name": "The Dragon`s Covenant",
+      "type": "text",
+      "x": 133,
+      "y": 432,
+      "width": 70,
+      "height": 7,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "The Dragon`s Covenant",
+      "font": {
+        "family": "Kadwa",
+        "size": 6,
+        "weight": 700,
+        "lineHeight": 7,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Helena Grande",
+      "type": "text",
+      "x": 149,
+      "y": 504,
+      "width": 53,
+      "height": 3,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.85)"
+        }
+      ],
+      "text": "Helena Grande",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 3,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Ellipse 92",
+      "type": "ellipse",
+      "x": 133,
+      "y": 499,
+      "width": 11,
+      "height": 11,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "name": "Вот вам яркий пример современных тенденций — существующая теория позволяет оценить значение инновационных методов ...",
+      "type": "text",
+      "x": 133,
+      "y": 441,
+      "width": 70,
+      "height": 36,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Вот вам яркий пример современных тенденций — существующая теория позволяет оценить значение \nинновационных методов ...",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 5,
+        "align": "left"
+      }
+    },
+    {
+      "name": "star(1) 91",
+      "type": "rectangle",
+      "x": 133,
+      "y": 481,
+      "width": 7,
+      "height": 7,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "name": "4.7",
+      "type": "text",
+      "x": 142,
+      "y": 480,
+      "width": 8,
+      "height": 10,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "4.7",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 10.04,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Глазик",
+      "type": "group",
+      "x": 154,
+      "y": 480,
+      "width": 9,
+      "height": 9,
+      "children": [
+        {
+          "name": "free-icon-eye-158746 1",
+          "type": "rectangle",
+          "x": 154,
+          "y": 480,
+          "width": 9,
+          "height": 9,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "free-icon-eye-158746 2",
+          "type": "rectangle",
+          "x": 154,
+          "y": 480,
+          "width": 9,
+          "height": 9,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "127.1К",
+      "type": "text",
+      "x": 165,
+      "y": 480,
+      "width": 16,
+      "height": 10,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "127.1К",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 10.04,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 185,
+      "y": 481,
+      "width": 8,
+      "height": 8,
+      "children": [
+        {
+          "name": "heart 1",
+          "type": "rectangle",
+          "x": 185,
+          "y": 481,
+          "width": 8,
+          "height": 8,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "heart 2",
+          "type": "rectangle",
+          "x": 185,
+          "y": 481,
+          "width": 8,
+          "height": 8,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "90.2",
+      "type": "text",
+      "x": 195,
+      "y": 480,
+      "width": 11,
+      "height": 10,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "90.2",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 10.04,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 199",
+      "type": "rectangle",
+      "x": 223,
+      "y": 347,
+      "width": 95,
+      "height": 170,
+      "fills": [
+        {
+          "color": "rgba(47, 45, 45, 0.6)"
+        }
+      ],
+      "radius": 10
+    },
+    {
+      "name": "изображение 43",
+      "type": "rectangle",
+      "x": 224,
+      "y": 347,
+      "width": 93,
+      "height": 146,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "STRETCH"
+        }
+      ],
+      "radius": [
+        10,
+        10,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Rectangle 200",
+      "type": "rectangle",
+      "x": 231,
+      "y": 354,
+      "width": 31,
+      "height": 8,
+      "fills": [
+        {
+          "color": "rgba(123, 58, 238, 0.9)"
+        }
+      ],
+      "radius": 5
+    },
+    {
+      "name": "Fantasy",
+      "type": "text",
+      "x": 235,
+      "y": 357,
+      "width": 22,
+      "height": 3,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Fantasy",
+      "font": {
+        "family": "Jua",
+        "size": 6,
+        "weight": 400,
+        "lineHeight": 3,
+        "align": "center"
+      }
+    },
+    {
+      "name": "The Dragon`s Covenant",
+      "type": "text",
+      "x": 232,
+      "y": 432,
+      "width": 70,
+      "height": 7,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "The Dragon`s Covenant",
+      "font": {
+        "family": "Kadwa",
+        "size": 6,
+        "weight": 700,
+        "lineHeight": 7,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Helena Grande",
+      "type": "text",
+      "x": 248,
+      "y": 504,
+      "width": 53,
+      "height": 3,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.85)"
+        }
+      ],
+      "text": "Helena Grande",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 3,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Ellipse 93",
+      "type": "ellipse",
+      "x": 232,
+      "y": 499,
+      "width": 11,
+      "height": 11,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "name": "Вот вам яркий пример современных тенденций — существующая теория позволяет оценить значение инновационных методов ...",
+      "type": "text",
+      "x": 232,
+      "y": 441,
+      "width": 70,
+      "height": 36,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Вот вам яркий пример современных тенденций — существующая теория позволяет оценить значение \nинновационных методов ...",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 5,
+        "align": "left"
+      }
+    },
+    {
+      "name": "star(1) 92",
+      "type": "rectangle",
+      "x": 232,
+      "y": 481,
+      "width": 7,
+      "height": 7,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "name": "4.7",
+      "type": "text",
+      "x": 241,
+      "y": 480,
+      "width": 8,
+      "height": 10,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "4.7",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 10.04,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Глазик",
+      "type": "group",
+      "x": 253,
+      "y": 480,
+      "width": 9,
+      "height": 9,
+      "children": [
+        {
+          "name": "free-icon-eye-158746 1",
+          "type": "rectangle",
+          "x": 253,
+          "y": 480,
+          "width": 9,
+          "height": 9,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "free-icon-eye-158746 2",
+          "type": "rectangle",
+          "x": 253,
+          "y": 480,
+          "width": 9,
+          "height": 9,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "127.1К",
+      "type": "text",
+      "x": 264,
+      "y": 480,
+      "width": 16,
+      "height": 10,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "127.1К",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 10.04,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 284,
+      "y": 481,
+      "width": 8,
+      "height": 8,
+      "children": [
+        {
+          "name": "heart 1",
+          "type": "rectangle",
+          "x": 284,
+          "y": 481,
+          "width": 8,
+          "height": 8,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "heart 2",
+          "type": "rectangle",
+          "x": 284,
+          "y": 481,
+          "width": 8,
+          "height": 8,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "90.2",
+      "type": "text",
+      "x": 294,
+      "y": 480,
+      "width": 11,
+      "height": 10,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "90.2",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 10.04,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 194,
+      "y": 1172,
+      "width": 7,
+      "height": 7,
+      "children": [
+        {
+          "name": "heart 1",
+          "type": "rectangle",
+          "x": 194,
+          "y": 1172,
+          "width": 7,
+          "height": 7,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "heart 2",
+          "type": "rectangle",
+          "x": 194,
+          "y": 1172,
+          "width": 7,
+          "height": 7,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "90.2",
+      "type": "text",
+      "x": 192,
+      "y": 1178,
+      "width": 11,
+      "height": 10,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "90.2",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 10.04,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 209",
+      "type": "rectangle",
+      "x": 229,
+      "y": 1162,
+      "width": 191,
+      "height": 55,
+      "fills": [
+        {
+          "color": "rgba(47, 45, 45, 0.6)"
+        }
+      ],
+      "radius": 10
+    },
+    {
+      "name": "Название книги",
+      "type": "text",
+      "x": 283,
+      "y": 1171,
+      "width": 60,
+      "height": 14,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Название книги",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 14.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "автор",
+      "type": "text",
+      "x": 283,
+      "y": 1182,
+      "width": 22,
+      "height": 14,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.85)"
+        }
+      ],
+      "text": "автор",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 14.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 210",
+      "type": "rectangle",
+      "x": 239,
+      "y": 1169,
+      "width": 32,
+      "height": 43,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "name": "Глазик",
+      "type": "group",
+      "x": 401.11,
+      "y": 1194,
+      "width": 6.54,
+      "height": 6.54,
+      "children": [
+        {
+          "name": "free-icon-eye-158746 1",
+          "type": "rectangle",
+          "x": 401.11,
+          "y": 1194,
+          "width": 6.54,
+          "height": 6.54,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "free-icon-eye-158746 2",
+          "type": "rectangle",
+          "x": 401.13,
+          "y": 1193.98,
+          "width": 6.58,
+          "height": 6.58,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "127.1К",
+      "type": "text",
+      "x": 394,
+      "y": 1199.76,
+      "width": 20,
+      "height": 12,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "127.1К",
+      "font": {
+        "family": "Kadwa",
+        "size": 6,
+        "weight": 700,
+        "lineHeight": 12.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Вот вам яркий пример современных тенденций - история о том, что...",
+      "type": "text",
+      "x": 283,
+      "y": 1196,
+      "width": 105,
+      "height": 12,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Вот вам яркий пример современных тенденций - история о том, что...",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 400,
+        "lineHeight": 6,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 401,
+      "y": 1172,
+      "width": 7,
+      "height": 7,
+      "children": [
+        {
+          "name": "heart 1",
+          "type": "rectangle",
+          "x": 401,
+          "y": 1172,
+          "width": 7,
+          "height": 7,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "heart 2",
+          "type": "rectangle",
+          "x": 401,
+          "y": 1172,
+          "width": 7,
+          "height": 7,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "90.2",
+      "type": "text",
+      "x": 399,
+      "y": 1178,
+      "width": 11,
+      "height": 10,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "90.2",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 10.04,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 211",
+      "type": "rectangle",
+      "x": 22,
+      "y": 1223,
+      "width": 191,
+      "height": 55,
+      "fills": [
+        {
+          "color": "rgba(47, 45, 45, 0.6)"
+        }
+      ],
+      "radius": 10
+    },
+    {
+      "name": "Название книги",
+      "type": "text",
+      "x": 76,
+      "y": 1232,
+      "width": 60,
+      "height": 14,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Название книги",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 14.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "автор",
+      "type": "text",
+      "x": 76,
+      "y": 1243,
+      "width": 22,
+      "height": 14,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.85)"
+        }
+      ],
+      "text": "автор",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 14.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 212",
+      "type": "rectangle",
+      "x": 32,
+      "y": 1230,
+      "width": 32,
+      "height": 43,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "name": "Глазик",
+      "type": "group",
+      "x": 194.11,
+      "y": 1255,
+      "width": 6.54,
+      "height": 6.54,
+      "children": [
+        {
+          "name": "free-icon-eye-158746 1",
+          "type": "rectangle",
+          "x": 194.11,
+          "y": 1255,
+          "width": 6.54,
+          "height": 6.54,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "free-icon-eye-158746 2",
+          "type": "rectangle",
+          "x": 194.13,
+          "y": 1254.98,
+          "width": 6.58,
+          "height": 6.58,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "127.1К",
+      "type": "text",
+      "x": 187,
+      "y": 1260.76,
+      "width": 20,
+      "height": 12,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "127.1К",
+      "font": {
+        "family": "Kadwa",
+        "size": 6,
+        "weight": 700,
+        "lineHeight": 12.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Вот вам яркий пример современных тенденций - история о том, что...",
+      "type": "text",
+      "x": 76,
+      "y": 1257,
+      "width": 105,
+      "height": 12,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Вот вам яркий пример современных тенденций - история о том, что...",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 400,
+        "lineHeight": 6,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 194,
+      "y": 1233,
+      "width": 7,
+      "height": 7,
+      "children": [
+        {
+          "name": "heart 1",
+          "type": "rectangle",
+          "x": 194,
+          "y": 1233,
+          "width": 7,
+          "height": 7,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "heart 2",
+          "type": "rectangle",
+          "x": 194,
+          "y": 1233,
+          "width": 7,
+          "height": 7,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "90.2",
+      "type": "text",
+      "x": 192,
+      "y": 1239,
+      "width": 11,
+      "height": 10,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "90.2",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 10.04,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 213",
+      "type": "rectangle",
+      "x": 229,
+      "y": 1223,
+      "width": 191,
+      "height": 55,
+      "fills": [
+        {
+          "color": "rgba(47, 45, 45, 0.6)"
+        }
+      ],
+      "radius": 10
+    },
+    {
+      "name": "Название книги",
+      "type": "text",
+      "x": 283,
+      "y": 1232,
+      "width": 60,
+      "height": 14,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Название книги",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 14.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "автор",
+      "type": "text",
+      "x": 283,
+      "y": 1243,
+      "width": 22,
+      "height": 14,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.85)"
+        }
+      ],
+      "text": "автор",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 14.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 214",
+      "type": "rectangle",
+      "x": 239,
+      "y": 1230,
+      "width": 32,
+      "height": 43,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "name": "Глазик",
+      "type": "group",
+      "x": 401.11,
+      "y": 1255,
+      "width": 6.54,
+      "height": 6.54,
+      "children": [
+        {
+          "name": "free-icon-eye-158746 1",
+          "type": "rectangle",
+          "x": 401.11,
+          "y": 1255,
+          "width": 6.54,
+          "height": 6.54,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "free-icon-eye-158746 2",
+          "type": "rectangle",
+          "x": 401.13,
+          "y": 1254.98,
+          "width": 6.58,
+          "height": 6.58,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "127.1К",
+      "type": "text",
+      "x": 394,
+      "y": 1260.76,
+      "width": 20,
+      "height": 12,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "127.1К",
+      "font": {
+        "family": "Kadwa",
+        "size": 6,
+        "weight": 700,
+        "lineHeight": 12.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Вот вам яркий пример современных тенденций - история о том, что...",
+      "type": "text",
+      "x": 283,
+      "y": 1257,
+      "width": 105,
+      "height": 12,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Вот вам яркий пример современных тенденций - история о том, что...",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 400,
+        "lineHeight": 6,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 401,
+      "y": 1233,
+      "width": 7,
+      "height": 7,
+      "children": [
+        {
+          "name": "heart 1",
+          "type": "rectangle",
+          "x": 401,
+          "y": 1233,
+          "width": 7,
+          "height": 7,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "heart 2",
+          "type": "rectangle",
+          "x": 401,
+          "y": 1233,
+          "width": 7,
+          "height": 7,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "90.2",
+      "type": "text",
+      "x": 399,
+      "y": 1239,
+      "width": 11,
+      "height": 10,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "90.2",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 10.04,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 215",
+      "type": "rectangle",
+      "x": 22,
+      "y": 1286,
+      "width": 191,
+      "height": 55,
+      "fills": [
+        {
+          "color": "rgba(47, 45, 45, 0.6)"
+        }
+      ],
+      "radius": 10
+    },
+    {
+      "name": "Название книги",
+      "type": "text",
+      "x": 76,
+      "y": 1295,
+      "width": 60,
+      "height": 14,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Название книги",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 14.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "автор",
+      "type": "text",
+      "x": 76,
+      "y": 1306,
+      "width": 22,
+      "height": 14,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.85)"
+        }
+      ],
+      "text": "автор",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 14.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 216",
+      "type": "rectangle",
+      "x": 32,
+      "y": 1293,
+      "width": 32,
+      "height": 43,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "name": "Глазик",
+      "type": "group",
+      "x": 194.11,
+      "y": 1318,
+      "width": 6.54,
+      "height": 6.54,
+      "children": [
+        {
+          "name": "free-icon-eye-158746 1",
+          "type": "rectangle",
+          "x": 194.11,
+          "y": 1318,
+          "width": 6.54,
+          "height": 6.54,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "free-icon-eye-158746 2",
+          "type": "rectangle",
+          "x": 194.13,
+          "y": 1317.98,
+          "width": 6.58,
+          "height": 6.58,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "127.1К",
+      "type": "text",
+      "x": 187,
+      "y": 1323.76,
+      "width": 20,
+      "height": 12,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "127.1К",
+      "font": {
+        "family": "Kadwa",
+        "size": 6,
+        "weight": 700,
+        "lineHeight": 12.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Вот вам яркий пример современных тенденций - история о том, что...",
+      "type": "text",
+      "x": 76,
+      "y": 1320,
+      "width": 105,
+      "height": 12,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Вот вам яркий пример современных тенденций - история о том, что...",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 400,
+        "lineHeight": 6,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 194,
+      "y": 1296,
+      "width": 7,
+      "height": 7,
+      "children": [
+        {
+          "name": "heart 1",
+          "type": "rectangle",
+          "x": 194,
+          "y": 1296,
+          "width": 7,
+          "height": 7,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "heart 2",
+          "type": "rectangle",
+          "x": 194,
+          "y": 1296,
+          "width": 7,
+          "height": 7,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "90.2",
+      "type": "text",
+      "x": 192,
+      "y": 1302,
+      "width": 11,
+      "height": 10,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "90.2",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 10.04,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 217",
+      "type": "rectangle",
+      "x": 229,
+      "y": 1286,
+      "width": 191,
+      "height": 55,
+      "fills": [
+        {
+          "color": "rgba(47, 45, 45, 0.6)"
+        }
+      ],
+      "radius": 10
+    },
+    {
+      "name": "Название книги",
+      "type": "text",
+      "x": 283,
+      "y": 1295,
+      "width": 60,
+      "height": 14,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Название книги",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 14.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "автор",
+      "type": "text",
+      "x": 283,
+      "y": 1306,
+      "width": 22,
+      "height": 14,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.85)"
+        }
+      ],
+      "text": "автор",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 14.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 218",
+      "type": "rectangle",
+      "x": 239,
+      "y": 1293,
+      "width": 32,
+      "height": 43,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "name": "Глазик",
+      "type": "group",
+      "x": 401.11,
+      "y": 1318,
+      "width": 6.54,
+      "height": 6.54,
+      "children": [
+        {
+          "name": "free-icon-eye-158746 1",
+          "type": "rectangle",
+          "x": 401.11,
+          "y": 1318,
+          "width": 6.54,
+          "height": 6.54,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "free-icon-eye-158746 2",
+          "type": "rectangle",
+          "x": 401.13,
+          "y": 1317.98,
+          "width": 6.58,
+          "height": 6.58,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "127.1К",
+      "type": "text",
+      "x": 394,
+      "y": 1323.76,
+      "width": 20,
+      "height": 12,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "127.1К",
+      "font": {
+        "family": "Kadwa",
+        "size": 6,
+        "weight": 700,
+        "lineHeight": 12.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Вот вам яркий пример современных тенденций - история о том, что...",
+      "type": "text",
+      "x": 283,
+      "y": 1320,
+      "width": 105,
+      "height": 12,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Вот вам яркий пример современных тенденций - история о том, что...",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 400,
+        "lineHeight": 6,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 401,
+      "y": 1296,
+      "width": 7,
+      "height": 7,
+      "children": [
+        {
+          "name": "heart 1",
+          "type": "rectangle",
+          "x": 401,
+          "y": 1296,
+          "width": 7,
+          "height": 7,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "heart 2",
+          "type": "rectangle",
+          "x": 401,
+          "y": 1296,
+          "width": 7,
+          "height": 7,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "90.2",
+      "type": "text",
+      "x": 399,
+      "y": 1302,
+      "width": 11,
+      "height": 10,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "90.2",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 10.04,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 219",
+      "type": "rectangle",
+      "x": 22,
+      "y": 1347,
+      "width": 191,
+      "height": 55,
+      "fills": [
+        {
+          "color": "rgba(47, 45, 45, 0.6)"
+        }
+      ],
+      "radius": 10
+    },
+    {
+      "name": "Название книги",
+      "type": "text",
+      "x": 76,
+      "y": 1356,
+      "width": 60,
+      "height": 14,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Название книги",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 14.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "автор",
+      "type": "text",
+      "x": 76,
+      "y": 1367,
+      "width": 22,
+      "height": 14,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.85)"
+        }
+      ],
+      "text": "автор",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 14.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 220",
+      "type": "rectangle",
+      "x": 32,
+      "y": 1354,
+      "width": 32,
+      "height": 43,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "name": "Глазик",
+      "type": "group",
+      "x": 194.11,
+      "y": 1379,
+      "width": 6.54,
+      "height": 6.54,
+      "children": [
+        {
+          "name": "free-icon-eye-158746 1",
+          "type": "rectangle",
+          "x": 194.11,
+          "y": 1379,
+          "width": 6.54,
+          "height": 6.54,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "free-icon-eye-158746 2",
+          "type": "rectangle",
+          "x": 194.13,
+          "y": 1378.98,
+          "width": 6.58,
+          "height": 6.58,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "127.1К",
+      "type": "text",
+      "x": 187,
+      "y": 1384.76,
+      "width": 20,
+      "height": 12,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "127.1К",
+      "font": {
+        "family": "Kadwa",
+        "size": 6,
+        "weight": 700,
+        "lineHeight": 12.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Вот вам яркий пример современных тенденций - история о том, что...",
+      "type": "text",
+      "x": 76,
+      "y": 1381,
+      "width": 105,
+      "height": 12,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Вот вам яркий пример современных тенденций - история о том, что...",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 400,
+        "lineHeight": 6,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 194,
+      "y": 1357,
+      "width": 7,
+      "height": 7,
+      "children": [
+        {
+          "name": "heart 1",
+          "type": "rectangle",
+          "x": 194,
+          "y": 1357,
+          "width": 7,
+          "height": 7,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "heart 2",
+          "type": "rectangle",
+          "x": 194,
+          "y": 1357,
+          "width": 7,
+          "height": 7,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "90.2",
+      "type": "text",
+      "x": 192,
+      "y": 1363,
+      "width": 11,
+      "height": 10,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "90.2",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 10.04,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 221",
+      "type": "rectangle",
+      "x": 229,
+      "y": 1347,
+      "width": 191,
+      "height": 55,
+      "fills": [
+        {
+          "color": "rgba(47, 45, 45, 0.6)"
+        }
+      ],
+      "radius": 10
+    },
+    {
+      "name": "Название книги",
+      "type": "text",
+      "x": 283,
+      "y": 1356,
+      "width": 60,
+      "height": 14,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Название книги",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 14.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "автор",
+      "type": "text",
+      "x": 283,
+      "y": 1367,
+      "width": 22,
+      "height": 14,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.85)"
+        }
+      ],
+      "text": "автор",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 14.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 222",
+      "type": "rectangle",
+      "x": 239,
+      "y": 1354,
+      "width": 32,
+      "height": 43,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "name": "Глазик",
+      "type": "group",
+      "x": 401.11,
+      "y": 1379,
+      "width": 6.54,
+      "height": 6.54,
+      "children": [
+        {
+          "name": "free-icon-eye-158746 1",
+          "type": "rectangle",
+          "x": 401.11,
+          "y": 1379,
+          "width": 6.54,
+          "height": 6.54,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "free-icon-eye-158746 2",
+          "type": "rectangle",
+          "x": 401.13,
+          "y": 1378.98,
+          "width": 6.58,
+          "height": 6.58,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "127.1К",
+      "type": "text",
+      "x": 394,
+      "y": 1384.76,
+      "width": 20,
+      "height": 12,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "127.1К",
+      "font": {
+        "family": "Kadwa",
+        "size": 6,
+        "weight": 700,
+        "lineHeight": 12.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Вот вам яркий пример современных тенденций - история о том, что...",
+      "type": "text",
+      "x": 283,
+      "y": 1381,
+      "width": 105,
+      "height": 12,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Вот вам яркий пример современных тенденций - история о том, что...",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 400,
+        "lineHeight": 6,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 401,
+      "y": 1357,
+      "width": 7,
+      "height": 7,
+      "children": [
+        {
+          "name": "heart 1",
+          "type": "rectangle",
+          "x": 401,
+          "y": 1357,
+          "width": 7,
+          "height": 7,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "heart 2",
+          "type": "rectangle",
+          "x": 401,
+          "y": 1357,
+          "width": 7,
+          "height": 7,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "90.2",
+      "type": "text",
+      "x": 399,
+      "y": 1363,
+      "width": 11,
+      "height": 10,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "90.2",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 10.04,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 223",
+      "type": "rectangle",
+      "x": 22,
+      "y": 1408,
+      "width": 191,
+      "height": 55,
+      "fills": [
+        {
+          "color": "rgba(47, 45, 45, 0.6)"
+        }
+      ],
+      "radius": 10
+    },
+    {
+      "name": "Название книги",
+      "type": "text",
+      "x": 76,
+      "y": 1417,
+      "width": 60,
+      "height": 14,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Название книги",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 14.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "автор",
+      "type": "text",
+      "x": 76,
+      "y": 1428,
+      "width": 22,
+      "height": 14,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.85)"
+        }
+      ],
+      "text": "автор",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 14.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 224",
+      "type": "rectangle",
+      "x": 32,
+      "y": 1415,
+      "width": 32,
+      "height": 43,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "name": "Глазик",
+      "type": "group",
+      "x": 194.11,
+      "y": 1440,
+      "width": 6.54,
+      "height": 6.54,
+      "children": [
+        {
+          "name": "free-icon-eye-158746 1",
+          "type": "rectangle",
+          "x": 194.11,
+          "y": 1440,
+          "width": 6.54,
+          "height": 6.54,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "free-icon-eye-158746 2",
+          "type": "rectangle",
+          "x": 194.13,
+          "y": 1439.98,
+          "width": 6.58,
+          "height": 6.58,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "127.1К",
+      "type": "text",
+      "x": 187,
+      "y": 1445.76,
+      "width": 20,
+      "height": 12,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "127.1К",
+      "font": {
+        "family": "Kadwa",
+        "size": 6,
+        "weight": 700,
+        "lineHeight": 12.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Вот вам яркий пример современных тенденций - история о том, что...",
+      "type": "text",
+      "x": 76,
+      "y": 1442,
+      "width": 105,
+      "height": 12,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Вот вам яркий пример современных тенденций - история о том, что...",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 400,
+        "lineHeight": 6,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 194,
+      "y": 1418,
+      "width": 7,
+      "height": 7,
+      "children": [
+        {
+          "name": "heart 1",
+          "type": "rectangle",
+          "x": 194,
+          "y": 1418,
+          "width": 7,
+          "height": 7,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "heart 2",
+          "type": "rectangle",
+          "x": 194,
+          "y": 1418,
+          "width": 7,
+          "height": 7,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "90.2",
+      "type": "text",
+      "x": 192,
+      "y": 1424,
+      "width": 11,
+      "height": 10,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "90.2",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 10.04,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 225",
+      "type": "rectangle",
+      "x": 229,
+      "y": 1408,
+      "width": 191,
+      "height": 55,
+      "fills": [
+        {
+          "color": "rgba(47, 45, 45, 0.6)"
+        }
+      ],
+      "radius": 10
+    },
+    {
+      "name": "Название книги",
+      "type": "text",
+      "x": 283,
+      "y": 1417,
+      "width": 60,
+      "height": 14,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Название книги",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 14.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "автор",
+      "type": "text",
+      "x": 283,
+      "y": 1428,
+      "width": 22,
+      "height": 14,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.85)"
+        }
+      ],
+      "text": "автор",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 14.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 226",
+      "type": "rectangle",
+      "x": 239,
+      "y": 1415,
+      "width": 32,
+      "height": 43,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "name": "Глазик",
+      "type": "group",
+      "x": 401.11,
+      "y": 1440,
+      "width": 6.54,
+      "height": 6.54,
+      "children": [
+        {
+          "name": "free-icon-eye-158746 1",
+          "type": "rectangle",
+          "x": 401.11,
+          "y": 1440,
+          "width": 6.54,
+          "height": 6.54,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "free-icon-eye-158746 2",
+          "type": "rectangle",
+          "x": 401.13,
+          "y": 1439.98,
+          "width": 6.58,
+          "height": 6.58,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "127.1К",
+      "type": "text",
+      "x": 394,
+      "y": 1445.76,
+      "width": 20,
+      "height": 12,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "127.1К",
+      "font": {
+        "family": "Kadwa",
+        "size": 6,
+        "weight": 700,
+        "lineHeight": 12.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Вот вам яркий пример современных тенденций - история о том, что...",
+      "type": "text",
+      "x": 283,
+      "y": 1442,
+      "width": 105,
+      "height": 12,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Вот вам яркий пример современных тенденций - история о том, что...",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 400,
+        "lineHeight": 6,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 401,
+      "y": 1418,
+      "width": 7,
+      "height": 7,
+      "children": [
+        {
+          "name": "heart 1",
+          "type": "rectangle",
+          "x": 401,
+          "y": 1418,
+          "width": 7,
+          "height": 7,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "heart 2",
+          "type": "rectangle",
+          "x": 401,
+          "y": 1418,
+          "width": 7,
+          "height": 7,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "90.2",
+      "type": "text",
+      "x": 399,
+      "y": 1424,
+      "width": 11,
+      "height": 10,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "90.2",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 10.04,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 227",
+      "type": "rectangle",
+      "x": 22,
+      "y": 1469,
+      "width": 191,
+      "height": 55,
+      "fills": [
+        {
+          "color": "rgba(47, 45, 45, 0.6)"
+        }
+      ],
+      "radius": 10
+    },
+    {
+      "name": "Название книги",
+      "type": "text",
+      "x": 76,
+      "y": 1478,
+      "width": 60,
+      "height": 14,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Название книги",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 14.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "автор",
+      "type": "text",
+      "x": 76,
+      "y": 1489,
+      "width": 22,
+      "height": 14,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.85)"
+        }
+      ],
+      "text": "автор",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 14.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 228",
+      "type": "rectangle",
+      "x": 32,
+      "y": 1476,
+      "width": 32,
+      "height": 43,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "name": "Глазик",
+      "type": "group",
+      "x": 194.11,
+      "y": 1501,
+      "width": 6.54,
+      "height": 6.54,
+      "children": [
+        {
+          "name": "free-icon-eye-158746 1",
+          "type": "rectangle",
+          "x": 194.11,
+          "y": 1501,
+          "width": 6.54,
+          "height": 6.54,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "free-icon-eye-158746 2",
+          "type": "rectangle",
+          "x": 194.13,
+          "y": 1500.98,
+          "width": 6.58,
+          "height": 6.58,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "127.1К",
+      "type": "text",
+      "x": 187,
+      "y": 1506.76,
+      "width": 20,
+      "height": 12,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "127.1К",
+      "font": {
+        "family": "Kadwa",
+        "size": 6,
+        "weight": 700,
+        "lineHeight": 12.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Вот вам яркий пример современных тенденций - история о том, что...",
+      "type": "text",
+      "x": 76,
+      "y": 1503,
+      "width": 105,
+      "height": 12,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Вот вам яркий пример современных тенденций - история о том, что...",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 400,
+        "lineHeight": 6,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 194,
+      "y": 1479,
+      "width": 7,
+      "height": 7,
+      "children": [
+        {
+          "name": "heart 1",
+          "type": "rectangle",
+          "x": 194,
+          "y": 1479,
+          "width": 7,
+          "height": 7,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "heart 2",
+          "type": "rectangle",
+          "x": 194,
+          "y": 1479,
+          "width": 7,
+          "height": 7,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "90.2",
+      "type": "text",
+      "x": 192,
+      "y": 1485,
+      "width": 11,
+      "height": 10,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "90.2",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 10.04,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 229",
+      "type": "rectangle",
+      "x": 229,
+      "y": 1469,
+      "width": 191,
+      "height": 55,
+      "fills": [
+        {
+          "color": "rgba(47, 45, 45, 0.6)"
+        }
+      ],
+      "radius": 10
+    },
+    {
+      "name": "Название книги",
+      "type": "text",
+      "x": 283,
+      "y": 1478,
+      "width": 60,
+      "height": 14,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Название книги",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 14.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "автор",
+      "type": "text",
+      "x": 283,
+      "y": 1489,
+      "width": 22,
+      "height": 14,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.85)"
+        }
+      ],
+      "text": "автор",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 14.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 230",
+      "type": "rectangle",
+      "x": 239,
+      "y": 1476,
+      "width": 32,
+      "height": 43,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "name": "Глазик",
+      "type": "group",
+      "x": 401.11,
+      "y": 1501,
+      "width": 6.54,
+      "height": 6.54,
+      "children": [
+        {
+          "name": "free-icon-eye-158746 1",
+          "type": "rectangle",
+          "x": 401.11,
+          "y": 1501,
+          "width": 6.54,
+          "height": 6.54,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "free-icon-eye-158746 2",
+          "type": "rectangle",
+          "x": 401.13,
+          "y": 1500.98,
+          "width": 6.58,
+          "height": 6.58,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "127.1К",
+      "type": "text",
+      "x": 394,
+      "y": 1506.76,
+      "width": 20,
+      "height": 12,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "127.1К",
+      "font": {
+        "family": "Kadwa",
+        "size": 6,
+        "weight": 700,
+        "lineHeight": 12.05,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Вот вам яркий пример современных тенденций - история о том, что...",
+      "type": "text",
+      "x": 283,
+      "y": 1503,
+      "width": 105,
+      "height": 12,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Вот вам яркий пример современных тенденций - история о том, что...",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 400,
+        "lineHeight": 6,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 401,
+      "y": 1479,
+      "width": 7,
+      "height": 7,
+      "children": [
+        {
+          "name": "heart 1",
+          "type": "rectangle",
+          "x": 401,
+          "y": 1479,
+          "width": 7,
+          "height": 7,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "heart 2",
+          "type": "rectangle",
+          "x": 401,
+          "y": 1479,
+          "width": 7,
+          "height": 7,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "90.2",
+      "type": "text",
+      "x": 399,
+      "y": 1485,
+      "width": 11,
+      "height": 10,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "90.2",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 10.04,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 195",
+      "type": "rectangle",
+      "x": 324,
+      "y": 347,
+      "width": 95,
+      "height": 170,
+      "fills": [
+        {
+          "color": "rgba(47, 45, 45, 0.6)"
+        }
+      ],
+      "radius": 10
+    },
+    {
+      "name": "изображение 41",
+      "type": "rectangle",
+      "x": 325,
+      "y": 347,
+      "width": 93,
+      "height": 146,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "STRETCH"
+        }
+      ],
+      "radius": [
+        10,
+        10,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Rectangle 196",
+      "type": "rectangle",
+      "x": 332,
+      "y": 354,
+      "width": 31,
+      "height": 8,
+      "fills": [
+        {
+          "color": "rgba(123, 58, 238, 0.9)"
+        }
+      ],
+      "radius": 5
+    },
+    {
+      "name": "Fantasy",
+      "type": "text",
+      "x": 336,
+      "y": 357,
+      "width": 22,
+      "height": 3,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Fantasy",
+      "font": {
+        "family": "Jua",
+        "size": 6,
+        "weight": 400,
+        "lineHeight": 3,
+        "align": "center"
+      }
+    },
+    {
+      "name": "The Dragon`s Covenant",
+      "type": "text",
+      "x": 333,
+      "y": 432,
+      "width": 70,
+      "height": 7,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "The Dragon`s Covenant",
+      "font": {
+        "family": "Kadwa",
+        "size": 6,
+        "weight": 700,
+        "lineHeight": 7,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Helena Grande",
+      "type": "text",
+      "x": 349,
+      "y": 504,
+      "width": 53,
+      "height": 3,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.85)"
+        }
+      ],
+      "text": "Helena Grande",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 3,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Ellipse 91",
+      "type": "ellipse",
+      "x": 333,
+      "y": 499,
+      "width": 11,
+      "height": 11,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "name": "Вот вам яркий пример современных тенденций — существующая теория позволяет оценить значение инновационных методов ...",
+      "type": "text",
+      "x": 333,
+      "y": 441,
+      "width": 70,
+      "height": 36,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Вот вам яркий пример современных тенденций — существующая теория позволяет оценить значение \nинновационных методов ...",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 5,
+        "align": "left"
+      }
+    },
+    {
+      "name": "star(1) 90",
+      "type": "rectangle",
+      "x": 333,
+      "y": 481,
+      "width": 7,
+      "height": 7,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "name": "4.7",
+      "type": "text",
+      "x": 342,
+      "y": 480,
+      "width": 8,
+      "height": 10,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "4.7",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 10.04,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Глазик",
+      "type": "group",
+      "x": 354,
+      "y": 480,
+      "width": 9,
+      "height": 9,
+      "children": [
+        {
+          "name": "free-icon-eye-158746 1",
+          "type": "rectangle",
+          "x": 354,
+          "y": 480,
+          "width": 9,
+          "height": 9,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "free-icon-eye-158746 2",
+          "type": "rectangle",
+          "x": 354,
+          "y": 480,
+          "width": 9,
+          "height": 9,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "127.1К",
+      "type": "text",
+      "x": 365,
+      "y": 480,
+      "width": 16,
+      "height": 10,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "127.1К",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 10.04,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 385,
+      "y": 481,
+      "width": 8,
+      "height": 8,
+      "children": [
+        {
+          "name": "heart 1",
+          "type": "rectangle",
+          "x": 385,
+          "y": 481,
+          "width": 8,
+          "height": 8,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "heart 2",
+          "type": "rectangle",
+          "x": 385,
+          "y": 481,
+          "width": 8,
+          "height": 8,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "90.2",
+      "type": "text",
+      "x": 395,
+      "y": 480,
+      "width": 11,
+      "height": 10,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "90.2",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 10.04,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 201",
+      "type": "rectangle",
+      "x": 24,
+      "y": 565,
+      "width": 95,
+      "height": 170,
+      "fills": [
+        {
+          "color": "rgba(47, 45, 45, 0.6)"
+        }
+      ],
+      "radius": 10
+    },
+    {
+      "name": "изображение 44",
+      "type": "rectangle",
+      "x": 25,
+      "y": 565,
+      "width": 93,
+      "height": 146,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "STRETCH"
+        }
+      ],
+      "radius": [
+        10,
+        10,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Rectangle 202",
+      "type": "rectangle",
+      "x": 32,
+      "y": 572,
+      "width": 31,
+      "height": 8,
+      "fills": [
+        {
+          "color": "rgba(123, 58, 238, 0.9)"
+        }
+      ],
+      "radius": 5
+    },
+    {
+      "name": "Fantasy",
+      "type": "text",
+      "x": 36,
+      "y": 575,
+      "width": 22,
+      "height": 3,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Fantasy",
+      "font": {
+        "family": "Jua",
+        "size": 6,
+        "weight": 400,
+        "lineHeight": 3,
+        "align": "center"
+      }
+    },
+    {
+      "name": "The Dragon`s Covenant",
+      "type": "text",
+      "x": 33,
+      "y": 650,
+      "width": 70,
+      "height": 7,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "The Dragon`s Covenant",
+      "font": {
+        "family": "Kadwa",
+        "size": 6,
+        "weight": 700,
+        "lineHeight": 7,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Helena Grande",
+      "type": "text",
+      "x": 49,
+      "y": 722,
+      "width": 53,
+      "height": 3,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.85)"
+        }
+      ],
+      "text": "Helena Grande",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 3,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Ellipse 94",
+      "type": "ellipse",
+      "x": 33,
+      "y": 717,
+      "width": 11,
+      "height": 11,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "name": "Вот вам яркий пример современных тенденций — существующая теория позволяет оценить значение инновационных методов ...",
+      "type": "text",
+      "x": 33,
+      "y": 659,
+      "width": 70,
+      "height": 36,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Вот вам яркий пример современных тенденций — существующая теория позволяет оценить значение \nинновационных методов ...",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 5,
+        "align": "left"
+      }
+    },
+    {
+      "name": "star(1) 93",
+      "type": "rectangle",
+      "x": 33,
+      "y": 699,
+      "width": 7,
+      "height": 7,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "name": "4.7",
+      "type": "text",
+      "x": 42,
+      "y": 698,
+      "width": 8,
+      "height": 10,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "4.7",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 10.04,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Глазик",
+      "type": "group",
+      "x": 54,
+      "y": 698,
+      "width": 9,
+      "height": 9,
+      "children": [
+        {
+          "name": "free-icon-eye-158746 1",
+          "type": "rectangle",
+          "x": 54,
+          "y": 698,
+          "width": 9,
+          "height": 9,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "free-icon-eye-158746 2",
+          "type": "rectangle",
+          "x": 54,
+          "y": 698,
+          "width": 9,
+          "height": 9,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "127.1К",
+      "type": "text",
+      "x": 65,
+      "y": 698,
+      "width": 16,
+      "height": 10,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "127.1К",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 10.04,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 85,
+      "y": 699,
+      "width": 8,
+      "height": 8,
+      "children": [
+        {
+          "name": "heart 1",
+          "type": "rectangle",
+          "x": 85,
+          "y": 699,
+          "width": 8,
+          "height": 8,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "heart 2",
+          "type": "rectangle",
+          "x": 85,
+          "y": 699,
+          "width": 8,
+          "height": 8,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "90.2",
+      "type": "text",
+      "x": 95,
+      "y": 698,
+      "width": 11,
+      "height": 10,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "90.2",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 10.04,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 203",
+      "type": "rectangle",
+      "x": 124,
+      "y": 565,
+      "width": 95,
+      "height": 170,
+      "fills": [
+        {
+          "color": "rgba(47, 45, 45, 0.6)"
+        }
+      ],
+      "radius": 10
+    },
+    {
+      "name": "изображение 45",
+      "type": "rectangle",
+      "x": 125,
+      "y": 565,
+      "width": 93,
+      "height": 146,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "STRETCH"
+        }
+      ],
+      "radius": [
+        10,
+        10,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Rectangle 204",
+      "type": "rectangle",
+      "x": 132,
+      "y": 572,
+      "width": 31,
+      "height": 8,
+      "fills": [
+        {
+          "color": "rgba(123, 58, 238, 0.9)"
+        }
+      ],
+      "radius": 5
+    },
+    {
+      "name": "Fantasy",
+      "type": "text",
+      "x": 136,
+      "y": 575,
+      "width": 22,
+      "height": 3,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Fantasy",
+      "font": {
+        "family": "Jua",
+        "size": 6,
+        "weight": 400,
+        "lineHeight": 3,
+        "align": "center"
+      }
+    },
+    {
+      "name": "The Dragon`s Covenant",
+      "type": "text",
+      "x": 133,
+      "y": 650,
+      "width": 70,
+      "height": 7,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "The Dragon`s Covenant",
+      "font": {
+        "family": "Kadwa",
+        "size": 6,
+        "weight": 700,
+        "lineHeight": 7,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Helena Grande",
+      "type": "text",
+      "x": 149,
+      "y": 722,
+      "width": 53,
+      "height": 3,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.85)"
+        }
+      ],
+      "text": "Helena Grande",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 3,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Ellipse 95",
+      "type": "ellipse",
+      "x": 133,
+      "y": 717,
+      "width": 11,
+      "height": 11,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "name": "Вот вам яркий пример современных тенденций — существующая теория позволяет оценить значение инновационных методов ...",
+      "type": "text",
+      "x": 133,
+      "y": 659,
+      "width": 70,
+      "height": 36,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Вот вам яркий пример современных тенденций — существующая теория позволяет оценить значение \nинновационных методов ...",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 5,
+        "align": "left"
+      }
+    },
+    {
+      "name": "star(1) 94",
+      "type": "rectangle",
+      "x": 133,
+      "y": 699,
+      "width": 7,
+      "height": 7,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "name": "4.7",
+      "type": "text",
+      "x": 142,
+      "y": 698,
+      "width": 8,
+      "height": 10,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "4.7",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 10.04,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Глазик",
+      "type": "group",
+      "x": 154,
+      "y": 698,
+      "width": 9,
+      "height": 9,
+      "children": [
+        {
+          "name": "free-icon-eye-158746 1",
+          "type": "rectangle",
+          "x": 154,
+          "y": 698,
+          "width": 9,
+          "height": 9,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "free-icon-eye-158746 2",
+          "type": "rectangle",
+          "x": 154,
+          "y": 698,
+          "width": 9,
+          "height": 9,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "127.1К",
+      "type": "text",
+      "x": 165,
+      "y": 698,
+      "width": 16,
+      "height": 10,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "127.1К",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 10.04,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 185,
+      "y": 699,
+      "width": 8,
+      "height": 8,
+      "children": [
+        {
+          "name": "heart 1",
+          "type": "rectangle",
+          "x": 185,
+          "y": 699,
+          "width": 8,
+          "height": 8,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "heart 2",
+          "type": "rectangle",
+          "x": 185,
+          "y": 699,
+          "width": 8,
+          "height": 8,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "90.2",
+      "type": "text",
+      "x": 195,
+      "y": 698,
+      "width": 11,
+      "height": 10,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "90.2",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 10.04,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 205",
+      "type": "rectangle",
+      "x": 223,
+      "y": 565,
+      "width": 95,
+      "height": 170,
+      "fills": [
+        {
+          "color": "rgba(47, 45, 45, 0.6)"
+        }
+      ],
+      "radius": 10
+    },
+    {
+      "name": "изображение 46",
+      "type": "rectangle",
+      "x": 224,
+      "y": 565,
+      "width": 93,
+      "height": 146,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "STRETCH"
+        }
+      ],
+      "radius": [
+        10,
+        10,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Rectangle 206",
+      "type": "rectangle",
+      "x": 231,
+      "y": 572,
+      "width": 31,
+      "height": 8,
+      "fills": [
+        {
+          "color": "rgba(123, 58, 238, 0.9)"
+        }
+      ],
+      "radius": 5
+    },
+    {
+      "name": "Fantasy",
+      "type": "text",
+      "x": 235,
+      "y": 575,
+      "width": 22,
+      "height": 3,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Fantasy",
+      "font": {
+        "family": "Jua",
+        "size": 6,
+        "weight": 400,
+        "lineHeight": 3,
+        "align": "center"
+      }
+    },
+    {
+      "name": "The Dragon`s Covenant",
+      "type": "text",
+      "x": 232,
+      "y": 650,
+      "width": 70,
+      "height": 7,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "The Dragon`s Covenant",
+      "font": {
+        "family": "Kadwa",
+        "size": 6,
+        "weight": 700,
+        "lineHeight": 7,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Helena Grande",
+      "type": "text",
+      "x": 248,
+      "y": 722,
+      "width": 53,
+      "height": 3,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.85)"
+        }
+      ],
+      "text": "Helena Grande",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 3,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Ellipse 96",
+      "type": "ellipse",
+      "x": 232,
+      "y": 717,
+      "width": 11,
+      "height": 11,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "name": "Вот вам яркий пример современных тенденций — существующая теория позволяет оценить значение инновационных методов ...",
+      "type": "text",
+      "x": 232,
+      "y": 659,
+      "width": 70,
+      "height": 36,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Вот вам яркий пример современных тенденций — существующая теория позволяет оценить значение \nинновационных методов ...",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 5,
+        "align": "left"
+      }
+    },
+    {
+      "name": "star(1) 95",
+      "type": "rectangle",
+      "x": 232,
+      "y": 699,
+      "width": 7,
+      "height": 7,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "name": "4.7",
+      "type": "text",
+      "x": 241,
+      "y": 698,
+      "width": 8,
+      "height": 10,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "4.7",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 10.04,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Глазик",
+      "type": "group",
+      "x": 253,
+      "y": 698,
+      "width": 9,
+      "height": 9,
+      "children": [
+        {
+          "name": "free-icon-eye-158746 1",
+          "type": "rectangle",
+          "x": 253,
+          "y": 698,
+          "width": 9,
+          "height": 9,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "free-icon-eye-158746 2",
+          "type": "rectangle",
+          "x": 253,
+          "y": 698,
+          "width": 9,
+          "height": 9,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "127.1К",
+      "type": "text",
+      "x": 264,
+      "y": 698,
+      "width": 16,
+      "height": 10,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "127.1К",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 10.04,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 284,
+      "y": 699,
+      "width": 8,
+      "height": 8,
+      "children": [
+        {
+          "name": "heart 1",
+          "type": "rectangle",
+          "x": 284,
+          "y": 699,
+          "width": 8,
+          "height": 8,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "heart 2",
+          "type": "rectangle",
+          "x": 284,
+          "y": 699,
+          "width": 8,
+          "height": 8,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "90.2",
+      "type": "text",
+      "x": 294,
+      "y": 698,
+      "width": 11,
+      "height": 10,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "90.2",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 10.04,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 207",
+      "type": "rectangle",
+      "x": 324,
+      "y": 565,
+      "width": 95,
+      "height": 170,
+      "fills": [
+        {
+          "color": "rgba(47, 45, 45, 0.6)"
+        }
+      ],
+      "radius": 10
+    },
+    {
+      "name": "изображение 47",
+      "type": "rectangle",
+      "x": 325,
+      "y": 565,
+      "width": 93,
+      "height": 146,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "STRETCH"
+        }
+      ],
+      "radius": [
+        10,
+        10,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Rectangle 208",
+      "type": "rectangle",
+      "x": 332,
+      "y": 572,
+      "width": 31,
+      "height": 8,
+      "fills": [
+        {
+          "color": "rgba(123, 58, 238, 0.9)"
+        }
+      ],
+      "radius": 5
+    },
+    {
+      "name": "Fantasy",
+      "type": "text",
+      "x": 336,
+      "y": 575,
+      "width": 22,
+      "height": 3,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Fantasy",
+      "font": {
+        "family": "Jua",
+        "size": 6,
+        "weight": 400,
+        "lineHeight": 3,
+        "align": "center"
+      }
+    },
+    {
+      "name": "The Dragon`s Covenant",
+      "type": "text",
+      "x": 333,
+      "y": 650,
+      "width": 70,
+      "height": 7,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "The Dragon`s Covenant",
+      "font": {
+        "family": "Kadwa",
+        "size": 6,
+        "weight": 700,
+        "lineHeight": 7,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Helena Grande",
+      "type": "text",
+      "x": 349,
+      "y": 722,
+      "width": 53,
+      "height": 3,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.85)"
+        }
+      ],
+      "text": "Helena Grande",
+      "font": {
+        "family": "Kadwa",
+        "size": 7,
+        "weight": 700,
+        "lineHeight": 3,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Ellipse 97",
+      "type": "ellipse",
+      "x": 333,
+      "y": 717,
+      "width": 11,
+      "height": 11,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "name": "Вот вам яркий пример современных тенденций — существующая теория позволяет оценить значение инновационных методов ...",
+      "type": "text",
+      "x": 333,
+      "y": 659,
+      "width": 70,
+      "height": 36,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Вот вам яркий пример современных тенденций — существующая теория позволяет оценить значение \nинновационных методов ...",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 5,
+        "align": "left"
+      }
+    },
+    {
+      "name": "star(1) 96",
+      "type": "rectangle",
+      "x": 333,
+      "y": 699,
+      "width": 7,
+      "height": 7,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "name": "4.7",
+      "type": "text",
+      "x": 342,
+      "y": 698,
+      "width": 8,
+      "height": 10,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "4.7",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 10.04,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Глазик",
+      "type": "group",
+      "x": 354,
+      "y": 698,
+      "width": 9,
+      "height": 9,
+      "children": [
+        {
+          "name": "free-icon-eye-158746 1",
+          "type": "rectangle",
+          "x": 354,
+          "y": 698,
+          "width": 9,
+          "height": 9,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "free-icon-eye-158746 2",
+          "type": "rectangle",
+          "x": 354,
+          "y": 698,
+          "width": 9,
+          "height": 9,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "127.1К",
+      "type": "text",
+      "x": 365,
+      "y": 698,
+      "width": 16,
+      "height": 10,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "127.1К",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 10.04,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 385,
+      "y": 699,
+      "width": 8,
+      "height": 8,
+      "children": [
+        {
+          "name": "heart 1",
+          "type": "rectangle",
+          "x": 385,
+          "y": 699,
+          "width": 8,
+          "height": 8,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "heart 2",
+          "type": "rectangle",
+          "x": 385,
+          "y": 699,
+          "width": 8,
+          "height": 8,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "90.2",
+      "type": "text",
+      "x": 395,
+      "y": 698,
+      "width": 11,
+      "height": 10,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.7)",
+          "variable": "var(--color-white-70)"
+        }
+      ],
+      "text": "90.2",
+      "font": {
+        "family": "Kadwa",
+        "size": 5,
+        "weight": 700,
+        "lineHeight": 10.04,
+        "align": "center"
+      }
+    }
+  ]
+}

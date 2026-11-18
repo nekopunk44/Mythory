@@ -1,0 +1,372 @@
+{
+  "name": "хэдер авторизованного пользователя",
+  "type": "frame",
+  "x": 0,
+  "y": 0,
+  "width": 1920,
+  "height": 711,
+  "fills": [
+    {
+      "color": "#050510",
+      "variable": "var(--color-black-20)"
+    }
+  ],
+  "children": [
+    {
+      "name": "Rectangle 164",
+      "type": "rectangle",
+      "x": 0,
+      "y": 0,
+      "width": 1920,
+      "height": 68,
+      "fills": [
+        {
+          "color": "#1b1e2d",
+          "variable": "var(--color-black-10)"
+        }
+      ]
+    },
+    {
+      "name": "Книга иконка",
+      "type": "group",
+      "x": 361,
+      "y": 18,
+      "width": 32,
+      "height": 32,
+      "children": [
+        {
+          "name": "open-book 1",
+          "type": "rectangle",
+          "x": 361,
+          "y": 18,
+          "width": 32,
+          "height": 32,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "open-book 2",
+          "type": "rectangle",
+          "x": 172.2,
+          "y": -170.8,
+          "width": 409.6,
+          "height": 409.6,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#655a9e",
+              "variable": "var(--color-purple-50)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mythory",
+      "type": "text",
+      "x": 413,
+      "y": 18,
+      "width": 95,
+      "height": 29,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Mythory",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 24,
+        "weight": 500,
+        "lineHeight": 29.28,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Home",
+      "type": "text",
+      "x": 759,
+      "y": 24,
+      "width": 48,
+      "height": 21,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Home",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 17,
+        "weight": 400,
+        "lineHeight": 20.74,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Genres",
+      "type": "text",
+      "x": 863,
+      "y": 24,
+      "width": 57,
+      "height": 21,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Genres",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 17,
+        "weight": 400,
+        "lineHeight": 20.74,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Community",
+      "type": "text",
+      "x": 963,
+      "y": 24,
+      "width": 94,
+      "height": 21,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Community",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 17,
+        "weight": 400,
+        "lineHeight": 20.74,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Create",
+      "type": "text",
+      "x": 1419,
+      "y": 24,
+      "width": 53,
+      "height": 21,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Create",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 17,
+        "weight": 400,
+        "lineHeight": 20.74,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Line 3",
+      "type": "line",
+      "x": 863,
+      "y": 53,
+      "width": 57,
+      "height": 0,
+      "strokes": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "strokeWeight": 1
+    },
+    {
+      "name": "Поиск иконка",
+      "type": "group",
+      "x": 1350,
+      "y": 22,
+      "width": 26,
+      "height": 26,
+      "children": [
+        {
+          "name": "magnifying-glass 1",
+          "type": "rectangle",
+          "x": 1350,
+          "y": 22,
+          "width": 26,
+          "height": 26,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "magnifying-glass 2",
+          "type": "rectangle",
+          "x": 1350,
+          "y": 22,
+          "width": 26,
+          "height": 26,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ellipse 69",
+      "type": "ellipse",
+      "x": 1814,
+      "y": 20,
+      "width": 31,
+      "height": 30,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "name": "Стрелка блок новые истории",
+      "type": "group",
+      "x": 1855.54,
+      "y": 30.4,
+      "width": 9.46,
+      "height": 9.46,
+      "children": [
+        {
+          "name": "free-icon-right-arrow-angle-54833 1",
+          "type": "rectangle",
+          "x": 1855.54,
+          "y": 30.4,
+          "width": 9.46,
+          "height": 9.46,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "free-icon-right-arrow-angle-54833 2",
+          "type": "rectangle",
+          "x": 1855.54,
+          "y": 30.4,
+          "width": 9.46,
+          "height": 9.46,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#7338da"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "колокольчик уведомление",
+      "type": "group",
+      "x": 1696,
+      "y": 24.99,
+      "width": 22.31,
+      "height": 22.31,
+      "children": [
+        {
+          "name": "notification-bell 1",
+          "type": "rectangle",
+          "x": 1696,
+          "y": 24.99,
+          "width": 22.31,
+          "height": 22.31,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "notification-bell 2",
+          "type": "rectangle",
+          "x": 1696,
+          "y": 24.99,
+          "width": 22.31,
+          "height": 22.31,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#b8b8b8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "free",
+      "type": "text",
+      "x": 1755,
+      "y": 27,
+      "width": 28,
+      "height": 18,
+      "fills": [
+        {
+          "color": "#b8b8b8"
+        }
+      ],
+      "text": "free",
+      "font": {
+        "family": "Instrument Sans",
+        "size": 14,
+        "weight": 700,
+        "lineHeight": 17.08,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 1572",
+      "type": "rectangle",
+      "x": 1733,
+      "y": 25,
+      "width": 73,
+      "height": 22,
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 10
+    }
+  ]
+}

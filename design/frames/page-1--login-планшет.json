@@ -1,0 +1,6646 @@
+{
+  "name": "login планшет",
+  "type": "frame",
+  "x": 0,
+  "y": 0,
+  "width": 1440,
+  "height": 1249,
+  "fills": [
+    {
+      "gradient": "linear",
+      "stops": [
+        {
+          "color": "#111120",
+          "position": 0
+        },
+        {
+          "color": "#191932",
+          "position": 0.95
+        },
+        {
+          "color": "#35356a",
+          "position": 1
+        }
+      ]
+    }
+  ],
+  "children": [
+    {
+      "name": "Rectangle 90",
+      "type": "rectangle",
+      "x": 21,
+      "y": 19,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 91",
+      "type": "rectangle",
+      "x": 49,
+      "y": 25,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 92",
+      "type": "rectangle",
+      "x": 71,
+      "y": 19,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 93",
+      "type": "rectangle",
+      "x": 106,
+      "y": 25,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 95",
+      "type": "rectangle",
+      "x": 125,
+      "y": 19,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 96",
+      "type": "rectangle",
+      "x": 154,
+      "y": 19,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 97",
+      "type": "rectangle",
+      "x": 182,
+      "y": 25,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 98",
+      "type": "rectangle",
+      "x": 204,
+      "y": 19,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 99",
+      "type": "rectangle",
+      "x": 239,
+      "y": 25,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 100",
+      "type": "rectangle",
+      "x": 258,
+      "y": 19,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 101",
+      "type": "rectangle",
+      "x": 287,
+      "y": 16,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 102",
+      "type": "rectangle",
+      "x": 315,
+      "y": 22,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 103",
+      "type": "rectangle",
+      "x": 337,
+      "y": 16,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 104",
+      "type": "rectangle",
+      "x": 372,
+      "y": 22,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 105",
+      "type": "rectangle",
+      "x": 391,
+      "y": 16,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 106",
+      "type": "rectangle",
+      "x": 420,
+      "y": 16,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 107",
+      "type": "rectangle",
+      "x": 448,
+      "y": 22,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 108",
+      "type": "rectangle",
+      "x": 470,
+      "y": 16,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 109",
+      "type": "rectangle",
+      "x": 505,
+      "y": 22,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 110",
+      "type": "rectangle",
+      "x": 524,
+      "y": 16,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 111",
+      "type": "rectangle",
+      "x": 553,
+      "y": 16,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 112",
+      "type": "rectangle",
+      "x": 581,
+      "y": 22,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 113",
+      "type": "rectangle",
+      "x": 603,
+      "y": 16,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 114",
+      "type": "rectangle",
+      "x": 638,
+      "y": 22,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 115",
+      "type": "rectangle",
+      "x": 657,
+      "y": 16,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 116",
+      "type": "rectangle",
+      "x": 686,
+      "y": 16,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 126",
+      "type": "rectangle",
+      "x": 21,
+      "y": 91,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 127",
+      "type": "rectangle",
+      "x": 49,
+      "y": 97,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 128",
+      "type": "rectangle",
+      "x": 71,
+      "y": 91,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 129",
+      "type": "rectangle",
+      "x": 106,
+      "y": 97,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 130",
+      "type": "rectangle",
+      "x": 125,
+      "y": 91,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 131",
+      "type": "rectangle",
+      "x": 154,
+      "y": 91,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 132",
+      "type": "rectangle",
+      "x": 182,
+      "y": 97,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 133",
+      "type": "rectangle",
+      "x": 204,
+      "y": 91,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 134",
+      "type": "rectangle",
+      "x": 239,
+      "y": 97,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 135",
+      "type": "rectangle",
+      "x": 258,
+      "y": 91,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 136",
+      "type": "rectangle",
+      "x": 287,
+      "y": 88,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 137",
+      "type": "rectangle",
+      "x": 315,
+      "y": 94,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 138",
+      "type": "rectangle",
+      "x": 337,
+      "y": 88,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 139",
+      "type": "rectangle",
+      "x": 372,
+      "y": 94,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 140",
+      "type": "rectangle",
+      "x": 391,
+      "y": 88,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 141",
+      "type": "rectangle",
+      "x": 420,
+      "y": 88,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 142",
+      "type": "rectangle",
+      "x": 448,
+      "y": 94,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 143",
+      "type": "rectangle",
+      "x": 470,
+      "y": 88,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 144",
+      "type": "rectangle",
+      "x": 505,
+      "y": 94,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 145",
+      "type": "rectangle",
+      "x": 524,
+      "y": 88,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 146",
+      "type": "rectangle",
+      "x": 553,
+      "y": 88,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 147",
+      "type": "rectangle",
+      "x": 581,
+      "y": 94,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 148",
+      "type": "rectangle",
+      "x": 603,
+      "y": 88,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 149",
+      "type": "rectangle",
+      "x": 638,
+      "y": 94,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 150",
+      "type": "rectangle",
+      "x": 657,
+      "y": 88,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 151",
+      "type": "rectangle",
+      "x": 686,
+      "y": 88,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 161",
+      "type": "rectangle",
+      "x": 21,
+      "y": 161,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 162",
+      "type": "rectangle",
+      "x": 49,
+      "y": 167,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 163",
+      "type": "rectangle",
+      "x": 71,
+      "y": 161,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 164",
+      "type": "rectangle",
+      "x": 106,
+      "y": 167,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 165",
+      "type": "rectangle",
+      "x": 125,
+      "y": 161,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 166",
+      "type": "rectangle",
+      "x": 154,
+      "y": 161,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 167",
+      "type": "rectangle",
+      "x": 182,
+      "y": 167,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 168",
+      "type": "rectangle",
+      "x": 204,
+      "y": 161,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 169",
+      "type": "rectangle",
+      "x": 239,
+      "y": 167,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 170",
+      "type": "rectangle",
+      "x": 258,
+      "y": 161,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 171",
+      "type": "rectangle",
+      "x": 287,
+      "y": 158,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 172",
+      "type": "rectangle",
+      "x": 315,
+      "y": 164,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 173",
+      "type": "rectangle",
+      "x": 337,
+      "y": 158,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 174",
+      "type": "rectangle",
+      "x": 372,
+      "y": 164,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 175",
+      "type": "rectangle",
+      "x": 391,
+      "y": 158,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 176",
+      "type": "rectangle",
+      "x": 420,
+      "y": 158,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 177",
+      "type": "rectangle",
+      "x": 448,
+      "y": 164,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 178",
+      "type": "rectangle",
+      "x": 470,
+      "y": 158,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 179",
+      "type": "rectangle",
+      "x": 505,
+      "y": 164,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 180",
+      "type": "rectangle",
+      "x": 524,
+      "y": 158,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 181",
+      "type": "rectangle",
+      "x": 553,
+      "y": 158,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 182",
+      "type": "rectangle",
+      "x": 581,
+      "y": 164,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 183",
+      "type": "rectangle",
+      "x": 603,
+      "y": 158,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 184",
+      "type": "rectangle",
+      "x": 638,
+      "y": 164,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 185",
+      "type": "rectangle",
+      "x": 657,
+      "y": 158,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 186",
+      "type": "rectangle",
+      "x": 686,
+      "y": 158,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 196",
+      "type": "rectangle",
+      "x": 21,
+      "y": 233,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 197",
+      "type": "rectangle",
+      "x": 49,
+      "y": 239,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 198",
+      "type": "rectangle",
+      "x": 71,
+      "y": 233,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 199",
+      "type": "rectangle",
+      "x": 106,
+      "y": 239,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 200",
+      "type": "rectangle",
+      "x": 125,
+      "y": 233,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 201",
+      "type": "rectangle",
+      "x": 154,
+      "y": 233,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 202",
+      "type": "rectangle",
+      "x": 182,
+      "y": 239,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 203",
+      "type": "rectangle",
+      "x": 204,
+      "y": 233,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 204",
+      "type": "rectangle",
+      "x": 239,
+      "y": 239,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 205",
+      "type": "rectangle",
+      "x": 258,
+      "y": 233,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 206",
+      "type": "rectangle",
+      "x": 287,
+      "y": 230,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 207",
+      "type": "rectangle",
+      "x": 315,
+      "y": 236,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 208",
+      "type": "rectangle",
+      "x": 337,
+      "y": 230,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 209",
+      "type": "rectangle",
+      "x": 372,
+      "y": 236,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 210",
+      "type": "rectangle",
+      "x": 391,
+      "y": 230,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 211",
+      "type": "rectangle",
+      "x": 420,
+      "y": 230,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 212",
+      "type": "rectangle",
+      "x": 448,
+      "y": 236,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 213",
+      "type": "rectangle",
+      "x": 470,
+      "y": 230,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 214",
+      "type": "rectangle",
+      "x": 505,
+      "y": 236,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 215",
+      "type": "rectangle",
+      "x": 524,
+      "y": 230,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 216",
+      "type": "rectangle",
+      "x": 553,
+      "y": 230,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 217",
+      "type": "rectangle",
+      "x": 581,
+      "y": 236,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 218",
+      "type": "rectangle",
+      "x": 603,
+      "y": 230,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 219",
+      "type": "rectangle",
+      "x": 638,
+      "y": 236,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 220",
+      "type": "rectangle",
+      "x": 657,
+      "y": 230,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 221",
+      "type": "rectangle",
+      "x": 686,
+      "y": 230,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 231",
+      "type": "rectangle",
+      "x": 21,
+      "y": 305,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 232",
+      "type": "rectangle",
+      "x": 49,
+      "y": 311,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 233",
+      "type": "rectangle",
+      "x": 71,
+      "y": 305,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 234",
+      "type": "rectangle",
+      "x": 106,
+      "y": 311,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 235",
+      "type": "rectangle",
+      "x": 125,
+      "y": 305,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 236",
+      "type": "rectangle",
+      "x": 154,
+      "y": 305,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 237",
+      "type": "rectangle",
+      "x": 182,
+      "y": 311,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 238",
+      "type": "rectangle",
+      "x": 204,
+      "y": 305,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 239",
+      "type": "rectangle",
+      "x": 239,
+      "y": 311,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 240",
+      "type": "rectangle",
+      "x": 258,
+      "y": 305,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 241",
+      "type": "rectangle",
+      "x": 287,
+      "y": 302,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 242",
+      "type": "rectangle",
+      "x": 315,
+      "y": 308,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 243",
+      "type": "rectangle",
+      "x": 337,
+      "y": 302,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 244",
+      "type": "rectangle",
+      "x": 372,
+      "y": 308,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 245",
+      "type": "rectangle",
+      "x": 391,
+      "y": 302,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 246",
+      "type": "rectangle",
+      "x": 420,
+      "y": 302,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 247",
+      "type": "rectangle",
+      "x": 448,
+      "y": 308,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 248",
+      "type": "rectangle",
+      "x": 470,
+      "y": 302,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 249",
+      "type": "rectangle",
+      "x": 505,
+      "y": 308,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 250",
+      "type": "rectangle",
+      "x": 524,
+      "y": 302,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 251",
+      "type": "rectangle",
+      "x": 553,
+      "y": 302,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 252",
+      "type": "rectangle",
+      "x": 581,
+      "y": 308,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 253",
+      "type": "rectangle",
+      "x": 603,
+      "y": 302,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 254",
+      "type": "rectangle",
+      "x": 638,
+      "y": 308,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 255",
+      "type": "rectangle",
+      "x": 657,
+      "y": 302,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 256",
+      "type": "rectangle",
+      "x": 686,
+      "y": 302,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 266",
+      "type": "rectangle",
+      "x": 21,
+      "y": 377,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 267",
+      "type": "rectangle",
+      "x": 49,
+      "y": 383,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 268",
+      "type": "rectangle",
+      "x": 71,
+      "y": 377,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 269",
+      "type": "rectangle",
+      "x": 106,
+      "y": 383,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 270",
+      "type": "rectangle",
+      "x": 125,
+      "y": 377,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 271",
+      "type": "rectangle",
+      "x": 154,
+      "y": 377,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 272",
+      "type": "rectangle",
+      "x": 182,
+      "y": 383,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 273",
+      "type": "rectangle",
+      "x": 204,
+      "y": 377,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 274",
+      "type": "rectangle",
+      "x": 239,
+      "y": 383,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 275",
+      "type": "rectangle",
+      "x": 258,
+      "y": 377,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 276",
+      "type": "rectangle",
+      "x": 287,
+      "y": 374,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 277",
+      "type": "rectangle",
+      "x": 315,
+      "y": 380,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 278",
+      "type": "rectangle",
+      "x": 337,
+      "y": 374,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 279",
+      "type": "rectangle",
+      "x": 372,
+      "y": 380,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 280",
+      "type": "rectangle",
+      "x": 391,
+      "y": 374,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 281",
+      "type": "rectangle",
+      "x": 420,
+      "y": 374,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 282",
+      "type": "rectangle",
+      "x": 448,
+      "y": 380,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 283",
+      "type": "rectangle",
+      "x": 470,
+      "y": 374,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 284",
+      "type": "rectangle",
+      "x": 505,
+      "y": 380,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 285",
+      "type": "rectangle",
+      "x": 524,
+      "y": 374,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 286",
+      "type": "rectangle",
+      "x": 553,
+      "y": 374,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 287",
+      "type": "rectangle",
+      "x": 581,
+      "y": 380,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 288",
+      "type": "rectangle",
+      "x": 603,
+      "y": 374,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 289",
+      "type": "rectangle",
+      "x": 638,
+      "y": 380,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 290",
+      "type": "rectangle",
+      "x": 657,
+      "y": 374,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 291",
+      "type": "rectangle",
+      "x": 686,
+      "y": 374,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 301",
+      "type": "rectangle",
+      "x": 21,
+      "y": 447,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 302",
+      "type": "rectangle",
+      "x": 49,
+      "y": 453,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 303",
+      "type": "rectangle",
+      "x": 71,
+      "y": 447,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 304",
+      "type": "rectangle",
+      "x": 106,
+      "y": 453,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 305",
+      "type": "rectangle",
+      "x": 125,
+      "y": 447,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 306",
+      "type": "rectangle",
+      "x": 154,
+      "y": 447,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 307",
+      "type": "rectangle",
+      "x": 182,
+      "y": 453,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 308",
+      "type": "rectangle",
+      "x": 204,
+      "y": 447,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 309",
+      "type": "rectangle",
+      "x": 239,
+      "y": 453,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 310",
+      "type": "rectangle",
+      "x": 258,
+      "y": 447,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 311",
+      "type": "rectangle",
+      "x": 287,
+      "y": 444,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 312",
+      "type": "rectangle",
+      "x": 315,
+      "y": 450,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 313",
+      "type": "rectangle",
+      "x": 337,
+      "y": 444,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 314",
+      "type": "rectangle",
+      "x": 372,
+      "y": 450,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 315",
+      "type": "rectangle",
+      "x": 391,
+      "y": 444,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 316",
+      "type": "rectangle",
+      "x": 420,
+      "y": 444,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 317",
+      "type": "rectangle",
+      "x": 448,
+      "y": 450,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 318",
+      "type": "rectangle",
+      "x": 470,
+      "y": 444,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 319",
+      "type": "rectangle",
+      "x": 505,
+      "y": 450,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 320",
+      "type": "rectangle",
+      "x": 524,
+      "y": 444,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 321",
+      "type": "rectangle",
+      "x": 553,
+      "y": 444,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 322",
+      "type": "rectangle",
+      "x": 581,
+      "y": 450,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 323",
+      "type": "rectangle",
+      "x": 603,
+      "y": 444,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 324",
+      "type": "rectangle",
+      "x": 638,
+      "y": 450,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 325",
+      "type": "rectangle",
+      "x": 657,
+      "y": 444,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 326",
+      "type": "rectangle",
+      "x": 686,
+      "y": 444,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 336",
+      "type": "rectangle",
+      "x": 21,
+      "y": 519,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 337",
+      "type": "rectangle",
+      "x": 49,
+      "y": 525,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 338",
+      "type": "rectangle",
+      "x": 71,
+      "y": 519,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 339",
+      "type": "rectangle",
+      "x": 106,
+      "y": 525,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 340",
+      "type": "rectangle",
+      "x": 125,
+      "y": 519,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 341",
+      "type": "rectangle",
+      "x": 154,
+      "y": 519,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 342",
+      "type": "rectangle",
+      "x": 182,
+      "y": 525,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 343",
+      "type": "rectangle",
+      "x": 204,
+      "y": 519,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 344",
+      "type": "rectangle",
+      "x": 239,
+      "y": 525,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 345",
+      "type": "rectangle",
+      "x": 258,
+      "y": 519,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 346",
+      "type": "rectangle",
+      "x": 287,
+      "y": 516,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 347",
+      "type": "rectangle",
+      "x": 315,
+      "y": 522,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 348",
+      "type": "rectangle",
+      "x": 337,
+      "y": 516,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 349",
+      "type": "rectangle",
+      "x": 372,
+      "y": 522,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 350",
+      "type": "rectangle",
+      "x": 391,
+      "y": 516,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 351",
+      "type": "rectangle",
+      "x": 420,
+      "y": 516,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 352",
+      "type": "rectangle",
+      "x": 448,
+      "y": 522,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 353",
+      "type": "rectangle",
+      "x": 470,
+      "y": 516,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 354",
+      "type": "rectangle",
+      "x": 505,
+      "y": 522,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 355",
+      "type": "rectangle",
+      "x": 524,
+      "y": 516,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 356",
+      "type": "rectangle",
+      "x": 553,
+      "y": 516,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 357",
+      "type": "rectangle",
+      "x": 581,
+      "y": 522,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 358",
+      "type": "rectangle",
+      "x": 603,
+      "y": 516,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 359",
+      "type": "rectangle",
+      "x": 638,
+      "y": 522,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 360",
+      "type": "rectangle",
+      "x": 657,
+      "y": 516,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 361",
+      "type": "rectangle",
+      "x": 686,
+      "y": 516,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 371",
+      "type": "rectangle",
+      "x": 21,
+      "y": 589,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 372",
+      "type": "rectangle",
+      "x": 49,
+      "y": 595,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 373",
+      "type": "rectangle",
+      "x": 71,
+      "y": 589,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 374",
+      "type": "rectangle",
+      "x": 106,
+      "y": 595,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 375",
+      "type": "rectangle",
+      "x": 125,
+      "y": 589,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 376",
+      "type": "rectangle",
+      "x": 154,
+      "y": 589,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 377",
+      "type": "rectangle",
+      "x": 182,
+      "y": 595,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 378",
+      "type": "rectangle",
+      "x": 204,
+      "y": 589,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 379",
+      "type": "rectangle",
+      "x": 239,
+      "y": 595,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 380",
+      "type": "rectangle",
+      "x": 258,
+      "y": 589,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 381",
+      "type": "rectangle",
+      "x": 287,
+      "y": 586,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 382",
+      "type": "rectangle",
+      "x": 315,
+      "y": 592,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 383",
+      "type": "rectangle",
+      "x": 337,
+      "y": 586,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 384",
+      "type": "rectangle",
+      "x": 372,
+      "y": 592,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 385",
+      "type": "rectangle",
+      "x": 391,
+      "y": 586,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 386",
+      "type": "rectangle",
+      "x": 420,
+      "y": 586,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 387",
+      "type": "rectangle",
+      "x": 448,
+      "y": 592,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 388",
+      "type": "rectangle",
+      "x": 470,
+      "y": 586,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 389",
+      "type": "rectangle",
+      "x": 505,
+      "y": 592,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 390",
+      "type": "rectangle",
+      "x": 524,
+      "y": 586,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 391",
+      "type": "rectangle",
+      "x": 553,
+      "y": 586,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 392",
+      "type": "rectangle",
+      "x": 581,
+      "y": 592,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 393",
+      "type": "rectangle",
+      "x": 603,
+      "y": 586,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 693",
+      "type": "rectangle",
+      "x": 603,
+      "y": 658,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 394",
+      "type": "rectangle",
+      "x": 638,
+      "y": 592,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 395",
+      "type": "rectangle",
+      "x": 657,
+      "y": 586,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 396",
+      "type": "rectangle",
+      "x": 686,
+      "y": 586,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 406",
+      "type": "rectangle",
+      "x": 21,
+      "y": 661,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 407",
+      "type": "rectangle",
+      "x": 49,
+      "y": 667,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 408",
+      "type": "rectangle",
+      "x": 71,
+      "y": 661,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 409",
+      "type": "rectangle",
+      "x": 106,
+      "y": 667,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 410",
+      "type": "rectangle",
+      "x": 125,
+      "y": 661,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 411",
+      "type": "rectangle",
+      "x": 154,
+      "y": 661,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 412",
+      "type": "rectangle",
+      "x": 182,
+      "y": 667,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 413",
+      "type": "rectangle",
+      "x": 204,
+      "y": 661,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 414",
+      "type": "rectangle",
+      "x": 239,
+      "y": 667,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 415",
+      "type": "rectangle",
+      "x": 258,
+      "y": 661,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 416",
+      "type": "rectangle",
+      "x": 287,
+      "y": 658,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 417",
+      "type": "rectangle",
+      "x": 315,
+      "y": 664,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 418",
+      "type": "rectangle",
+      "x": 337,
+      "y": 658,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 419",
+      "type": "rectangle",
+      "x": 372,
+      "y": 664,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 420",
+      "type": "rectangle",
+      "x": 391,
+      "y": 658,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 421",
+      "type": "rectangle",
+      "x": 420,
+      "y": 658,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 422",
+      "type": "rectangle",
+      "x": 448,
+      "y": 664,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 423",
+      "type": "rectangle",
+      "x": 470,
+      "y": 658,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 424",
+      "type": "rectangle",
+      "x": 505,
+      "y": 664,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 425",
+      "type": "rectangle",
+      "x": 524,
+      "y": 658,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 426",
+      "type": "rectangle",
+      "x": 553,
+      "y": 658,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 427",
+      "type": "rectangle",
+      "x": 581,
+      "y": 664,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Text on a path",
+      "type": "text_path",
+      "x": 603,
+      "y": 658,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 429",
+      "type": "rectangle",
+      "x": 638,
+      "y": 664,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 430",
+      "type": "rectangle",
+      "x": 657,
+      "y": 658,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 431",
+      "type": "rectangle",
+      "x": 686,
+      "y": 658,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 441",
+      "type": "rectangle",
+      "x": 21,
+      "y": 731,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 442",
+      "type": "rectangle",
+      "x": 49,
+      "y": 737,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 443",
+      "type": "rectangle",
+      "x": 71,
+      "y": 731,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 444",
+      "type": "rectangle",
+      "x": 106,
+      "y": 737,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 445",
+      "type": "rectangle",
+      "x": 125,
+      "y": 731,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 446",
+      "type": "rectangle",
+      "x": 154,
+      "y": 731,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 447",
+      "type": "rectangle",
+      "x": 182,
+      "y": 737,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 448",
+      "type": "rectangle",
+      "x": 204,
+      "y": 731,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 449",
+      "type": "rectangle",
+      "x": 239,
+      "y": 737,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 450",
+      "type": "rectangle",
+      "x": 258,
+      "y": 731,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 451",
+      "type": "rectangle",
+      "x": 287,
+      "y": 728,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 452",
+      "type": "rectangle",
+      "x": 315,
+      "y": 734,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 453",
+      "type": "rectangle",
+      "x": 337,
+      "y": 728,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 454",
+      "type": "rectangle",
+      "x": 372,
+      "y": 734,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 455",
+      "type": "rectangle",
+      "x": 391,
+      "y": 728,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 456",
+      "type": "rectangle",
+      "x": 420,
+      "y": 728,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 457",
+      "type": "rectangle",
+      "x": 448,
+      "y": 734,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 458",
+      "type": "rectangle",
+      "x": 470,
+      "y": 728,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 459",
+      "type": "rectangle",
+      "x": 505,
+      "y": 734,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 460",
+      "type": "rectangle",
+      "x": 524,
+      "y": 728,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 461",
+      "type": "rectangle",
+      "x": 553,
+      "y": 728,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 462",
+      "type": "rectangle",
+      "x": 581,
+      "y": 734,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 463",
+      "type": "rectangle",
+      "x": 603,
+      "y": 728,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 464",
+      "type": "rectangle",
+      "x": 638,
+      "y": 734,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 465",
+      "type": "rectangle",
+      "x": 657,
+      "y": 728,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 466",
+      "type": "rectangle",
+      "x": 686,
+      "y": 728,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 476",
+      "type": "rectangle",
+      "x": 21,
+      "y": 803,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 477",
+      "type": "rectangle",
+      "x": 49,
+      "y": 809,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 478",
+      "type": "rectangle",
+      "x": 71,
+      "y": 803,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 479",
+      "type": "rectangle",
+      "x": 106,
+      "y": 809,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 480",
+      "type": "rectangle",
+      "x": 125,
+      "y": 803,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 481",
+      "type": "rectangle",
+      "x": 154,
+      "y": 803,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 482",
+      "type": "rectangle",
+      "x": 182,
+      "y": 809,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 483",
+      "type": "rectangle",
+      "x": 204,
+      "y": 803,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 484",
+      "type": "rectangle",
+      "x": 239,
+      "y": 809,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 485",
+      "type": "rectangle",
+      "x": 258,
+      "y": 803,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 486",
+      "type": "rectangle",
+      "x": 287,
+      "y": 800,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 487",
+      "type": "rectangle",
+      "x": 315,
+      "y": 806,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 488",
+      "type": "rectangle",
+      "x": 337,
+      "y": 800,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 489",
+      "type": "rectangle",
+      "x": 372,
+      "y": 806,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 490",
+      "type": "rectangle",
+      "x": 391,
+      "y": 800,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 491",
+      "type": "rectangle",
+      "x": 420,
+      "y": 800,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 492",
+      "type": "rectangle",
+      "x": 448,
+      "y": 806,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 493",
+      "type": "rectangle",
+      "x": 470,
+      "y": 800,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 494",
+      "type": "rectangle",
+      "x": 505,
+      "y": 806,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 495",
+      "type": "rectangle",
+      "x": 524,
+      "y": 800,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 496",
+      "type": "rectangle",
+      "x": 553,
+      "y": 800,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 497",
+      "type": "rectangle",
+      "x": 581,
+      "y": 806,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 498",
+      "type": "rectangle",
+      "x": 603,
+      "y": 800,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 499",
+      "type": "rectangle",
+      "x": 638,
+      "y": 806,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 500",
+      "type": "rectangle",
+      "x": 657,
+      "y": 800,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 501",
+      "type": "rectangle",
+      "x": 686,
+      "y": 800,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 511",
+      "type": "rectangle",
+      "x": 21,
+      "y": 875,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 512",
+      "type": "rectangle",
+      "x": 49,
+      "y": 881,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 513",
+      "type": "rectangle",
+      "x": 71,
+      "y": 875,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 514",
+      "type": "rectangle",
+      "x": 106,
+      "y": 881,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 515",
+      "type": "rectangle",
+      "x": 125,
+      "y": 875,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 516",
+      "type": "rectangle",
+      "x": 154,
+      "y": 875,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 517",
+      "type": "rectangle",
+      "x": 182,
+      "y": 881,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 518",
+      "type": "rectangle",
+      "x": 204,
+      "y": 875,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 519",
+      "type": "rectangle",
+      "x": 239,
+      "y": 881,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 520",
+      "type": "rectangle",
+      "x": 258,
+      "y": 875,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 521",
+      "type": "rectangle",
+      "x": 287,
+      "y": 872,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 522",
+      "type": "rectangle",
+      "x": 315,
+      "y": 878,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 523",
+      "type": "rectangle",
+      "x": 337,
+      "y": 872,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 694",
+      "type": "rectangle",
+      "x": 337,
+      "y": 947,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 524",
+      "type": "rectangle",
+      "x": 372,
+      "y": 878,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 525",
+      "type": "rectangle",
+      "x": 391,
+      "y": 872,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 526",
+      "type": "rectangle",
+      "x": 420,
+      "y": 872,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 527",
+      "type": "rectangle",
+      "x": 448,
+      "y": 878,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 528",
+      "type": "rectangle",
+      "x": 470,
+      "y": 872,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 529",
+      "type": "rectangle",
+      "x": 505,
+      "y": 878,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 530",
+      "type": "rectangle",
+      "x": 524,
+      "y": 872,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 531",
+      "type": "rectangle",
+      "x": 553,
+      "y": 872,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 532",
+      "type": "rectangle",
+      "x": 581,
+      "y": 878,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 533",
+      "type": "rectangle",
+      "x": 603,
+      "y": 872,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 534",
+      "type": "rectangle",
+      "x": 638,
+      "y": 878,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 535",
+      "type": "rectangle",
+      "x": 657,
+      "y": 872,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 536",
+      "type": "rectangle",
+      "x": 686,
+      "y": 872,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 546",
+      "type": "rectangle",
+      "x": 21,
+      "y": 947,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 547",
+      "type": "rectangle",
+      "x": 49,
+      "y": 953,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 548",
+      "type": "rectangle",
+      "x": 71,
+      "y": 947,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 549",
+      "type": "rectangle",
+      "x": 106,
+      "y": 953,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 550",
+      "type": "rectangle",
+      "x": 125,
+      "y": 947,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 551",
+      "type": "rectangle",
+      "x": 154,
+      "y": 947,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 552",
+      "type": "rectangle",
+      "x": 182,
+      "y": 953,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 553",
+      "type": "rectangle",
+      "x": 204,
+      "y": 947,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 554",
+      "type": "rectangle",
+      "x": 239,
+      "y": 953,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 555",
+      "type": "rectangle",
+      "x": 258,
+      "y": 947,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 556",
+      "type": "rectangle",
+      "x": 287,
+      "y": 944,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 557",
+      "type": "rectangle",
+      "x": 315,
+      "y": 950,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Text on a path",
+      "type": "text_path",
+      "x": 337,
+      "y": 944,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 559",
+      "type": "rectangle",
+      "x": 372,
+      "y": 950,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 560",
+      "type": "rectangle",
+      "x": 391,
+      "y": 944,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 695",
+      "type": "rectangle",
+      "x": 391,
+      "y": 1014,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 561",
+      "type": "rectangle",
+      "x": 420,
+      "y": 944,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 562",
+      "type": "rectangle",
+      "x": 448,
+      "y": 950,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 563",
+      "type": "rectangle",
+      "x": 470,
+      "y": 944,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 564",
+      "type": "rectangle",
+      "x": 505,
+      "y": 950,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 565",
+      "type": "rectangle",
+      "x": 524,
+      "y": 944,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 566",
+      "type": "rectangle",
+      "x": 553,
+      "y": 944,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 567",
+      "type": "rectangle",
+      "x": 581,
+      "y": 950,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 568",
+      "type": "rectangle",
+      "x": 603,
+      "y": 944,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 569",
+      "type": "rectangle",
+      "x": 638,
+      "y": 950,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 570",
+      "type": "rectangle",
+      "x": 657,
+      "y": 944,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 571",
+      "type": "rectangle",
+      "x": 686,
+      "y": 944,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 581",
+      "type": "rectangle",
+      "x": 21,
+      "y": 1017,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 582",
+      "type": "rectangle",
+      "x": 49,
+      "y": 1023,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 583",
+      "type": "rectangle",
+      "x": 71,
+      "y": 1017,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 584",
+      "type": "rectangle",
+      "x": 106,
+      "y": 1023,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 585",
+      "type": "rectangle",
+      "x": 125,
+      "y": 1017,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 586",
+      "type": "rectangle",
+      "x": 154,
+      "y": 1017,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 587",
+      "type": "rectangle",
+      "x": 182,
+      "y": 1023,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 588",
+      "type": "rectangle",
+      "x": 204,
+      "y": 1017,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 589",
+      "type": "rectangle",
+      "x": 239,
+      "y": 1023,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 590",
+      "type": "rectangle",
+      "x": 258,
+      "y": 1017,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 591",
+      "type": "rectangle",
+      "x": 287,
+      "y": 1014,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 592",
+      "type": "rectangle",
+      "x": 315,
+      "y": 1020,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 593",
+      "type": "rectangle",
+      "x": 337,
+      "y": 1014,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 594",
+      "type": "rectangle",
+      "x": 372,
+      "y": 1020,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Text on a path",
+      "type": "text_path",
+      "x": 391,
+      "y": 1014,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 596",
+      "type": "rectangle",
+      "x": 420,
+      "y": 1014,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 597",
+      "type": "rectangle",
+      "x": 448,
+      "y": 1020,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 598",
+      "type": "rectangle",
+      "x": 470,
+      "y": 1014,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 599",
+      "type": "rectangle",
+      "x": 505,
+      "y": 1020,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 600",
+      "type": "rectangle",
+      "x": 524,
+      "y": 1014,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 601",
+      "type": "rectangle",
+      "x": 553,
+      "y": 1014,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 602",
+      "type": "rectangle",
+      "x": 581,
+      "y": 1020,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 603",
+      "type": "rectangle",
+      "x": 603,
+      "y": 1014,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 604",
+      "type": "rectangle",
+      "x": 638,
+      "y": 1020,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 605",
+      "type": "rectangle",
+      "x": 657,
+      "y": 1014,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 606",
+      "type": "rectangle",
+      "x": 686,
+      "y": 1014,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 616",
+      "type": "rectangle",
+      "x": 21,
+      "y": 1089,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 617",
+      "type": "rectangle",
+      "x": 49,
+      "y": 1095,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 618",
+      "type": "rectangle",
+      "x": 71,
+      "y": 1089,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 619",
+      "type": "rectangle",
+      "x": 106,
+      "y": 1095,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 620",
+      "type": "rectangle",
+      "x": 125,
+      "y": 1089,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 621",
+      "type": "rectangle",
+      "x": 154,
+      "y": 1089,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 622",
+      "type": "rectangle",
+      "x": 182,
+      "y": 1095,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 623",
+      "type": "rectangle",
+      "x": 204,
+      "y": 1089,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 624",
+      "type": "rectangle",
+      "x": 239,
+      "y": 1095,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 625",
+      "type": "rectangle",
+      "x": 258,
+      "y": 1089,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 626",
+      "type": "rectangle",
+      "x": 287,
+      "y": 1086,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 627",
+      "type": "rectangle",
+      "x": 315,
+      "y": 1092,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 628",
+      "type": "rectangle",
+      "x": 337,
+      "y": 1086,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 629",
+      "type": "rectangle",
+      "x": 372,
+      "y": 1092,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 630",
+      "type": "rectangle",
+      "x": 391,
+      "y": 1086,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 631",
+      "type": "rectangle",
+      "x": 420,
+      "y": 1086,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 632",
+      "type": "rectangle",
+      "x": 448,
+      "y": 1092,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 633",
+      "type": "rectangle",
+      "x": 470,
+      "y": 1086,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 634",
+      "type": "rectangle",
+      "x": 505,
+      "y": 1092,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 635",
+      "type": "rectangle",
+      "x": 524,
+      "y": 1086,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 636",
+      "type": "rectangle",
+      "x": 553,
+      "y": 1086,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 637",
+      "type": "rectangle",
+      "x": 581,
+      "y": 1092,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 638",
+      "type": "rectangle",
+      "x": 603,
+      "y": 1086,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 639",
+      "type": "rectangle",
+      "x": 638,
+      "y": 1092,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 640",
+      "type": "rectangle",
+      "x": 657,
+      "y": 1086,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 641",
+      "type": "rectangle",
+      "x": 686,
+      "y": 1086,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 658",
+      "type": "rectangle",
+      "x": 21,
+      "y": 1156,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 659",
+      "type": "rectangle",
+      "x": 49,
+      "y": 1162,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 660",
+      "type": "rectangle",
+      "x": 71,
+      "y": 1156,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 661",
+      "type": "rectangle",
+      "x": 106,
+      "y": 1162,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 662",
+      "type": "rectangle",
+      "x": 125,
+      "y": 1156,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 663",
+      "type": "rectangle",
+      "x": 154,
+      "y": 1156,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 664",
+      "type": "rectangle",
+      "x": 182,
+      "y": 1162,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 665",
+      "type": "rectangle",
+      "x": 204,
+      "y": 1156,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 666",
+      "type": "rectangle",
+      "x": 239,
+      "y": 1162,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 667",
+      "type": "rectangle",
+      "x": 258,
+      "y": 1156,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 668",
+      "type": "rectangle",
+      "x": 287,
+      "y": 1153,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 669",
+      "type": "rectangle",
+      "x": 315,
+      "y": 1159,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 670",
+      "type": "rectangle",
+      "x": 337,
+      "y": 1153,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 671",
+      "type": "rectangle",
+      "x": 372,
+      "y": 1159,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 672",
+      "type": "rectangle",
+      "x": 391,
+      "y": 1153,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 673",
+      "type": "rectangle",
+      "x": 420,
+      "y": 1153,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 674",
+      "type": "rectangle",
+      "x": 448,
+      "y": 1159,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 675",
+      "type": "rectangle",
+      "x": 470,
+      "y": 1153,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 676",
+      "type": "rectangle",
+      "x": 505,
+      "y": 1159,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 677",
+      "type": "rectangle",
+      "x": 524,
+      "y": 1153,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 678",
+      "type": "rectangle",
+      "x": 553,
+      "y": 1153,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 679",
+      "type": "rectangle",
+      "x": 581,
+      "y": 1159,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 680",
+      "type": "rectangle",
+      "x": 603,
+      "y": 1153,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 681",
+      "type": "rectangle",
+      "x": 638,
+      "y": 1159,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 682",
+      "type": "rectangle",
+      "x": 657,
+      "y": 1153,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 683",
+      "type": "rectangle",
+      "x": 686,
+      "y": 1153,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 651",
+      "type": "rectangle",
+      "x": 300,
+      "y": 236,
+      "width": 128,
+      "height": 128,
+      "fills": [
+        {
+          "color": "#292255"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#4d3d9b"
+        }
+      ],
+      "strokeWeight": 2,
+      "radius": 15
+    },
+    {
+      "name": "логотип",
+      "type": "group",
+      "x": 334,
+      "y": 270,
+      "width": 61,
+      "height": 61,
+      "children": [
+        {
+          "name": "open-book 1",
+          "type": "rectangle",
+          "x": 334,
+          "y": 270,
+          "width": 61,
+          "height": 61,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "open-book 2",
+          "type": "rectangle",
+          "x": -25.9,
+          "y": -89.9,
+          "width": 780.8,
+          "height": 780.8,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#655a9e",
+              "variable": "var(--color-purple-50)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Welcome to Mythory",
+      "type": "text",
+      "x": 125,
+      "y": 411,
+      "width": 492,
+      "height": 100,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Welcome to Mythory",
+      "font": {
+        "family": "Kadwa",
+        "size": 50,
+        "weight": 400,
+        "lineHeight": 100.39,
+        "letterSpacing": -0.6,
+        "align": "left"
+      }
+    },
+    {
+      "name": "Your personal digital library awaits. Discover new worlds, track your reading journey, add connect with fellow book lovers.",
+      "type": "text",
+      "x": 103,
+      "y": 536,
+      "width": 522,
+      "height": 123,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.5)",
+          "variable": "var(--color-white-50)"
+        }
+      ],
+      "text": "Your personal digital library awaits. Discover new worlds, track your reading journey, add connect with fellow book lovers.",
+      "font": {
+        "family": "K2D",
+        "size": 24,
+        "weight": 400,
+        "lineHeight": 31.2,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Join",
+      "type": "text",
+      "x": 418,
+      "y": 841,
+      "width": 47,
+      "height": 31,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.5)",
+          "variable": "var(--color-white-50)"
+        }
+      ],
+      "text": "Join",
+      "font": {
+        "family": "K2D",
+        "size": 24,
+        "weight": 400,
+        "lineHeight": 31.2,
+        "align": "center"
+      }
+    },
+    {
+      "name": "readers",
+      "type": "text",
+      "x": 584,
+      "y": 841,
+      "width": 81,
+      "height": 31,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.5)",
+          "variable": "var(--color-white-50)"
+        }
+      ],
+      "text": "readers",
+      "font": {
+        "family": "K2D",
+        "size": 24,
+        "weight": 400,
+        "lineHeight": 31.2,
+        "align": "center"
+      }
+    },
+    {
+      "name": "10,000+",
+      "type": "text",
+      "x": 478,
+      "y": 839,
+      "width": 100,
+      "height": 34,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "10,000+",
+      "font": {
+        "family": "K2D",
+        "size": 26,
+        "weight": 400,
+        "lineHeight": 33.8,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Ellipse 4",
+      "type": "ellipse",
+      "x": 133,
+      "y": 831,
+      "width": 50,
+      "height": 50,
+      "fills": [
+        {
+          "color": "rgba(82, 50, 229, 0.5)"
+        }
+      ]
+    },
+    {
+      "name": "Ellipse 5",
+      "type": "ellipse",
+      "x": 171,
+      "y": 831,
+      "width": 50,
+      "height": 50,
+      "fills": [
+        {
+          "color": "rgba(82, 50, 229, 0.5)"
+        }
+      ]
+    },
+    {
+      "name": "Ellipse 6",
+      "type": "ellipse",
+      "x": 211,
+      "y": 831,
+      "width": 50,
+      "height": 50,
+      "fills": [
+        {
+          "color": "rgba(82, 50, 229, 0.5)"
+        }
+      ]
+    },
+    {
+      "name": "Ellipse 7",
+      "type": "ellipse",
+      "x": 247,
+      "y": 831,
+      "width": 50,
+      "height": 50,
+      "fills": [
+        {
+          "color": "rgba(82, 50, 229, 0.5)"
+        }
+      ]
+    },
+    {
+      "name": "A",
+      "type": "text",
+      "x": 149,
+      "y": 842,
+      "width": 15,
+      "height": 29,
+      "fills": [
+        {
+          "color": "#fff8f8"
+        }
+      ],
+      "text": "A",
+      "font": {
+        "family": "K2D",
+        "size": 22,
+        "weight": 400,
+        "lineHeight": 28.6,
+        "align": "center"
+      }
+    },
+    {
+      "name": "B",
+      "type": "text",
+      "x": 189,
+      "y": 842,
+      "width": 15,
+      "height": 29,
+      "fills": [
+        {
+          "color": "#fff8f8"
+        }
+      ],
+      "text": "B",
+      "font": {
+        "family": "K2D",
+        "size": 22,
+        "weight": 400,
+        "lineHeight": 28.6,
+        "align": "center"
+      }
+    },
+    {
+      "name": "C",
+      "type": "text",
+      "x": 227,
+      "y": 842,
+      "width": 16,
+      "height": 29,
+      "fills": [
+        {
+          "color": "#fff8f8"
+        }
+      ],
+      "text": "C",
+      "font": {
+        "family": "K2D",
+        "size": 22,
+        "weight": 400,
+        "lineHeight": 28.6,
+        "align": "center"
+      }
+    },
+    {
+      "name": "D",
+      "type": "text",
+      "x": 265,
+      "y": 842,
+      "width": 16,
+      "height": 29,
+      "fills": [
+        {
+          "color": "#fff8f8"
+        }
+      ],
+      "text": "D",
+      "font": {
+        "family": "K2D",
+        "size": 22,
+        "weight": 400,
+        "lineHeight": 28.6,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 652",
+      "type": "rectangle",
+      "x": 764,
+      "y": 126,
+      "width": 617,
+      "height": 1010,
+      "fills": [
+        {
+          "color": "#0d0b1c"
+        }
+      ],
+      "radius": 20
+    },
+    {
+      "name": "Welcome back",
+      "type": "text",
+      "x": 975,
+      "y": 155,
+      "width": 209,
+      "height": 60,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Welcome back",
+      "font": {
+        "family": "Kadwa",
+        "size": 30,
+        "weight": 400,
+        "lineHeight": 60.23,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Email",
+      "type": "text",
+      "x": 809,
+      "y": 281,
+      "width": 68,
+      "height": 48,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Email",
+      "font": {
+        "family": "Kadwa",
+        "size": 24,
+        "weight": 400,
+        "lineHeight": 48.19,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Sign in to continue your reading journey",
+      "type": "text",
+      "x": 891,
+      "y": 224,
+      "width": 376,
+      "height": 27,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.5)",
+          "variable": "var(--color-white-50)"
+        }
+      ],
+      "text": "Sign in to continue your reading journey",
+      "font": {
+        "family": "K2D",
+        "size": 21,
+        "weight": 400,
+        "lineHeight": 27.3,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 653",
+      "type": "rectangle",
+      "x": 809,
+      "y": 345,
+      "width": 526,
+      "height": 66,
+      "fills": [
+        {
+          "color": "#151323"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 15
+    },
+    {
+      "name": "name@example.com",
+      "type": "text",
+      "x": 837,
+      "y": 363,
+      "width": 205,
+      "height": 30,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.5)",
+          "variable": "var(--color-white-50)"
+        }
+      ],
+      "text": "name@example.com",
+      "font": {
+        "family": "K2D",
+        "size": 23,
+        "weight": 400,
+        "lineHeight": 29.9,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Password",
+      "type": "text",
+      "x": 813,
+      "y": 432,
+      "width": 110,
+      "height": 48,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Password",
+      "font": {
+        "family": "Kadwa",
+        "size": 24,
+        "weight": 400,
+        "lineHeight": 48.19,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 654",
+      "type": "rectangle",
+      "x": 809,
+      "y": 496,
+      "width": 526,
+      "height": 66,
+      "fills": [
+        {
+          "color": "#151323"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 15
+    },
+    {
+      "name": "Rectangle 656",
+      "type": "rectangle",
+      "x": 809,
+      "y": 811,
+      "width": 526,
+      "height": 66,
+      "fills": [
+        {
+          "color": "#151323"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 15
+    },
+    {
+      "name": "Rectangle 657",
+      "type": "rectangle",
+      "x": 810,
+      "y": 905,
+      "width": 526,
+      "height": 66,
+      "fills": [
+        {
+          "color": "#151323"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 15
+    },
+    {
+      "name": "Rectangle 655",
+      "type": "rectangle",
+      "x": 809,
+      "y": 647,
+      "width": 526,
+      "height": 66,
+      "fills": [
+        {
+          "color": "#7255f5"
+        }
+      ],
+      "radius": 15
+    },
+    {
+      "name": "Enter your password",
+      "type": "text",
+      "x": 844,
+      "y": 514,
+      "width": 211,
+      "height": 30,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.5)",
+          "variable": "var(--color-white-50)"
+        }
+      ],
+      "text": "Enter your password",
+      "font": {
+        "family": "K2D",
+        "size": 23,
+        "weight": 400,
+        "lineHeight": 29.9,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Don`t have an Account?",
+      "type": "text",
+      "x": 909,
+      "y": 1014,
+      "width": 201,
+      "height": 25,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.5)",
+          "variable": "var(--color-white-50)"
+        }
+      ],
+      "text": "Don`t have an Account?",
+      "font": {
+        "family": "K2D",
+        "size": 19,
+        "weight": 400,
+        "lineHeight": 24.7,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Create Account",
+      "type": "text",
+      "x": 1121,
+      "y": 1014,
+      "width": 131,
+      "height": 25,
+      "fills": [
+        {
+          "color": "#7255f5"
+        }
+      ],
+      "text": "Create Account",
+      "font": {
+        "family": "K2D",
+        "size": 19,
+        "weight": 400,
+        "lineHeight": 24.7,
+        "align": "center"
+      }
+    },
+    {
+      "name": "OR CONTINUE WITH",
+      "type": "text",
+      "x": 1002,
+      "y": 752,
+      "width": 140,
+      "height": 20,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.5)",
+          "variable": "var(--color-white-50)"
+        }
+      ],
+      "text": "OR CONTINUE WITH",
+      "font": {
+        "family": "K2D",
+        "size": 15,
+        "weight": 400,
+        "lineHeight": 19.5,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Log in",
+      "type": "text",
+      "x": 1041,
+      "y": 665,
+      "width": 62,
+      "height": 30,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Log in",
+      "font": {
+        "family": "K2D",
+        "size": 23,
+        "weight": 400,
+        "lineHeight": 29.9,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Continue with Google",
+      "type": "text",
+      "x": 980,
+      "y": 829,
+      "width": 220,
+      "height": 30,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Continue with Google",
+      "font": {
+        "family": "K2D",
+        "size": 23,
+        "weight": 400,
+        "lineHeight": 29.9,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Continue with Apple",
+      "type": "text",
+      "x": 985,
+      "y": 923,
+      "width": 210,
+      "height": 30,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Continue with Apple",
+      "font": {
+        "family": "K2D",
+        "size": 23,
+        "weight": 400,
+        "lineHeight": 29.9,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Forgot password?",
+      "type": "text",
+      "x": 1167,
+      "y": 586,
+      "width": 163,
+      "height": 27,
+      "fills": [
+        {
+          "color": "#7154f4"
+        }
+      ],
+      "text": "Forgot password?",
+      "font": {
+        "family": "K2D",
+        "size": 21,
+        "weight": 400,
+        "lineHeight": 27.3,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Line 40",
+      "type": "line",
+      "x": 809,
+      "y": 764,
+      "width": 156,
+      "height": 0,
+      "strokes": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "strokeWeight": 0.5
+    },
+    {
+      "name": "Line 41",
+      "type": "line",
+      "x": 1179,
+      "y": 762,
+      "width": 156,
+      "height": 0,
+      "strokes": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "strokeWeight": 0.5
+    },
+    {
+      "name": "google 1",
+      "type": "rectangle",
+      "x": 945,
+      "y": 834,
+      "width": 20,
+      "height": 20,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 950,
+      "y": 928,
+      "width": 20,
+      "height": 20,
+      "children": [
+        {
+          "name": "apple 1",
+          "type": "rectangle",
+          "x": 950,
+          "y": 928,
+          "width": 20,
+          "height": 20,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "apple 2",
+          "type": "rectangle",
+          "x": 950,
+          "y": 928,
+          "width": 20,
+          "height": 20,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 1277,
+      "y": 515,
+      "width": 28,
+      "height": 28,
+      "children": [
+        {
+          "name": "eye 3",
+          "type": "rectangle",
+          "x": 1277,
+          "y": 515,
+          "width": 28,
+          "height": 28,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "eye 4",
+          "type": "rectangle",
+          "x": 1277,
+          "y": 515,
+          "width": 28,
+          "height": 28,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "rgba(255, 255, 255, 0.6)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

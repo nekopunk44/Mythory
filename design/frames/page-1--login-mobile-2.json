@@ -1,0 +1,698 @@
+{
+  "name": "login mobile",
+  "type": "frame",
+  "x": 0,
+  "y": 0,
+  "width": 440,
+  "height": 900,
+  "fills": [
+    {
+      "color": "#0d0b1c"
+    }
+  ],
+  "children": [
+    {
+      "name": "Rectangle 696",
+      "type": "rectangle",
+      "x": 43,
+      "y": 56,
+      "width": 353,
+      "height": 755,
+      "fills": [
+        {
+          "color": "#0d0b1c"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 20
+    },
+    {
+      "name": "Welcome back",
+      "type": "text",
+      "x": 146,
+      "y": 84,
+      "width": 147,
+      "height": 42,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Welcome back",
+      "font": {
+        "family": "Kadwa",
+        "size": 21,
+        "weight": 400,
+        "lineHeight": 42.16,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Email",
+      "type": "text",
+      "x": 93,
+      "y": 185,
+      "width": 51,
+      "height": 36,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Email",
+      "font": {
+        "family": "Kadwa",
+        "size": 18,
+        "weight": 400,
+        "lineHeight": 36.14,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Sign in to continue your reading journey",
+      "type": "text",
+      "x": 103,
+      "y": 134,
+      "width": 233,
+      "height": 17,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.5)",
+          "variable": "var(--color-white-50)"
+        }
+      ],
+      "text": "Sign in to continue your reading journey",
+      "font": {
+        "family": "K2D",
+        "size": 13,
+        "weight": 400,
+        "lineHeight": 16.9,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 697",
+      "type": "rectangle",
+      "x": 93,
+      "y": 229,
+      "width": 254,
+      "height": 42,
+      "fills": [
+        {
+          "color": "#151323"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 15
+    },
+    {
+      "name": "name@example.com",
+      "type": "text",
+      "x": 108,
+      "y": 240,
+      "width": 125,
+      "height": 18,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.5)",
+          "variable": "var(--color-white-50)"
+        }
+      ],
+      "text": "name@example.com",
+      "font": {
+        "family": "K2D",
+        "size": 14,
+        "weight": 400,
+        "lineHeight": 18.2,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Password",
+      "type": "text",
+      "x": 95,
+      "y": 278,
+      "width": 83,
+      "height": 36,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Password",
+      "font": {
+        "family": "Kadwa",
+        "size": 18,
+        "weight": 400,
+        "lineHeight": 36.14,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 698",
+      "type": "rectangle",
+      "x": 93,
+      "y": 321,
+      "width": 254,
+      "height": 43,
+      "fills": [
+        {
+          "color": "#151323"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 15
+    },
+    {
+      "name": "Rectangle 699",
+      "type": "rectangle",
+      "x": 93,
+      "y": 561,
+      "width": 254,
+      "height": 43,
+      "fills": [
+        {
+          "color": "#151323"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 15
+    },
+    {
+      "name": "Rectangle 700",
+      "type": "rectangle",
+      "x": 93,
+      "y": 622,
+      "width": 254,
+      "height": 42,
+      "fills": [
+        {
+          "color": "#151323"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 15
+    },
+    {
+      "name": "Rectangle 701",
+      "type": "rectangle",
+      "x": 93,
+      "y": 456,
+      "width": 254,
+      "height": 42,
+      "fills": [
+        {
+          "color": "#7255f5"
+        }
+      ],
+      "radius": 15
+    },
+    {
+      "name": "Enter your password",
+      "type": "text",
+      "x": 108,
+      "y": 333,
+      "width": 129,
+      "height": 18,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.5)",
+          "variable": "var(--color-white-50)"
+        }
+      ],
+      "text": "Enter your password",
+      "font": {
+        "family": "K2D",
+        "size": 14,
+        "weight": 400,
+        "lineHeight": 18.2,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Don`t have an Account?",
+      "type": "text",
+      "x": 151,
+      "y": 690,
+      "width": 106,
+      "height": 13,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.5)",
+          "variable": "var(--color-white-50)"
+        }
+      ],
+      "text": "Don`t have an Account?",
+      "font": {
+        "family": "K2D",
+        "size": 10,
+        "weight": 400,
+        "lineHeight": 13,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Create Account",
+      "type": "text",
+      "x": 269,
+      "y": 690,
+      "width": 69,
+      "height": 13,
+      "fills": [
+        {
+          "color": "#7255f5"
+        }
+      ],
+      "text": "Create Account",
+      "font": {
+        "family": "K2D",
+        "size": 10,
+        "weight": 400,
+        "lineHeight": 13,
+        "align": "center"
+      }
+    },
+    {
+      "name": "OR CONTINUE WITH",
+      "type": "text",
+      "x": 181,
+      "y": 524,
+      "width": 84,
+      "height": 12,
+      "fills": [
+        {
+          "color": "rgba(255, 255, 255, 0.5)",
+          "variable": "var(--color-white-50)"
+        }
+      ],
+      "text": "OR CONTINUE WITH",
+      "font": {
+        "family": "K2D",
+        "size": 9,
+        "weight": 400,
+        "lineHeight": 11.7,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Log in",
+      "type": "text",
+      "x": 200,
+      "y": 467,
+      "width": 41,
+      "height": 20,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Log in",
+      "font": {
+        "family": "K2D",
+        "size": 15,
+        "weight": 400,
+        "lineHeight": 19.5,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Continue with Google",
+      "type": "text",
+      "x": 173,
+      "y": 573,
+      "width": 125,
+      "height": 17,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Continue with Google",
+      "font": {
+        "family": "K2D",
+        "size": 13,
+        "weight": 400,
+        "lineHeight": 16.9,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Continue with Apple",
+      "type": "text",
+      "x": 173,
+      "y": 634,
+      "width": 119,
+      "height": 17,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Continue with Apple",
+      "font": {
+        "family": "K2D",
+        "size": 13,
+        "weight": 400,
+        "lineHeight": 16.9,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Forgot password?",
+      "type": "text",
+      "x": 278,
+      "y": 426,
+      "width": 86,
+      "height": 14,
+      "fills": [
+        {
+          "color": "#7154f4"
+        }
+      ],
+      "text": "Forgot password?",
+      "font": {
+        "family": "K2D",
+        "size": 11,
+        "weight": 400,
+        "lineHeight": 14.3,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Глазик",
+      "type": "group",
+      "x": 316,
+      "y": 336.69,
+      "width": 12.23,
+      "height": 12.23,
+      "children": [
+        {
+          "name": "free-icon-eye-158746 1",
+          "type": "rectangle",
+          "x": 316,
+          "y": 336.69,
+          "width": 12.23,
+          "height": 12.23,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "free-icon-eye-158746 2",
+          "type": "rectangle",
+          "x": 315.15,
+          "y": 337.66,
+          "width": 13.94,
+          "height": 13.94,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "rgba(255, 255, 255, 0.5)",
+              "variable": "var(--color-white-50)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Line 42",
+      "type": "line",
+      "x": 98,
+      "y": 532,
+      "width": 75,
+      "height": 0,
+      "strokes": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "strokeWeight": 0.5
+    },
+    {
+      "name": "Line 43",
+      "type": "line",
+      "x": 272,
+      "y": 531,
+      "width": 75,
+      "height": 0,
+      "strokes": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "strokeWeight": 0.5
+    },
+    {
+      "name": "google 2",
+      "type": "rectangle",
+      "x": 149,
+      "y": 577,
+      "width": 11,
+      "height": 11,
+      "fills": [
+        {
+          "type": "image",
+          "scaleMode": "FILL"
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 149,
+      "y": 637,
+      "width": 11,
+      "height": 11,
+      "children": [
+        {
+          "name": "apple 3",
+          "type": "rectangle",
+          "x": 149,
+          "y": 637,
+          "width": 11,
+          "height": 11,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "apple 4",
+          "type": "rectangle",
+          "x": 149,
+          "y": 637,
+          "width": 11,
+          "height": 11,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#ffffff",
+              "variable": "var(--color-white)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 733",
+      "type": "rectangle",
+      "x": 447,
+      "y": 719,
+      "width": 27,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 734",
+      "type": "rectangle",
+      "x": 482,
+      "y": 725,
+      "width": 11,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 735",
+      "type": "rectangle",
+      "x": 501,
+      "y": 802,
+      "width": 16,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 716",
+      "type": "rectangle",
+      "x": -144,
+      "y": 25,
+      "width": 20,
+      "height": 53,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 717",
+      "type": "rectangle",
+      "x": -116,
+      "y": 31,
+      "width": 14,
+      "height": 47,
+      "fills": [
+        {
+          "color": "#242236"
+        }
+      ]
+    },
+    {
+      "name": "Mythory",
+      "type": "text",
+      "x": 165.29,
+      "y": 721,
+      "width": 109.75,
+      "height": 64.78,
+      "fills": [
+        {
+          "color": "#ffffff",
+          "variable": "var(--color-white)"
+        }
+      ],
+      "text": "Mythory",
+      "font": {
+        "family": "Just Me Again Down Here",
+        "size": 40,
+        "weight": 400,
+        "lineHeight": 59.92,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Incorrect login or password",
+      "type": "text",
+      "x": 142,
+      "y": 382,
+      "width": 186,
+      "height": 20,
+      "fills": [
+        {
+          "color": "#8a0a12"
+        }
+      ],
+      "text": "Incorrect login or password",
+      "font": {
+        "family": "K2D",
+        "size": 15,
+        "weight": 700,
+        "lineHeight": 19.5,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 117,
+      "y": 386,
+      "width": 12,
+      "height": 12,
+      "radius": 20,
+      "children": [
+        {
+          "name": "Rectangle 652",
+          "type": "rectangle",
+          "x": 117,
+          "y": 386,
+          "width": 12,
+          "height": 12,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ],
+          "radius": 20
+        },
+        {
+          "name": "Rectangle 695",
+          "type": "rectangle",
+          "x": 117,
+          "y": 386,
+          "width": 12,
+          "height": 12,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#8a0a12"
+            }
+          ],
+          "radius": 20
+        }
+      ]
+    }
+  ]
+}

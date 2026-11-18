@@ -1,0 +1,2579 @@
+{
+  "name": "Все жанры",
+  "type": "frame",
+  "x": 0,
+  "y": 0,
+  "width": 1902,
+  "height": 894,
+  "fills": [
+    {
+      "color": "#050510",
+      "variable": "var(--color-black-20)"
+    }
+  ],
+  "children": [
+    {
+      "name": "Rectangle 141",
+      "type": "rectangle",
+      "x": 215,
+      "y": 94,
+      "width": 238,
+      "height": 116,
+      "fills": [
+        {
+          "color": "#0d0d0d",
+          "variable": "var(--color-gray-60)"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 10
+    },
+    {
+      "name": "Mystery",
+      "type": "text",
+      "x": 310,
+      "y": 158,
+      "width": 57,
+      "height": 28,
+      "fills": [
+        {
+          "color": "#b8b8b8"
+        }
+      ],
+      "text": "Mystery",
+      "font": {
+        "family": "Kadwa",
+        "size": 14,
+        "weight": 700,
+        "lineHeight": 28.11,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Поиск иконка",
+      "type": "group",
+      "x": 242,
+      "y": 117,
+      "width": 35,
+      "height": 35,
+      "children": [
+        {
+          "name": "magnifying-glass 1",
+          "type": "rectangle",
+          "x": 242,
+          "y": 117,
+          "width": 35,
+          "height": 35,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "magnifying-glass 2",
+          "type": "rectangle",
+          "x": 242,
+          "y": 117,
+          "width": 35,
+          "height": 35,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 142",
+      "type": "rectangle",
+      "x": 215,
+      "y": 94,
+      "width": 274,
+      "height": 126,
+      "fills": [
+        {
+          "color": "#231338"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 10
+    },
+    {
+      "name": "Mystery",
+      "type": "text",
+      "x": 319,
+      "y": 158,
+      "width": 66,
+      "height": 28,
+      "fills": [
+        {
+          "color": "#b8b8b8"
+        }
+      ],
+      "text": "Mystery",
+      "font": {
+        "family": "Kadwa",
+        "size": 14,
+        "weight": 700,
+        "lineHeight": 28.11,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 143",
+      "type": "rectangle",
+      "x": 513,
+      "y": 94,
+      "width": 274,
+      "height": 126,
+      "fills": [
+        {
+          "color": "#0d0d0d",
+          "variable": "var(--color-gray-60)"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 10
+    },
+    {
+      "name": "Teen fiction",
+      "type": "text",
+      "x": 608,
+      "y": 158,
+      "width": 85,
+      "height": 28,
+      "fills": [
+        {
+          "color": "#b8b8b8"
+        }
+      ],
+      "text": "Teen fiction",
+      "font": {
+        "family": "Kadwa",
+        "size": 14,
+        "weight": 700,
+        "lineHeight": 28.11,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 144",
+      "type": "rectangle",
+      "x": 811,
+      "y": 94,
+      "width": 274,
+      "height": 126,
+      "fills": [
+        {
+          "color": "#0d0d0d",
+          "variable": "var(--color-gray-60)"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 10
+    },
+    {
+      "name": "Fantasy",
+      "type": "text",
+      "x": 920,
+      "y": 158,
+      "width": 66,
+      "height": 28,
+      "fills": [
+        {
+          "color": "#b8b8b8"
+        }
+      ],
+      "text": "Fantasy",
+      "font": {
+        "family": "Kadwa",
+        "size": 14,
+        "weight": 700,
+        "lineHeight": 28.11,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 145",
+      "type": "rectangle",
+      "x": 1111,
+      "y": 94,
+      "width": 274,
+      "height": 126,
+      "fills": [
+        {
+          "color": "#0d0d0d",
+          "variable": "var(--color-gray-60)"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 10
+    },
+    {
+      "name": "Science fiction",
+      "type": "text",
+      "x": 1196,
+      "y": 158,
+      "width": 104,
+      "height": 28,
+      "fills": [
+        {
+          "color": "#b8b8b8"
+        }
+      ],
+      "text": "Science fiction",
+      "font": {
+        "family": "Kadwa",
+        "size": 14,
+        "weight": 700,
+        "lineHeight": 28.11,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 146",
+      "type": "rectangle",
+      "x": 1412,
+      "y": 94,
+      "width": 274,
+      "height": 126,
+      "fills": [
+        {
+          "color": "#0d0d0d",
+          "variable": "var(--color-gray-60)"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 10
+    },
+    {
+      "name": "Detective",
+      "type": "text",
+      "x": 1516,
+      "y": 158,
+      "width": 67,
+      "height": 28,
+      "fills": [
+        {
+          "color": "#b8b8b8"
+        }
+      ],
+      "text": "Detective",
+      "font": {
+        "family": "Kadwa",
+        "size": 14,
+        "weight": 700,
+        "lineHeight": 28.11,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Ellipse 34",
+      "type": "ellipse",
+      "x": 460,
+      "y": 194,
+      "width": 11,
+      "height": 11,
+      "fills": [
+        {
+          "color": "#d9d9d9",
+          "variable": "var(--color-white-10)"
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 147",
+      "type": "rectangle",
+      "x": 215,
+      "y": 239,
+      "width": 238,
+      "height": 116,
+      "fills": [
+        {
+          "color": "#0d0d0d",
+          "variable": "var(--color-gray-60)"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 10
+    },
+    {
+      "name": "Mystery",
+      "type": "text",
+      "x": 310,
+      "y": 303,
+      "width": 57,
+      "height": 28,
+      "fills": [
+        {
+          "color": "#b8b8b8"
+        }
+      ],
+      "text": "Mystery",
+      "font": {
+        "family": "Kadwa",
+        "size": 14,
+        "weight": 700,
+        "lineHeight": 28.11,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Поиск иконка",
+      "type": "group",
+      "x": 242,
+      "y": 262,
+      "width": 35,
+      "height": 35,
+      "children": [
+        {
+          "name": "magnifying-glass 1",
+          "type": "rectangle",
+          "x": 242,
+          "y": 262,
+          "width": 35,
+          "height": 35,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "magnifying-glass 2",
+          "type": "rectangle",
+          "x": 242,
+          "y": 262,
+          "width": 35,
+          "height": 35,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 148",
+      "type": "rectangle",
+      "x": 215,
+      "y": 239,
+      "width": 274,
+      "height": 126,
+      "fills": [
+        {
+          "color": "#0d0d0d",
+          "variable": "var(--color-gray-60)"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 10
+    },
+    {
+      "name": "Mysticism",
+      "type": "text",
+      "x": 316,
+      "y": 303,
+      "width": 72,
+      "height": 28,
+      "fills": [
+        {
+          "color": "#b8b8b8"
+        }
+      ],
+      "text": "Mysticism",
+      "font": {
+        "family": "Kadwa",
+        "size": 14,
+        "weight": 700,
+        "lineHeight": 28.11,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 149",
+      "type": "rectangle",
+      "x": 513,
+      "y": 239,
+      "width": 274,
+      "height": 126,
+      "fills": [
+        {
+          "color": "#0d0d0d",
+          "variable": "var(--color-gray-60)"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 10
+    },
+    {
+      "name": "Horrors",
+      "type": "text",
+      "x": 617,
+      "y": 303,
+      "width": 66,
+      "height": 28,
+      "fills": [
+        {
+          "color": "#b8b8b8"
+        }
+      ],
+      "text": "Horrors",
+      "font": {
+        "family": "Kadwa",
+        "size": 14,
+        "weight": 700,
+        "lineHeight": 28.11,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 150",
+      "type": "rectangle",
+      "x": 811,
+      "y": 239,
+      "width": 274,
+      "height": 126,
+      "fills": [
+        {
+          "color": "#0d0d0d",
+          "variable": "var(--color-gray-60)"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 10
+    },
+    {
+      "name": "Comedy",
+      "type": "text",
+      "x": 920,
+      "y": 303,
+      "width": 66,
+      "height": 28,
+      "fills": [
+        {
+          "color": "#b8b8b8"
+        }
+      ],
+      "text": "Comedy",
+      "font": {
+        "family": "Kadwa",
+        "size": 14,
+        "weight": 700,
+        "lineHeight": 28.11,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 151",
+      "type": "rectangle",
+      "x": 1111,
+      "y": 239,
+      "width": 274,
+      "height": 126,
+      "fills": [
+        {
+          "color": "#0d0d0d",
+          "variable": "var(--color-gray-60)"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 10
+    },
+    {
+      "name": "Action",
+      "type": "text",
+      "x": 1215,
+      "y": 303,
+      "width": 66,
+      "height": 28,
+      "fills": [
+        {
+          "color": "#b8b8b8"
+        }
+      ],
+      "text": "Action",
+      "font": {
+        "family": "Kadwa",
+        "size": 14,
+        "weight": 700,
+        "lineHeight": 28.11,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 152",
+      "type": "rectangle",
+      "x": 1412,
+      "y": 239,
+      "width": 274,
+      "height": 126,
+      "fills": [
+        {
+          "color": "#0d0d0d",
+          "variable": "var(--color-gray-60)"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 10
+    },
+    {
+      "name": "Adventures",
+      "type": "text",
+      "x": 1513,
+      "y": 303,
+      "width": 83,
+      "height": 28,
+      "fills": [
+        {
+          "color": "#b8b8b8"
+        }
+      ],
+      "text": "Adventures",
+      "font": {
+        "family": "Kadwa",
+        "size": 14,
+        "weight": 700,
+        "lineHeight": 28.11,
+        "align": "center"
+      }
+    },
+    {
+      "name": "icon woman",
+      "type": "group",
+      "x": 544,
+      "y": 118,
+      "width": 39,
+      "height": 39,
+      "children": [
+        {
+          "name": "woman 1",
+          "type": "rectangle",
+          "x": 544,
+          "y": 118,
+          "width": 39,
+          "height": 39,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "woman 2",
+          "type": "rectangle",
+          "x": 544,
+          "y": 118,
+          "width": 39,
+          "height": 39,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 842,
+      "y": 118,
+      "width": 39,
+      "height": 39,
+      "children": [
+        {
+          "name": "spell-book 1",
+          "type": "rectangle",
+          "x": 842,
+          "y": 118,
+          "width": 39,
+          "height": 39,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "spell-book 2",
+          "type": "rectangle",
+          "x": 842,
+          "y": 118,
+          "width": 39,
+          "height": 39,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 1137,
+      "y": 118,
+      "width": 35,
+      "height": 35,
+      "children": [
+        {
+          "name": "science-fiction 1",
+          "type": "rectangle",
+          "x": 1137,
+          "y": 118,
+          "width": 35,
+          "height": 35,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "science-fiction 2",
+          "type": "rectangle",
+          "x": 1137,
+          "y": 118,
+          "width": 35,
+          "height": 35,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 1443,
+      "y": 117,
+      "width": 40,
+      "height": 40,
+      "children": [
+        {
+          "name": "detective 1",
+          "type": "rectangle",
+          "x": 1443,
+          "y": 117,
+          "width": 40,
+          "height": 40,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "detective 2",
+          "type": "rectangle",
+          "x": 1443,
+          "y": 117,
+          "width": 40,
+          "height": 40,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 246,
+      "y": 262,
+      "width": 40,
+      "height": 40,
+      "children": [
+        {
+          "name": "magic-trick 1",
+          "type": "rectangle",
+          "x": 246,
+          "y": 262,
+          "width": 40,
+          "height": 40,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "magic-trick 2",
+          "type": "rectangle",
+          "x": 246,
+          "y": 262,
+          "width": 40,
+          "height": 40,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 544,
+      "y": 262,
+      "width": 41,
+      "height": 41,
+      "children": [
+        {
+          "name": "ghost 1",
+          "type": "rectangle",
+          "x": 544,
+          "y": 262,
+          "width": 41,
+          "height": 41,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "ghost 2",
+          "type": "rectangle",
+          "x": 544,
+          "y": 262,
+          "width": 41,
+          "height": 41,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 842,
+      "y": 261,
+      "width": 39,
+      "height": 39,
+      "children": [
+        {
+          "name": "masks 1",
+          "type": "rectangle",
+          "x": 842,
+          "y": 261,
+          "width": 39,
+          "height": 39,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "masks 2",
+          "type": "rectangle",
+          "x": 842,
+          "y": 261,
+          "width": 39,
+          "height": 39,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 1137,
+      "y": 258,
+      "width": 49,
+      "height": 49,
+      "children": [
+        {
+          "name": "action 1",
+          "type": "rectangle",
+          "x": 1137,
+          "y": 258,
+          "width": 49,
+          "height": 49,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "action 2",
+          "type": "rectangle",
+          "x": 1137,
+          "y": 258,
+          "width": 49,
+          "height": 49,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 1443,
+      "y": 259,
+      "width": 38,
+      "height": 38,
+      "children": [
+        {
+          "name": "location (1) 1",
+          "type": "rectangle",
+          "x": 1443,
+          "y": 259,
+          "width": 38,
+          "height": 38,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "location (1) 2",
+          "type": "rectangle",
+          "x": 1443,
+          "y": 259,
+          "width": 38,
+          "height": 38,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 153",
+      "type": "rectangle",
+      "x": 215,
+      "y": 384,
+      "width": 238,
+      "height": 116,
+      "fills": [
+        {
+          "color": "#0d0d0d",
+          "variable": "var(--color-gray-60)"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 10
+    },
+    {
+      "name": "Mystery",
+      "type": "text",
+      "x": 310,
+      "y": 448,
+      "width": 57,
+      "height": 28,
+      "fills": [
+        {
+          "color": "#b8b8b8"
+        }
+      ],
+      "text": "Mystery",
+      "font": {
+        "family": "Kadwa",
+        "size": 14,
+        "weight": 700,
+        "lineHeight": 28.11,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Поиск иконка",
+      "type": "group",
+      "x": 242,
+      "y": 407,
+      "width": 35,
+      "height": 35,
+      "children": [
+        {
+          "name": "magnifying-glass 1",
+          "type": "rectangle",
+          "x": 242,
+          "y": 407,
+          "width": 35,
+          "height": 35,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "magnifying-glass 2",
+          "type": "rectangle",
+          "x": 242,
+          "y": 407,
+          "width": 35,
+          "height": 35,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 154",
+      "type": "rectangle",
+      "x": 215,
+      "y": 384,
+      "width": 274,
+      "height": 126,
+      "fills": [
+        {
+          "color": "#0d0d0d",
+          "variable": "var(--color-gray-60)"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 10
+    },
+    {
+      "name": "Historical fiction",
+      "type": "text",
+      "x": 292,
+      "y": 448,
+      "width": 121,
+      "height": 28,
+      "fills": [
+        {
+          "color": "#b8b8b8"
+        }
+      ],
+      "text": "Historical fiction",
+      "font": {
+        "family": "Kadwa",
+        "size": 14,
+        "weight": 700,
+        "lineHeight": 28.11,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 155",
+      "type": "rectangle",
+      "x": 513,
+      "y": 384,
+      "width": 274,
+      "height": 126,
+      "fills": [
+        {
+          "color": "#0d0d0d",
+          "variable": "var(--color-gray-60)"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 10
+    },
+    {
+      "name": "Poetry",
+      "type": "text",
+      "x": 617,
+      "y": 448,
+      "width": 66,
+      "height": 28,
+      "fills": [
+        {
+          "color": "#b8b8b8"
+        }
+      ],
+      "text": "Poetry",
+      "font": {
+        "family": "Kadwa",
+        "size": 14,
+        "weight": 700,
+        "lineHeight": 28.11,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 156",
+      "type": "rectangle",
+      "x": 1412,
+      "y": 384,
+      "width": 274,
+      "height": 126,
+      "fills": [
+        {
+          "color": "#0d0d0d",
+          "variable": "var(--color-gray-60)"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 10
+    },
+    {
+      "name": "Short stories",
+      "type": "text",
+      "x": 1504,
+      "y": 448,
+      "width": 91,
+      "height": 28,
+      "fills": [
+        {
+          "color": "#b8b8b8"
+        }
+      ],
+      "text": "Short stories",
+      "font": {
+        "family": "Kadwa",
+        "size": 14,
+        "weight": 700,
+        "lineHeight": 28.11,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 157",
+      "type": "rectangle",
+      "x": 1111,
+      "y": 384,
+      "width": 274,
+      "height": 126,
+      "fills": [
+        {
+          "color": "#0d0d0d",
+          "variable": "var(--color-gray-60)"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 10
+    },
+    {
+      "name": "Classics",
+      "type": "text",
+      "x": 1220,
+      "y": 448,
+      "width": 56,
+      "height": 28,
+      "fills": [
+        {
+          "color": "#b8b8b8"
+        }
+      ],
+      "text": "Classics",
+      "font": {
+        "family": "Kadwa",
+        "size": 14,
+        "weight": 700,
+        "lineHeight": 28.11,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 158",
+      "type": "rectangle",
+      "x": 811,
+      "y": 384,
+      "width": 274,
+      "height": 126,
+      "fills": [
+        {
+          "color": "#0d0d0d",
+          "variable": "var(--color-gray-60)"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 10
+    },
+    {
+      "name": "Non-fiction",
+      "type": "text",
+      "x": 907,
+      "y": 448,
+      "width": 82,
+      "height": 28,
+      "fills": [
+        {
+          "color": "#b8b8b8"
+        }
+      ],
+      "text": "Non-fiction",
+      "font": {
+        "family": "Kadwa",
+        "size": 14,
+        "weight": 700,
+        "lineHeight": 28.11,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 245,
+      "y": 118,
+      "width": 41,
+      "height": 41,
+      "children": [
+        {
+          "name": "surprise-box 1",
+          "type": "rectangle",
+          "x": 245,
+          "y": 118,
+          "width": 41,
+          "height": 41,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "surprise-box 2",
+          "type": "rectangle",
+          "x": 245,
+          "y": 118,
+          "width": 41,
+          "height": 41,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 242,
+      "y": 405,
+      "width": 40,
+      "height": 40,
+      "children": [
+        {
+          "name": "helmet 1",
+          "type": "rectangle",
+          "x": 242,
+          "y": 405,
+          "width": 40,
+          "height": 40,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "helmet 2",
+          "type": "rectangle",
+          "x": 242,
+          "y": 405,
+          "width": 40,
+          "height": 40,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 544,
+      "y": 406,
+      "width": 41,
+      "height": 41,
+      "children": [
+        {
+          "name": "poetry 1",
+          "type": "rectangle",
+          "x": 544,
+          "y": 406,
+          "width": 41,
+          "height": 41,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "poetry 2",
+          "type": "rectangle",
+          "x": 544,
+          "y": 406,
+          "width": 41,
+          "height": 41,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 1443,
+      "y": 406,
+      "width": 41,
+      "height": 41,
+      "children": [
+        {
+          "name": "story 1",
+          "type": "rectangle",
+          "x": 1443,
+          "y": 406,
+          "width": 41,
+          "height": 41,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "story 2",
+          "type": "rectangle",
+          "x": 1443,
+          "y": 406,
+          "width": 41,
+          "height": 41,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 842,
+      "y": 403,
+      "width": 41,
+      "height": 41,
+      "children": [
+        {
+          "name": "resume 1",
+          "type": "rectangle",
+          "x": 842,
+          "y": 403,
+          "width": 41,
+          "height": 41,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "resume 2",
+          "type": "rectangle",
+          "x": 842,
+          "y": 403,
+          "width": 41,
+          "height": 41,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 1137,
+      "y": 406,
+      "width": 40,
+      "height": 40,
+      "children": [
+        {
+          "name": "classic 1",
+          "type": "rectangle",
+          "x": 1137,
+          "y": 406,
+          "width": 40,
+          "height": 40,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "classic 2",
+          "type": "rectangle",
+          "x": 1137,
+          "y": 406,
+          "width": 40,
+          "height": 40,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 159",
+      "type": "rectangle",
+      "x": 215,
+      "y": 529,
+      "width": 238,
+      "height": 116,
+      "fills": [
+        {
+          "color": "#0d0d0d",
+          "variable": "var(--color-gray-60)"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 10
+    },
+    {
+      "name": "Mystery",
+      "type": "text",
+      "x": 310,
+      "y": 593,
+      "width": 57,
+      "height": 28,
+      "fills": [
+        {
+          "color": "#b8b8b8"
+        }
+      ],
+      "text": "Mystery",
+      "font": {
+        "family": "Kadwa",
+        "size": 14,
+        "weight": 700,
+        "lineHeight": 28.11,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Поиск иконка",
+      "type": "group",
+      "x": 242,
+      "y": 552,
+      "width": 35,
+      "height": 35,
+      "children": [
+        {
+          "name": "magnifying-glass 1",
+          "type": "rectangle",
+          "x": 242,
+          "y": 552,
+          "width": 35,
+          "height": 35,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "magnifying-glass 2",
+          "type": "rectangle",
+          "x": 242,
+          "y": 552,
+          "width": 35,
+          "height": 35,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 160",
+      "type": "rectangle",
+      "x": 215,
+      "y": 529,
+      "width": 274,
+      "height": 126,
+      "fills": [
+        {
+          "color": "#0d0d0d",
+          "variable": "var(--color-gray-60)"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 10
+    },
+    {
+      "name": "Vampires",
+      "type": "text",
+      "x": 318,
+      "y": 593,
+      "width": 69,
+      "height": 28,
+      "fills": [
+        {
+          "color": "#b8b8b8"
+        }
+      ],
+      "text": "Vampires",
+      "font": {
+        "family": "Kadwa",
+        "size": 14,
+        "weight": 700,
+        "lineHeight": 28.11,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 161",
+      "type": "rectangle",
+      "x": 513,
+      "y": 529,
+      "width": 274,
+      "height": 126,
+      "fills": [
+        {
+          "color": "#0d0d0d",
+          "variable": "var(--color-gray-60)"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 10
+    },
+    {
+      "name": "Werewolves",
+      "type": "text",
+      "x": 607,
+      "y": 593,
+      "width": 86,
+      "height": 28,
+      "fills": [
+        {
+          "color": "#b8b8b8"
+        }
+      ],
+      "text": "Werewolves",
+      "font": {
+        "family": "Kadwa",
+        "size": 14,
+        "weight": 700,
+        "lineHeight": 28.11,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 162",
+      "type": "rectangle",
+      "x": 1412,
+      "y": 529,
+      "width": 274,
+      "height": 126,
+      "fills": [
+        {
+          "color": "#0d0d0d",
+          "variable": "var(--color-gray-60)"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 10
+    },
+    {
+      "name": "School / University",
+      "type": "text",
+      "x": 1481,
+      "y": 593,
+      "width": 136,
+      "height": 28,
+      "fills": [
+        {
+          "color": "#b8b8b8"
+        }
+      ],
+      "text": "School / University",
+      "font": {
+        "family": "Kadwa",
+        "size": 14,
+        "weight": 700,
+        "lineHeight": 28.11,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 163",
+      "type": "rectangle",
+      "x": 1111,
+      "y": 529,
+      "width": 274,
+      "height": 126,
+      "fills": [
+        {
+          "color": "#0d0d0d",
+          "variable": "var(--color-gray-60)"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 10
+    },
+    {
+      "name": "Enemies to lovers",
+      "type": "text",
+      "x": 1186,
+      "y": 593,
+      "width": 124,
+      "height": 28,
+      "fills": [
+        {
+          "color": "#b8b8b8"
+        }
+      ],
+      "text": "Enemies to lovers",
+      "font": {
+        "family": "Kadwa",
+        "size": 14,
+        "weight": 700,
+        "lineHeight": 28.11,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 164",
+      "type": "rectangle",
+      "x": 811,
+      "y": 529,
+      "width": 274,
+      "height": 126,
+      "fills": [
+        {
+          "color": "#0d0d0d",
+          "variable": "var(--color-gray-60)"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 10
+    },
+    {
+      "name": "Bad boy",
+      "type": "text",
+      "x": 921,
+      "y": 593,
+      "width": 55,
+      "height": 28,
+      "fills": [
+        {
+          "color": "#b8b8b8"
+        }
+      ],
+      "text": "Bad boy",
+      "font": {
+        "family": "Kadwa",
+        "size": 14,
+        "weight": 700,
+        "lineHeight": 28.11,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 242,
+      "y": 549,
+      "width": 43,
+      "height": 43,
+      "children": [
+        {
+          "name": "fang 1",
+          "type": "rectangle",
+          "x": 242,
+          "y": 549,
+          "width": 43,
+          "height": 43,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "fang 2",
+          "type": "rectangle",
+          "x": 242,
+          "y": 549,
+          "width": 43,
+          "height": 43,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 544,
+      "y": 547,
+      "width": 42,
+      "height": 42,
+      "children": [
+        {
+          "name": "moon 1",
+          "type": "rectangle",
+          "x": 544,
+          "y": 547,
+          "width": 42,
+          "height": 42,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "moon 2",
+          "type": "rectangle",
+          "x": 544,
+          "y": 547,
+          "width": 42,
+          "height": 42,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 842,
+      "y": 551,
+      "width": 41,
+      "height": 41,
+      "children": [
+        {
+          "name": "teenage 1",
+          "type": "rectangle",
+          "x": 842,
+          "y": 551,
+          "width": 41,
+          "height": 41,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "teenage 2",
+          "type": "rectangle",
+          "x": 842,
+          "y": 551,
+          "width": 41,
+          "height": 41,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 1137,
+      "y": 551,
+      "width": 41,
+      "height": 41,
+      "children": [
+        {
+          "name": "separation 1",
+          "type": "rectangle",
+          "x": 1137,
+          "y": 551,
+          "width": 41,
+          "height": 41,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "separation 2",
+          "type": "rectangle",
+          "x": 1137,
+          "y": 551,
+          "width": 41,
+          "height": 41,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 1443,
+      "y": 551,
+      "width": 41,
+      "height": 41,
+      "children": [
+        {
+          "name": "graduation-cap 1",
+          "type": "rectangle",
+          "x": 1443,
+          "y": 551,
+          "width": 41,
+          "height": 41,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "graduation-cap 2",
+          "type": "rectangle",
+          "x": 1443,
+          "y": 551,
+          "width": 41,
+          "height": 41,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 165",
+      "type": "rectangle",
+      "x": 215,
+      "y": 674,
+      "width": 238,
+      "height": 116,
+      "fills": [
+        {
+          "color": "#0d0d0d",
+          "variable": "var(--color-gray-60)"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 10
+    },
+    {
+      "name": "Mystery",
+      "type": "text",
+      "x": 310,
+      "y": 738,
+      "width": 57,
+      "height": 28,
+      "fills": [
+        {
+          "color": "#b8b8b8"
+        }
+      ],
+      "text": "Mystery",
+      "font": {
+        "family": "Kadwa",
+        "size": 14,
+        "weight": 700,
+        "lineHeight": 28.11,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Поиск иконка",
+      "type": "group",
+      "x": 242,
+      "y": 697,
+      "width": 35,
+      "height": 35,
+      "children": [
+        {
+          "name": "magnifying-glass 1",
+          "type": "rectangle",
+          "x": 242,
+          "y": 697,
+          "width": 35,
+          "height": 35,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "magnifying-glass 2",
+          "type": "rectangle",
+          "x": 242,
+          "y": 697,
+          "width": 35,
+          "height": 35,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rectangle 166",
+      "type": "rectangle",
+      "x": 215,
+      "y": 674,
+      "width": 274,
+      "height": 126,
+      "fills": [
+        {
+          "color": "#0d0d0d",
+          "variable": "var(--color-gray-60)"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 10
+    },
+    {
+      "name": "Royal romance",
+      "type": "text",
+      "x": 300,
+      "y": 738,
+      "width": 105,
+      "height": 28,
+      "fills": [
+        {
+          "color": "#b8b8b8"
+        }
+      ],
+      "text": "Royal romance",
+      "font": {
+        "family": "Kadwa",
+        "size": 14,
+        "weight": 700,
+        "lineHeight": 28.11,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 167",
+      "type": "rectangle",
+      "x": 513,
+      "y": 674,
+      "width": 274,
+      "height": 126,
+      "fills": [
+        {
+          "color": "#0d0d0d",
+          "variable": "var(--color-gray-60)"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 10
+    },
+    {
+      "name": "Boss/employee romance",
+      "type": "text",
+      "x": 564,
+      "y": 738,
+      "width": 172,
+      "height": 28,
+      "fills": [
+        {
+          "color": "#b8b8b8"
+        }
+      ],
+      "text": "Boss/employee romance",
+      "font": {
+        "family": "Kadwa",
+        "size": 14,
+        "weight": 700,
+        "lineHeight": 28.11,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 168",
+      "type": "rectangle",
+      "x": 1412,
+      "y": 674,
+      "width": 274,
+      "height": 126,
+      "fills": [
+        {
+          "color": "#0d0d0d",
+          "variable": "var(--color-gray-60)"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 10
+    },
+    {
+      "name": "Psychological drama",
+      "type": "text",
+      "x": 1476,
+      "y": 738,
+      "width": 147,
+      "height": 28,
+      "fills": [
+        {
+          "color": "#b8b8b8"
+        }
+      ],
+      "text": "Psychological drama",
+      "font": {
+        "family": "Kadwa",
+        "size": 14,
+        "weight": 700,
+        "lineHeight": 28.11,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 169",
+      "type": "rectangle",
+      "x": 1111,
+      "y": 674,
+      "width": 274,
+      "height": 126,
+      "fills": [
+        {
+          "color": "#0d0d0d",
+          "variable": "var(--color-gray-60)"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 10
+    },
+    {
+      "name": "LGBTQ+",
+      "type": "text",
+      "x": 1221,
+      "y": 738,
+      "width": 54,
+      "height": 28,
+      "fills": [
+        {
+          "color": "#b8b8b8"
+        }
+      ],
+      "text": "LGBTQ+",
+      "font": {
+        "family": "Kadwa",
+        "size": 14,
+        "weight": 700,
+        "lineHeight": 28.11,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Rectangle 170",
+      "type": "rectangle",
+      "x": 811,
+      "y": 674,
+      "width": 274,
+      "height": 126,
+      "fills": [
+        {
+          "color": "#0d0d0d",
+          "variable": "var(--color-gray-60)"
+        }
+      ],
+      "strokes": [
+        {
+          "color": "#353535",
+          "variable": "var(--color-gray-40)"
+        }
+      ],
+      "strokeWeight": 1,
+      "radius": 10
+    },
+    {
+      "name": "Crime / mafia fiction",
+      "type": "text",
+      "x": 872,
+      "y": 738,
+      "width": 152,
+      "height": 28,
+      "fills": [
+        {
+          "color": "#b8b8b8"
+        }
+      ],
+      "text": "Crime /  mafia fiction",
+      "font": {
+        "family": "Kadwa",
+        "size": 14,
+        "weight": 700,
+        "lineHeight": 28.11,
+        "align": "center"
+      }
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 242,
+      "y": 691,
+      "width": 41,
+      "height": 41,
+      "children": [
+        {
+          "name": "crown 1",
+          "type": "rectangle",
+          "x": 242,
+          "y": 691,
+          "width": 41,
+          "height": 41,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "crown 2",
+          "type": "rectangle",
+          "x": 242,
+          "y": 691,
+          "width": 41,
+          "height": 41,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 544,
+      "y": 693,
+      "width": 44,
+      "height": 44,
+      "children": [
+        {
+          "name": "people (1) 1",
+          "type": "rectangle",
+          "x": 544,
+          "y": 693,
+          "width": 44,
+          "height": 44,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "people (1) 2",
+          "type": "rectangle",
+          "x": 544,
+          "y": 693,
+          "width": 44,
+          "height": 44,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 837,
+      "y": 689,
+      "width": 41,
+      "height": 41,
+      "children": [
+        {
+          "name": "police-handcuffs 1",
+          "type": "rectangle",
+          "x": 837,
+          "y": 689,
+          "width": 41,
+          "height": 41,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "police-handcuffs 2",
+          "type": "rectangle",
+          "x": 837,
+          "y": 689,
+          "width": 41,
+          "height": 41,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 1142,
+      "y": 697,
+      "width": 40,
+      "height": 40,
+      "children": [
+        {
+          "name": "rainbow-flag 1",
+          "type": "rectangle",
+          "x": 1142,
+          "y": 697,
+          "width": 40,
+          "height": 40,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "rainbow-flag 2",
+          "type": "rectangle",
+          "x": 1142,
+          "y": 697,
+          "width": 40,
+          "height": 40,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mask group",
+      "type": "group",
+      "x": 1440,
+      "y": 692,
+      "width": 36,
+      "height": 36,
+      "children": [
+        {
+          "name": "ooooooooooooooooooooooooooooooooooo 1",
+          "type": "rectangle",
+          "x": 1440,
+          "y": 692,
+          "width": 36,
+          "height": 36,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            }
+          ]
+        },
+        {
+          "name": "ooooooooooooooooooooooooooooooooooo 2",
+          "type": "rectangle",
+          "x": 1440,
+          "y": 692,
+          "width": 36,
+          "height": 36,
+          "fills": [
+            {
+              "type": "image",
+              "scaleMode": "FILL"
+            },
+            {
+              "color": "#a3a3a3",
+              "variable": "var(--color-gray-20)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
