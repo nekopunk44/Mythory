@@ -1,0 +1,22 @@
+.slider {
+  --slider-gap: 0;
+  --slider-slide-width: auto;
+}
+
+.slider__track {
+  display: flex;
+  column-gap: var(--slider-gap);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  overscroll-behavior-x: contain;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.slider__track > * {
+  flex: 0 0 var(--slider-slide-width);
+  scroll-snap-align: start;
+}
