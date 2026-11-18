@@ -58,6 +58,10 @@ gh issue view <number>              # full task, acceptance criteria, design not
   for example `npm run agent:new -- 12-story-card`.
 - Treat the acceptance criteria as the definition of done. If they are ambiguous or the
   design reference is missing, comment on the issue and stop instead of guessing.
+- An issue that starts with `Depends on #N` is not ready while issue `#N` is open
+  (`gh issue view N`). Pick another one.
+- Before starting, check that no open pull request already references the issue
+  (`gh pr list --search "<number>"`), so two agents never take the same task.
 - Do not start work that has no issue. Put `Closes #<number>` in the pull request.
 
 ## Workspace: one agent, one worktree, one branch
