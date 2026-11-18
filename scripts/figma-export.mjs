@@ -1,10 +1,12 @@
 // One-time export of the Figma design into design/, so agents implement it from the
 // repository instead of calling Figma (free plans allow only a few API calls a month).
-// The whole export costs two Figma API calls.
+// The whole export costs two Figma API calls. Figma renders heavy JPGs, so they are
+// re-encoded at quality 80: about five times smaller with no visible difference.
 //
 //   npm run design:export        (token in FIGMA_TOKEN or in .env.local)
 import { mkdir, readFile, rm, writeFile } from 'node:fs/promises'
 import path from 'node:path'
+import sharp from 'sharp'
 
 const fileKey = process.argv[2]
 const token = process.env.FIGMA_TOKEN
@@ -257,7 +259,9 @@ const download = async (url, target) => {
   const response = await fetch(url)
   if (!response.ok)
     throw new Error(`Download failed (${response.status}): ${url}`)
-  await writeFile(target, Buffer.from(await response.arrayBuffer()))
+  await sharp(Buffer.from(await response.arrayBuffer()))
+    .jpeg({ quality: 80, mozjpeg: true })
+    .toFile(target)
 }
 
 console.log('Reading the Figma file…')
