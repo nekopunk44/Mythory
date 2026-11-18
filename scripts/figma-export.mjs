@@ -1,6 +1,6 @@
 // One-time export of the Figma design into design/, so agents implement it from the
 // repository instead of calling Figma (free plans allow only a few API calls a month).
-// The whole export costs two Figma API calls. Figma renders heavy JPGs, so they are
+// The whole export costs three Figma API calls. Figma renders heavy JPGs, so they are
 // re-encoded at quality 80: about five times smaller with no visible difference.
 //
 //   npm run design:export        (token in FIGMA_TOKEN or in .env.local)
@@ -12,6 +12,7 @@ const fileKey = process.argv[2]
 const token = process.env.FIGMA_TOKEN
 const outDir = path.resolve('design')
 const framesDir = path.join(outDir, 'frames')
+const imagesDir = path.join(outDir, 'images')
 const variablesFile = path.resolve('src/styles/_variables.scss')
 
 if (!fileKey) {
@@ -102,7 +103,7 @@ const toColor = ({ r, g, b, a }, opacity = 1) => {
     : { color: css }
 }
 
-const usage = { colors: new Map(), text: new Map() }
+const usage = { colors: new Map(), text: new Map(), images: new Map() }
 
 const count = (map, key, value) => {
   const entry = map.get(key) ?? { ...value, uses: 0 }
@@ -128,7 +129,16 @@ const toPaints = (paints = []) =>
           })),
         }
       }
-      return { type: paint.type.toLowerCase(), scaleMode: paint.scaleMode }
+      const result = {
+        type: paint.type.toLowerCase(),
+        scaleMode: paint.scaleMode,
+      }
+      if (paint.imageRef) {
+        // The file path is filled in once the image is downloaded.
+        const uses = usage.images.get(paint.imageRef) ?? []
+        usage.images.set(paint.imageRef, [...uses, result])
+      }
+      return result
     })
 
 const leafTypes = new Set([
@@ -255,13 +265,23 @@ const collectFrames = (document) => {
   return frames
 }
 
-const download = async (url, target) => {
+const fetchBuffer = async (url) => {
   const response = await fetch(url)
   if (!response.ok)
     throw new Error(`Download failed (${response.status}): ${url}`)
-  await sharp(Buffer.from(await response.arrayBuffer()))
-    .jpeg({ quality: 80, mozjpeg: true })
-    .toFile(target)
+  return Buffer.from(await response.arrayBuffer())
+}
+
+// Pictures with transparency stay PNG, everything else becomes JPG.
+const saveImage = async (buffer, basePath) => {
+  const image = sharp(buffer).resize({ width: 1600, withoutEnlargement: true })
+  const { isOpaque } = await image.stats()
+  const extension = isOpaque ? 'jpg' : 'png'
+  const encoded = !isOpaque
+    ? image.png({ compressionLevel: 9 })
+    : image.jpeg({ quality: 80, mozjpeg: true })
+  await encoded.toFile(`${basePath}.${extension}`)
+  return extension
 }
 
 console.log('Reading the Figma file…')
@@ -278,18 +298,38 @@ const { images } = await api(
   `images/${fileKey}?format=jpg&scale=1&ids=${frames.map(({ node }) => node.id).join(',')}`,
 )
 
-await rm(framesDir, { recursive: true, force: true })
-await mkdir(framesDir, { recursive: true })
+const specs = frames.map(({ node }) =>
+  simplify(node, node.absoluteBoundingBox ?? { x: 0, y: 0 }),
+)
+
+console.log(`Downloading ${usage.images.size} images used in the frames…`)
+const { meta } = await api(`files/${fileKey}/images`)
+
+for (const directory of [framesDir, imagesDir]) {
+  await rm(directory, { recursive: true, force: true })
+  await mkdir(directory, { recursive: true })
+}
+
+for (const [ref, paints] of usage.images) {
+  if (!meta.images[ref]) continue
+  const extension = await saveImage(
+    await fetchBuffer(meta.images[ref]),
+    path.join(imagesDir, ref),
+  )
+  paints.forEach((paint) => (paint.image = `images/${ref}.${extension}`))
+}
+
 const rendered = new Set()
 
-for (const { node, slug } of frames) {
-  const spec = simplify(node, node.absoluteBoundingBox ?? { x: 0, y: 0 })
+for (const [index, { node, slug }] of frames.entries()) {
   await writeFile(
     path.join(framesDir, `${slug}.json`),
-    JSON.stringify(spec, null, 2) + '\n',
+    JSON.stringify(specs[index], null, 2) + '\n',
   )
   if (images[node.id]) {
-    await download(images[node.id], path.join(framesDir, `${slug}.jpg`))
+    await sharp(await fetchBuffer(images[node.id]))
+      .jpeg({ quality: 80, mozjpeg: true })
+      .toFile(path.join(framesDir, `${slug}.jpg`))
     rendered.add(slug)
   } else {
     console.warn(`Figma did not render "${node.name}", image skipped.`)
@@ -322,6 +362,8 @@ Do not edit by hand: re-run the export instead.
 - \`frames/<name>.jpg\` — how the frame looks, 1×.
 - \`frames/<name>.json\` — layers with positions relative to the frame, sizes, auto layout,
   colors, radii, effects and text styles. \`variable\` points at an existing CSS variable.
+- \`images/\` — original pictures used in the design: covers, avatars, backgrounds.
+  A layer's \`fills[].image\` gives the path, for example \`images/<ref>.jpg\`.
 - \`tokens.json\` — every color and text style used in the design, most used first.
 
 | Page | Frame | Size | Image | Spec |

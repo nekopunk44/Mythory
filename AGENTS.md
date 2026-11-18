@@ -39,6 +39,9 @@ free Figma plans allow only a few API calls a month. The owner exports it once w
 - `design/frames/<frame>.jpg` shows how the frame looks; open it if your model can read images.
 - `design/frames/<frame>.json` gives exact sizes, gaps, paddings, colors, radii and text styles.
   When a color has a `variable`, use that CSS variable instead of the raw value.
+- `design/images/` holds the original pictures (covers, avatars, backgrounds). A layer whose
+  fill has `"image": "images/<ref>.jpg"` uses that file; copy it into `src/assets/images/`
+  instead of cropping frame screenshots.
 - `design/tokens.json` lists all colors and text styles. A value that is used in the design
   but missing from `src/styles/_variables.scss` should be added there, not hard-coded.
 - Match the existing implemented sections (`Header`, `HeroSection`, `GenresSection`) for how
