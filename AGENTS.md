@@ -36,7 +36,7 @@ free Figma plans allow only a few API calls a month. The owner exports it once w
 `npm run design:export`, and agents work from the copy in `design/`.
 
 - `design/README.md` lists every frame. Start there.
-- `design/frames/<frame>.png` shows how the frame looks; open it if your model can read images.
+- `design/frames/<frame>.jpg` shows how the frame looks; open it if your model can read images.
 - `design/frames/<frame>.json` gives exact sizes, gaps, paddings, colors, radii and text styles.
   When a color has a `variable`, use that CSS variable instead of the raw value.
 - `design/tokens.json` lists all colors and text styles. A value that is used in the design
