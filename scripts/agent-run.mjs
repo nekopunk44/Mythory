@@ -8,6 +8,7 @@ import { execFileSync, spawn } from 'node:child_process'
 import {
   existsSync,
   mkdirSync,
+  readdirSync,
   readFileSync,
   rmSync,
   statSync,
@@ -247,7 +248,11 @@ const runIssue = async (number, options) => {
     fail(`#${number} waits for ${blockedBy.map((n) => `#${n}`).join(', ')}.`)
   }
 
-  const task = `${number}-${slugify(issue.title)}`
+  // Reuse the issue's worktree if an earlier run created one, so no work is lost.
+  const existing = existsSync(agentsDir)
+    ? readdirSync(agentsDir).find((name) => name.startsWith(`${number}-`))
+    : undefined
+  const task = existing ?? `${number}-${slugify(issue.title)}`
   const cwd = path.join(agentsDir, task)
   if (!existsSync(cwd)) {
     execFileSync('git', ['fetch', 'origin', 'main'], { stdio: 'inherit' })
@@ -264,15 +269,26 @@ const runIssue = async (number, options) => {
     )
   }
 
-  mkdirSync(logsDir, { recursive: true })
-  const promptFile = path.join(logsDir, `${task}.prompt.md`)
-  const logFile = path.join(logsDir, `${task}.log`)
-  writeFileSync(promptFile, promptFor(number, issue.title, `agent/${task}`))
-
   const role =
     options.agent ??
     issue.body.match(/### Starting role\s+(\w[\w-]*)/)?.[1] ??
     'orchestrator'
+
+  mkdirSync(logsDir, { recursive: true })
+  const logFile = path.join(logsDir, `${task}.log`)
+  const prompt = promptFor(number, issue.title, `agent/${task}`)
+  const promptFile = path.join(logsDir, `${task}.prompt.md`)
+  writeFileSync(promptFile, prompt)
+
+  // Kilo ignores the project's opencode.json, so it runs its own full-access `code`
+  // agent with the role description pasted into the prompt.
+  const kiloPromptFile = path.join(logsDir, `${task}.kilo.prompt.md`)
+  writeFileSync(
+    kiloPromptFile,
+    `${readFileSync(path.join(cwd, `.github/agents/${role}.agent.md`), 'utf8')}\n` +
+      'In this tool the other roles are not available as subagents: do their steps yourself, in order.\n\n' +
+      prompt,
+  )
   // Spread parallel agents over different free models so they do not share one limit.
   const shift = number % freeRunners.length
   const runners = [
@@ -293,12 +309,13 @@ const runIssue = async (number, options) => {
 
   for (const [tool, model] of queue) {
     console.log(`Running ${tool} ${model} as ${role}…`)
+    const isKilo = tool === 'kilo'
     const result = await runOnce({
       tool,
       model,
-      agent: role,
+      agent: isKilo ? 'code' : role,
       cwd,
-      promptFile,
+      promptFile: isKilo ? kiloPromptFile : promptFile,
       logFile,
       title: `Issue #${number}`,
     })
