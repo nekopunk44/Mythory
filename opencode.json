@@ -1,5 +1,59 @@
 {
   "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "coarena": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "Coarena",
+      "options": {
+        "baseURL": "https://coarena.ai/api/v1",
+        "apiKey": "{env:COARENA_API_KEY}"
+      },
+      "models": {
+        "claude-sonnet-5-5": {
+          "name": "Claude Sonnet 5.5",
+          "limit": {
+            "context": 128000,
+            "output": 16384
+          }
+        },
+        "claude-haiku-5-5": {
+          "name": "Claude Haiku 5.5",
+          "limit": {
+            "context": 128000,
+            "output": 16384
+          }
+        },
+        "gpt-6-2-sol": {
+          "name": "GPT-6.2 Sol",
+          "limit": {
+            "context": 128000,
+            "output": 16384
+          }
+        },
+        "kimi-k3-1-pro": {
+          "name": "Kimi K3.1 Pro",
+          "limit": {
+            "context": 128000,
+            "output": 16384
+          }
+        },
+        "deepseek-v4-1-flash-1017": {
+          "name": "DeepSeek V4.1 Flash",
+          "limit": {
+            "context": 128000,
+            "output": 16384
+          }
+        },
+        "mimo-v2-6-pro": {
+          "name": "MiMo V2.6 Pro",
+          "limit": {
+            "context": 128000,
+            "output": 16384
+          }
+        }
+      }
+    }
+  },
   "agent": {
     "orchestrator": {
       "mode": "primary",
