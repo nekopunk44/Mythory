@@ -20,7 +20,7 @@ const HeroSection = () => {
           </h1>
           <p className="hero__subtitle">
             Dive into millions of web novels across fantasy, sci-fi, romance and
-            more. Read for free or white your own story.
+            more. Read for free or write your own story.
           </p>
         </div>
 
