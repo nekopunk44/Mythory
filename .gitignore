@@ -24,3 +24,6 @@ dist-ssr
 *.sln
 *.sw?
 .env.local
+
+# Agent scratch files
+.tmp

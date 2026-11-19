@@ -86,6 +86,8 @@ npm run agent:remove -- <task>   # removes the worktree after the PR is merged
 1. Read the relevant files and this contract before editing.
 2. Confirm you are in your own worktree on an `agent/<task>` branch (`git status`).
 3. Make only task-scoped changes.
+   Keep every file you create inside your worktree: tools cannot write outside it. Put
+   temporary files in `.tmp/` (git-ignored) and delete them when done.
 4. Run `npm run format`.
 5. Run `npm run check` (format check, lint, production build). It must pass.
 6. Review the final diff.
