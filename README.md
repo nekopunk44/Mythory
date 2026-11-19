@@ -1,9 +1,9 @@
 # Mythory
 
 <p align="left">
-	<img src="https://img.shields.io/badge/React-19.0.0-61dafb?logo=react&logoColor=white" alt="React" />
-	<img src="https://img.shields.io/badge/Vite-8.0.0-646cff?logo=vite&logoColor=white" alt="Vite" />
-	<img src="https://img.shields.io/badge/Sass-1.0.0-cf649a?logo=sass&logoColor=white" alt="Sass" />
+	<img src="https://img.shields.io/badge/React-19-61dafb?logo=react&logoColor=white" alt="React" />
+	<img src="https://img.shields.io/badge/Vite-6-646cff?logo=vite&logoColor=white" alt="Vite" />
+	<img src="https://img.shields.io/badge/Sass-1-cf649a?logo=sass&logoColor=white" alt="Sass" />
 </p>
 
 ## Превью
