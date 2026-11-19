@@ -10,8 +10,9 @@ const useSlider = () => {
     if (!track) return
 
     const maxScrollLeft = track.scrollWidth - track.clientWidth
-    setCanPrev(track.scrollLeft > 0)
-    setCanNext(track.scrollLeft < maxScrollLeft)
+    const tolerance = 1
+    setCanPrev(track.scrollLeft > tolerance)
+    setCanNext(track.scrollLeft < maxScrollLeft - tolerance)
   }, [])
 
   useEffect(() => {

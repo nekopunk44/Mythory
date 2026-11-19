@@ -1,5 +1,5 @@
 import clsx from 'clsx'
-import { useSlider } from './useSlider'
+import useSlider from './useSlider'
 import './Slider.scss'
 
 const Slider = (props) => {
