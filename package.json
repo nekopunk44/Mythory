@@ -15,7 +15,9 @@
     "agent:new": "node scripts/agent-worktree.mjs new",
     "agent:list": "git worktree list",
     "agent:remove": "node scripts/agent-worktree.mjs remove",
-    "design:export": "node --env-file-if-exists=.env.local scripts/figma-export.mjs WPZ1G2Kgkg0DT5PM3JR19V"
+    "design:export": "node --env-file-if-exists=.env.local scripts/figma-export.mjs WPZ1G2Kgkg0DT5PM3JR19V",
+    "agent:ready": "node scripts/agent-run.mjs ready",
+    "agent:run": "node --env-file-if-exists=.env.local scripts/agent-run.mjs run"
   },
   "dependencies": {
     "clsx": "^2.1.1",
