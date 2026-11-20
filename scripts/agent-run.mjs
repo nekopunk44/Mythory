@@ -200,12 +200,20 @@ const runOnce = ({ tool, model, agent, cwd, promptFile, logFile, title }) =>
       title,
       '--file',
       promptFile,
+      '--dir',
+      cwd,
     ]
     // The CLIs are npm shims on Windows, which only start through a shell.
     const child = spawn(
       tool,
       args.map((arg) => (isWindows && arg.includes(' ') ? `"${arg}"` : arg)),
-      { cwd, shell: isWindows, stdio: ['ignore', 'pipe', 'pipe'] },
+      // npm passes the main checkout as PWD, and the CLIs trust PWD over the real cwd.
+      {
+        cwd,
+        env: { ...process.env, PWD: cwd },
+        shell: isWindows,
+        stdio: ['ignore', 'pipe', 'pipe'],
+      },
     )
     let lastOutput = Date.now()
     let switching = false
@@ -235,8 +243,13 @@ const runOnce = ({ tool, model, agent, cwd, promptFile, logFile, title }) =>
       release()
       const output = readFileSync(logFile, 'utf8').slice(startSize)
       if (switching || quotaPattern.test(output)) resolve('switch')
-      // A run that only printed an error never started: other models would fail the same way.
-      else if (/Error:/.test(output) && output.length < 2000) resolve('error')
+      // A run that only printed an error, or was refused access to its own files, did not
+      // really work: other models would fail the same way.
+      else if (
+        /auto-rejecting/.test(output) ||
+        (/Error:/.test(output) && output.length < 2000)
+      )
+        resolve('error')
       else resolve('done')
     })
   })
