@@ -1,11 +1,13 @@
-// Runs a free coding agent on a GitHub issue in the background, without manual steps:
-// creates the worktree, writes the standard prompt, starts OpenCode or Kilo headless and
-// switches to the next free model when one runs out of quota or stops responding.
+// Runs a coding agent on a GitHub issue in the background, without manual steps:
+// creates the worktree, writes the standard prompt, starts OpenCode, Kilo or Antigravity
+// headless and moves on to the next model when one runs out of quota or stops responding.
 //
 //   npm run agent:ready                    issues an agent can take right now
-//   npm run agent:run -- <issue> [--tool opencode|kilo] [--model <id>] [--agent <role>]
+//   npm run agent:run -- <issue> [--tool opencode|kilo|agy] [--model <id>] [--agent <role>]
+//                       [--review-file <file>]   send review findings back to the agent
 import { execFileSync, spawn } from 'node:child_process'
 import {
+  appendFileSync,
   existsSync,
   mkdirSync,
   readdirSync,
@@ -16,27 +18,30 @@ import {
 } from 'node:fs'
 import path from 'node:path'
 
-// Coarena gives $5 of credit a day and allows at most 2 requests at once, so it goes first
-// and at most 2 agents use it at the same time. Free models take over when it is busy or spent.
-const coarenaRunners = [
+// One queue mixing all three tools. Each issue starts at a different place in it, so
+// parallel agents use different tools and quotas. Coarena models need COARENA_API_KEY.
+const allRunners = [
   ['opencode', 'coarena/gpt-6-luna'],
-  ['opencode', 'coarena/gemini-3-8-flash'],
-  ['opencode', 'coarena/deepseek-v4-1-flash-1017'],
-]
-const coarenaSlots = 2
-// Kilo asks before every shell command and nobody answers in the background, so its
-// models join only when its config allows commands (opt in with AGENT_USE_KILO=1).
-const useKilo = process.env.AGENT_USE_KILO === '1'
-const freeRunners = [
-  ['opencode', 'opencode/deepseek-v4.1-flash-free'],
+  ['agy', 'claude-sonnet-4-6'],
   ['kilo', 'kilo/nvidia/nemotron-3-ultra-550b-a55b:free'],
-  ['opencode', 'opencode/glm-5.3-flash-free'],
+  ['opencode', 'coarena/gemini-3-8-flash'],
+  ['agy', 'gemini-3.8-flash-high'],
+  ['kilo', 'coarena/deepseek-v4-1-flash-1017'],
+  ['opencode', 'opencode/deepseek-v4.1-flash-free'],
   ['kilo', 'kilo/cohere/north-mini-code:free'],
-  ['opencode', 'opencode/mimo-v2.6-flash-free'],
+  ['opencode', 'opencode/glm-5.3-flash-free'],
   ['kilo', 'kilo/kilo-auto/free'],
-].filter(([tool]) => useKilo || tool !== 'kilo')
+  ['opencode', 'opencode/mimo-v2.6-flash-free'],
+]
+// Coarena allows at most 2 requests at once, so at most 2 agents use it at a time.
+const coarenaSlots = 2
+// Antigravity gets the same access as OpenCode, for its own runs only: any command,
+// file writes inside the worktree.
+const agySettings = JSON.stringify({
+  permissions: { allow: ['command(*)', 'read_file(.)', 'write_file(.)'] },
+})
 const quotaPattern =
-  /free usage limit|rate limit|too many requests|quota|insufficient (credits|balance)|payment required|credit limit/i
+  /free usage limit|rate limit|too many requests|quota|resource.exhausted|insufficient (credits|balance)|payment required|credit limit/i
 const idleLimitMs = 15 * 60 * 1000
 const isWindows = process.platform === 'win32'
 
@@ -80,10 +85,9 @@ const isTaken = (number, pullRequests) =>
       headRefName.startsWith(`agent/${number}-`) ||
       new RegExp(`(close|closes|fix|fixes) #${number}\\b`, 'i').test(body),
   ) ||
-  (existsSync(agentsDir) &&
-    execFileSync('git', ['worktree', 'list'], { encoding: 'utf8' }).includes(
-      `[agent/${number}-`,
-    ))
+  execFileSync('git', ['worktree', 'list'], { encoding: 'utf8' }).includes(
+    `[agent/${number}-`,
+  )
 
 const blockers = (body) =>
   dependencies(body).filter(
@@ -124,11 +128,94 @@ const promptFor = (
 1. Read AGENTS.md and run \`gh issue view ${number}\`.
 2. If \`git status\` shows uncommitted changes or the branch already has commits ahead of origin/main, a previous agent started this task: continue from that work, do not start over.
 3. Implement the issue exactly within its scope. Work without asking questions; if you are truly blocked, comment on the issue with \`gh issue comment ${number}\` and stop.
-4. Keep every file you create inside this folder. Temporary files go to .tmp/ and must be deleted before you finish.
+4. Keep every file you create inside this folder. Temporary files go to .tmp/ and must be deleted before you finish (leave .tmp/agent-prompt*.md alone).
 5. Run \`npm run format\`; \`npm run check\` must pass.
 6. Commit in small commits on this branch. Do NOT push and do NOT open a pull request: the owner does that.
 7. End with the handoff summary from AGENTS.md.
 `
+
+// Kilo and Antigravity do not load the project's opencode.json roles, so the role
+// description is pasted into their prompt.
+const rolePromptFor = (cwd, role, prompt) =>
+  `${readFileSync(path.join(cwd, `.github/agents/${role}.agent.md`), 'utf8')}\n` +
+  'In this tool the other roles are not available as subagents: do their steps yourself, in order.\n\n' +
+  prompt
+
+// Prompt files live in the worktree (tools may not read outside it), in .tmp/, which is
+// excluded from git for every worktree through the shared info/exclude file.
+const writePrompts = (cwd, prompt, rolePrompt) => {
+  const commonDir = execFileSync(
+    'git',
+    ['rev-parse', '--path-format=absolute', '--git-common-dir'],
+    { cwd, encoding: 'utf8' },
+  ).trim()
+  const exclude = path.join(commonDir, 'info', 'exclude')
+  mkdirSync(path.dirname(exclude), { recursive: true })
+  if (
+    !existsSync(exclude) ||
+    !/^\.tmp\/$/m.test(readFileSync(exclude, 'utf8'))
+  ) {
+    appendFileSync(exclude, '\n.tmp/\n')
+  }
+
+  const tmpDir = path.join(cwd, '.tmp')
+  mkdirSync(tmpDir, { recursive: true })
+  const promptFile = path.join(tmpDir, 'agent-prompt.md')
+  const rolePromptFile = path.join(tmpDir, 'agent-prompt-role.md')
+  writeFileSync(promptFile, prompt)
+  writeFileSync(rolePromptFile, rolePrompt)
+  return { promptFile, rolePromptFile }
+}
+
+const commandFor = ({ tool, model, role, cwd, title, prompts }) => {
+  if (tool === 'agy') {
+    return {
+      command: 'agy',
+      // stream-json keeps output flowing, so the idle watchdog sees the agent working.
+      args: [
+        '-p',
+        readFileSync(prompts.rolePromptFile, 'utf8'),
+        '--model',
+        model,
+        '--mode',
+        'accept-edits',
+        '--settings',
+        agySettings,
+        '--output-format',
+        'stream-json',
+      ],
+      // agy is a real executable, so it starts without a shell and the multi-line
+      // prompt is passed as is.
+      shell: false,
+    }
+  }
+
+  // The message goes first: --file takes every following argument as another file.
+  // Kilo runs --pure: its indexing plugin otherwise keeps the process alive after the answer.
+  const args = [
+    'run',
+    'Follow the instructions in the attached file.',
+    ...(tool === 'kilo' ? ['--pure'] : []),
+    '--agent',
+    tool === 'kilo' ? 'code' : role,
+    '--model',
+    model,
+    '--title',
+    title,
+    '--file',
+    tool === 'kilo' ? prompts.rolePromptFile : prompts.promptFile,
+    '--dir',
+    cwd,
+  ]
+  // The OpenCode and Kilo commands are npm shims on Windows, which need a shell.
+  return {
+    command: tool,
+    args: args.map((arg) =>
+      isWindows && arg.includes(' ') ? `"${arg}"` : arg,
+    ),
+    shell: isWindows,
+  }
+}
 
 const stopProcess = (child) => {
   if (isWindows) {
@@ -140,7 +227,6 @@ const stopProcess = (child) => {
   }
 }
 
-// Resolves 'done' on a normal exit, 'switch' when the model ran out of quota or hung.
 const isAlive = (pid) => {
   try {
     process.kill(pid, 0)
@@ -169,8 +255,11 @@ const acquireCoarenaSlot = () => {
   return null
 }
 
-const runOnce = ({ tool, model, agent, cwd, promptFile, logFile, title }) =>
+// Resolves 'done' on a normal exit, 'switch' when the model ran out of quota or hung,
+// 'error' when the agent could not work at all.
+const runOnce = (run) =>
   new Promise((resolve) => {
+    const { tool, model, role, cwd, logFile } = run
     const release = model.startsWith('coarena/')
       ? acquireCoarenaSlot()
       : () => {}
@@ -180,47 +269,25 @@ const runOnce = ({ tool, model, agent, cwd, promptFile, logFile, title }) =>
       return
     }
 
-    writeFileSync(
+    appendFileSync(
       logFile,
-      `\n=== ${tool} ${model} (${agent}) ${new Date().toISOString()}\n`,
-      {
-        flag: 'a',
-      },
+      `\n=== ${tool} ${model} (${role}) ${new Date().toISOString()}\n`,
     )
     const startSize = statSync(logFile).size
-    // The message goes first: --file takes every following argument as another file.
-    const args = [
-      'run',
-      'Follow the instructions in the attached file.',
-      '--agent',
-      agent,
-      '--model',
-      model,
-      '--title',
-      title,
-      '--file',
-      promptFile,
-      '--dir',
+    const { command, args, shell } = commandFor(run)
+    const child = spawn(command, args, {
       cwd,
-    ]
-    // The CLIs are npm shims on Windows, which only start through a shell.
-    const child = spawn(
-      tool,
-      args.map((arg) => (isWindows && arg.includes(' ') ? `"${arg}"` : arg)),
       // npm passes the main checkout as PWD, and the CLIs trust PWD over the real cwd.
-      {
-        cwd,
-        env: { ...process.env, PWD: cwd },
-        shell: isWindows,
-        stdio: ['ignore', 'pipe', 'pipe'],
-      },
-    )
+      env: { ...process.env, PWD: cwd },
+      shell,
+      stdio: ['ignore', 'pipe', 'pipe'],
+    })
     let lastOutput = Date.now()
     let switching = false
 
     const append = (chunk) => {
       lastOutput = Date.now()
-      writeFileSync(logFile, chunk, { flag: 'a' })
+      appendFileSync(logFile, chunk)
     }
     child.stdout.on('data', append)
     child.stderr.on('data', append)
@@ -246,7 +313,7 @@ const runOnce = ({ tool, model, agent, cwd, promptFile, logFile, title }) =>
       // A run that only printed an error, or was refused access to its own files, did not
       // really work: other models would fail the same way.
       else if (
-        /auto-rejecting/.test(output) ||
+        /auto-rejecting|auto-denied/.test(output) ||
         (/Error:/.test(output) && output.length < 2000)
       )
         resolve('error')
@@ -297,57 +364,47 @@ const runIssue = async (number, options) => {
 
   mkdirSync(logsDir, { recursive: true })
   const logFile = path.join(logsDir, `${task}.log`)
-  const prompt = promptFor(number, issue.title, `agent/${task}`)
-  const promptFile = path.join(logsDir, `${task}.prompt.md`)
-  writeFileSync(promptFile, prompt)
+  const prompt =
+    promptFor(number, issue.title, `agent/${task}`) +
+    (options.review
+      ? `\n## Review findings to fix\n\nThe owner reviewed your work on this branch. Fix exactly these points, commit, and report what you changed:\n\n${options.review}\n`
+      : '')
+  const prompts = writePrompts(cwd, prompt, rolePromptFor(cwd, role, prompt))
 
-  // Kilo ignores the project's opencode.json, so it runs its own full-access `code`
-  // agent with the role description pasted into the prompt.
-  const kiloPromptFile = path.join(logsDir, `${task}.kilo.prompt.md`)
-  writeFileSync(
-    kiloPromptFile,
-    `${readFileSync(path.join(cwd, `.github/agents/${role}.agent.md`), 'utf8')}\n` +
-      'In this tool the other roles are not available as subagents: do their steps yourself, in order.\n\n' +
-      prompt,
+  const runners = allRunners.filter(
+    ([, model]) => process.env.COARENA_API_KEY || !model.startsWith('coarena/'),
   )
-  // Spread parallel agents over different free models so they do not share one limit.
-  const shift = number % freeRunners.length
-  const runners = [
-    ...(process.env.COARENA_API_KEY ? coarenaRunners : []),
-    ...freeRunners.slice(shift),
-    ...freeRunners.slice(0, shift),
-  ]
+  const shift = number % runners.length
+  const rotated = [...runners.slice(shift), ...runners.slice(0, shift)]
   const queue = options.tool
     ? [
         [
           options.tool,
-          options.model ?? runners.find(([tool]) => tool === options.tool)[1],
+          options.model ??
+            rotated.find(([tool]) => tool === options.tool)?.[1] ??
+            fail(`No model known for ${options.tool}.`),
         ],
       ]
-    : runners
+    : rotated
 
   console.log(`#${number} → ${cwd}\nLog: ${logFile}`)
 
   for (const [tool, model] of queue) {
     console.log(`Running ${tool} ${model} as ${role}…`)
-    const isKilo = tool === 'kilo'
     const result = await runOnce({
       tool,
       model,
-      agent: isKilo ? 'code' : role,
+      role,
       cwd,
-      promptFile: isKilo ? kiloPromptFile : promptFile,
       logFile,
       title: `Issue #${number}`,
+      prompts,
     })
     if (result === 'done') {
       const commits = execFileSync(
         'git',
         ['log', '--oneline', 'origin/main..HEAD'],
-        {
-          cwd,
-          encoding: 'utf8',
-        },
+        { cwd, encoding: 'utf8' },
       )
       const dirty = execFileSync('git', ['status', '--short'], {
         cwd,
@@ -360,7 +417,7 @@ const runIssue = async (number, options) => {
       return
     }
     if (result === 'error') {
-      fail(`${tool} ${model} failed to start. See the log: ${logFile}`)
+      fail(`${tool} ${model} could not work. See the log: ${logFile}`)
     }
     console.log(
       `${tool} ${model} ran out of quota or stalled, trying the next model.`,
@@ -368,7 +425,7 @@ const runIssue = async (number, options) => {
   }
 
   fail(
-    'All free models are exhausted for now. The work so far stays in the worktree.',
+    'All models are exhausted for now. The work so far stays in the worktree.',
   )
 }
 
@@ -385,11 +442,14 @@ if (command === 'ready') {
     tool: option('tool'),
     model: option('model'),
     agent: option('agent'),
+    review: option('review-file')
+      ? readFileSync(option('review-file'), 'utf8')
+      : option('review'),
   })
 } else {
   fail(
     'Usage:\n' +
       '  npm run agent:ready\n' +
-      '  npm run agent:run -- <issue> [--tool opencode|kilo] [--model <id>] [--agent <role>]',
+      '  npm run agent:run -- <issue> [--tool opencode|kilo|agy] [--model <id>] [--agent <role>] [--review-file <file>]',
   )
 }
