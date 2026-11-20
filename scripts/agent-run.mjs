@@ -19,10 +19,14 @@ import path from 'node:path'
 // Coarena gives $5 of credit a day and allows at most 2 requests at once, so it goes first
 // and at most 2 agents use it at the same time. Free models take over when it is busy or spent.
 const coarenaRunners = [
-  ['opencode', 'coarena/kimi-k3-1-pro'],
-  ['kilo', 'coarena/claude-sonnet-5-5'],
+  ['opencode', 'coarena/gpt-6-luna'],
+  ['opencode', 'coarena/gemini-3-8-flash'],
+  ['opencode', 'coarena/deepseek-v4-1-flash-1017'],
 ]
 const coarenaSlots = 2
+// Kilo asks before every shell command and nobody answers in the background, so its
+// models join only when its config allows commands (opt in with AGENT_USE_KILO=1).
+const useKilo = process.env.AGENT_USE_KILO === '1'
 const freeRunners = [
   ['opencode', 'opencode/deepseek-v4.1-flash-free'],
   ['kilo', 'kilo/nvidia/nemotron-3-ultra-550b-a55b:free'],
@@ -30,7 +34,7 @@ const freeRunners = [
   ['kilo', 'kilo/cohere/north-mini-code:free'],
   ['opencode', 'opencode/mimo-v2.6-flash-free'],
   ['kilo', 'kilo/kilo-auto/free'],
-]
+].filter(([tool]) => useKilo || tool !== 'kilo')
 const quotaPattern =
   /free usage limit|rate limit|too many requests|quota|insufficient (credits|balance)|payment required|credit limit/i
 const idleLimitMs = 15 * 60 * 1000
@@ -184,8 +188,10 @@ const runOnce = ({ tool, model, agent, cwd, promptFile, logFile, title }) =>
       },
     )
     const startSize = statSync(logFile).size
+    // The message goes first: --file takes every following argument as another file.
     const args = [
       'run',
+      'Follow the instructions in the attached file.',
       '--agent',
       agent,
       '--model',
@@ -194,7 +200,6 @@ const runOnce = ({ tool, model, agent, cwd, promptFile, logFile, title }) =>
       title,
       '--file',
       promptFile,
-      'Follow the instructions in the attached file.',
     ]
     // The CLIs are npm shims on Windows, which only start through a shell.
     const child = spawn(
@@ -229,7 +234,10 @@ const runOnce = ({ tool, model, agent, cwd, promptFile, logFile, title }) =>
       clearInterval(watchdog)
       release()
       const output = readFileSync(logFile, 'utf8').slice(startSize)
-      resolve(switching || quotaPattern.test(output) ? 'switch' : 'done')
+      if (switching || quotaPattern.test(output)) resolve('switch')
+      // A run that only printed an error never started: other models would fail the same way.
+      else if (/Error:/.test(output) && output.length < 2000) resolve('error')
+      else resolve('done')
     })
   })
 
@@ -337,6 +345,9 @@ const runIssue = async (number, options) => {
           (dirty ? `Uncommitted changes:\n${dirty}` : 'Working tree clean.'),
       )
       return
+    }
+    if (result === 'error') {
+      fail(`${tool} ${model} failed to start. See the log: ${logFile}`)
     }
     console.log(
       `${tool} ${model} ran out of quota or stalled, trying the next model.`,
