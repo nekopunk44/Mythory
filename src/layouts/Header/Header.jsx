@@ -6,6 +6,7 @@ import Icon from '@/components/Icon'
 import SearchDropdown from './components/SearchDropdown'
 import UserDropdown from './components/UserDropdown'
 import BurgerButton from './components/BurgerButton'
+import defaultAvatar from '@/assets/default-avatar.png'
 import './Header.scss'
 
 const Header = (props) => {
@@ -50,7 +51,7 @@ const Header = (props) => {
               >
                 <img
                   className="header__user-avatar"
-                  src="/src/assets/default-avatar.png"
+                  src={defaultAvatar}
                   alt=""
                   width="50"
                   height="50"

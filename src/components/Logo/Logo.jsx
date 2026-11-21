@@ -1,3 +1,4 @@
+import logo from '@/assets/icons/logo.svg'
 import './Logo.scss'
 
 const Logo = (props) => {
@@ -7,7 +8,7 @@ const Logo = (props) => {
     <a className="logo" href="/">
       <img
         className="logo__image"
-        src="/src/assets/icons/logo.svg"
+        src={logo}
         alt=""
         width={32}
         height={32}
