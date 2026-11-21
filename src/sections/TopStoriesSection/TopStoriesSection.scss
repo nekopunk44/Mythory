@@ -1,0 +1,11 @@
+.top-stories-list {
+  display: grid;
+  gap: fluid(10, 4);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.top-stories-list__item {
+  min-width: 0;
+}
