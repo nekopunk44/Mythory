@@ -41,7 +41,7 @@ const agySettings = JSON.stringify({
   permissions: { allow: ['command(*)', 'read_file(.)', 'write_file(.)'] },
 })
 const quotaPattern =
-  /free usage limit|rate limit|too many requests|quota|resource.exhausted|insufficient (credits|balance)|payment required|credit limit/i
+  /free usage limit|rate limit|too many requests|quota|resource.exhausted|insufficient (credits|balance)|payment required|credit limit|sign up for free|come back later/i
 const idleLimitMs = 15 * 60 * 1000
 const isWindows = process.platform === 'win32'
 
@@ -389,8 +389,14 @@ const runIssue = async (number, options) => {
 
   console.log(`#${number} → ${cwd}\nLog: ${logFile}`)
 
+  // HEAD plus uncommitted changes: if neither moves, the agent did nothing.
+  const snapshot = () =>
+    execFileSync('git', ['rev-parse', 'HEAD'], { cwd, encoding: 'utf8' }) +
+    execFileSync('git', ['status', '--short'], { cwd, encoding: 'utf8' })
+
   for (const [tool, model] of queue) {
     console.log(`Running ${tool} ${model} as ${role}…`)
+    const before = snapshot()
     const result = await runOnce({
       tool,
       model,
@@ -400,6 +406,12 @@ const runIssue = async (number, options) => {
       title: `Issue #${number}`,
       prompts,
     })
+    if (result === 'done' && snapshot() === before) {
+      console.log(
+        `${tool} ${model} finished without changing anything, trying the next model.`,
+      )
+      continue
+    }
     if (result === 'done') {
       const commits = execFileSync(
         'git',
